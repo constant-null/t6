@@ -8,7 +8,9 @@
     },
     "Sheet": {
       "Name": "Name",
-      "Wounds": "Wounds"
+      "Wounds": "Wounds",
+      "Armor": "Armor",
+      "NoArmor": "Error"
     },
     "UI": {
       "CharacterSheetName": "Character"

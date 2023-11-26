@@ -9,8 +9,14 @@
 }
 
 .flex {
-    display: inline-block;
+    display: flex;
     vertical-align: top;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.flex.row {
+    flex-direction: row;
 }
 
 .big-label {
@@ -22,8 +28,7 @@
     border-color: green;
     border-width: 0 0 1px 0;
     min-height: 1.4em;
-    min-width: 2.5em;
-    caret-shape: block;
+    min-width: 330px;
 }
 
 .app.t6 > .window-content {
@@ -40,11 +45,23 @@
     justify-content: space-between;
     border-width: 0;
     padding: 0;
+    min-height: 47px;
+    min-width: 150px;
 }
 
 .t6.box {
     border: 1px solid green;
     padding: 5px;
-    display: flex;
+    display: inline-block;
     flex-direction: column;
+    margin: 5px;
+}
+
+.none {
+    margin-top: 0.5em !important;
+}
+
+.glow.red {
+    color: red;
+    filter: drop-shadow(0 0 0.75rem red);
 }

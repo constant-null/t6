@@ -41,7 +41,7 @@ export default class T6PCSheet extends ActorSheet {
         for (let i = 0; i <= wounds.length-1; i++) {
             context.woundTooltips[wounds[i]] = this.woundTooltips[i];
         }
-
+        context.armor = {}
 
         return context
     }
