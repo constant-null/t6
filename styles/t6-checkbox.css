@@ -1,0 +1,79 @@
+/*.checkbox-container {*/
+/*    display: block;*/
+/*    position: relative;*/
+/*    padding-left: 35px;*/
+/*    margin-bottom: 15px;*/
+/*    cursor: pointer;*/
+/*    font-size: 22px;*/
+/*    -webkit-user-select: none;*/
+/*    -moz-user-select: none;*/
+/*    -ms-user-select: none;*/
+/*    user-select: none;*/
+/*}*/
+
+/*!* Hide the browser's default checkbox *!*/
+/*.checkbox-container input {*/
+/*    left: 0;*/
+/*    position: absolute;*/
+/*    opacity: 0;*/
+/*    cursor: pointer;*/
+/*    height: 0;*/
+/*    width: 0;*/
+/*}*/
+
+/*!* Create a custom checkbox *!*/
+/*.checkbox-container .checkmark {*/
+/*    margin: 0 10px;*/
+/*    position: absolute;*/
+/*    top: 0;*/
+/*    left: 0;*/
+/*    height: 15px;*/
+/*    width: 15px;*/
+/*    background-color: #eee;*/
+/*}*/
+
+/*!* On mouse-over, add a grey background color *!*/
+/*.checkbox-container:hover input ~ .checkmark {*/
+/*    background-color: #ccc;*/
+/*}*/
+
+/*!* When the checkbox is checked, add a blue background *!*/
+/*.checkbox-container input:checked ~ .checkmark {*/
+/*    background-color: #2196F3;*/
+/*}*/
+
+.t6-checkbox-container input[type="checkbox"] {
+    -webkit-appearance: none;
+    appearance: none;
+    margin: 0;
+
+    font: inherit;
+    color: currentColor;
+    width: 0.8em;
+    height: 0.8em;
+    border: 0.05em solid green;
+
+    display: grid;
+    place-content: center;
+}
+
+.t6-checkbox-container {
+    font-size: 2rem;
+    font-weight: bold;
+    line-height: 1.1;
+    display: grid;
+}
+
+.t6-checkbox-container input[type="checkbox"]::before {
+    content: "";
+    width: 0.45em;
+    height: 0.45em;
+    transform: scale(0);
+    transition: 120ms transform ease-in-out;
+    box-shadow: inset .8em .8em green;
+    filter: drop-shadow(0 0 0.75rem green);
+}
+
+.t6-checkbox-container input[type="checkbox"]:checked::before {
+    transform: scale(1);
+}

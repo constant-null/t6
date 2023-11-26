@@ -1,0 +1,50 @@
+.wounds {
+    display: flex;
+}
+
+.wound > .label {
+    font-size: larger;
+    text-align: center;
+    font-weight: 600;
+}
+
+.flex {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.big-label {
+    font-size: x-large;
+}
+.t6.text-input {
+    font-size: 1em;
+    background-color: transparent;
+    border-color: green;
+    border-width: 0 0 1px 0;
+    min-height: 1.4em;
+    min-width: 2.5em;
+    caret-shape: block;
+}
+
+.app.t6 > .window-content {
+    background-image: url(/systems/t6/assets/sheet/background.gif);
+}
+
+.glow.t6 {
+    color: green;
+    filter: drop-shadow(0 0 0.75rem green);
+}
+
+.t6.wounds {
+    display: flex;
+    justify-content: space-between;
+    border-width: 0;
+    padding: 0;
+}
+
+.t6.box {
+    border: 1px solid green;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+}

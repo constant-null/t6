@@ -1,0 +1,22 @@
+{
+  "T6": {
+    "PC": {
+
+    },
+    "NPC": {
+
+    },
+    "Sheet": {
+
+    },
+    "ChatMessage": {
+
+    }
+  },
+  "Tooltip": {
+    "Wound": {
+      "Mortal": "Mortal",
+    }
+  },
+  "Narrator": "Ведущий"
+}

@@ -1,0 +1,31 @@
+<form class="{{cssClass}}" autocomplete="off">
+    <section class="content">
+        <div class="t6 header">
+            <div class="flex">
+                <img class="t6 glow" src="{{actor.img}}" data-edit="img" title="{{actor.name}}" width="128"/>
+            </div>
+            <div class="flex">
+                <div class="t6 box">
+                    <span class="t6 glow big-label">{{ localize 'T6.Sheet.Name' }}</span>
+                    <input id="char-name" name="name" class="t6 glow text-input caretjs" value="{{actor.name}}"/>
+                </div>
+                <div class="t6 box">
+                    <div class="t6 glow big-label">{{ localize 'T6.Sheet.Wounds' }}</div>
+                    <fieldset class="t6 wounds">
+                        {{#each wounds as |dealt wound|}}
+                        {{woundTooltips}}
+                        <div data-tooltip="{{ lookup ../woundTooltips wound}}" class="wound">
+                            <div class="t6 glow label">{{wound}}</div>
+                            <label class="t6-checkbox-container">
+                                <input class="checkbox" type="checkbox" name="data.wounds.received" value="{{wound}}"
+                                       {{checked dealt}}/>
+                                <span class="checkmark"></span>
+                            </label>
+                        </div>
+                        {{/each}}
+                    </fieldset>
+                </div>
+            </div>
+        </div>
+    </section>
+</form>

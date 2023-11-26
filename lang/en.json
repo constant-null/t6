@@ -1,0 +1,30 @@
+{
+  "T6": {
+    "PC": {
+
+    },
+    "NPC": {
+
+    },
+    "Sheet": {
+      "Name": "Name",
+      "Wounds": "Wounds"
+    },
+    "UI": {
+      "CharacterSheetName": "Character"
+    },
+    "ChatMessage": {
+
+    },
+    "Tooltip": {
+      "Wound": {
+        "Mortal": "Mortal",
+        "Severe": "Severe",
+        "Serious": "Serious",
+        "Mild": "Mild",
+        "Light": "Light"
+      }
+    }
+  },
+  "Narrator": "Master"
+}

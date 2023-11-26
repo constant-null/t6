@@ -1,0 +1,26 @@
+{
+  "Actor": {
+    "types": ["pc", "npc"],
+    "templates": {
+      "wounds": {
+        "wounds": {
+          "max": 0,
+          "received": []
+        }
+      }
+    },
+    "pc": {
+      "templates": ["wounds"]
+    },
+    "npc": {
+      "templates": ["wounds"]
+    }
+  },
+  "Item": {
+    "types": ["trait"],
+    "trait": {
+      "description": "",
+      "dice": 1
+    }
+  }
+}
