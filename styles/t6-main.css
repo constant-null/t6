@@ -36,7 +36,7 @@
 }
 
 .glow.t6 {
-    color: green;
+    color: #00a500;
     filter: drop-shadow(0 0 0.75rem green);
 }
 
@@ -52,7 +52,7 @@
 .t6.box {
     border: 1px solid green;
     padding: 5px;
-    display: inline-block;
+    display: flex;
     flex-direction: column;
     margin: 5px;
 }
@@ -64,4 +64,38 @@
 .glow.red {
     color: red;
     filter: drop-shadow(0 0 0.75rem red);
+}
+
+.item-list {
+    min-width: 235px;
+    min-height: 50px;
+}
+
+.trait-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.t6.description {
+    min-width: 97%;
+    height: 75%;
+}
+
+.t6 .editor {
+    height: 100%;
+}
+
+.t6 .editor .editor-content {
+    min-height: 200px;
+}
+
+.t6 .prosemirror menu button.active, .t6 .prosemirror menu button:hover {
+    color: black;
+    background-color: green;
+}
+
+.t6 .prosemirror menu button {
+    background-color: rgba(0,255,102,0);
+    color: white;
 }

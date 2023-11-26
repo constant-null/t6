@@ -1,20 +1,26 @@
 {
   "T6": {
     "PC": {
-
+      "Name": "Name"
+    },
+    "Item": {
+      "Name": "Name",
+      "Type": "Type",
+      "Description": "Description"
     },
     "NPC": {
 
     },
     "Sheet": {
-      "Name": "Name",
       "Wounds": "Wounds",
       "Armor": "Armor",
       "Traits": "Traits",
-      "NoArmor": "Error"
+      "NoArmor": "Error",
+      "OtherTraits": "Other"
     },
     "UI": {
-      "CharacterSheetName": "Character"
+      "CharacterSheetName": "Character",
+      "ItemSheetName": "Trait"
     },
     "ChatMessage": {
 

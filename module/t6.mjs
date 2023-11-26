@@ -2,6 +2,7 @@ import T6Actor from "./t6-actor.mjs";
 import T6Item from "./t6-item.mjs";
 import T6PCSheet from "./sheets/t6-pc-sheet.mjs";
 import TraitTypesConfig from "./forms/trait-types-config.mjs";
+import T6TraitSheet from "./sheets/t6-trait-sheet.mjs";
 
 Hooks.once("init", function () {
     console.log("T6 | Initializing T6 System");
@@ -13,8 +14,8 @@ Hooks.once("init", function () {
     // Actors.registerSheet("efs", EFSNPCSheet, { label: "EFS.Sheets.NPC" });
 
     CONFIG.Item.documentClass = T6Item;
-    // Items.unregisterSheet("core", ItemSheet);
-    // Items.registerSheet("efs", EFSItemSheet, { makeDefault: true, label: "EFS.Sheets.Item" })
+    Items.unregisterSheet("core", ItemSheet);
+    Items.registerSheet("t6", T6TraitSheet, { makeDefault: true, label: "T6.Sheets.ItemSheetName" })
 
     preloadTemplates();
     initializeAppConfig();

@@ -10,6 +10,6 @@ export default class T6NPCSheet extends ActorSheet {
     activateListeners(html) {
         super.activateListeners(html)
 
-        html.find(".clickable.approach").click(this._approachClicked.bind(this));
+        // html.find(".clickable.approach").click(this._approachClicked.bind(this));
     }
 }

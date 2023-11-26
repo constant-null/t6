@@ -18,7 +18,6 @@ export default class T6Actor extends Actor {
         if (this.type === "pc") {
             maxWounds = 10;
         }
-
         for (let i = 2; i <= maxWounds; i += 2) {
             this.wounds[i] = false;
         }

@@ -3,13 +3,13 @@
         <div class="t6 header">
             <div class="flex row">
                 <div class="flex">
-                    <div class="t6 box">
+                    <div class="t6 glow box">
                         <img src="{{actor.img}}" data-edit="img" title="{{actor.name}}" height="144"/>
                     </div>
                 </div>
                 <div class="flex">
                     <div class="t6 box">
-                        <div class="t6 glow big-label">{{ localize 'T6.Sheet.Name' }}</div>
+                        <div class="t6 glow big-label">{{ localize 'T6.PC.Name' }}</div>
                         <input id="char-name" name="name" class="t6 glow text-input caretjs" value="{{actor.name}}"/>
                     </div>
                     <div class="flex row">
@@ -58,7 +58,7 @@
         <div class="traits">
             <div class="t6 glow big-label">{{ localize 'T6.Sheet.Traits' }}</div>
             <div class="trait-container">
-                {{#each traitGroup as |title traits|}}
+                {{#each traitGroups as |traits title|}}
                 {{> "systems/t6/templates/parts/trait-list.html" traits=traits title=title}}
                 {{/each}}
             </div>

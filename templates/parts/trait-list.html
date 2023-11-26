@@ -1,7 +1,10 @@
 <div class="t6 box">
     <div class="t6 glow big-label">{{ title }}</div>
-    <div class="ability-list items">
+    <div class="item-list items" data-trait-group="{{title}}">
         {{#each traits as |trait|}}
+        <div class="item t6 glow"  data-item-id="{{trait.id}}">
+            {{trait.name}}
+        </div>
         {{/each}}
     </div>
 </div>

@@ -1,0 +1,28 @@
+<form class="{{cssClass}}" autocomplete="off">
+    <header class="sheet-header">
+        <div class="flex row">
+            <div class="t6 glow box">
+                <img src="{{item.img}}" data-edit="img" title="{{item.name}}" height="64" width="64"/>
+            </div>
+            <div class="t6 box">
+                <div class="t6 glow big-label">{{ localize 'T6.Item.Name' }}</div>
+                <input name="name" class="t6 glow text-input" type="text" value="{{item.name}}"/>
+            </div>
+        </div>
+    </header>
+    <div class="t6 box">
+        <div class="t6 glow big-label">{{ localize 'T6.Item.Type' }}</div>
+        <select class="t6 glow" name="data.type">
+            {{#select data.type}}
+            {{#each types as |type|}}
+            <option value="{{type}}">{{type}}</option>
+            {{/each}}
+            {{/select}}
+        </select>
+    </div>
+
+    <div class="t6 box glow description">
+        <div class="t6 big-label">{{ localize 'T6.Item.Description' }}</div>
+        {{editor data.description target="system.description" button=true editable=true engine="prosemirror"}}
+    </div>
+</form>
