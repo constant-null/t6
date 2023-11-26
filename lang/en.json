@@ -10,6 +10,7 @@
       "Name": "Name",
       "Wounds": "Wounds",
       "Armor": "Armor",
+      "Traits": "Traits",
       "NoArmor": "Error"
     },
     "UI": {
@@ -26,7 +27,14 @@
         "Mild": "Mild",
         "Light": "Light"
       }
-    }
-  },
-  "Narrator": "Master"
+    },
+    "Settings": {
+      "TraitTypes": {
+        "Name": "Trait Types",
+        "Description": "Define types of traits for you campaign",
+        "Label": "Add/Remove Trait Types"
+      }
+    },
+    "Narrator": "Master"
+  }
 }

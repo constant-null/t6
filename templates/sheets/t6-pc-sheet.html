@@ -55,5 +55,13 @@
                 </div>
             </div>
         </div>
+        <div class="traits">
+            <div class="t6 glow big-label">{{ localize 'T6.Sheet.Traits' }}</div>
+            <div class="trait-container">
+                {{#each traitGroup as |title traits|}}
+                {{> "systems/t6/templates/parts/trait-list.html" traits=traits title=title}}
+                {{/each}}
+            </div>
+        </div>
     </section>
 </form>

@@ -1,0 +1,10 @@
+<form autocomplete="off" onsubmit="event.preventDefault();">
+    {{#each traits as |trait|}}
+    <div>
+        {{trait}}
+    </div>
+    {{/each}}
+    <button type="submit">
+        <i class="fas fa-save"></i> {{localize 'PERMISSION.Submit'}}
+    </button>
+</form>
