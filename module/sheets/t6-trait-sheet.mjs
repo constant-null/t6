@@ -1,4 +1,10 @@
 export default class T6TraitSheet extends ItemSheet {
+    deleteEnabled = false
+    render(force = false, options = {}) {
+        this.deleteEnabled = options?.delete || false;
+        return super.render(force, options);
+    }
+
     static get defaultOptions() {
         const options = super.defaultOptions;
 
@@ -8,6 +14,27 @@ export default class T6TraitSheet extends ItemSheet {
         options.height = 470;
 
         return options;
+    }
+
+    activateListeners(html) {
+        super.activateListeners(html)
+
+        html.find(".delete-button").click(this._deleteClicked.bind(this));
+    }
+
+    async _deleteClicked(e) {
+        e.preventDefault()
+
+        return Dialog.confirm({
+            title: game.i18n.localize("T6.UI.Confirm.DeleteTrait.Title"),
+            content: `<h4>${game.i18n.localize("AreYouSure")}</h4><p>${game.i18n.localize("T6.UI.Confirm.DeleteTrait.Warning")}</p>`,
+            yes: () => {
+                this.item.delete();
+            },
+            options: {
+                classes: ["dialog", "t6"]
+            }
+        });
     }
 
     /**
@@ -22,7 +49,7 @@ export default class T6TraitSheet extends ItemSheet {
         context.item = this.item;
         context.data = this.item._system;
         context.types = game.settings.get('t6', 'traitTypes')
-
+        context.deleteEnabled = this.deleteEnabled;
         return context;
     }
 }

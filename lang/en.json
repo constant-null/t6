@@ -20,7 +20,13 @@
     },
     "UI": {
       "CharacterSheetName": "Character",
-      "ItemSheetName": "Trait"
+      "ItemSheetName": "Trait",
+      "Confirm": {
+        "DeleteTrait": {
+          "Title": "Deleting Trait",
+          "Warning": "you want to delete this trait?"
+        }
+      }
     },
     "ChatMessage": {
 

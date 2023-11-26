@@ -25,7 +25,19 @@ export default class T6PCSheet extends ActorSheet {
     activateListeners(html) {
         super.activateListeners(html)
 
-        // html.find(".clickable.approach").click(this._approachClicked.bind(this));
+        html.find(".t6.trait").contextmenu(this._traitClicked.bind(this));
+    }
+
+    async _traitClicked(e) {
+        e.preventDefault();
+        const itemId = e.target.dataset.itemId;
+
+        const item = this.actor.items.find(item => item.id === itemId);
+        if (!item) {
+            return;
+        }
+
+        item.sheet.render(true, {delete: true});
     }
 
     draggedTraitId = null

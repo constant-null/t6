@@ -79,7 +79,12 @@
 
 .t6.description {
     min-width: 97%;
-    height: 75%;
+    height: 63%;
+}
+
+select.t6 {
+    border-radius: 0;
+    border-color: green;
 }
 
 .t6 .editor {
@@ -98,4 +103,34 @@
 .t6 .prosemirror menu button {
     background-color: rgba(0,255,102,0);
     color: white;
+}
+
+.t6.trait {
+    font-size: large;
+    display: flex;
+    align-items: center;
+    margin: 2px auto;
+    cursor: pointer;
+    flex-direction: row;
+}
+
+.t6.trait img {
+    border: none;
+    padding-right: 5px;
+}
+
+.t6.delete-button {
+    margin: auto 0;
+    font-size: 29px;
+    color: red;
+    cursor: pointer;
+}
+
+.t6.dialog * {
+    color: green;
+}
+
+.t6 button {
+    border-radius: 0;
+    border-color: green !important;
 }
