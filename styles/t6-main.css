@@ -67,8 +67,8 @@
 }
 
 .item-list {
-    min-width: 235px;
-    min-height: 50px;
+    min-width: 237px;
+    min-height: 74px;
 }
 
 .trait-container {
@@ -133,4 +133,40 @@ select.t6 {
 .t6 button {
     border-radius: 0;
     border-color: green !important;
+}
+
+.t6.box.active {
+    background-color: rgba(0, 128, 0, 0.47);
+}
+
+.t6.roll-dice {
+    width: 50px;
+    height: 50px;
+    color: green;
+    background-size: contain;
+    cursor: pointer;
+    background-image: url(/systems/t6/assets/dice/roll-dice.svg);
+    position: absolute;
+    left: 470px;
+    top: 200px;
+}
+
+/* scale on hover */
+.t6.roll-dice:hover {
+    transform: scale(1.1);
+    z-index: 1;
+    filter: drop-shadow(0 0 0.75rem green);
+}
+
+/* flashy effect on click */
+.t6.roll-dice:active {
+    transform: scale(1.2);
+    z-index: 1;
+    filter: drop-shadow(0 0 1rem green);
+}
+
+.flex.row.wide {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
 }

@@ -25,6 +25,13 @@
         "DeleteTrait": {
           "Title": "Deleting Trait",
           "Warning": "you want to delete this trait?"
+        },
+        "Roll": {
+          "Title": "Roll!",
+          "DifficultyPrompt": "Pick difficulty",
+          "Easy": "Easy",
+          "Normal": "Normal",
+          "Hard": "Hard"
         }
       }
     },

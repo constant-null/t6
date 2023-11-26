@@ -2,8 +2,8 @@
     <div class="t6 glow big-label">{{ title }}</div>
     <div class="item-list items" data-trait-group="{{title}}">
         {{#each traits as |trait|}}
-        <div class="item t6 trait glow box" data-item-id="{{trait.id}}">
-            <img src="{{trait.img}}" title="{{item.name}}" height="18" width="18"/>
+        <div class="item t6 trait glow box {{ifThen trait.selected 'active' ''}}" data-item-id="{{trait.id}}" >
+            <img src="{{trait.img}}" title="{{trait.name}}" height="18" width="18"/>
             {{trait.name}}
         </div>
         {{/each}}
