@@ -33,6 +33,16 @@ export default class T6PCSheet extends ActorSheet {
         html.find(".activate-trait").click(this._activateTraitClicked.bind(this));
     }
 
+    async _onSubmit(event, options) {
+        const formData = this._getSubmitData({});
+        this.actor.updateEmbeddedDocuments("Item", [{
+            _id: this.actor.equippedArmor._id,
+            system: {armor: {received: formData["data.armor.received"]}}
+        }])
+        return await super._onSubmit(event, options);
+
+    }
+
     async _activateTraitClicked(e) {
         e.preventDefault()
         e.stopPropagation();
@@ -40,7 +50,8 @@ export default class T6PCSheet extends ActorSheet {
         const itemId = e.target.dataset.itemId;
         const checked = e.target.checked;
 
-        await this.actor.updateEmbeddedDocuments("Item", [{_id:itemId, system:{active:checked}}]);
+        await this.actor.updateEmbeddedDocuments("Item", [{_id: itemId, system: {active: checked}}]);
+        this.render();
     }
 
     async _rollDiceClicked(e) {
@@ -115,17 +126,17 @@ export default class T6PCSheet extends ActorSheet {
         context.actor = this.actor;
         context.data = this.actor._system;
         context.wounds = this.actor.wounds;
+        context.armor = this.actor.armor;
 
         context.woundTooltips = {};
 
+        // character wounds
         let wounds = Object.keys(context.wounds).reverse();
         for (let i = 0; i <= wounds.length - 1; i++) {
             context.woundTooltips[wounds[i]] = this.woundTooltips[i];
         }
-        context.armor = {}
 
         context.traitGroups = {}
-
         const types = game.settings.get('t6', 'traitTypes')
         let otherTraitsGroup = game.i18n.localize('T6.Sheet.OtherTraits');
 

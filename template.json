@@ -22,7 +22,10 @@
       "description": "",
       "type": "",
       "dice": 1,
-      "armor": 0,
+      "armor": {
+        "max": 0,
+        "received": []
+      },
       "active": true
     }
   }

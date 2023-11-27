@@ -11,20 +11,50 @@ export default class T6Actor extends Actor {
     prepareDerivedData() {
         super.prepareDerivedData();
 
-        let maxWounds = this._system.wounds.max;
-        let receivedWounds = this._system.wounds.received;
-        this.wounds = {};
 
+        const wounds = this._system.wounds;
         if (this.type === "pc") {
-            maxWounds = 10;
+            wounds.max = 10;
         }
+        this.wounds = this._prepareWounds(wounds)
+        this.armor = this._equipArmor()
+    }
+
+    _prepareWounds(wounds) {
+        let maxWounds = wounds.max;
+        let receivedWounds = wounds.received;
+        const prepWounds = {};
+
+
         for (let i = 2; i <= maxWounds; i += 2) {
-            this.wounds[i] = false;
+            prepWounds[i] = false;
         }
 
         for (const wound of receivedWounds) {
             if (wound == null) continue;
-            this.wounds[wound] = true
+            prepWounds[wound] = true
         }
+
+        return prepWounds
+    }
+
+    _equipArmor() {
+        this.equippedArmor = null;
+        for (const trait of this.items) {
+            if (!trait._system.active || trait._system.armor.max <= 0) {
+                continue;
+            }
+
+            if (!this.equippedArmor || this.equippedArmor.max < trait._system.armor.max) {
+                this.equippedArmor = trait._system.armor;
+                this.equippedArmor._id = trait._id;
+            }
+        }
+
+        if (!this.equippedArmor) {
+            return null;
+        }
+
+        return this._prepareWounds(this.equippedArmor)
     }
 }

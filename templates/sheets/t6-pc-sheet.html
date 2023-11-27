@@ -21,9 +21,7 @@
                                 <div data-tooltip="{{ localize (lookup ../woundTooltips wound)}}" class="wound">
                                     <div class="t6 glow label">{{wound}}</div>
                                     <label class="t6-checkbox-container">
-                                        <input class="checkbox" type="checkbox" name="data.wounds.received"
-                                               value="{{wound}}"
-                                               {{checked dealt}}/>
+                                        <input class="checkbox" type="checkbox" name="data.wounds.received" value="{{wound}}" {{checked dealt}}/>
                                     </label>
                                 </div>
                                 {{/each}}
@@ -32,16 +30,13 @@
                         <!-- Armor-->
                         <div class="t6 box">
                             <div class="t6 glow big-label">{{ localize 'T6.Sheet.Armor' }}</div>
-                            <fieldset class="t6 wounds">
-                                {{#if armor.length}}
+                            <fieldset class="t6 wounds armor">
+                                {{#if armor}}
                                 {{#each armor as |dealt wound|}}
                                 <div class="wound">
                                     <div class="t6 glow label">{{wound}}</div>
                                     <label class="t6-checkbox-container">
-                                        <input class="checkbox" type="checkbox" name="data.wounds.received"
-                                               value="{{wound}}"
-                                               {{checked dealt}}/>
-                                        <span class="checkmark"></span>
+                                        <input class="checkbox" type="checkbox" value="{{wound}}" name="data.armor.received" {{checked dealt}}/>
                                     </label>
                                 </div>
                                 {{/each}}
