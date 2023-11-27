@@ -84,6 +84,8 @@ export default class T6PCSheet extends ActorSheet {
             }
         }
 
+        if (pool === 0) return;
+
         new Dialog({
                 title: game.i18n.localize("T6.UI.Confirm.Roll.Title"),
                 content: `<h4>${game.i18n.localize("T6.UI.Confirm.Roll.DifficultyPrompt")}</h4>`,
@@ -170,6 +172,7 @@ export default class T6PCSheet extends ActorSheet {
 
         context.linkedWounds = {}
         context.traitsSelected = false;
+        context.traitsSelectedAmount = 0
         for (const item of this.actor.items) {
             let t = item._system.type;
             if (this.selectedTraits.find(i => i === item.id)) {
@@ -179,6 +182,7 @@ export default class T6PCSheet extends ActorSheet {
                     this.selectedTraits = this.selectedTraits.filter(i => i !== item.id);
                 }
                 item.selected = true;
+                context.traitsSelectedAmount++
             } else {
                 item.selected = false;
             }

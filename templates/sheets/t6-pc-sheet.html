@@ -15,15 +15,19 @@
                     <div class="flex row">
                         <!-- Wounds-->
                         <div class="t6 box {{ifThen (lastElement wounds) 'red' ''}}">
-                            <div class="t6 glow big-label {{ifThen (lastElement wounds) 'red glitch' ''}}" data-text="{{ localize 'T6.Sheet.Wounds' }}">
+                            <div class="t6 glow big-label {{ifThen (lastElement wounds) 'red glitch' ''}}"
+                                 data-text="{{ localize 'T6.Sheet.Wounds' }}">
                                 {{ localize 'T6.Sheet.Wounds' }}
                             </div>
                             <fieldset class="t6 wounds">
                                 {{#each wounds as |dealt wound|}}
                                 <div data-tooltip="{{ localize (lookup ../woundTooltips wound)}}" class="wound">
-                                    <div class="t6 glow label {{ifThen (lookup ../linkedWounds wound) 'blue' ''}}">{{wound}}</div>
+                                    <div class="t6 glow label {{ifThen (lookup ../linkedWounds wound) 'blue' ''}}">
+                                        {{wound}}
+                                    </div>
                                     <label class="t6-checkbox-container red {{ifThen (lookup ../linkedWounds wound) 'blue-border' ''}}">
-                                        <input class="checkbox" type="checkbox" name="data.wounds.received" value="{{wound}}" {{checked dealt}}/>
+                                        <input class="checkbox" type="checkbox" name="data.wounds.received"
+                                               value="{{wound}}" {{checked dealt}}/>
                                     </label>
                                 </div>
                                 {{/each}}
@@ -31,7 +35,8 @@
                         </div>
                         <!-- Armor-->
                         <div class="t6 box {{ifThen armor '' 'red'}}{{ifThen (lastElement armor) 'red' ''}}">
-                            <div class="t6 glow big-label {{ifThen armor '' 'red'}}{{ifThen (lastElement armor) 'red glitch' ''}}" data-text="{{ actor.equippedArmor.name }}">
+                            <div class="t6 glow big-label {{ifThen armor '' 'red'}}{{ifThen (lastElement armor) 'red glitch' ''}}"
+                                 data-text="{{ actor.equippedArmor.name }}">
                                 {{ actor.equippedArmor.name }}
                             </div>
                             <fieldset class="t6 wounds armor">
@@ -40,7 +45,8 @@
                                 <div class="wound">
                                     <div class="t6 glow label">{{wound}}</div>
                                     <label class="t6-checkbox-container red">
-                                        <input class="checkbox" type="checkbox" value="{{wound}}" name="data.armor.received" {{checked dealt}}/>
+                                        <input class="checkbox" type="checkbox" value="{{wound}}"
+                                               name="data.armor.received" {{checked dealt}}/>
                                     </label>
                                 </div>
                                 {{/each}}
@@ -58,7 +64,10 @@
         <div class="traits">
             <div class="flex row wide">
                 <div class="t6 glow big-label">{{ localize 'T6.Sheet.Traits' }}</div>
-                <div class="t6 roll-dice {{ifThen traitsSelected '' 'hidden'}}"></div>
+                <div class="t6 box glow roll-button-container flex row">
+                    <div class="t6 items-selected-label">{{localize 'T6.UI.ItemsSelected'}}: {{traitsSelectedAmount}}</div>
+                    <button class="t6 glow roll roll-dice button">{{ localize 'T6.UI.Roll' }}</button>
+                </div>
             </div>
             <div class="trait-container">
                 {{#each traitGroups as |traits title|}}

@@ -6,6 +6,19 @@
     font-family: bedstead;
 }
 
+input.t6:hover, button.t6:hover {
+    box-shadow: none;
+}
+
+input.t6:focus, button.t6:focus {
+    box-shadow: none;
+}
+
+input.t6:active, button.t6:active {
+    box-shadow: none;
+}
+
+
 .wounds {
     display: flex;
 }
@@ -146,7 +159,7 @@
 
 select.t6 {
     border-radius: 0;
-    border-color: green;
+    border-color: #00cd00;
 }
 
 .t6 .editor {
@@ -159,7 +172,7 @@ select.t6 {
 
 .t6 .prosemirror menu button.active, .t6 .prosemirror menu button:hover {
     color: black;
-    background-color: green;
+    background-color: #00cd00;
 }
 
 .t6 .prosemirror menu button {
@@ -195,37 +208,11 @@ select.t6 {
 
 .t6 button {
     border-radius: 0;
-    border-color: green !important;
+    border-color: #00cd00 !important;
 }
 
 .t6.box.active {
     background-color: rgba(0, 128, 0, 0.47);
-}
-
-.t6.roll-dice {
-    width: 50px;
-    height: 50px;
-    color: green;
-    background-size: contain;
-    cursor: pointer;
-    background-image: url(/systems/t6/assets/dice/roll-dice.svg);
-    position: absolute;
-    left: 470px;
-    top: 200px;
-}
-
-/* scale on hover */
-.t6.roll-dice:hover {
-    transform: scale(1.1);
-    z-index: 1;
-    filter: drop-shadow(0 0 0.75rem green);
-}
-
-/* flashy effect on click */
-.t6.roll-dice:active {
-    transform: scale(1.2);
-    z-index: 1;
-    filter: drop-shadow(0 0 1rem green);
 }
 
 .flex.row.wide {
@@ -240,4 +227,39 @@ select.t6 {
 
 .t6.add-button {
     cursor: pointer;
+}
+
+.t6.npc-skill {
+    margin: 0 auto;
+}
+
+button.t6.roll.npc {
+    margin-bottom: 4px;
+}
+
+button.t6.roll:active {
+    background-color: #007500;
+}
+
+button.t6.roll:hover {
+    animation-name: green-pulse;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes green-pulse {
+    0% {background-color: #006900}
+    50% {background-color: #007500}
+    100% {background-color: #006900}
+}
+
+.t6.items-selected-label {
+    white-space: nowrap;
+    margin: auto 10px;
+    font-size: medium;
+}
+
+.t6.roll-button-container {
+    display: flex;
+    flex-direction: row;
 }

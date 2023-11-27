@@ -13,7 +13,7 @@
       "DefaultName": "New Trait"
     },
     "NPC": {
-
+      "Proficiency": "Skill"
     },
     "Sheet": {
       "Wounds": "Wounds",
@@ -24,6 +24,7 @@
       "OtherTraits": "Other"
     },
     "UI": {
+      "Roll": "Roll",
       "CharacterSheetName": "Character",
       "NPCSheetName": "NPC",
       "ItemSheetName": "Trait or Item",
@@ -39,7 +40,8 @@
           "Normal": "Normal",
           "Hard": "Hard"
         }
-      }
+      },
+      "ItemsSelected": "selected"
     },
     "ChatMessage": {
 

@@ -68,8 +68,16 @@
             </div>
         </div>
         <div class="traits">
-            <div class="trait-container">
-                {{> "systems/t6/templates/parts/trait-list.html" traits=traits npc=true title="T6.Sheet.Equipment"}}
+            <div class="flex row">
+                <div class="trait-container">
+                    {{> "systems/t6/templates/parts/trait-list.html" traits=traits npc=true title="T6.Sheet.Equipment"}}
+                </div>
+                <div class="t6 box glow">
+                    <div class="t6 npc-skill">{{ localize 'T6.NPC.Proficiency' }}</div>
+                    {{numberInput data.proficiency name="data.proficiency" step=1 min=0 max=6 class="t6 glow small-input"}}
+                    <button class="t6 glow roll button npc proficient">{{ localize 'T6.UI.Roll' }}</button>
+                    <button class="t6 glow roll button npc no-skill">+0</button>
+                </div>
             </div>
         </div>
     </section>

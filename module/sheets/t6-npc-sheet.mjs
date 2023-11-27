@@ -30,7 +30,8 @@ export default class T6NPCSheet extends ActorSheet {
         html.find("input.activate-trait").click(this._activateTraitClicked.bind(this));
         html.find(".t6.trait").contextmenu(this._traitContextMenu.bind(this));
         html.find(".t6.trait").click(this._traitClicked.bind(this));
-        html.find(".roll-dice").click(this._rollDiceClicked.bind(this));
+        html.find(".roll.proficient").click(this._rollProfDiceClicked.bind(this));
+        html.find(".roll.no-skill").click(this._rollNoProfDiceClicked.bind(this));
     }
 
     async _onSubmit(event, options) {
@@ -60,15 +61,25 @@ export default class T6NPCSheet extends ActorSheet {
         this.render();
     }
 
-    async _rollDiceClicked(e) {
+    async _rollProfDiceClicked(e) {
         e.preventDefault()
 
-        let pool = 0;
+        this._makeProficientRoll(this.actor._system.proficiency)
+    }
+    async _rollNoProfDiceClicked(e) {
+        e.preventDefault()
+
+        this._makeProficientRoll(0)
+    }
+
+    async _makeProficientRoll(proficiency) {
+        let pool = proficiency;
         for (const trait of this.actor.items) {
             if (!trait.isDestroyed && this.selectedTraits.includes(trait.id)) {
                 pool += +trait._system.dice;
             }
         }
+        if (pool === 0) return;
 
         new Dialog({
                 title: game.i18n.localize("T6.UI.Confirm.Roll.Title"),

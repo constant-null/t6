@@ -13,7 +13,8 @@
       "templates": ["wounds"]
     },
     "npc": {
-      "templates": ["wounds"]
+      "templates": ["wounds"],
+      "proficiency": 1
     }
   },
   "Item": {
