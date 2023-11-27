@@ -10,7 +10,7 @@
                 <div class="flex">
                     <div class="t6 box">
                         <div class="t6 glow big-label">{{ localize 'T6.PC.Name' }}</div>
-                        <input id="char-name" name="name" class="t6 glow text-input caretjs" value="{{actor.name}}"/>
+                        <input id="char-name" name="name" class="t6 glow long-input caretjs" value="{{actor.name}}"/>
                     </div>
                     <div class="flex row">
                         <!-- Wounds-->
@@ -24,7 +24,6 @@
                                         <input class="checkbox" type="checkbox" name="data.wounds.received"
                                                value="{{wound}}"
                                                {{checked dealt}}/>
-                                        <span class="checkmark"></span>
                                     </label>
                                 </div>
                                 {{/each}}

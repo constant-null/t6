@@ -22,7 +22,7 @@
 .big-label {
     font-size: x-large;
 }
-.t6.text-input {
+.t6.long-input {
     font-size: 1em;
     background-color: transparent;
     border-color: green;
@@ -30,6 +30,17 @@
     min-height: 1.4em;
     min-width: 330px;
 }
+
+.t6.small-input {
+    background-color: transparent;
+    border-color: green;
+    border-width: 0 0 1px 0;
+    min-height: 1.4em;
+    width: 100%;
+    text-align: center;
+    font-size: large;
+}
+
 
 .app.t6 > .window-content {
     background-image: url(/systems/t6/assets/sheet/background.gif);
@@ -112,6 +123,7 @@ select.t6 {
     margin: 2px auto;
     cursor: pointer;
     flex-direction: row;
+    justify-content: space-between;
 }
 
 .t6.trait img {

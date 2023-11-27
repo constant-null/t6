@@ -30,6 +30,17 @@ export default class T6PCSheet extends ActorSheet {
         html.find(".t6.trait").contextmenu(this._traitContextMenu.bind(this));
         html.find(".t6.trait").click(this._traitClicked.bind(this));
         html.find(".roll-dice").click(this._rollDiceClicked.bind(this));
+        html.find(".activate-trait").click(this._activateTraitClicked.bind(this));
+    }
+
+    async _activateTraitClicked(e) {
+        e.preventDefault()
+        e.stopPropagation();
+
+        const itemId = e.target.dataset.itemId;
+        const checked = e.target.checked;
+
+        await this.actor.updateEmbeddedDocuments("Item", [{_id:itemId, system:{active:checked}}]);
     }
 
     async _rollDiceClicked(e) {
@@ -38,7 +49,7 @@ export default class T6PCSheet extends ActorSheet {
         let pool = 0;
         for (const trait of this.actor.items) {
             if (this.selectedItems.includes(trait.id)) {
-                pool += trait._system.dice;
+                pool += +trait._system.dice;
             }
         }
 

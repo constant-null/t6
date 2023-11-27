@@ -21,7 +21,9 @@
     "trait": {
       "description": "",
       "type": "",
-      "dice": 1
+      "dice": 1,
+      "armor": 0,
+      "active": true
     }
   }
 }

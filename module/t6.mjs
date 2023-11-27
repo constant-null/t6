@@ -3,6 +3,7 @@ import T6Item from "./t6-item.mjs";
 import T6PCSheet from "./sheets/t6-pc-sheet.mjs";
 import TraitTypesConfig from "./forms/trait-types-config.mjs";
 import T6TraitSheet from "./sheets/t6-trait-sheet.mjs";
+import registerHandlebarsHelpers from "./handlebars-helpers.mjs";
 
 Hooks.once("init", function () {
     console.log("T6 | Initializing T6 System");
@@ -19,6 +20,7 @@ Hooks.once("init", function () {
 
     preloadTemplates();
     initializeAppConfig();
+    registerHandlebarsHelpers();
 });
 
 Hooks.on("renderCameraViews", function (app, html, data){
@@ -54,3 +56,4 @@ async function initializeAppConfig() {
         default: ['Personal', "History", "Troubles", "Equipment", "Cyberware"]        // can be used to set up the default structure
     });
 }
+

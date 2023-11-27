@@ -6,22 +6,32 @@
             </div>
             <div class="t6 box">
                 <div class="t6 glow big-label">{{ localize 'T6.Item.Name' }}</div>
-                <input name="name" class="t6 glow text-input" type="text" value="{{item.name}}"/>
+                <input name="name" class="t6 glow long-input" type="text" value="{{item.name}}"/>
             </div>
-            <div class="t6 delete-button">
+            <div class="t6 delete-button {{ifThen deleteEnabled '' 'hidden'}}">
                 <span class="fa-solid fa-trash"></span>
             </div>
         </div>
     </header>
-    <div class="t6 box">
-        <div class="t6 glow big-label">{{ localize 'T6.Item.Type' }}</div>
-        <select class="t6 glow" name="data.type">
-            {{#select data.type}}
-            {{#each types as |type|}}
-            <option value="{{type}}">{{type}}</option>
-            {{/each}}
-            {{/select}}
-        </select>
+    <div class="flex row">
+        <div class="t6 box">
+            <div class="t6 glow big-label">{{ localize 'T6.Item.Dice' }}</div>
+            {{numberInput data.dice name="data.dice" step=1 min=0 max=6 class="t6 glow small-input"}}
+        </div>
+        <div class="t6 box">
+            <div class="t6 glow big-label">{{ localize 'T6.Item.Armor' }}</div>
+            {{numberInput data.armor name="data.armor" step=2 min=0 max=10 class="t6 glow small-input"}}
+        </div>
+        <div class="t6 box">
+            <div class="t6 glow big-label">{{ localize 'T6.Item.Type' }}</div>
+            <select class="t6 glow" name="data.type">
+                {{#select data.type}}
+                {{#each types as |type|}}
+                <option value="{{type}}">{{type}}</option>
+                {{/each}}
+                {{/select}}
+            </select>
+        </div>
     </div>
 
     <div class="t6 box glow description">

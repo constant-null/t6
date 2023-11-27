@@ -3,8 +3,13 @@
     <div class="item-list items" data-trait-group="{{title}}">
         {{#each traits as |trait|}}
         <div class="item t6 trait glow box {{ifThen trait.selected 'active' ''}}" data-item-id="{{trait.id}}" >
-            <img src="{{trait.img}}" title="{{trait.name}}" height="18" width="18"/>
-            {{trait.name}}
+            <div class="flex row">
+                <label class="t6-checkbox-container">
+                    <input class="checkbox activate-trait" type="checkbox" data-item-id="{{trait.id}}" {{checked trait._system.active}}/>
+                </label>
+                <div style="margin: auto 5px">{{trait.name}}</div>
+            </div>
+            <div>{{ifThen (gt trait._system.dice 1) (concat 'x' trait._system.dice) ""}}</div>
         </div>
         {{/each}}
     </div>
