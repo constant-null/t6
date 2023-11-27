@@ -278,3 +278,7 @@ span.reset-button {
     margin: auto 5px;
     cursor: pointer;
 }
+
+.t6.label {
+    margin: auto 0;
+}

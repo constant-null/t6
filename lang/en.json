@@ -38,7 +38,8 @@
           "DifficultyPrompt": "Pick difficulty",
           "Easy": "Easy",
           "Normal": "Normal",
-          "Hard": "Hard"
+          "Hard": "Hard",
+          "Modifier": "Modifier"
         }
       },
       "ItemsSelected": "selected"
