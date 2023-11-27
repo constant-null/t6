@@ -56,7 +56,7 @@
   "primaryTokenAttribute": "resources.health",
   "secondaryTokenAttribute": "resources.power",
   "url": "https://your/hosted/system/repo/",
-  "background": "systems/mysystem/assets/splash.webp",
-  "manifest": "https://your/hosted/system/repo/system.json",
-  "download": "https://your/packaged/download/archive.zip"
+  "background": "systems/t6/assets/sheet/background.gif",
+  "manifest": "https://raw.githubusercontent.com/constant-null/t6/master/system.json",
+  "download": "https://github.com/constant-null/t6/archive/refs/heads/master.zip"
 }
