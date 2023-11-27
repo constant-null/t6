@@ -1,3 +1,11 @@
+@font-face {
+    font-family: bedstead;
+    src: url(/systems/t6/assets/fonts/bedstead-condensed.otf);
+}
+.t6 {
+    font-family: bedstead;
+}
+
 .wounds {
     display: flex;
 }
@@ -24,7 +32,8 @@
 
 .big-label {
     white-space: nowrap;
-    font-size: clamp(10px, 24px, 24px);
+    font-size: x-large;
+    margin-bottom: 6px;
 }
 .t6.long-input {
     font-size: 1em;
