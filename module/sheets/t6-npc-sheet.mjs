@@ -32,6 +32,20 @@ export default class T6NPCSheet extends ActorSheet {
         html.find(".t6.trait").click(this._traitClicked.bind(this));
         html.find(".roll.proficient").click(this._rollProfDiceClicked.bind(this));
         html.find(".roll.no-skill").click(this._rollNoProfDiceClicked.bind(this));
+        html.find(".add-button").click(this._addTraitClicked.bind(this));
+    }
+
+    async _addTraitClicked(e) {
+        e.preventDefault()
+
+        const group = e.target.dataset.traitGroup;
+
+        const newTrait = await this.actor.createEmbeddedDocuments('Item', [{
+            name: game.i18n.localize("T6.Item.DefaultName"),
+            type: "trait",
+            system: {type: group}
+        }])
+        newTrait[0].sheet.render(true)
     }
 
     async _onSubmit(event, options) {

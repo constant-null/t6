@@ -1,13 +1,11 @@
 export default class T6Actor extends Actor {
     static async create(data, options) {
-        if (data.token) {
-            data.token = {
-                actorLink: data.type !== "npc",
-                disposition: data.type !== "npc" ? 1 : -1,
-                vision: data.type !== "npc",
-                // displayBars: 40,
-                // bar1: {attribute: "dp"},
-            }
+        data.token = {
+            actorLink: data.type !== "npc",
+            disposition: data.type !== "npc" ? 1 : -1,
+            vision: data.type !== "npc",
+            // displayBars: 40,
+            // bar1: {attribute: "dp"},
         }
 
         if (data.type === "npc") {

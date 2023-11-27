@@ -11,6 +11,9 @@ export default class T6Item extends Item {
     get isDestroyed() {
         const armor = this._system.armor;
 
+        if (!armor.received) {
+            return false;
+        }
         for (const damage of armor.received) {
             if (armor.max == damage) return true; // == is by design!!!
         }

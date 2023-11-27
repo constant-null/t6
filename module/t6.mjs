@@ -49,7 +49,7 @@ async function initializeAppConfig() {
         name: 'T6.Settings.TraitTypes.Name',
         hint: 'T6.Settings.TraitTypes.Description',
         label: "T6.Settings.TraitTypes.Label",
-        config: true,       // false if you dont want it to show in module config
+        config: true,       // false if you don't want it to show in module config
         type: TraitTypesConfig,
         restricted: true
     });
@@ -58,7 +58,7 @@ async function initializeAppConfig() {
         scope: 'world',     // "world" = sync to db, "client" = local storage
         config: false,      // we will use the menu above to edit this setting
         type: Array,
-        default: ['Personal', "History", "Troubles", "Equipment", "Cyberware"]        // can be used to set up the default structure
+        default: ['Personal', "History", "Equipment", "Cyberware", "Troubles"]        // can be used to set up the default structure
     });
 }
 

@@ -17,6 +17,6 @@ export default class TraitTypesConfig extends FormApplication {
 
     _updateObject(event, formData) {
         // const data = expandObject(formData);
-        game.settings.set('t6', 'traitTypes', ['Personal', "History", "Troubles", "Equipment", "Cyberware"]  );
+        game.settings.set('t6', 'traitTypes', ['Personal', "History", "Equipment", "Cyberware", "Troubles"]);
     }
 }

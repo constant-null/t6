@@ -2,6 +2,7 @@
     font-family: bedstead;
     src: url(/systems/t6/assets/fonts/bedstead-condensed.otf);
 }
+
 .t6 {
     font-family: bedstead;
 }
@@ -48,6 +49,7 @@ input.t6:active, button.t6:active {
     font-size: x-large;
     margin-bottom: 6px;
 }
+
 .t6.long-input {
     font-size: 1em;
     background-color: transparent;
@@ -176,7 +178,7 @@ select.t6 {
 }
 
 .t6 .prosemirror menu button {
-    background-color: rgba(0,255,102,0);
+    background-color: rgba(0, 255, 102, 0);
     color: white;
 }
 
@@ -248,18 +250,30 @@ button.t6.roll:hover {
 }
 
 @keyframes green-pulse {
-    0% {background-color: #006900}
-    50% {background-color: #007500}
-    100% {background-color: #006900}
+    0% {
+        background-color: #006900
+    }
+    50% {
+        background-color: #007500
+    }
+    100% {
+        background-color: #006900
+    }
 }
 
 .t6.items-selected-label {
     white-space: nowrap;
-    margin: auto 10px;
+    margin: auto 10px auto 0;
     font-size: medium;
 }
 
 .t6.roll-button-container {
     display: flex;
     flex-direction: row;
+}
+
+span.reset-button {
+    font-size: medium;
+    margin: auto 5px;
+    cursor: pointer;
 }

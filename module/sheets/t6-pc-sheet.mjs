@@ -32,6 +32,14 @@ export default class T6PCSheet extends ActorSheet {
         html.find(".t6.trait").click(this._traitClicked.bind(this));
         html.find(".roll-dice").click(this._rollDiceClicked.bind(this));
         html.find(".add-button").click(this._addTraitClicked.bind(this));
+        html.find(".reset-button").click(this._resetSelectedClicked.bind(this));
+    }
+
+    async _resetSelectedClicked(e) {
+        e.preventDefault()
+
+        this.selectedTraits = [];
+        this.render(true);
     }
 
     async _addTraitClicked(e) {
