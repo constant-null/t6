@@ -26,6 +26,7 @@
         "max": 0,
         "received": []
       },
+      "linkedToWound": 0,
       "active": true
     }
   }

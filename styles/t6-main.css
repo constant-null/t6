@@ -204,3 +204,7 @@ select.t6 {
     justify-content: space-between;
     align-items: flex-end;
 }
+
+.t6.box.wide {
+    width: 100%;
+}
