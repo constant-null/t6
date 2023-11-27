@@ -1,0 +1,28 @@
+<div class="dice-roll">
+    {{#if flavor}}
+    <div class="dice-flavor">{{flavor}}</div>
+    {{/if}}
+    <div class="dice-result">
+        {{#if parts.length}}
+        <div class="t6 dice-roll-results">
+            {{#each parts}}
+            <section class="t6 dice-roll-result">
+                <div class="t6 dice">
+                    <header class="t6 box">
+                        <span>{{localize "T6.ChatMessage.Dices"}} {{this.rolls.length}}</span>
+                        {{#if this.flavor}}<span class="part-flavor">{{this.flavor}}</span>{{/if}}
+                    </header>
+                    <h4 class="t6 box"><span class="t6 big-label">{{localize "T6.ChatMessage.Result"}}: {{total}}</span></h4>
+
+                    <div class="t6 dice-rolls">
+                        {{#each this.rolls}}
+                        <div class="t6 dice-roll {{this.classes}} r{{this.result}}"></div>
+                        {{/each}}
+                    </div>
+                </div>
+            </section>
+            {{/each}}
+        </div>
+        {{/if}}
+    </div>
+</div>

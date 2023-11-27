@@ -44,7 +44,8 @@
       "ItemsSelected": "selected"
     },
     "ChatMessage": {
-
+      "Dices": "Dices",
+      "Result": "Result"
     },
     "Tooltip": {
       "Wound": {

@@ -1,0 +1,51 @@
+.t6.chat-message {
+    font-size: 1.1em;
+    background-image: url(/systems/t6/assets/sheet/background.gif);
+    border-radius: 0;
+    border-color: #00cd00;
+}
+
+.t6 .message-header {
+    color: #00cd00;
+}
+
+.t6.dice-roll.die {
+    border: 1px solid #00cd00;
+    background-color: red;
+    background-size: contain;
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+}
+
+.t6.dice-roll.die.success {
+    background-color:  #00cd00;
+}
+
+
+.t6.dice-roll.die.r1 {
+    background-image: url(/systems/t6/assets/dice/1.svg);
+}
+.t6.dice-roll.die.r2 {
+    background-image: url(/systems/t6/assets/dice/2.svg);
+}
+.t6.dice-roll.die.r3 {
+    background-image: url(/systems/t6/assets/dice/3.svg);
+}
+.t6.dice-roll.die.r4 {
+    background-image: url(/systems/t6/assets/dice/4.svg);
+}
+.t6.dice-roll.die.r5 {
+    background-image: url(/systems/t6/assets/dice/5.svg);
+}
+.t6.dice-roll.die.r6 {
+    background-image: url(/systems/t6/assets/dice/6.svg);
+}
+
+.t6.dice-rolls {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: center;
+    flex-wrap: wrap;
+}

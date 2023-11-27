@@ -22,7 +22,8 @@
   "styles": [
     "styles/t6-main.css",
     "styles/t6-checkbox.css",
-    "styles/glitch.css"
+    "styles/glitch.css",
+    "styles/t6-chat.css"
   ],
   "packs": [
     {
