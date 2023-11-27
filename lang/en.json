@@ -23,7 +23,8 @@
     },
     "UI": {
       "CharacterSheetName": "Character",
-      "ItemSheetName": "Trait",
+      "NPCSheetName": "NPC",
+      "ItemSheetName": "Trait or Item",
       "Confirm": {
         "DeleteTrait": {
           "Title": "Deleting Trait",

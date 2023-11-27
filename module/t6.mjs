@@ -4,6 +4,7 @@ import T6PCSheet from "./sheets/t6-pc-sheet.mjs";
 import TraitTypesConfig from "./forms/trait-types-config.mjs";
 import T6TraitSheet from "./sheets/t6-trait-sheet.mjs";
 import registerHandlebarsHelpers from "./handlebars-helpers.mjs";
+import T6NPCSheet from "./sheets/t6-npc-sheet.mjs";
 
 Hooks.once("init", function () {
     console.log("T6 | Initializing T6 System");
@@ -11,12 +12,12 @@ Hooks.once("init", function () {
 
     CONFIG.Actor.documentClass = T6Actor;
     Actors.unregisterSheet("core", ActorSheet);
-    Actors.registerSheet("t6", T6PCSheet, { makeDefault: true, label: "T6.Sheets.CharacterSheetName" });
-    // Actors.registerSheet("efs", EFSNPCSheet, { label: "EFS.Sheets.NPC" });
+    Actors.registerSheet("t6", T6PCSheet, { makeDefault: true, label: "T6.UI.CharacterSheetName" });
+    Actors.registerSheet("t6", T6NPCSheet, { label: "T6.UI.NPCSheetName" });
 
     CONFIG.Item.documentClass = T6Item;
     Items.unregisterSheet("core", ItemSheet);
-    Items.registerSheet("t6", T6TraitSheet, { makeDefault: true, label: "T6.Sheets.ItemSheetName" })
+    Items.registerSheet("t6", T6TraitSheet, { makeDefault: true, label: "T6.UI.ItemSheetName" })
 
     preloadTemplates();
     initializeAppConfig();

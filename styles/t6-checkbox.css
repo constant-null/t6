@@ -4,7 +4,6 @@
     margin: 0;
 
     font: inherit;
-    color: currentColor;
     width: 0.8em;
     height: 0.8em;
     border: 0.05em solid green;
@@ -12,6 +11,8 @@
     display: grid;
     place-content: center;
     cursor: pointer;
+    padding-left: 1px;
+    padding-top: 1px;
 }
 
 .t6-checkbox-container {
@@ -34,6 +35,10 @@
 .t6-checkbox-container.red input[type="checkbox"]::before {
     box-shadow: inset .8em .8em red;
     filter: drop-shadow(0 0 0.75rem red);
+
+    animation-name: red-pulse;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
 }
 
 .t6-checkbox-container input[type="checkbox"]:checked::before {
@@ -43,6 +48,10 @@
 .t6-checkbox-container.full-red input[type="checkbox"]::before {
     box-shadow: inset .8em .8em red;
     filter: drop-shadow(0 0 0.75rem red);
+
+    animation-name: red-pulse;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
 }
 
 .t6-checkbox-container.full-red input[type="checkbox"] {
@@ -60,4 +69,10 @@
 
 .t6-checkbox-container.blue-border input[type="checkbox"] {
     border-color: aquamarine;
+}
+
+@keyframes red-pulse {
+    0% {box-shadow: inset .8em .8em red;}
+    50% {box-shadow: inset .8em .8em rgba(255, 0, 0, 0.6);}
+    100% {box-shadow: inset .8em .8em red;}
 }
