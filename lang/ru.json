@@ -1,22 +1,68 @@
 {
   "T6": {
     "PC": {
-
+      "Name": "Имя"
+    },
+    "Item": {
+      "Name": "Название",
+      "Type": "Тип",
+      "Dice": "Куб",
+      "Description": "Описание",
+      "Armor": "Броня",
+      "LinkedToWound": "Раны",
+      "DefaultName": "Новая Черта"
     },
     "NPC": {
-
+      "Proficiency": "Навык"
     },
     "Sheet": {
-
+      "Wounds": "Раны",
+      "Armor": "Броня",
+      "Traits": "Черты",
+      "Equipment": "Снаряжение",
+      "NoArmor": "Ошибка",
+      "OtherTraits": "Другое"
+    },
+    "UI": {
+      "Roll": "Бросить",
+      "CharacterSheetName": "Персонаж",
+      "NPCSheetName": "НИП",
+      "ItemSheetName": "Черта или Предмет",
+      "Confirm": {
+        "DeleteTrait": {
+          "Title": "Удаление черты",
+          "Warning": "вы точно хотите удалить эту черту?"
+        },
+        "Roll": {
+          "Title": "Бросок!",
+          "DifficultyPrompt": "Укажите сложность действия",
+          "Easy": "Простая",
+          "Normal": "Обычная",
+          "Hard": "Сложная"
+        }
+      },
+      "ItemsSelected": "выбрано"
     },
     "ChatMessage": {
-
-    }
-  },
-  "Tooltip": {
-    "Wound": {
-      "Mortal": "Mortal",
-    }
-  },
-  "Narrator": "Ведущий"
+      "Dices": "Кубы",
+      "Result": "Результат"
+    },
+    "Tooltip": {
+      "Wound": {
+        "Mortal": "Смертельная",
+        "Severe": "Тяжелая",
+        "Serious": "Опасная",
+        "Mild": "Средняя",
+        "Light": "Легкая"
+      }
+    },
+    "Settings": {
+      "TraitTypes": {
+        "Name": "Типы Черт",
+        "Description": "Укажите типы черт использующихся в вашей компании",
+        "Label": "Добавить/Удалить Типы Черт"
+      }
+    },
+    "Narrator": "Могут"
+  }
 }
