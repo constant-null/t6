@@ -2,7 +2,7 @@
     <div class="t6 glow big-label">{{ title }}</div>
     <div class="item-list items" data-trait-group="{{title}}">
         {{#each traits as |trait|}}
-        <div class="item t6 trait glow box {{ifThen trait.selected 'active' ''}}" data-item-id="{{trait.id}}" >
+        <div class="item t6 trait glow box {{ifThen trait.selected 'active' ''}} {{ifThen trait.isDestroyed 'red' ''}}" data-item-id="{{trait.id}}" >
             <div class="flex row">
                 <label class="t6-checkbox-container">
                     <input class="checkbox activate-trait" type="checkbox" data-item-id="{{trait.id}}" {{checked trait._system.active}}/>

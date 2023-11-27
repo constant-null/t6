@@ -14,13 +14,15 @@
                     </div>
                     <div class="flex row">
                         <!-- Wounds-->
-                        <div class="t6 box">
-                            <div class="t6 glow big-label">{{ localize 'T6.Sheet.Wounds' }}</div>
+                        <div class="t6 box {{ifThen (lastElement wounds) 'red' ''}}">
+                            <div class="t6 glow big-label {{ifThen (lastElement wounds) 'red glitch' ''}}" data-text="{{ localize 'T6.Sheet.Wounds' }}">
+                                {{ localize 'T6.Sheet.Wounds' }}
+                            </div>
                             <fieldset class="t6 wounds">
                                 {{#each wounds as |dealt wound|}}
                                 <div data-tooltip="{{ localize (lookup ../woundTooltips wound)}}" class="wound">
                                     <div class="t6 glow label">{{wound}}</div>
-                                    <label class="t6-checkbox-container">
+                                    <label class="t6-checkbox-container red">
                                         <input class="checkbox" type="checkbox" name="data.wounds.received" value="{{wound}}" {{checked dealt}}/>
                                     </label>
                                 </div>
@@ -28,14 +30,16 @@
                             </fieldset>
                         </div>
                         <!-- Armor-->
-                        <div class="t6 box">
-                            <div class="t6 glow big-label">{{ localize 'T6.Sheet.Armor' }}</div>
+                        <div class="t6 box {{ifThen armor '' 'red'}}{{ifThen (lastElement armor) 'red' ''}}">
+                            <div class="t6 glow big-label {{ifThen armor '' 'red'}}{{ifThen (lastElement armor) 'red glitch' ''}}" data-text="{{ localize 'T6.Sheet.Armor' }}">
+                                {{ localize 'T6.Sheet.Armor' }}
+                            </div>
                             <fieldset class="t6 wounds armor">
                                 {{#if armor}}
                                 {{#each armor as |dealt wound|}}
                                 <div class="wound">
                                     <div class="t6 glow label">{{wound}}</div>
-                                    <label class="t6-checkbox-container">
+                                    <label class="t6-checkbox-container red">
                                         <input class="checkbox" type="checkbox" value="{{wound}}" name="data.armor.received" {{checked dealt}}/>
                                     </label>
                                 </div>

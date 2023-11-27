@@ -1,5 +1,5 @@
 export default class T6PCSheet extends ActorSheet {
-    selectedItems = [];
+    selectedTraits = [];
 
     static get defaultOptions() {
         const options = super.defaultOptions;
@@ -27,10 +27,10 @@ export default class T6PCSheet extends ActorSheet {
     activateListeners(html) {
         super.activateListeners(html)
 
+        html.find("input.activate-trait").click(this._activateTraitClicked.bind(this));
         html.find(".t6.trait").contextmenu(this._traitContextMenu.bind(this));
         html.find(".t6.trait").click(this._traitClicked.bind(this));
         html.find(".roll-dice").click(this._rollDiceClicked.bind(this));
-        html.find(".activate-trait").click(this._activateTraitClicked.bind(this));
     }
 
     async _onSubmit(event, options) {
@@ -59,7 +59,7 @@ export default class T6PCSheet extends ActorSheet {
 
         let pool = 0;
         for (const trait of this.actor.items) {
-            if (this.selectedItems.includes(trait.id)) {
+            if (!trait.isDestroyed && this.selectedTraits.includes(trait.id)) {
                 pool += +trait._system.dice;
             }
         }
@@ -98,12 +98,12 @@ export default class T6PCSheet extends ActorSheet {
 
     async _traitClicked(e) {
         e.preventDefault()
-        const itemId = e.target.dataset.itemId;
-        const selectedItem = this.selectedItems.find(i => i === itemId);
-        if (selectedItem) {
-            this.selectedItems = this.selectedItems.filter(i => i !== itemId);
+        const itemId = e.target.closest(".item").dataset.itemId;
+        const selectedItemId = this.selectedTraits.find(i => i === itemId);
+        if (selectedItemId) {
+            this.selectedTraits = this.selectedTraits.filter(i => i !== itemId);
         } else {
-            this.selectedItems.push(itemId);
+            this.selectedTraits.push(itemId);
         }
 
         this.render();
@@ -111,7 +111,7 @@ export default class T6PCSheet extends ActorSheet {
 
     async _traitContextMenu(e) {
         e.preventDefault();
-        const itemId = e.target.dataset.itemId;
+        const itemId = e.target.closest(".item").dataset.itemId;
 
         const item = this.actor.items.find(item => item.id === itemId);
         if (!item) {
@@ -147,8 +147,8 @@ export default class T6PCSheet extends ActorSheet {
         context.traitsSelected = false;
         for (const item of this.actor.items) {
             let t = item._system.type;
-            if (this.selectedItems.find(i => i === item.id)) {
-                context.traitsSelected = true;
+            if (this.selectedTraits.find(i => i === item.id)) {
+                if (!item.isDestroyed) context.traitsSelected = true;
                 item.selected = true;
             } else {
                 item.selected = false;

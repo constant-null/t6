@@ -35,6 +35,15 @@
     min-width: 330px;
 }
 
+.t6.input {
+    font-size: 1em;
+    background-color: transparent;
+    border-color: green;
+    border-width: 0 0 1px 0;
+    min-height: 1.4em;
+}
+
+
 .t6.small-input {
     background-color: transparent;
     border-color: green;
@@ -72,8 +81,13 @@
     margin: 5px;
 }
 
+.t6.box.red {
+    border: 1px solid red;
+}
+
 .none {
     margin-top: 0.5em !important;
+    margin: 0 auto;
 }
 
 .glow.red {
@@ -153,6 +167,10 @@ select.t6 {
 
 .t6.box.active {
     background-color: rgba(0, 128, 0, 0.47);
+}
+
+.t6.box.active.red {
+    background-color: rgba(255, 0, 0, 0.16);
 }
 
 .t6.roll-dice {

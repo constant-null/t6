@@ -31,6 +31,11 @@
     filter: drop-shadow(0 0 0.75rem green);
 }
 
+.t6-checkbox-container.red input[type="checkbox"]::before {
+    box-shadow: inset .8em .8em red;
+    filter: drop-shadow(0 0 0.75rem red);
+}
+
 .t6-checkbox-container input[type="checkbox"]:checked::before {
     transform: scale(1);
 }
