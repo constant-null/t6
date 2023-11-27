@@ -1,3 +1,5 @@
+import RollPrompt from "../dialog/roll-dialog.mjs";
+
 export default class T6NPCSheet extends ActorSheet {
     selectedTraits = [];
 
@@ -97,56 +99,7 @@ export default class T6NPCSheet extends ActorSheet {
         }
         if (pool === 0) return;
 
-        new Dialog({
-                title: game.i18n.localize("T6.UI.Confirm.Roll.Title"),
-                content: `<div class="t6 box">
-<div class="flex row">
-<span class="t6 label">`+game.i18n.localize('T6.UI.Confirm.Roll.Modifier')+`</span>
-<input id="modifier" class="t6 small-input" type="number" value="0">
-</div></div>
-<h4>${game.i18n.localize("T6.UI.Confirm.Roll.DifficultyPrompt")}</h4>`,
-                buttons: {
-                    easy: {
-                        icon: '<i class="fas fa-dice"></i>',
-                        label: game.i18n.localize('T6.UI.Confirm.Roll.Easy'),
-                        callback: (e) => {
-                            const input = e[0].querySelector("input#modifier");
-                            const modifier = input.value;
-                            selectedTraits.push({name: game.i18n.localize('T6.UI.Confirm.Roll.Modifier'), system:{dice: +modifier}})
-                            this._makeRoll(pool+ +modifier, 4, selectedTraits)
-                        }
-                    },
-                    normal: {
-                        icon: '<i class="fas fa-dice"></i>',
-                        label: game.i18n.localize('T6.UI.Confirm.Roll.Normal'),
-                        callback: (e) => {
-                            const input = e[0].querySelector("input#modifier");
-                            const modifier = input.value;
-                            selectedTraits.push({name: game.i18n.localize('T6.UI.Confirm.Roll.Modifier'), system:{dice: +modifier}})
-                            this._makeRoll(pool+ +modifier, 4, selectedTraits)
-                        }
-                    },
-                    hard: {
-                        icon: '<i class="fas fa-dice"></i>',
-                        label: game.i18n.localize('T6.UI.Confirm.Roll.Hard'),
-                        callback: (e) => {
-                            const input = e[0].querySelector("input#modifier");
-                            const modifier = input.value;
-                            selectedTraits.push({name: game.i18n.localize('T6.UI.Confirm.Roll.Modifier'), system:{dice: +modifier}})
-                            this._makeRoll(pool+ +modifier, 4, selectedTraits)
-                        }
-                    }
-                }
-            }, {classes: ["dialog", "t6"]}
-        ).render(true);
-    }
-
-    async _makeRoll(pool, dc, selectedTraits) {
-        let r = await new Roll(pool + "d6cs>=" + dc).evaluate({async: true});
-        await r.toMessage({
-            flags: {selectedTraits: selectedTraits},
-            speaker: ChatMessage.getSpeaker({actor: this.actor})
-        });
+        RollPrompt.show(this.actor, selectedTraits, pool);
     }
 
     async _traitClicked(e) {
