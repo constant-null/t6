@@ -1,4 +1,5 @@
 export default class T6ChatMessage extends ChatMessage {
+    selectedTraits = [];
     async _renderRollContent(messageData) {
         const data = messageData.message;
         const renderRolls = async isPrivate => {
@@ -11,6 +12,7 @@ export default class T6ChatMessage extends ChatMessage {
 
         // Suppress the "to:" whisper flavor for private rolls
         if (this.blind || this.whisper.length) messageData.isWhisper = false;
+        this.selectedTraits = messageData.message.flags.selectedTraits;
 
         // Display standard Roll HTML content
         if (this.isContentVisible) {
@@ -44,6 +46,7 @@ export default class T6ChatMessage extends ChatMessage {
             formula: isPrivate ? "???" : roll._formula,
             flavor: isPrivate ? null : flavor,
             user: game.user.id,
+            selectedTraits: this.selectedTraits,
             total: isPrivate ? "?" : Math.round(roll.total * 100) / 100
         };
 

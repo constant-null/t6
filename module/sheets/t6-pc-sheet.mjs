@@ -86,9 +86,11 @@ export default class T6PCSheet extends ActorSheet {
         e.preventDefault()
 
         let pool = 0;
+        let selectedTraits = []
         for (const trait of this.actor.items) {
             if (!trait.isDestroyed && this.selectedTraits.includes(trait.id)) {
                 pool += +trait._system.dice;
+                selectedTraits.push(trait)
             }
         }
 
@@ -101,27 +103,27 @@ export default class T6PCSheet extends ActorSheet {
                     easy: {
                         icon: '<i class="fas fa-dice"></i>',
                         label: game.i18n.localize('T6.UI.Confirm.Roll.Easy'),
-                        callback: () => this._makeRoll(pool, 4)
+                        callback: () => this._makeRoll(pool, 4, selectedTraits)
                     },
                     normal: {
                         icon: '<i class="fas fa-dice"></i>',
                         label: game.i18n.localize('T6.UI.Confirm.Roll.Normal'),
-                        callback: () => this._makeRoll(pool, 5)
+                        callback: () => this._makeRoll(pool, 5, selectedTraits)
                     },
                     hard: {
                         icon: '<i class="fas fa-dice"></i>',
                         label: game.i18n.localize('T6.UI.Confirm.Roll.Hard'),
-                        callback: () => this._makeRoll(pool, 6)
+                        callback: () => this._makeRoll(pool, 6, selectedTraits)
                     }
                 }
             }, {classes: ["dialog", "t6"]}
         ).render(true);
     }
 
-    async _makeRoll(pool, dc) {
+    async _makeRoll(pool, dc, selectedTraits) {
         let r = await new Roll(pool + "d6cs>=" + dc).evaluate({async: true});
         await r.toMessage({
-            // flavor: heroMessage,
+            flags: {selectedTraits: selectedTraits},
             speaker: ChatMessage.getSpeaker({actor: this.actor})
         });
     }
