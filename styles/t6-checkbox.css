@@ -39,3 +39,25 @@
 .t6-checkbox-container input[type="checkbox"]:checked::before {
     transform: scale(1);
 }
+
+.t6-checkbox-container.full-red input[type="checkbox"]::before {
+    box-shadow: inset .8em .8em red;
+    filter: drop-shadow(0 0 0.75rem red);
+}
+
+.t6-checkbox-container.full-red input[type="checkbox"] {
+    border-color: red;
+}
+
+.t6-checkbox-container.full-blue input[type="checkbox"]::before {
+    box-shadow: inset .8em .8em aquamarine;
+    filter: drop-shadow(0 0 0.75rem aquamarine);
+}
+
+.t6-checkbox-container.full-blue input[type="checkbox"] {
+    border-color: aquamarine;
+}
+
+.t6-checkbox-container.blue-border input[type="checkbox"] {
+    border-color: aquamarine;
+}

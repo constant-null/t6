@@ -1,15 +1,4 @@
 export default function registerHandlebarsHelpers() {
-    Handlebars.registerHelper("abilitySign", (ability) => {
-        if (!ability) return "";
-        return ability.data.type === "ability" ? "+" : "-";
-    });
-
-    Handlebars.registerHelper("maskedKey", (key) => {
-        if (!key) return false;
-        // check if key has a mask (?)
-        return key.indexOf("?") !== -1;
-    });
-
     Handlebars.registerHelper("signedValue", (value) => {
         return value > 0 ? "+" + value : value;
     });
@@ -52,4 +41,5 @@ export default function registerHandlebarsHelpers() {
             return list[Object.keys(list)[Object.keys(list).length - 1]]
         }
     });
+
 }

@@ -48,6 +48,7 @@ export default class T6Actor extends Actor {
             if (!this.equippedArmor || this.equippedArmor.max < trait._system.armor.max) {
                 this.equippedArmor = trait._system.armor;
                 this.equippedArmor._id = trait._id;
+                this.equippedArmor.name = trait.name;
             }
         }
 

@@ -16,7 +16,6 @@
     display: flex;
     vertical-align: top;
     flex-direction: column;
-    align-items: flex-start;
 }
 
 .flex.row {
@@ -24,7 +23,8 @@
 }
 
 .big-label {
-    font-size: x-large;
+    white-space: nowrap;
+    font-size: clamp(10px, 24px, 24px);
 }
 .t6.long-input {
     font-size: 1em;
@@ -60,7 +60,7 @@
 }
 
 .glow.t6 {
-    color: #00a500;
+    color: #00cd00;
     filter: drop-shadow(0 0 0.75rem green);
 }
 
@@ -74,7 +74,7 @@
 }
 
 .t6.box {
-    border: 1px solid green;
+    border: 1px solid #00cd00;
     padding: 5px;
     display: flex;
     flex-direction: column;
@@ -83,6 +83,10 @@
 
 .t6.box.red {
     border: 1px solid red;
+}
+
+.t6.box.blue {
+    border: 1px solid aquamarine;
 }
 
 .none {
@@ -95,8 +99,14 @@
     filter: drop-shadow(0 0 0.75rem red);
 }
 
+.glow.blue {
+    color: aquamarine;
+    filter: drop-shadow(0 0 0.75rem aquamarine);
+}
+
+
 .item-list {
-    min-width: 237px;
+    min-width: 239px;
     min-height: 74px;
 }
 

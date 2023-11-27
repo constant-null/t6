@@ -154,6 +154,7 @@ export default class T6PCSheet extends ActorSheet {
             context.traitGroups[type] = []
         }
 
+        context.linkedWounds = {}
         context.traitsSelected = false;
         for (const item of this.actor.items) {
             let t = item._system.type;
@@ -167,6 +168,14 @@ export default class T6PCSheet extends ActorSheet {
             } else {
                 item.selected = false;
             }
+
+            if (item._system.active && item._system.linkedToWound) {
+                item.linked = !item.isDestroyed;
+                context.linkedWounds[item._system.linkedToWound] = true;
+            } else {
+                item.linked = false
+            }
+
             if (t in context.traitGroups) {
                 context.traitGroups[t].push(item)
             } else {
