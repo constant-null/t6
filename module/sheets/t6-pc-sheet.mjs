@@ -34,11 +34,13 @@ export default class T6PCSheet extends ActorSheet {
     }
 
     async _onSubmit(event, options) {
-        const formData = this._getSubmitData({});
-        this.actor.updateEmbeddedDocuments("Item", [{
-            _id: this.actor.equippedArmor._id,
-            system: {armor: {received: formData["data.armor.received"]}}
-        }])
+        if (this.actor.equippedArmor) {
+            const formData = this._getSubmitData({});
+            this.actor.updateEmbeddedDocuments("Item", [{
+                _id: this.actor.equippedArmor._id,
+                system: {armor: {received: formData["data.armor.received"]}}
+            }])
+        }
         return await super._onSubmit(event, options);
 
     }
