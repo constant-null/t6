@@ -48,7 +48,11 @@ export default class T6PCSheet extends ActorSheet {
         e.stopPropagation();
 
         const itemId = e.target.dataset.itemId;
+
         const checked = e.target.checked;
+        if (!checked) {
+            this.selectedTraits = this.selectedTraits.filter(i => i !== itemId);
+        }
 
         await this.actor.updateEmbeddedDocuments("Item", [{_id: itemId, system: {active: checked}}]);
         this.render();
@@ -100,6 +104,10 @@ export default class T6PCSheet extends ActorSheet {
         e.preventDefault()
         const itemId = e.target.closest(".item").dataset.itemId;
         const selectedItemId = this.selectedTraits.find(i => i === itemId);
+
+        let item = this.actor.items.find(i => i.id === itemId);
+        if (item.isDestroyed || !item._system.active) return
+
         if (selectedItemId) {
             this.selectedTraits = this.selectedTraits.filter(i => i !== itemId);
         } else {
@@ -148,7 +156,11 @@ export default class T6PCSheet extends ActorSheet {
         for (const item of this.actor.items) {
             let t = item._system.type;
             if (this.selectedTraits.find(i => i === item.id)) {
-                if (!item.isDestroyed) context.traitsSelected = true;
+                if (!item.isDestroyed) {
+                    context.traitsSelected = true;
+                } else {
+                    this.selectedTraits = this.selectedTraits.filter(i => i !== item.id);
+                }
                 item.selected = true;
             } else {
                 item.selected = false;

@@ -16,6 +16,9 @@ export default class T6Item extends Item {
         for (const damage of armor.received) {
             if (armor.max == damage) return true; // == is by design!!!
         }
+        // if (this.actor && ) {
+        //     this.actor._system.wounds.received
+        // }
 
         return false;
     }
