@@ -237,3 +237,7 @@ select.t6 {
 .t6.box.wide {
     width: 100%;
 }
+
+.t6.add-button {
+    cursor: pointer;
+}

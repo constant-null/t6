@@ -9,7 +9,8 @@
       "Dice": "Dice",
       "Description": "Description",
       "Armor": "Armor",
-      "LinkedToWound": "Wound"
+      "LinkedToWound": "Wound",
+      "DefaultName": "New Trait"
     },
     "NPC": {
 

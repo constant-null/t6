@@ -1,5 +1,8 @@
 <div class="t6 box {{ifThen npc 'wide' ''}}">
-    <div class="t6 glow big-label">{{ localize title }}</div>
+    <div class="flex row wide">
+        <div class="t6 glow big-label">{{ localize title }}</div>
+        <div class="t6 glow big-label add-button" data-trait-group="{{title}}">+</div>
+    </div>
     <div class="item-list items {{ifThen npc 'npc' ''}}" data-trait-group="{{title}}">
         {{#each traits as |trait|}}
         <div
@@ -9,7 +12,8 @@
         >
             <div class="flex row">
                 <label class="t6-checkbox-container  {{ifThen trait.isDestroyed 'full-red' ''}} {{ifThen trait.linked 'full-blue' ''}}">
-                    <input class="checkbox activate-trait" type="checkbox" data-item-id="{{trait.id}}" {{checked trait._system.active}}/>
+                    <input class="checkbox activate-trait" type="checkbox" data-item-id="{{trait.id}}" {{checked
+                           trait._system.active}}/>
                 </label>
                 <div style="margin: auto 5px">{{trait.name}}</div>
             </div>
