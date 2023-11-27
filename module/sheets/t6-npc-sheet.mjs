@@ -146,18 +146,10 @@ export default class T6NPCSheet extends ActorSheet {
             context.woundTooltips[wounds[i]] = this.woundTooltips[i];
         }
 
-        context.traitGroups = {}
-        const types = game.settings.get('t6', 'traitTypes')
-        let otherTraitsGroup = game.i18n.localize('T6.Sheet.OtherTraits');
-
-        for (const type of types) {
-            context.traitGroups[type] = []
-        }
-
-        context.linkedWounds = {}
+        context.linkedWounds = {};
         context.traitsSelected = false;
+        context.traits = this.actor.items;
         for (const item of this.actor.items) {
-            let t = item._system.type;
             if (this.selectedTraits.find(i => i === item.id)) {
                 if (!item.isDestroyed) {
                     context.traitsSelected = true;
@@ -174,15 +166,6 @@ export default class T6NPCSheet extends ActorSheet {
                 context.linkedWounds[item._system.linkedToWound] = true;
             } else {
                 item.linked = false
-            }
-
-            if (t in context.traitGroups) {
-                context.traitGroups[t].push(item)
-            } else {
-                if (!(otherTraitsGroup in context.traitGroups)) {
-                    context.traitGroups[otherTraitsGroup] = []
-                }
-                context.traitGroups[otherTraitsGroup].push(item)
             }
         }
 

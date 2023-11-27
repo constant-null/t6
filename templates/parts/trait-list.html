@@ -1,6 +1,6 @@
-<div class="t6 box">
-    <div class="t6 glow big-label">{{ title }}</div>
-    <div class="item-list items" data-trait-group="{{title}}">
+<div class="t6 box {{ifThen npc 'wide' ''}}">
+    <div class="t6 glow big-label">{{ localize title }}</div>
+    <div class="item-list items {{ifThen npc 'npc' ''}}" data-trait-group="{{title}}">
         {{#each traits as |trait|}}
         <div
                 class="item t6 trait glow box {{ifThen trait.selected 'active' ''}}{{ifThen trait.isDestroyed 'red' ''}} {{ifThen trait.linked 'blue' ''}}"

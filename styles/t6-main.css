@@ -90,6 +90,10 @@
     margin: 5px;
 }
 
+.t6.box.wide {
+    width: 100%;
+}
+
 .t6.box.red {
     border: 1px solid red;
 }
@@ -117,6 +121,16 @@
 .item-list {
     min-width: 239px;
     min-height: 74px;
+}
+
+.item-list.npc {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.item-list.npc .item {
+    width: 50%;
 }
 
 .trait-container {
@@ -157,7 +171,7 @@ select.t6 {
     font-size: large;
     display: flex;
     align-items: center;
-    margin: 2px auto;
+    margin: 2px auto 2px 0px;
     cursor: pointer;
     flex-direction: row;
     justify-content: space-between;
@@ -176,7 +190,7 @@ select.t6 {
 }
 
 .t6.dialog * {
-    color: green;
+    color: #00cd00;
 }
 
 .t6 button {

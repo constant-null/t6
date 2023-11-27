@@ -1,4 +1,22 @@
 export default class T6Actor extends Actor {
+    static async create(data, options) {
+        if (data.token) {
+            data.token = {
+                actorLink: data.type !== "npc",
+                disposition: data.type !== "npc" ? 1 : -1,
+                vision: data.type !== "npc",
+                // displayBars: 40,
+                // bar1: {attribute: "dp"},
+            }
+        }
+
+        if (data.type === "npc") {
+            data.flags = {"core": {"sheetClass": "t6.T6NPCSheet"}};
+        }
+
+        await super.create(data, options)
+    }
+
     get _system() {
         const v10 = game.release.generation >= 10;
         if (v10) {
@@ -22,7 +40,7 @@ export default class T6Actor extends Actor {
 
     _prepareWounds(wounds) {
         let maxWounds = wounds.max;
-        let receivedWounds = wounds.received;
+        let receivedWounds = wounds.received || [];
         const prepWounds = {};
 
 

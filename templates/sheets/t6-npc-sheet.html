@@ -15,14 +15,13 @@
                     <div class="flex row">
                         <!-- Wounds-->
                         <div class="t6 box {{ifThen (lastElement wounds) 'red' ''}}">
-                            <div class="flex row">
+                            <div class="flex row wide">
                                 <div class="t6 glow big-label {{ifThen (lastElement wounds) 'red glitch' ''}}"
                                      data-text="{{ localize 'T6.Sheet.Wounds' }}">
                                     {{ localize 'T6.Sheet.Wounds' }}
                                 </div>
                                 <div>
-                                    <div class="t6 glow big-label">{{ localize 'T6.Sheet.Wound' }}</div>
-                                    {{numberInput data.armor.max name="data.armor.max" step=2 min=0 max=10 class="t6
+                                    {{numberInput data.wounds.max name="data.wounds.max" step=2 min=0 max=10 class="t6
                                     glow small-input"}}
                                 </div>
                             </div>
@@ -69,14 +68,8 @@
             </div>
         </div>
         <div class="traits">
-            <div class="flex row wide">
-                <div class="t6 glow big-label">{{ localize 'T6.Sheet.Traits' }}</div>
-                <div class="t6 roll-dice {{ifThen traitsSelected '' 'hidden'}}"></div>
-            </div>
             <div class="trait-container">
-                {{#each traitGroups as |traits title|}}
-                {{> "systems/t6/templates/parts/trait-list.html" traits=traits title=title}}
-                {{/each}}
+                {{> "systems/t6/templates/parts/trait-list.html" traits=traits npc=true title="T6.Sheet.Equipment"}}
             </div>
         </div>
     </section>
