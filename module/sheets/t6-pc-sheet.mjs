@@ -100,7 +100,7 @@ export default class T6PCSheet extends ActorSheet {
                 title: game.i18n.localize("T6.UI.Confirm.Roll.Title"),
                 content: `<div class="t6 box">
 <div class="flex row">
-<span class="t6 label">`+game.i18n.localize('T6.UI.Confirm.Roll.Modifier')+`</span>
+<span class="t6 label">` + game.i18n.localize('T6.UI.Confirm.Roll.Modifier') + `</span>
 <input id="modifier" class="t6 small-input" type="number" value="0">
 </div></div>
 <h4>${game.i18n.localize("T6.UI.Confirm.Roll.DifficultyPrompt")}</h4>`,
@@ -110,9 +110,14 @@ export default class T6PCSheet extends ActorSheet {
                         label: game.i18n.localize('T6.UI.Confirm.Roll.Easy'),
                         callback: (e) => {
                             const input = e[0].querySelector("input#modifier");
-                            const modifier = input.value;
-                            selectedTraits.push({name: game.i18n.localize('T6.UI.Confirm.Roll.Modifier'), system:{dice: +modifier}})
-                            this._makeRoll(pool+ +modifier, 4, selectedTraits)
+                            const modifier = +input.value;
+                            if (modifier !== 0) {
+                                selectedTraits.push({
+                                    name: game.i18n.localize('T6.UI.Confirm.Roll.Modifier'),
+                                    system: {dice: modifier}
+                                })
+                            }
+                            this._makeRoll(pool + modifier, 4, selectedTraits)
                         }
                     },
                     normal: {
@@ -120,9 +125,14 @@ export default class T6PCSheet extends ActorSheet {
                         label: game.i18n.localize('T6.UI.Confirm.Roll.Normal'),
                         callback: (e) => {
                             const input = e[0].querySelector("input#modifier");
-                            const modifier = input.value;
-                            selectedTraits.push({name: game.i18n.localize('T6.UI.Confirm.Roll.Modifier'), system:{dice: +modifier}})
-                            this._makeRoll(pool+ +modifier, 4, selectedTraits)
+                            const modifier = +input.value;
+                            if (modifier !== 0) {
+                                selectedTraits.push({
+                                    name: game.i18n.localize('T6.UI.Confirm.Roll.Modifier'),
+                                    system: {dice: modifier}
+                                })
+                            }
+                            this._makeRoll(pool + modifier, 4, selectedTraits)
                         }
                     },
                     hard: {
@@ -130,9 +140,14 @@ export default class T6PCSheet extends ActorSheet {
                         label: game.i18n.localize('T6.UI.Confirm.Roll.Hard'),
                         callback: (e) => {
                             const input = e[0].querySelector("input#modifier");
-                            const modifier = input.value;
-                            selectedTraits.push({name: game.i18n.localize('T6.UI.Confirm.Roll.Modifier'), system:{dice: +modifier}})
-                            this._makeRoll(pool+ +modifier, 4, selectedTraits)
+                            const modifier = +input.value;
+                            if (modifier !== 0) {
+                                selectedTraits.push({
+                                    name: game.i18n.localize('T6.UI.Confirm.Roll.Modifier'),
+                                    system: {dice: modifier}
+                                })
+                            }
+                            this._makeRoll(pool + modifier, 4, selectedTraits)
                         }
                     }
                 }
