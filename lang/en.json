@@ -22,6 +22,8 @@
       "Traits": "Traits",
       "Equipment": "Equipment",
       "NoArmor": "Error",
+      "OpenNotes": "Open dossier",
+      "Notes": "Dossier",
       "OtherTraits": "Other"
     },
     "UI": {
@@ -47,7 +49,8 @@
     },
     "ChatMessage": {
       "Dices": "Dices",
-      "Result": "Result"
+      "Result": "Result",
+      "Reloading": "reloading"
     },
     "Tooltip": {
       "Wound": {

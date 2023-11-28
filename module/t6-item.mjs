@@ -12,7 +12,7 @@ export default class T6Item extends Item {
         const uses = this._getUses()
 
        uses.value > 0 && uses.value--
-       await this.update({uses})
+       await this.update({system:{uses}})
     }
 
     _getUses() {

@@ -9,7 +9,10 @@
                 </div>
                 <div class="flex">
                     <div class="t6 box">
-                        <div class="t6 glow big-label">{{ localize 'T6.PC.Name' }}</div>
+                        <div class="flex row wide">
+                            <div class="t6 glow big-label">{{ localize 'T6.PC.Name' }}</div>
+                            <div id="open-notes" class="t6 glow">{{ localize 'T6.Sheet.OpenNotes'}}> </div>
+                        </div>
                         <div class="t6 box-input glow">
                             <input id="char-name" name="name" class="t6 glow long-input caretjs"
                                    value="{{actor.name}}"/>
@@ -66,7 +69,7 @@
         </div>
         <div class="traits">
             <div class="flex row wide">
-                <div class="t6 glow big-label">{{ localize 'T6.Sheet.Traits' }}</div>
+                    <div class="t6 glow big-label">{{ localize 'T6.Sheet.Traits' }}</div>
                 <div class="t6 box glow roll-button-container flex row">
                     <span class="reset-button fas fa-undo"></span>
                     <div class="t6 items-selected-label">{{localize 'T6.UI.ItemsSelected'}}: {{traitsSelectedAmount}}

@@ -1,0 +1,6 @@
+<form class="{{cssClass}} flexcol" autocomplete="off">
+    <div class="t6 box glow">
+        <div class="t6 big-label">{{ localize 'T6.Sheet.Notes' }}</div>
+        {{editor data.description target="system.description" button=false editable=true engine="prosemirror"}}
+    </div>
+</form>

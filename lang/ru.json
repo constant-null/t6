@@ -22,6 +22,8 @@
       "Traits": "Черты",
       "Equipment": "Снаряжение",
       "NoArmor": "Ошибка",
+      "OpenNotes": "Открыть досье",
+      "Notes": "Досье",
       "OtherTraits": "Другое"
     },
     "UI": {
@@ -47,7 +49,8 @@
     },
     "ChatMessage": {
       "Dices": "Кубы",
-      "Result": "Результат"
+      "Result": "Результат",
+      "Reloading": "перезаряжает"
     },
     "Tooltip": {
       "Wound": {

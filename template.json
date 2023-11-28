@@ -10,7 +10,8 @@
       }
     },
     "pc": {
-      "templates": ["wounds"]
+      "templates": ["wounds"],
+      "notes": ""
     },
     "npc": {
       "templates": ["wounds"],

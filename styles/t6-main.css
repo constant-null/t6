@@ -308,3 +308,10 @@ select.t6 option {
     align-items: center;
     max-width: 100px;
 }
+
+#open-notes {
+    cursor: pointer;
+    line-height: 25px;
+    margin-top: 0;
+    margin-bottom: auto;
+}

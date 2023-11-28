@@ -69,11 +69,23 @@ export default class T6NPCSheet extends ActorSheet {
         const itemId = e.target.dataset.itemId;
 
         const checked = e.target.checked;
+        const trait = this.actor.items.find(t => t.id === itemId)
+        let uses = trait._system.uses;
         if (!checked) {
             this.selectedTraits = this.selectedTraits.filter(i => i !== itemId);
+        } else {
+            if (uses.max > 0 && uses.value == 0) {
+                uses.value = uses.max;
+                const messageData = {
+                    user: game.user.id,
+                    type: CONST.CHAT_MESSAGE_TYPES.IC,
+                    content: `${this.actor.name} ${game.i18n.localize('T6.ChatMessage.Reloading')} ${trait.name} !`
+                };
+                ChatMessage.create(messageData)
+            }
         }
 
-        await this.actor.updateEmbeddedDocuments("Item", [{_id: itemId, system: {active: checked}}]);
+        await this.actor.updateEmbeddedDocuments("Item", [{_id: itemId, system: {active: checked, uses}}]);
         this.render();
     }
 
@@ -99,7 +111,10 @@ export default class T6NPCSheet extends ActorSheet {
         }
         if (pool === 0) return;
 
-        RollPrompt.show(this.actor, selectedTraits, pool);
+        RollPrompt.show(this.actor, selectedTraits, pool, () => {
+            selectedTraits.forEach(t => t.use())
+            this.render()
+        });
     }
 
     async _traitClicked(e) {

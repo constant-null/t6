@@ -1,4 +1,6 @@
 import RollPrompt from "../dialog/roll-dialog.mjs";
+import T6PCNotesSheet from "./t6-pc-notes-sheet.mjs";
+import item from "../../app/common/documents/item.mjs";
 
 export default class T6PCSheet extends ActorSheet {
     selectedTraits = [];
@@ -35,6 +37,11 @@ export default class T6PCSheet extends ActorSheet {
         html.find(".roll-dice").click(this._rollDiceClicked.bind(this));
         html.find(".add-button").click(this._addTraitClicked.bind(this));
         html.find(".reset-button").click(this._resetSelectedClicked.bind(this));
+        html.find("#open-notes").click(this._openNotesClicked.bind(this));
+    }
+
+    async _openNotesClicked(e) {
+        new T6PCNotesSheet(this.actor).render(true);
     }
 
     async _resetSelectedClicked(e) {
@@ -76,11 +83,23 @@ export default class T6PCSheet extends ActorSheet {
         const itemId = e.target.dataset.itemId;
 
         const checked = e.target.checked;
+        const trait = this.actor.items.find(t => t.id === itemId)
+        let uses = trait._system.uses;
         if (!checked) {
             this.selectedTraits = this.selectedTraits.filter(i => i !== itemId);
+        } else {
+            if (uses.max > 0 && uses.value == 0) {
+                uses.value = uses.max;
+                const messageData = {
+                    user: game.user.id,
+                    type: CONST.CHAT_MESSAGE_TYPES.IC,
+                    content: `${this.actor.name} ${game.i18n.localize('T6.ChatMessage.Reloading')} ${trait.name} !`
+                };
+                ChatMessage.create(messageData)
+            }
         }
 
-        await this.actor.updateEmbeddedDocuments("Item", [{_id: itemId, system: {active: checked}}]);
+        await this.actor.updateEmbeddedDocuments("Item", [{_id: itemId, system: {active: checked, uses}}]);
         this.render();
     }
 
