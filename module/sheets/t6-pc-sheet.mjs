@@ -1,6 +1,5 @@
 import RollPrompt from "../dialog/roll-dialog.mjs";
 import T6PCNotesSheet from "./t6-pc-notes-sheet.mjs";
-import item from "../../app/common/documents/item.mjs";
 
 export default class T6PCSheet extends ActorSheet {
     selectedTraits = [];
