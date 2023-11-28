@@ -10,7 +10,8 @@
       "Description": "Description",
       "Armor": "Armor",
       "LinkedToWound": "Wound",
-      "DefaultName": "New Trait"
+      "DefaultName": "New Trait",
+      "Uses": "Uses"
     },
     "NPC": {
       "Proficiency": "Skill"

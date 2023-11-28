@@ -302,3 +302,9 @@ select.t6 option {
     display: flex;
     align-items: center;
 }
+
+.t6.min-max-input {
+    display: flex;
+    align-items: center;
+    max-width: 100px;
+}

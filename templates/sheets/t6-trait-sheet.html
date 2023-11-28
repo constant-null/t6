@@ -30,6 +30,14 @@
             {{numberInput data.linkedToWound name="data.linkedToWound" step=2 min=0 max=10 class="t6 glow small-input"}}
         </div>
         <div class="t6 box">
+            <div class="t6 glow big-label">{{ localize 'T6.Item.Uses' }}</div>
+            <div class="t6 min-max-input">
+                {{numberInput data.uses.value name="data.uses.value" step=1 min=0 max=data.uses.max class="t6 glow small-input"}}
+                <div class="t6 glow" style="font-size: x-large;">/</div>
+                {{numberInput data.uses.max name="data.uses.max" step=1 min=0 class="t6 glow small-input"}}
+            </div>
+        </div>
+        <div class="t6 box">
             <div class="t6 glow big-label">{{ localize 'T6.Item.Type' }}</div>
             <select class="t6 glow" name="data.type">
                 {{#select data.type}}

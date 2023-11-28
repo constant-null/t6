@@ -9,8 +9,9 @@
       "Dice": "Куб",
       "Description": "Описание",
       "Armor": "Броня",
-      "LinkedToWound": "Раны",
-      "DefaultName": "Новая Черта"
+      "LinkedToWound": "Рана",
+      "DefaultName": "Новая Черта",
+      "Uses": "Заряд"
     },
     "NPC": {
       "Proficiency": "Навык"

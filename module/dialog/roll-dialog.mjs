@@ -1,5 +1,5 @@
 export default class RollPrompt extends Dialog {
-    static async show(actor, selectedTraits, pool) {
+    static async show(actor, selectedTraits, pool, rollCallback) {
         await new Dialog({
                 title: game.i18n.localize("T6.UI.Confirm.Roll.Title"),
                 content: `<div class="t6 box">
@@ -21,6 +21,7 @@ export default class RollPrompt extends Dialog {
                                     system: {dice: modifier}
                                 })
                             }
+                            rollCallback()
                             this._makeRoll(actor,pool + modifier, 4, selectedTraits)
                         }
                     },
@@ -36,6 +37,7 @@ export default class RollPrompt extends Dialog {
                                     system: {dice: modifier}
                                 })
                             }
+                            rollCallback()
                             this._makeRoll(actor,pool + modifier, 5, selectedTraits)
                         }
                     },
@@ -51,6 +53,7 @@ export default class RollPrompt extends Dialog {
                                     system: {dice: modifier}
                                 })
                             }
+                            rollCallback()
                             this._makeRoll(actor,pool + modifier, 6, selectedTraits)
                         }
                     }

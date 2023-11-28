@@ -16,6 +16,11 @@
                            trait._system.active}}/>
                 </label>
                 <div style="margin: auto 5px">{{trait.name}}</div>
+                <div style="margin: auto 0">
+                    {{#if (gt trait._system.uses.max 0)}}
+                    ({{trait._system.uses.value}}/{{trait._system.uses.max}})
+                    {{/if}}
+                </div>
             </div>
             <div>{{ifThen (gt trait._system.dice 1) (concat 'x' trait._system.dice) ""}}</div>
         </div>

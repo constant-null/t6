@@ -97,14 +97,9 @@ export default class T6PCSheet extends ActorSheet {
         }
 
         if (pool === 0) return;
-        RollPrompt.show(this.actor, selectedTraits, pool);
-    }
-
-    async _makeRoll(pool, dc, selectedTraits) {
-        let r = await new Roll(pool + "d6cs>=" + dc).evaluate({async: true});
-        await r.toMessage({
-            flags: {selectedTraits: selectedTraits},
-            speaker: ChatMessage.getSpeaker({actor: this.actor})
+        RollPrompt.show(this.actor, selectedTraits, pool, () => {
+            selectedTraits.forEach(t => t.use())
+            this.render()
         });
     }
 
