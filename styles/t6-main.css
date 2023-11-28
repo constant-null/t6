@@ -56,7 +56,7 @@ input.t6:active, button.t6:active {
     border-color: green;
     border-width: 0 0 1px 0;
     min-height: 1.4em;
-    min-width: 330px;
+    min-width: 320px;
 }
 
 .t6.input {
@@ -136,6 +136,10 @@ input.t6:active, button.t6:active {
 .item-list {
     min-width: 239px;
     min-height: 74px;
+}
+
+.t6.trait {
+    max-width: 239px;
 }
 
 .item-list.npc {
@@ -282,4 +286,19 @@ span.reset-button {
 
 .t6.label {
     margin: auto 0;
+}
+
+select.t6 option {
+    background-color: black;
+}
+
+.t6.box-input:before {
+    content: ">";
+    margin-right: 5px;
+    font-weight: bolder;
+}
+
+.t6.box-input {
+    display: flex;
+    align-items: center;
 }

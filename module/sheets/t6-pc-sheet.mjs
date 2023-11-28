@@ -153,7 +153,7 @@ export default class T6PCSheet extends ActorSheet {
         }
 
         context.traitGroups = {}
-        const types = game.settings.get('t6', 'traitTypes')
+        const types = game.settings.get('t6', 'traitTypes').split(',').map(e => e.trim())
         let otherTraitsGroup = game.i18n.localize('T6.Sheet.OtherTraits');
 
         for (const type of types) {

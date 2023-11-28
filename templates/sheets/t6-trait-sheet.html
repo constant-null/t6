@@ -2,11 +2,14 @@
     <header class="sheet-header">
         <div class="flex row">
             <div class="t6 glow box">
-                <img src="{{item.img}}" data-edit="img" title="{{item.name}}" style="min-width: 64px;" height="64" width="64"/>
+                <img src="{{item.img}}" data-edit="img" title="{{item.name}}" style="min-width: 64px;" height="64"
+                     width="64"/>
             </div>
             <div class="t6 box wide">
                 <div class="t6 glow big-label">{{ localize 'T6.Item.Name' }}</div>
-                <input name="name" class="t6 glow input" type="text" value="{{item.name}}"/>
+                <div class="t6 box-input glow">
+                    <input name="name" class="t6 glow input" type="text" value="{{item.name}}"/>
+                </div>
             </div>
             <div class="t6 delete-button {{ifThen deleteEnabled '' 'hidden'}}">
                 <span class="fa-solid fa-trash"></span>

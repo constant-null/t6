@@ -4,8 +4,8 @@ export default class T6Actor extends Actor {
             actorLink: data.type !== "npc",
             disposition: data.type !== "npc" ? 1 : -1,
             vision: data.type !== "npc",
-            // displayBars: 40,
-            // bar1: {attribute: "dp"},
+            displayBars: 50,
+            bar1: {attribute: "woundsBar"},
         }
 
         if (data.type === "npc") {
@@ -27,13 +27,18 @@ export default class T6Actor extends Actor {
     prepareDerivedData() {
         super.prepareDerivedData();
 
-
         const wounds = this._system.wounds;
         if (this.type === "pc") {
             wounds.max = 10;
         }
+
         this.wounds = this._prepareWounds(wounds)
         this.armor = this._equipArmor()
+
+        this.system.woundsBar = {
+            value: this.wounds[wounds.max] ? 0 : wounds.max/2-Object.values(this.wounds).filter(w => w).length,
+            max: wounds.max/2
+        }
     }
 
     _prepareWounds(wounds) {

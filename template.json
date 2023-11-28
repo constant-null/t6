@@ -28,7 +28,11 @@
         "received": []
       },
       "linkedToWound": 0,
-      "active": true
+      "active": true,
+      "usage": {
+        "used": 0,
+        "max": 0
+      }
     }
   }
 }

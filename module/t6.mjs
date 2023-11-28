@@ -24,8 +24,12 @@ Hooks.once("init", function () {
     Items.registerSheet("t6", T6TraitSheet, { makeDefault: true, label: "T6.UI.ItemSheetName" })
 
     preloadTemplates();
-    initializeAppConfig();
     registerHandlebarsHelpers();
+});
+
+Hooks.once("i18nInit", function () {
+    initializeAppConfig();
+
 });
 
 Hooks.on("renderCameraViews", function (app, html, data){
@@ -45,20 +49,30 @@ async function preloadTemplates() {
 }
 
 async function initializeAppConfig() {
-    game.settings.registerMenu('t6', 'traitTypesMenu', {
+    game.settings.register('t6', 'traitTypes', {
         name: 'T6.Settings.TraitTypes.Name',
         hint: 'T6.Settings.TraitTypes.Description',
         label: "T6.Settings.TraitTypes.Label",
         config: true,       // false if you don't want it to show in module config
-        type: TraitTypesConfig,
-        restricted: true
+        type: String,
+        restricted: true,
+        default: game.i18n.localize('T6.Settings.TraitTypes.Default')
     });
 
-    game.settings.register('t6', 'traitTypes', {
-        scope: 'world',     // "world" = sync to db, "client" = local storage
-        config: false,      // we will use the menu above to edit this setting
-        type: Array,
-        default: ['Personal', "History", "Equipment", "Cyberware", "Troubles"]        // can be used to set up the default structure
-    });
+    // game.settings.registerMenu('t6', 'traitTypesMenu', {
+    //     name: 'T6.Settings.TraitTypes.Name',
+    //     hint: 'T6.Settings.TraitTypes.Description',
+    //     label: "T6.Settings.TraitTypes.Label",
+    //     config: true,       // false if you don't want it to show in module config
+    //     type: TraitTypesConfig,
+    //     restricted: true
+    // });
+    //
+    // game.settings.register('t6', 'traitTypes', {
+    //     scope: 'world',     // "world" = sync to db, "client" = local storage
+    //     config: false,      // we will use the menu above to edit this setting
+    //     type: Array,
+    //     default: ['Personal', "History", "Equipment", "Cyberware", "Troubles"]        // can be used to set up the default structure
+    // });
 }
 

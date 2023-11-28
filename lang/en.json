@@ -60,8 +60,9 @@
     "Settings": {
       "TraitTypes": {
         "Name": "Trait Types",
-        "Description": "Define types of traits for you campaign",
-        "Label": "Add/Remove Trait Types"
+        "Description": "List types of traits that used in your campaign, separated by comma",
+        "Label": "Add/Remove Trait Types",
+        "Default": "Personal,History,Equipment,Cyberware,Troubles"
       }
     },
     "Narrator": "Master"
