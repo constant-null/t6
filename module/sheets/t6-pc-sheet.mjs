@@ -33,6 +33,7 @@ export default class T6PCSheet extends ActorSheet {
         html.find("input.activate-trait").click(this._activateTraitClicked.bind(this));
         html.find(".t6.trait").contextmenu(this._traitContextMenu.bind(this));
         html.find(".t6.trait").click(this._traitClicked.bind(this));
+        html.find(".t6.trait-x2").click(this._traitx2Clicked.bind(this));
         html.find(".roll-dice").click(this._rollDiceClicked.bind(this));
         html.find(".add-button").click(this._addTraitClicked.bind(this));
         html.find(".reset-button").click(this._resetSelectedClicked.bind(this));
@@ -119,6 +120,22 @@ export default class T6PCSheet extends ActorSheet {
             selectedTraits.forEach(t => t.use())
             this.render()
         });
+    }
+
+    async _traitx2Clicked(e) {
+        e.preventDefault()
+        const itemId = e.target.closest(".item").dataset.itemId;
+        const selectedItemId = this.selectedTraits.find(i => i === itemId);
+
+        let item = this.actor.items.find(i => i.id === itemId);
+        if (item.isDestroyed || !item._system.active) return
+
+        if (selectedItemId) {
+            this.selectedTraits = this.selectedTraits.filter(i => i !== itemId);
+        }
+        this.selectedTraits.push(itemId, itemId)
+
+        this.render();
     }
 
     async _traitClicked(e) {

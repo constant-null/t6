@@ -219,6 +219,14 @@ select.t6 {
     border-color: #00cd00 !important;
 }
 
+.t6.red button {
+    border-color: red !important;
+}
+
+.t6.blue button {
+    border-color: aquamarine !important;
+}
+
 .t6.box.active {
     background-color: rgba(0, 128, 0, 0.47);
 }
@@ -241,18 +249,26 @@ select.t6 {
     margin: 0 auto;
 }
 
-button.t6.roll.npc {
+button.t6.npc {
     margin-bottom: 4px;
 }
 
-button.t6.roll:active {
+button.t6:active {
     background-color: #007500;
 }
 
-button.t6.roll:hover {
+button.t6:hover {
     animation-name: green-pulse;
     animation-duration: 3s;
     animation-iteration-count: infinite;
+}
+
+button.t6.red:hover {
+    animation-name: red-pulse;
+}
+
+button.t6.blue:hover {
+    animation-name: blue-pulse;
 }
 
 @keyframes green-pulse {
@@ -260,10 +276,34 @@ button.t6.roll:hover {
         background-color: #006900
     }
     50% {
-        background-color: #007500
+        background-color: #008000
     }
     100% {
         background-color: #006900
+    }
+}
+
+@keyframes red-pulse {
+    0% {
+        background-color: #830000
+    }
+    50% {
+        background-color: #a10000
+    }
+    100% {
+        background-color: #830000
+    }
+}
+
+@keyframes blue-pulse {
+    0% {
+        background-color: #4d9a80;
+    }
+    50% {
+        background-color: #60c09f;
+    }
+    100% {
+        background-color: #4d9a80;
     }
 }
 

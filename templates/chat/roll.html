@@ -12,7 +12,7 @@
                         <div>
                         <span class="big-label">{{localize "T6.ChatMessage.Dices"}} {{this.rolls.length}}</span>
                             {{#each ../selectedTraits as |trait|}}
-                            <div>{{trait.name}} {{trait.system.dice}}</div>
+                            <div>{{trait.name}} +{{trait.system.dice}}</div>
                             {{/each}}
                         </div>
                         {{#if this.flavor}}<span class="part-flavor">{{this.flavor}}</span>{{/if}}

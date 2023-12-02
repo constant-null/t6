@@ -36,7 +36,7 @@
     box-shadow: inset .8em .8em red;
     filter: drop-shadow(0 0 0.75rem red);
 
-    animation-name: red-pulse;
+    animation-name: red-shadow-pulse;
     animation-duration: 2s;
     animation-iteration-count: infinite;
 }
@@ -49,7 +49,7 @@
     box-shadow: inset .8em .8em red;
     filter: drop-shadow(0 0 0.75rem red);
 
-    animation-name: red-pulse;
+    animation-name: red-shadow-pulse;
     animation-duration: 2s;
     animation-iteration-count: infinite;
 }
@@ -71,7 +71,7 @@
     border-color: aquamarine;
 }
 
-@keyframes red-pulse {
+@keyframes red-shadow-pulse {
     0% {box-shadow: inset .8em .8em red;}
     50% {box-shadow: inset .8em .8em rgba(255, 0, 0, 0.6);}
     100% {box-shadow: inset .8em .8em red;}

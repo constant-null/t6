@@ -20,9 +20,12 @@
                     {{#if (gt trait._system.uses.max 0)}}
                     ({{trait._system.uses.value}}/{{trait._system.uses.max}})
                     {{/if}}
+                    {{ifThen (gt trait._system.dice 1) (concat '+' trait._system.dice) ""}}
                 </div>
             </div>
-            <div>{{ifThen (gt trait._system.dice 1) (concat 'x' trait._system.dice) ""}}</div>
+            <div>
+<!--                <button class="t6 glow trait-x2 button {{ifThen trait.isDestroyed 'red' ''}}{{ifThen trait.linked 'blue' ''}}" data-item-id="{{trait.id}}">x2</button>-->
+            </div>
         </div>
         {{/each}}
     </div>
