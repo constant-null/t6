@@ -97,7 +97,7 @@ export default class T6NPCSheet extends ActorSheet {
         let selectedTraits = []
         for (const trait of this.actor.items) {
             if (!trait.isDestroyed && this.selectedTraits.includes(trait.id)) {
-                pool += +trait._system.dice;
+                pool += parseInt(trait._system.dice);
                 selectedTraits.push(trait)
             }
         }

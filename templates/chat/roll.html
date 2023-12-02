@@ -13,7 +13,7 @@
                         <span class="big-label">{{localize "T6.ChatMessage.Dices"}} {{this.rolls.length}}</span>
                             {{#each ../selectedTraits as |trait|}}
                             <div>
-                                {{trait.name}} +{{trait.system.dice}}
+                                {{trait.name}} {{signedInt trait.system.dice}}
                                 <span class="t6 glow red">
                                     {{#if trait.system.damage}}
                                     {{localize (ifThen trait.system.armor.max "T6.ChatMessage.Armor" "T6.ChatMessage.Damage")}} {{trait.system.damage}}

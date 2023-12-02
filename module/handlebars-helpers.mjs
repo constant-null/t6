@@ -35,6 +35,13 @@ export default function registerHandlebarsHelpers() {
         return Math.abs(v);
     });
 
+    Handlebars.registerHelper("signedInt", (v) => {
+        if (parseInt(v) >= 0) {
+            return "+"+v;
+        }
+        return v
+    });
+
     Handlebars.registerHelper("contains", (list, el) => {
         if (!list) return false;
         return list.includes(el);
