@@ -26,9 +26,13 @@ export default class T6Actor extends Actor {
         removedWounds.forEach(w => {
             this._showValueChangeText(game.i18n.localize(this.woundsTooltips[w]) + ` (${w})`, false)
         })
-        // this._markAsDefeated()
 
         return super._preUpdate(data, options, user)
+    }
+
+    _onUpdate(data, options, userId) {
+        super._onUpdate(data, options, userId);
+        this._markAsDefeated()
     }
 
     _showValueChangeText(wound, received, stroke = 0x000000) {
@@ -69,20 +73,15 @@ export default class T6Actor extends Actor {
     }
 
     get isDefeated() {
-        return this._system.wounds.received[this._system.wounds.received.length-1] !== null
+        return this._system.wounds.received[this._system.wounds.received.length-1] != null
     }
 
-
     async _markAsDefeated() {
-        const token = this.token;
-        const status = CONFIG.statusEffects.find(e => e.id === CONFIG.specialStatusEffects.DEFEATED);
-        if ( !status && !token.object ) return;
-        const effect = token.actor && status ? status : CONFIG.controlIcons.defeated;
-        if ( token.object ) {
-            await token.object.toggleEffect(effect, {overlay: true, active: !this.isDefeated})
-        } else {
-            await token.toggleActiveEffect(effect, {overlay: true, active: !this.isDefeated});
-        }
+        const token = this.token || this.getActiveTokens(true, true)[0] || null;
+        if (!token) return;
+        const effect = CONFIG.statusEffects.find(e => e.id === CONFIG.specialStatusEffects.DEFEATED);
+        let defeated = this.isDefeated;
+        await token.toggleActiveEffect(effect, {overlay: true, active: defeated});
     }
 
     prepareDerivedData() {
