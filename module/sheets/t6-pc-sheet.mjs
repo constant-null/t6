@@ -14,14 +14,6 @@ export default class T6PCSheet extends ActorSheet {
         return options;
     }
 
-    woundTooltips = [
-        "T6.Tooltip.Wound.Mortal",
-        "T6.Tooltip.Wound.Severe",
-        "T6.Tooltip.Wound.Serious",
-        "T6.Tooltip.Wound.Mild",
-        "T6.Tooltip.Wound.Light",
-    ]
-
     /** @type T6Actor */
     get actor() {
         return super.actor;
@@ -173,14 +165,7 @@ export default class T6PCSheet extends ActorSheet {
         context.data = this.actor._system;
         context.wounds = this.actor.wounds;
         context.armor = this.actor.armor;
-
-        context.woundTooltips = {};
-
-        // character wounds
-        let wounds = Object.keys(context.wounds).reverse();
-        for (let i = 0; i <= wounds.length - 1; i++) {
-            context.woundTooltips[wounds[i]] = this.woundTooltips[i];
-        }
+        context.woundTooltips = this.actor.woundsTooltips;
 
         context.traitGroups = {}
         const types = game.settings.get('t6', 'traitTypes').split(',').map(e => e.trim())

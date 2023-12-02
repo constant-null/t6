@@ -15,6 +15,13 @@ export default class T6Actor extends Actor {
         await super.create(data, options)
     }
 
+    _preUpdate(data, options, user) {
+        data.system.wounds
+        this._system.wounds
+
+        const newWounds = this._system.wounds.received.filter(w => !data.system.wounds.received.includes(w));
+     }
+
     get _system() {
         const v10 = game.release.generation >= 10;
         if (v10) {
@@ -33,6 +40,12 @@ export default class T6Actor extends Actor {
         }
 
         this.wounds = this._prepareWounds(wounds)
+        this.woundsTooltips = {}
+        const rWounds = Object.keys(this.wounds).reverse();
+        for (let i = 0; i <= rWounds.length - 1; i++) {
+            this.woundsTooltips[rWounds[i]] = CONFIG.T6.woundNames[i];
+        }
+
         this.armor = this._equipArmor()
 
         this.system.woundsBar = {

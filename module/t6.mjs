@@ -7,11 +7,12 @@ import registerHandlebarsHelpers from "./handlebars-helpers.mjs";
 import T6NPCSheet from "./sheets/t6-npc-sheet.mjs";
 import T6ChatMessage from "./chat/t6-chat-message.mjs";
 import T6Die from "./die/t6-die.mjs";
+import {T6} from "./config.mjs";
 
 Hooks.once("init", function () {
     console.log("T6 | Initializing T6 System");
-    CONFIG.debug.hooks = true;
 
+    CONFIG.T6 = T6
     CONFIG.Actor.documentClass = T6Actor;
     Actors.unregisterSheet("core", ActorSheet);
     Actors.registerSheet("t6", T6PCSheet, { makeDefault: true, label: "T6.UI.CharacterSheetName" });
