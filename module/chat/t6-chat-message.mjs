@@ -1,5 +1,24 @@
 export default class T6ChatMessage extends ChatMessage {
+    async getHTML() {
+        const html = await super.getHTML();
+        this.activateListeners(html);
+
+        return html
+    }
+
+    activateListeners(html) {
+        html.find('.roll-against').click(this._rollAgainstClicked.bind(this))
+    }
+
+    _rollAgainstClicked(e) {
+        if (e.target.previous) {
+            e.target.checked = false;
+        }
+        e.target.previous = e.target.checked;
+    }
+
     selectedTraits = [];
+    oppositeRoll = 0;
     async _renderRollContent(messageData) {
         const data = messageData.message;
         const renderRolls = async isPrivate => {
@@ -13,6 +32,7 @@ export default class T6ChatMessage extends ChatMessage {
         // Suppress the "to:" whisper flavor for private rolls
         if (this.blind || this.whisper.length) messageData.isWhisper = false;
         this.selectedTraits = messageData.message.flags.selectedTraits;
+        this.oppositeRoll = messageData.message.flags.oppositeRoll;
 
         // Display standard Roll HTML content
         if (this.isContentVisible) {
@@ -49,6 +69,11 @@ export default class T6ChatMessage extends ChatMessage {
             selectedTraits: this.selectedTraits,
             total: isPrivate ? "?" : Math.round(roll.total * 100) / 100
         };
+
+        if (this.oppositeRoll !== undefined) {
+            chatData.oppositeRoll = this.oppositeRoll;
+            chatData.oppositeRollResult = this.oppositeRoll - roll.total;
+        }
 
         chatData.parts = isPrivate ? [] : parts;
 

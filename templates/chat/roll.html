@@ -17,13 +17,24 @@
                         </div>
                         {{#if this.flavor}}<span class="part-flavor">{{this.flavor}}</span>{{/if}}
                     </header>
-                    <h4 class="t6 box"><span class="t6 big-label">{{localize "T6.ChatMessage.Result"}}: {{total}}</span></h4>
+                    <h4 class="t6 box">
+                        <span class="t6 big-label">{{localize "T6.ChatMessage.Result"}}: {{total}}</span>
+                        {{#if ../oppositeRollResult}}
+                        <span>{{localize "T6.ChatMessage.Against"}}: {{../oppositeRoll}}</span>
+                        {{#if (lt ../oppositeRollResult 0)}}
+                        <span class="t6 glow blue">{{localize "T6.ChatMessage.YouWon"}}: {{abs ../oppositeRollResult}}</span>
+                        {{else}}
+                        <span class="t6 glow red">{{localize "T6.ChatMessage.YouLost"}}: {{abs ../oppositeRollResult}}</span>
+                        {{/if}}
+                        {{/if}}
+                    </h4>
 
                     <div class="t6 dice-rolls">
                         {{#each this.rolls}}
                         <div class="t6 dice-roll {{this.classes}} r{{this.result}}"></div>
                         {{/each}}
                     </div>
+
                 </div>
             </section>
             {{/each}}

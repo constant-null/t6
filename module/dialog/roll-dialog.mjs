@@ -62,10 +62,24 @@ export default class RollPrompt extends Dialog {
         ).render(true);
     }
 
+    static  _getOppositeRoll() {
+        const checked = ui.chat.element.find(".roll-against:checked");
+        if (!checked) {
+            return undefined;
+        }
+        const messageId = checked.attr("data-message-id")
+
+        const message = ui.chat.collection.find(m => m.id === messageId)
+        if (message && message.rolls) {
+            return message.rolls[0].total
+        }
+        return undefined;
+    }
+
     static async _makeRoll(actor, pool, dc, selectedTraits) {
         let r = await new Roll(pool + "d6cs>=" + dc).evaluate({async: true});
         await r.toMessage({
-            flags: {selectedTraits: selectedTraits},
+            flags: {selectedTraits: selectedTraits, oppositeRoll: this._getOppositeRoll()},
             speaker: ChatMessage.getSpeaker({actor: actor})
         });
     }

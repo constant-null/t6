@@ -1,4 +1,5 @@
-<li class="t6 glow chat-message message flexcol {{cssClass}}" data-message-id="{{message._id}}" {{#if borderColor}}style="border-color:{{borderColor}}"{{/if}}>
+<li class="t6 glow chat-message message flexcol {{cssClass}}" data-message-id="{{message._id}}" {{#if
+    borderColor}}style="border-color:{{borderColor}}" {{/if}}>
 <header class="message-header flexrow">
     <h4 class="message-sender">{{alias}}</h4>
     <span class="message-metadata">
@@ -18,5 +19,13 @@
 </header>
 <div class="message-content">
     {{{message.content}}}
+    {{#if message.rolls}}
+    <div class="t6 roll-against-box">
+        <div>Бросить против</div>
+        <label class="t6-checkbox-container red}}">
+            <input type="radio" class="t6 checkbox roll-against" name="roll-against" data-message-id="{{message._id}}"/>
+        </label>
+    </div>
+    {{/if}}
 </div>
 </li>

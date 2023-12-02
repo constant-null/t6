@@ -50,6 +50,9 @@
     "ChatMessage": {
       "Dices": "Dices",
       "Result": "Result",
+      "Against":"Against",
+      "YouWon": "Success",
+      "YouLost": "Failure",
       "Reloading": "reloading"
     },
     "Tooltip": {

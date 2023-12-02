@@ -202,7 +202,7 @@ export default class T6PCSheet extends ActorSheet {
                     this.selectedTraits = this.selectedTraits.filter(i => i !== item.id);
                 }
                 item.selected = true;
-                context.traitsSelectedAmount++
+                context.traitsSelectedAmount += item._system.dice;
             } else {
                 item.selected = false;
             }

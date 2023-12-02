@@ -50,6 +50,9 @@
     "ChatMessage": {
       "Dices": "Кубы",
       "Result": "Результат",
+      "Against":"Против",
+      "YouWon": "Успех",
+      "YouLost": "Поражение",
       "Reloading": "перезаряжает"
     },
     "Tooltip": {
