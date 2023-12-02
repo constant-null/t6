@@ -8,6 +8,18 @@ export default class T6ChatMessage extends ChatMessage {
 
     activateListeners(html) {
         html.find('.roll-against').click(this._rollAgainstClicked.bind(this))
+        html.find('.deal-damage').click(this._dealDamageClicked.bind(this))
+    }
+
+    _dealDamageClicked(e) {
+        e.preventDefault()
+
+        const targets = canvas.tokens.controlled;
+        targets.forEach(t => {
+            const targetActor = t.actor;
+
+            targetActor.dealDamage(this.finalDamage);
+        })
     }
 
     _rollAgainstClicked(e) {
@@ -34,6 +46,8 @@ export default class T6ChatMessage extends ChatMessage {
         if (this.blind || this.whisper.length) messageData.isWhisper = false;
         this.selectedTraits = messageData.message.flags.selectedTraits;
         this.oppositeRoll = messageData.message.flags.oppositeRoll;
+        this.speakerActor = game.actors.get(this.speaker.actor)
+
 
         // Display standard Roll HTML content
         if (this.isContentVisible) {
@@ -66,14 +80,13 @@ export default class T6ChatMessage extends ChatMessage {
             return damage + (trait.system?.damage || 0)
         }, 0)
         if (!roll._evaluated) await roll.evaluate({async: true});
-        const speaker = game.actors.get(this.speaker.actor)
         const chatData = {
             formula: isPrivate ? "???" : roll._formula,
             flavor: isPrivate ? null : flavor,
             user: game.user.id,
             selectedTraits: this.selectedTraits,
             totalDamage: totalDamage,
-            armor: speaker.equippedArmor,
+            armor: this.speakerActor.equippedArmor,
             total: isPrivate ? "?" : Math.round(roll.total * 100) / 100
         };
 
@@ -81,6 +94,8 @@ export default class T6ChatMessage extends ChatMessage {
             chatData.oppositeRoll = this.oppositeRoll.roll;
             chatData.oppositeRollDamage = this.oppositeRoll.totalDamage;
             chatData.oppositeRollResult = this.oppositeRoll.roll - roll.total;
+            chatData.finalDamage = Math.max(chatData.oppositeRollResult + chatData.oppositeRollDamage - this.speakerActor.equippedArmor.system.armor.protection, 0);
+            this.finalDamage = chatData.finalDamage;
         }
 
         chatData.parts = isPrivate ? [] : parts;

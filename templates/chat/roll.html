@@ -39,15 +39,16 @@
                                         {{/if}}
                                     </span>
                                 </span>
-                                {{#if (le ../oppositeRollResult 0)}}
+                                {{#if (lt ../oppositeRollResult 0)}}
                                 <span class="t6 glow blue">{{localize "T6.ChatMessage.YouWon"}}: {{abs ../oppositeRollResult}}</span>
                                 {{else}}
                                 <span class="t6 glow blue">{{localize "T6.Item.Protection"}}: {{../armor.system.armor.protection}}</span>
-                                <span class="t6 glow red">{{localize "T6.ChatMessage.YouLostDamage"}}: {{max (sub ../oppositeRollResult ../armor.system.armor.protection) 0}}</span>
+                                <span class="t6 glow red">{{localize "T6.ChatMessage.YouLostDamage"}}: {{../finalDamage}}</span>
+                        <button class="t6 glow button deal-damage">damage</button>
                                 {{/if}}
                             {{else}}
                                 <span>{{localize "T6.ChatMessage.Against"}}: {{../oppositeRoll}}</span>
-                                {{#if (le ../oppositeRollResult 0)}}
+                                {{#if (lt ../oppositeRollResult 0)}}
                                 <span class="t6 glow blue">{{localize "T6.ChatMessage.YouWon"}}: {{abs ../oppositeRollResult}}</span>
                                 {{else}}
                                 <span class="t6 glow red">{{localize "T6.ChatMessage.YouLost"}}: {{abs ../oppositeRollResult}}</span>

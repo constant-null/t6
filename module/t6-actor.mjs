@@ -18,8 +18,8 @@ export default class T6Actor extends Actor {
     }
 
     async _preUpdate(data, options, user) {
-        const removedWounds = this._system.wounds.received.filter(w => !data.system.wounds.received.includes(w));
-        const receivedWounds = data.system.wounds.received.filter(w => !this._system.wounds.received.includes(w));
+        const removedWounds = this._system.wounds.received.filter(w => !!w && !data.system.wounds.received.includes(w));
+        const receivedWounds = data.system.wounds.received.filter(w => !!w && !this._system.wounds.received.includes(w));
         receivedWounds.forEach(w => {
             this._showValueChangeText(game.i18n.localize(this.woundsTooltips[w]) + ` (${w})`, true)
         })
@@ -73,7 +73,10 @@ export default class T6Actor extends Actor {
     }
 
     get isDefeated() {
-        return this._system.wounds.received[this._system.wounds.received.length-1] != null
+        for (const wound of this._system.wounds.received) {
+            if (wound == this._system.wounds.max) return true
+        }
+        return false
     }
 
     async _markAsDefeated() {
@@ -105,6 +108,15 @@ export default class T6Actor extends Actor {
             value: this.wounds[wounds.max] ? 0 : wounds.max/2-Object.values(this.wounds).filter(w => w).length,
             max: wounds.max/2
         }
+    }
+
+    async dealDamage(dmg) {
+        if (this.isDefeated) return;
+        let wounds = this.system.wounds.received.filter(w => !!w);
+        dmg = Math.ceil(dmg/2)*2;
+        while (wounds.includes(`${dmg}`)) dmg += 2;
+        wounds.push(`${dmg}`)
+        await this.update({system:{wounds:{received:wounds}}})
     }
 
     _prepareWounds(wounds) {
