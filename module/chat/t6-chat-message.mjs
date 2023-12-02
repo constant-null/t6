@@ -66,19 +66,21 @@ export default class T6ChatMessage extends ChatMessage {
             return damage + (trait.system?.damage || 0)
         }, 0)
         if (!roll._evaluated) await roll.evaluate({async: true});
+        const speaker = game.actors.get(this.speaker.actor)
         const chatData = {
             formula: isPrivate ? "???" : roll._formula,
             flavor: isPrivate ? null : flavor,
             user: game.user.id,
             selectedTraits: this.selectedTraits,
             totalDamage: totalDamage,
+            armor: speaker.equippedArmor,
             total: isPrivate ? "?" : Math.round(roll.total * 100) / 100
         };
 
         if (this.oppositeRoll !== undefined) {
             chatData.oppositeRoll = this.oppositeRoll.roll;
             chatData.oppositeRollDamage = this.oppositeRoll.totalDamage;
-            chatData.oppositeRollResult = (this.oppositeRoll.roll + this.oppositeRoll.totalDamage) - (roll.total + totalDamage);
+            chatData.oppositeRollResult = this.oppositeRoll.roll - roll.total;
         }
 
         chatData.parts = isPrivate ? [] : parts;

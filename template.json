@@ -26,7 +26,8 @@
       "dice": 1,
       "armor": {
         "max": 0,
-        "received": []
+        "received": [],
+        "protection": 0
       },
       "linkedToWound": 0,
       "active": true,
@@ -34,7 +35,7 @@
         "value": 0,
         "max": 0
       },
-      "damage": 0,
+      "damage": 0
     }
   }
 }

@@ -84,6 +84,7 @@ export default class RollPrompt extends Dialog {
     static async _makeRoll(actor, pool, dc, selectedTraits) {
         let r = await new Roll(pool + "d6cs>=" + dc).evaluate({async: true});
         await r.toMessage({
+            actor: actor,
             flags: {selectedTraits: selectedTraits, oppositeRoll: this._getOppositeRoll()},
             speaker: ChatMessage.getSpeaker({actor: actor})
         });

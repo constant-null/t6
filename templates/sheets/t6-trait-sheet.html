@@ -26,7 +26,11 @@
             {{numberInput data.damage name="data.damage" step=1 min=0 max=6 class="t6 glow small-input"}}
         </div>
         <div class="t6 box">
-            <div class="t6 glow big-label">{{ localize 'T6.Item.Armor' }}</div>
+            <div class="t6 glow big-label">{{ localize 'T6.Item.Protection' }}</div>
+            {{numberInput data.armor.protection name="data.armor.protection" step=1 min=0 max=6 class="t6 glow small-input"}}
+        </div>
+        <div class="t6 box">
+            <div class="t6 glow big-label">{{ localize 'T6.Item.Durability' }}</div>
             {{numberInput data.armor.max name="data.armor.max" step=2 min=0 max=10 class="t6 glow small-input"}}
         </div>
         <div class="t6 box">

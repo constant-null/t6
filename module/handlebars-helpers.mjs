@@ -35,6 +35,21 @@ export default function registerHandlebarsHelpers() {
         return Math.abs(v);
     });
 
+    Handlebars.registerHelper("sub", (v, s) => {
+        return +v - s;
+    });
+
+    Handlebars.registerHelper("max", (v1, v2) => {
+        if (v1 >= v2) {
+            return v1
+        }
+        return v2
+    });
+
+    Handlebars.registerHelper("add", (v, s) => {
+        return +v + +s;
+    });
+
     Handlebars.registerHelper("signedInt", (v) => {
         if (parseInt(v) >= 0) {
             return "+"+v;

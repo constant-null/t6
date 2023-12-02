@@ -8,7 +8,8 @@
       "Type": "Type",
       "Dice": "Dice",
       "Description": "Description",
-      "Armor": "Armor",
+      "Protection": "Protection",
+      "Durability": "Durability",
       "LinkedToWound": "Wound",
       "DefaultName": "New Trait",
       "Uses": "Uses",
@@ -54,10 +55,11 @@
       "Against":"Against",
       "YouWon": "Success",
       "YouLost": "Failure",
+      "YouLostDamage": "Damage received",
       "Reloading": "reloading",
       "RollAgainst": "Roll against",
-      "Damage": "damage:",
-      "Armor": "armor:"
+      "Damage": "damage",
+      "Armor": "armor"
     },
     "Tooltip": {
       "Wound": {

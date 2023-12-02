@@ -8,7 +8,8 @@
       "Type": "Тип",
       "Dice": "Куб",
       "Description": "Описание",
-      "Armor": "Броня",
+      "Protection": "Броня",
+      "Durability": "Прочность",
       "LinkedToWound": "Рана",
       "DefaultName": "Новая Черта",
       "Uses": "Заряд",
@@ -54,10 +55,11 @@
       "Against":"Против",
       "YouWon": "Успех",
       "YouLost": "Поражение",
+      "YouLostDamage": "Получено урона",
       "RollAgainst": "Бросить против",
       "Reloading": "перезаряжает",
-      "Damage": "урон: ",
-      "Armor": "броня: "
+      "Damage": "урон",
+      "Armor": "броня"
     },
     "Tooltip": {
       "Wound": {

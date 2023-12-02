@@ -16,7 +16,7 @@
                                 {{trait.name}} {{signedInt trait.system.dice}}
                                 <span class="t6 glow red">
                                     {{#if trait.system.damage}}
-                                    {{localize (ifThen trait.system.armor.max "T6.ChatMessage.Armor" "T6.ChatMessage.Damage")}} {{trait.system.damage}}
+                                    (+{{trait.system.damage}} {{localize "T6.ChatMessage.Damage"}} [{{sub trait.system.uses.value 1}}/{{trait.system.uses.max}}])
                                     {{/if}}
                                 </span>
                             </div>
@@ -25,14 +25,34 @@
                         {{#if this.flavor}}<span class="part-flavor">{{this.flavor}}</span>{{/if}}
                     </header>
                     <h4 class="t6 box">
-                        <span class="t6 big-label">{{localize "T6.ChatMessage.Result"}}: {{total}} <span class="t6 glow red">{{ifThen ../totalDamage (concat "+ " ../totalDamage) ""}}</span></span>
+                        <span class="t6 big-label">
+                            {{localize "T6.ChatMessage.Result"}}: {{total}}
+                            <span class="t6 glow red">{{ifThen ../totalDamage (concat "+ " ../totalDamage) ""}}</span>
+                        </span>
                         {{#if ../oppositeRoll}}
-                        <span>{{localize "T6.ChatMessage.Against"}}: {{../oppositeRoll}} <span class="t6 glow red">{{ifThen ../oppositeRollDamage (concat "+ " ../oppositeRollDamage) ""}}</span></span>
-                        {{#if (le ../oppositeRollResult 0)}}
-                        <span class="t6 glow blue">{{localize "T6.ChatMessage.YouWon"}}: {{abs ../oppositeRollResult}}</span>
-                        {{else}}
-                        <span class="t6 glow red">{{localize "T6.ChatMessage.YouLost"}}: {{abs ../oppositeRollResult}}</span>
-                        {{/if}}
+                            {{#if ../oppositeRollDamage}}
+                                <span>
+                                    {{localize "T6.ChatMessage.Against"}}: {{../oppositeRoll}}
+                                    <span class="t6 glow red">
+                                        {{#if ../oppositeRollDamage}}
+                                        +{{../oppositeRollDamage}} {{localize "T6.ChatMessage.Damage"}}
+                                        {{/if}}
+                                    </span>
+                                </span>
+                                {{#if (le ../oppositeRollResult 0)}}
+                                <span class="t6 glow blue">{{localize "T6.ChatMessage.YouWon"}}: {{abs ../oppositeRollResult}}</span>
+                                {{else}}
+                                <span class="t6 glow blue">{{localize "T6.Item.Protection"}}: {{../armor.system.armor.protection}}</span>
+                                <span class="t6 glow red">{{localize "T6.ChatMessage.YouLostDamage"}}: {{max (sub ../oppositeRollResult ../armor.system.armor.protection) 0}}</span>
+                                {{/if}}
+                            {{else}}
+                                <span>{{localize "T6.ChatMessage.Against"}}: {{../oppositeRoll}}</span>
+                                {{#if (le ../oppositeRollResult 0)}}
+                                <span class="t6 glow blue">{{localize "T6.ChatMessage.YouWon"}}: {{abs ../oppositeRollResult}}</span>
+                                {{else}}
+                                <span class="t6 glow red">{{localize "T6.ChatMessage.YouLost"}}: {{abs ../oppositeRollResult}}</span>
+                                {{/if}}
+                            {{/if}}
                         {{/if}}
                     </h4>
 
