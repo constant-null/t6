@@ -53,6 +53,7 @@
       "Against":"Против",
       "YouWon": "Успех",
       "YouLost": "Поражение",
+      "RollAgainst": "Бросить против",
       "Reloading": "перезаряжает"
     },
     "Tooltip": {

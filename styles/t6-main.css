@@ -355,3 +355,15 @@ select.t6 option {
     margin-top: 0;
     margin-bottom: auto;
 }
+
+.t6.roll-against-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: baseline;
+    margin-block: 2px;
+}
+
+.t6.roll-against-label {
+    margin-right: 5px;
+}

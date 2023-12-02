@@ -53,7 +53,8 @@
       "Against":"Against",
       "YouWon": "Success",
       "YouLost": "Failure",
-      "Reloading": "reloading"
+      "Reloading": "reloading",
+      "RollAgainst": "Roll against"
     },
     "Tooltip": {
       "Wound": {

@@ -21,7 +21,7 @@
     {{{message.content}}}
     {{#if message.rolls}}
     <div class="t6 roll-against-box">
-        <div>Бросить против</div>
+        <div class="t6 roll-against-label">{{localize 'T6.ChatMessage.RollAgainst'}}</div>
         <label class="t6-checkbox-container red}}">
             <input type="radio" class="t6 checkbox roll-against" name="roll-against" data-message-id="{{message._id}}"/>
         </label>
