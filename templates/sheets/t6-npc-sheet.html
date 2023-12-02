@@ -17,7 +17,7 @@
                     </div>
                     <div class="flex row">
                         <!-- Wounds-->
-                        <div class="t6 box {{ifThen (lastElement wounds) 'red' ''}}">
+                        <div class="t6 box {{ifThen actor.isDefeated 'red' ''}}">
                             <div class="flex row wide">
                                 <div class="t6 glow big-label {{ifThen (lastElement wounds) 'red glitch' ''}}"
                                      data-text="{{ localize 'T6.Sheet.Wounds' }}">
