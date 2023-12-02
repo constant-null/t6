@@ -26,7 +26,7 @@ export default class T6Actor extends Actor {
         removedWounds.forEach(w => {
             this._showValueChangeText(game.i18n.localize(this.woundsTooltips[w]) + ` (${w})`, false)
         })
-        this._markAsDefeated()
+        // this._markAsDefeated()
 
         return super._preUpdate(data, options, user)
     }

@@ -11,7 +11,8 @@
       "Armor": "Armor",
       "LinkedToWound": "Wound",
       "DefaultName": "New Trait",
-      "Uses": "Uses"
+      "Uses": "Uses",
+      "Damage": "Damage"
     },
     "NPC": {
       "Proficiency": "Skill"
@@ -54,7 +55,9 @@
       "YouWon": "Success",
       "YouLost": "Failure",
       "Reloading": "reloading",
-      "RollAgainst": "Roll against"
+      "RollAgainst": "Roll against",
+      "Damage": "damage:",
+      "Armor": "armor:"
     },
     "Tooltip": {
       "Wound": {

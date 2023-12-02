@@ -11,7 +11,8 @@
       "Armor": "Броня",
       "LinkedToWound": "Рана",
       "DefaultName": "Новая Черта",
-      "Uses": "Заряд"
+      "Uses": "Заряд",
+      "Damage": "Урон"
     },
     "NPC": {
       "Proficiency": "Навык"
@@ -54,7 +55,9 @@
       "YouWon": "Успех",
       "YouLost": "Поражение",
       "RollAgainst": "Бросить против",
-      "Reloading": "перезаряжает"
+      "Reloading": "перезаряжает",
+      "Damage": "урон: ",
+      "Armor": "броня: "
     },
     "Tooltip": {
       "Wound": {

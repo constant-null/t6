@@ -22,6 +22,10 @@
             {{numberInput data.dice name="data.dice" step=1 min=0 max=6 class="t6 glow small-input"}}
         </div>
         <div class="t6 box">
+            <div class="t6 glow big-label">{{ localize 'T6.Item.Damage' }}</div>
+            {{numberInput data.damage name="data.damage" step=1 min=0 max=6 class="t6 glow small-input"}}
+        </div>
+        <div class="t6 box">
             <div class="t6 glow big-label">{{ localize 'T6.Item.Armor' }}</div>
             {{numberInput data.armor.max name="data.armor.max" step=2 min=0 max=10 class="t6 glow small-input"}}
         </div>

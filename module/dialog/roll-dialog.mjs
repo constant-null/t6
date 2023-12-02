@@ -71,7 +71,12 @@ export default class RollPrompt extends Dialog {
 
         const message = ui.chat.collection.find(m => m.id === messageId)
         if (message && message.rolls) {
-            return message.rolls[0].total
+            return {
+                roll: message.rolls[0].total,
+                totalDamage: message.flags.selectedTraits.reduce((totalDamage, trait) => {
+                    return totalDamage + (trait.system?.damage || 0)
+                }, 0)
+            }
         }
         return undefined;
     }

@@ -18,13 +18,14 @@ export default class T6ChatMessage extends ChatMessage {
     }
 
     selectedTraits = [];
-    oppositeRoll = 0;
+    oppositeRoll = undefined;
+
     async _renderRollContent(messageData) {
         const data = messageData.message;
         const renderRolls = async isPrivate => {
             let html = "";
             for (const r of this.rolls) {
-                html += await this._roll_render(r, {isPrivate,template: "systems/t6/templates/chat/roll.html"});
+                html += await this._roll_render(r, {isPrivate, template: "systems/t6/templates/chat/roll.html"});
             }
             return html;
         };
@@ -61,18 +62,23 @@ export default class T6ChatMessage extends ChatMessage {
     async _roll_render(roll, {flavor, template, isPrivate = false} = {}) {
         const parts = roll.dice.map(d => d.getTooltipData());
 
+        const totalDamage = this.selectedTraits.reduce((damage, trait) => {
+            return damage + (trait.system?.damage || 0)
+        }, 0)
         if (!roll._evaluated) await roll.evaluate({async: true});
         const chatData = {
             formula: isPrivate ? "???" : roll._formula,
             flavor: isPrivate ? null : flavor,
             user: game.user.id,
             selectedTraits: this.selectedTraits,
+            totalDamage: totalDamage,
             total: isPrivate ? "?" : Math.round(roll.total * 100) / 100
         };
 
         if (this.oppositeRoll !== undefined) {
-            chatData.oppositeRoll = this.oppositeRoll;
-            chatData.oppositeRollResult = this.oppositeRoll - roll.total;
+            chatData.oppositeRoll = this.oppositeRoll.roll;
+            chatData.oppositeRollDamage = this.oppositeRoll.totalDamage;
+            chatData.oppositeRollResult = (this.oppositeRoll.roll + this.oppositeRoll.totalDamage) - (roll.total + totalDamage);
         }
 
         chatData.parts = isPrivate ? [] : parts;

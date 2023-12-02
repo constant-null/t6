@@ -11,8 +11,16 @@ export default function registerHandlebarsHelpers() {
         return v1 > v2;
     });
 
+    Handlebars.registerHelper("ge", (v1, v2) => {
+        return v1 >= v2;
+    });
+
     Handlebars.registerHelper("lt", (v1, v2) => {
         return v1 < v2;
+    });
+
+    Handlebars.registerHelper("le", (v1, v2) => {
+        return v1 <= v2;
     });
 
     Handlebars.registerHelper("eq", (v1, v2) => {
