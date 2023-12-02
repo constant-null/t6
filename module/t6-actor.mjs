@@ -1,3 +1,5 @@
+import Socket from "../sockets/socket.mjs";
+
 export default class T6Actor extends Actor {
     static async create(data, options) {
         data.token = {
@@ -19,8 +21,43 @@ export default class T6Actor extends Actor {
         data.system.wounds
         this._system.wounds
 
-        const newWounds = this._system.wounds.received.filter(w => !data.system.wounds.received.includes(w));
-     }
+        const removedWounds = this._system.wounds.received.filter(w => !data.system.wounds.received.includes(w));
+        const receivedWounds = data.system.wounds.received.filter(w => !this._system.wounds.received.includes(w));
+        receivedWounds.forEach(w => {
+            this._showValueChangeText(game.i18n.localize(this.woundsTooltips[w]) + ` (${w})`, true)
+        })
+        removedWounds.forEach(w => {
+            this._showValueChangeText(game.i18n.localize(this.woundsTooltips[w]) + ` (${w})`, false)
+        })
+    }
+
+    _showValueChangeText(wound, received, stroke = 0x000000) {
+        const tokens = this.isToken ? [this.token?.object] : this.getActiveTokens(true);
+        T6Actor.showValueChangeText(tokens, wound, received, stroke);
+        Socket.emit("tokensAttributeChange", { tokens: tokens.map(t => t.id), wound: wound, received: received, stroke: stroke });
+    }
+
+    static listenWoundChange() {
+        Socket.on("tokensAttributeChange", data => {
+            const tokens = data.tokens.map(id => canvas.tokens.get(id));
+            T6Actor.showValueChangeText(tokens, data.wound, data.received, data.stroke);
+        });
+    }
+
+
+    static showValueChangeText(tokens, wound, received, stroke = 0x000000) {
+        for (let t of tokens) {
+            canvas.interface.createScrollingText(t.center, wound, {
+                icon: "icons/svg/aura.svg",
+                anchor: CONST.TEXT_ANCHOR_POINTS.TOP,
+                direction: received ? CONST.TEXT_ANCHOR_POINTS.TOP : CONST.TEXT_ANCHOR_POINTS.BOTTOM,
+                fill: received ? "red" : "green",
+                stroke: stroke,
+                strokeThickness: 4,
+                jitter: 0.25
+            });
+        }
+    }
 
     get _system() {
         const v10 = game.release.generation >= 10;

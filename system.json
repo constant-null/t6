@@ -49,7 +49,7 @@
       "path": "lang/ru.json"
     }
   ],
-  "socket": false,
+  "socket": true,
   "initiative": "1d20",
   "gridDistance": 10,
   "gridUnits": "m",

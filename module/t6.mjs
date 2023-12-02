@@ -8,6 +8,7 @@ import T6NPCSheet from "./sheets/t6-npc-sheet.mjs";
 import T6ChatMessage from "./chat/t6-chat-message.mjs";
 import T6Die from "./die/t6-die.mjs";
 import {T6} from "./config.mjs";
+import Socket from "../sockets/socket.mjs";
 
 Hooks.once("init", function () {
     console.log("T6 | Initializing T6 System");
@@ -30,6 +31,9 @@ Hooks.once("init", function () {
 
     preloadTemplates();
     registerHandlebarsHelpers();
+
+    Socket.initialize("t6");
+    T6Actor.listenWoundChange()
 });
 
 Hooks.once("i18nInit", function () {
