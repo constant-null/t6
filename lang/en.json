@@ -57,6 +57,7 @@
       "YouLost": "Failure",
       "YouLostDamage": "Damage received",
       "Reloading": "reloading",
+      "DealDamage": "Deal damage to a character",
       "RollAgainst": "Roll against",
       "Damage": "damage",
       "Armor": "armor"

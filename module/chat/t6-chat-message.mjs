@@ -15,6 +15,10 @@ export default class T6ChatMessage extends ChatMessage {
         e.preventDefault()
 
         const targets = canvas.tokens.controlled;
+        if (targets.length === 0) {
+            this.speakerActor.dealDamage(this.finalDamage);
+            return;
+        }
         targets.forEach(t => {
             const targetActor = t.actor;
 

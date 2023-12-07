@@ -217,6 +217,7 @@ select.t6 {
 .t6 button {
     border-radius: 0;
     border-color: #00cd00 !important;
+    background-color: rgba(0,0,0,0.1);
 }
 
 .t6.red button {
@@ -231,10 +232,14 @@ select.t6 {
     background-color: rgba(0, 128, 0, 0.47);
 }
 
-.flex.row.wide {
+.wide {
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
+}
+
+.wide.center {
+    align-items: center;
 }
 
 .t6.box.wide {
