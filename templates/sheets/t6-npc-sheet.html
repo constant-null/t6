@@ -70,11 +70,10 @@
                 </div>
             </div>
         </div>
+        <!--Traits-->
         <div class="traits">
             <div class="flex row">
-                <div class="trait-container">
-                    {{> "systems/t6/templates/parts/trait-list.html" traits=traits npc=true title="T6.Sheet.Equipment"}}
-                </div>
+                {{> "systems/t6/templates/parts/npc-traits.html" traits=traits}}
                 <div class="t6 box glow">
                     <div class="t6 npc-skill">{{ localize 'T6.NPC.Proficiency' }}</div>
                     {{numberInput data.proficiency name="data.proficiency" step=1 min=0 max=6 class="t6 glow
@@ -84,5 +83,6 @@
                 </div>
             </div>
         </div>
+
     </section>
 </form>

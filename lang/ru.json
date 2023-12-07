@@ -80,5 +80,8 @@
       }
     },
     "Narrator": "Могут"
+  },
+  "COMBAT": {
+    "RollsInitiative": "{name} бросает инициативу!"
   }
 }

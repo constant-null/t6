@@ -80,7 +80,7 @@ export default class T6ChatMessage extends ChatMessage {
     async _roll_render(roll, {flavor, template, isPrivate = false} = {}) {
         const parts = roll.dice.map(d => d.getTooltipData());
 
-        const totalDamage = this.selectedTraits.reduce((damage, trait) => {
+        const totalDamage = this.selectedTraits?.reduce((damage, trait) => {
             return damage + (trait.system?.damage || 0)
         }, 0)
         if (!roll._evaluated) await roll.evaluate({async: true});
@@ -90,7 +90,7 @@ export default class T6ChatMessage extends ChatMessage {
             user: game.user.id,
             selectedTraits: this.selectedTraits,
             totalDamage: totalDamage,
-            armor: this.speakerActor.equippedArmor,
+            armor: this.speakerActor?.equippedArmor,
             total: isPrivate ? "?" : Math.round(roll.total * 100) / 100
         };
 
