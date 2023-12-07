@@ -232,7 +232,7 @@ select.t6 {
     background-color: rgba(0, 128, 0, 0.47);
 }
 
-.wide {
+.flex.wide {
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
