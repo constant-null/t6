@@ -2,7 +2,7 @@
   "id": "t6",
   "title": "T6 System",
   "description": "FoundryVTT official T6 system",
-  "version": "1.0.15",
+  "version": "1.0.16",
   "compatibility": {
     "minimum": "10",
     "verified": "11",

@@ -74,6 +74,15 @@ async function initializeAppConfig() {
         restricted: true,
         default: game.i18n.localize('T6.Settings.TraitTypes.Default')
     });
+    game.settings.register('t6', 'complications', {
+        name: 'T6.Settings.Complications.Name',
+        hint: 'T6.Settings.Complications.Description',
+        label: "T6.Settings.Complications.Label",
+        config: true,       // false if you don't want it to show in module config
+        type: Boolean,
+        restricted: true,
+        default: true
+    });
 
     // game.settings.registerMenu('t6', 'traitTypesMenu', {
     //     name: 'T6.Settings.TraitTypes.Name',

@@ -60,7 +60,8 @@
       "DealDamage": "Deal damage to a character",
       "RollAgainst": "Roll against",
       "Damage": "damage",
-      "Armor": "armor"
+      "Armor": "armor",
+      "Complication": "Complication!"
     },
     "Tooltip": {
       "Wound": {
@@ -77,6 +78,11 @@
         "Description": "List types of traits that used in your campaign, separated by comma",
         "Label": "Add/Remove Trait Types",
         "Default": "Personal,History,Equipment,Cyberware,Troubles"
+      },
+      "Complications": {
+        "Name": "Complications",
+        "Description": "Does your game use complication rules?",
+        "Label": "Complications enabled"
       }
     },
     "Narrator": "Master"

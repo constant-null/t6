@@ -91,7 +91,8 @@ export default class T6ChatMessage extends ChatMessage {
             selectedTraits: this.selectedTraits,
             totalDamage: totalDamage,
             armor: this.speakerActor?.equippedArmor,
-            total: isPrivate ? "?" : Math.round(roll.total * 100) / 100
+            total: isPrivate ? "?" : Math.round(roll.total * 100) / 100,
+            complication: this._checkForComplications(roll)
         };
 
         if (this.oppositeRoll !== undefined) {
@@ -105,5 +106,16 @@ export default class T6ChatMessage extends ChatMessage {
         chatData.parts = isPrivate ? [] : parts;
 
         return renderTemplate(template, chatData);
+    }
+
+    _checkForComplications(roll) {
+        if (!game.settings.get("t6", "complications")) return false;
+
+        const dice = roll.dice[0]
+        const poolSize = dice.results.length;
+        const ones = dice.results.reduce((ones, die) => {
+            return die.result === 1 ? ones+1: ones
+        }, 0)
+        return Math.ceil(poolSize/2) <= ones
     }
 }

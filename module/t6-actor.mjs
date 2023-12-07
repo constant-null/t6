@@ -19,7 +19,7 @@ export default class T6Actor extends Actor {
 
     async _preUpdate(data, options, user) {
         const removedWounds = this._system.wounds.received.filter(w => !!w && !data.system.wounds.received.includes(w));
-        const receivedWounds = data.system?.wounds.received.filter(w => !!w && !this._system.wounds.received.includes(w)) || [];
+        const receivedWounds = data.system.wounds?.received.filter(w => !!w && !this._system.wounds.received.includes(w)) || [];
         receivedWounds.forEach(w => {
             this._showValueChangeText(game.i18n.localize(this.woundsTooltips[w]) + ` (${w})`, true)
         })
