@@ -22,8 +22,8 @@
                         <!-- Wounds-->
                         <div class="t6 box {{ifThen actor.isDefeated 'red' ''}}">
                             <div class="t6 glow big-label {{ifThen (lastElement wounds) 'red glitch' ''}}"
-                                 data-text="{{ localize 'T6.Sheet.Wounds' }}">
-                                {{ localize 'T6.Sheet.Wounds' }}
+                                 data-text="{{ localize 'T6.Sheet.Death' }}">
+                                {{ localize (ifThen (lastElement wounds) 'T6.Sheet.Death' 'T6.Sheet.Wounds' )}}
                             </div>
                             <fieldset class="t6 wounds">
                                 {{#each wounds as |dealt wound|}}

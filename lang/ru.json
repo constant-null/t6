@@ -21,6 +21,7 @@
     },
     "Sheet": {
       "Wounds": "Раны",
+      "Death": "Смерть",
       "Armor": "Броня",
       "Traits": "Черты",
       "Equipment": "Снаряжение",

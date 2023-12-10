@@ -21,6 +21,7 @@
     },
     "Sheet": {
       "Wounds": "Wounds",
+      "Death": "Death",
       "Armor": "Armor",
       "Traits": "Traits",
       "Equipment": "Equipment",
