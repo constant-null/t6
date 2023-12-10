@@ -99,7 +99,7 @@ export default class T6Actor extends Actor {
         this.woundsTooltips = {}
         const rWounds = Object.keys(this.wounds).reverse();
         for (let i = 0; i <= rWounds.length - 1; i++) {
-            this.woundsTooltips[rWounds[i]] = CONFIG.T6.woundNames[i];
+            this.woundsTooltips[rWounds[i]] = game.i18n.localize(CONFIG.T6.woundNames[i]);
         }
 
         this.armor = this._equipArmor()

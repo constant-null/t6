@@ -135,7 +135,7 @@ export default class T6NPCSheet extends ActorSheet {
             return;
         }
 
-        item.sheet.render(true, {delete: true});
+        item.sheet.render(true);
     }
 
     getData(options = {}) {

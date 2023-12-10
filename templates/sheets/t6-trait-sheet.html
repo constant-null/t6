@@ -11,6 +11,13 @@
                     <input name="name" class="t6 glow input" type="text" value="{{item.name}}"/>
                 </div>
             </div>
+            <div class="t6 box center">
+                <div class="t6 glow big-label">{{ localize 'T6.Item.Damaged' }}</div>
+                <label class="t6-checkbox-container red">
+                    <input class="checkbox" type="checkbox" name="data.damaged"
+                           {{checked data.damaged}}/>
+                </label>
+            </div>
             <div class="t6 delete-button {{ifThen deleteEnabled '' 'hidden'}}">
                 <span class="fa-solid fa-trash"></span>
             </div>

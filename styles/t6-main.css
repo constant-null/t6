@@ -369,6 +369,12 @@ select.t6 option {
     margin-block: 2px;
 }
 
+.t6.wound-tooltip {
+    font-size: small;
+    margin-top: 5px;
+    text-align: left;
+}
+
 .t6.roll-against-label {
     margin-right: 5px;
 }

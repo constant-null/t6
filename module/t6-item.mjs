@@ -29,15 +29,12 @@ export default class T6Item extends Item {
             if (armor.max == damage) return true; // == is by design!!!
         }
 
-        if (this.actor && this._system.linkedToWound) {
-            let receivedWounds = this.actor._system.wounds.received;
-            for (const receivedWound of receivedWounds) {
-                if (this._system.linkedToWound == receivedWound) return true;
-            }
+        if (this._system.damaged) {
+            return true;
         }
 
         const uses = this._getUses()
-        if (uses.max > 0 && uses.value == 0) {
+        if (uses.max > 0 && uses.value == 0) { // == is by design!!!
             return true;
         }
 

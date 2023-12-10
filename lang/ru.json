@@ -13,7 +13,8 @@
       "LinkedToWound": "Рана",
       "DefaultName": "Новая Черта",
       "Uses": "Заряд",
-      "Damage": "Урон"
+      "Damage": "Урон",
+      "Damaged": "Поврежден"
     },
     "NPC": {
       "Proficiency": "Навык"
@@ -36,7 +37,7 @@
       "Confirm": {
         "DeleteTrait": {
           "Title": "Удаление черты",
-          "Warning": "вы точно хотите удалить эту черту?"
+          "Warning": "Вы точно хотите удалить эту черту?"
         },
         "Roll": {
           "Title": "Бросок!",
@@ -70,7 +71,8 @@
         "Serious": "Опасная",
         "Mild": "Средняя",
         "Light": "Легкая"
-      }
+      },
+      "RLWoundTooltip": "<div class=\"t6 wound-tooltip\"><u>Левый клик</u> для отметки обычной раны<br/><u>Правый клик</u> для отметки квантового урона</div>"
     },
     "Settings": {
       "TraitTypes": {
@@ -89,5 +91,6 @@
   },
   "COMBAT": {
     "RollsInitiative": "{name} бросает инициативу!"
-  }
+  },
+  "AreYouSure": "Вы уверенны?"
 }

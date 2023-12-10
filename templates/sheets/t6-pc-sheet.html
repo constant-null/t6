@@ -27,12 +27,12 @@
                             </div>
                             <fieldset class="t6 wounds">
                                 {{#each wounds as |dealt wound|}}
-                                <div data-tooltip="{{ localize (lookup ../woundTooltips wound)}}" class="wound">
+                                <div data-tooltip="{{ localize (lookup ../woundTooltips wound)}}{{ localize 'T6.Tooltip.RLWoundTooltip'}}" class="wound">
                                     <div class="t6 glow label {{ifThen (lookup ../linkedWounds wound) 'blue' ''}}">
                                         {{wound}}
                                     </div>
                                     <label class="t6-checkbox-container red {{ifThen (lookup ../linkedWounds wound) 'blue-border' ''}}">
-                                        <input class="checkbox" type="checkbox" name="data.wounds.received"
+                                        <input class="wound checkbox" type="checkbox" name="data.wounds.received"
                                                value="{{wound}}" {{checked dealt}}/>
                                     </label>
                                 </div>

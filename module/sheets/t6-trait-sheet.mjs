@@ -1,16 +1,10 @@
 export default class T6TraitSheet extends ItemSheet {
-    deleteEnabled = false
-    render(force = false, options = {}) {
-        this.deleteEnabled = options?.delete || false;
-        return super.render(force, options);
-    }
-
     static get defaultOptions() {
         const options = super.defaultOptions;
 
         options.template = "systems/t6/templates/sheets/t6-trait-sheet.html"
         options.classes = options.classes.concat(["t6"]);
-        options.width = 470;
+        options.width = 598;
         options.height = 470;
 
         return options;
@@ -49,7 +43,7 @@ export default class T6TraitSheet extends ItemSheet {
         context.item = this.item;
         context.data = this.item._system;
         context.types = game.settings.get('t6', 'traitTypes').split(',').map(e => e.trim())
-        context.deleteEnabled = this.deleteEnabled;
+        context.deleteEnabled = !!this.actor;
         return context;
     }
 }

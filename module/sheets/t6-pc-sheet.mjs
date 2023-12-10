@@ -23,6 +23,7 @@ export default class T6PCSheet extends ActorSheet {
         super.activateListeners(html)
 
         html.find("input.activate-trait").click(this._activateTraitClicked.bind(this));
+        html.find(".wound.checkbox").contextmenu(this._woundRightClick.bind(this))
         html.find(".t6.trait").contextmenu(this._traitContextMenu.bind(this));
         html.find(".t6.trait").click(this._traitClicked.bind(this));
         html.find(".t6.trait-x2").click(this._traitx2Clicked.bind(this));
@@ -54,6 +55,18 @@ export default class T6PCSheet extends ActorSheet {
             system: {type: group}
         }])
         newTrait[0].sheet.render(true)
+    }
+
+    async _woundRightClick(e) {
+        const checked = e.target.checked = !e.target.checked;
+        const wound =  e.target.value;
+
+        const linkedItems = this.actor.items.filter(i => i._system.linkedToWound == wound)
+        linkedItems.forEach(i => i._system.damaged = checked)
+        this.actor.updateEmbeddedDocuments("Item", linkedItems.map(i => {
+            return {_id: i.id, system: i._system};
+        }))
+        this.submit()
     }
 
     async _onSubmit(event, options) {
@@ -156,7 +169,7 @@ export default class T6PCSheet extends ActorSheet {
             return;
         }
 
-        item.sheet.render(true, {delete: true});
+        item.sheet.render(true);
     }
 
     getData(options = {}) {

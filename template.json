@@ -24,6 +24,7 @@
       "description": "",
       "type": "",
       "dice": 1,
+      "damaged": false,
       "armor": {
         "max": 0,
         "received": [],
