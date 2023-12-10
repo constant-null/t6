@@ -77,7 +77,7 @@
         "Name": "Trait Types",
         "Description": "List types of traits that used in your campaign, separated by comma",
         "Label": "Add/Remove Trait Types",
-        "Default": "Personal,History,Equipment,Cyberware,Troubles"
+        "Default": "Personal,History,Equipment,Implants,Troubles,Effects"
       },
       "Complications": {
         "Name": "Complications",
