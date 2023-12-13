@@ -20,14 +20,39 @@ export default class T6Actor extends Actor {
     async _preUpdate(data, options, user) {
         const removedWounds = this._system.wounds.received.filter(w => !!w && !data.system.wounds.received.includes(w));
         const receivedWounds = data.system.wounds?.received.filter(w => !!w && !this._system.wounds.received.includes(w)) || [];
+        const traumasEnabled = game.settings.get('t6', 'traumas')
         receivedWounds.forEach(w => {
             this._showValueChangeText(game.i18n.localize(this.woundsTooltips[w]) + ` (${w})`, true)
+            if (traumasEnabled && (this.woundsTooltips[w] === CONFIG.T6.Wound.Mortal || this.woundsTooltips[w] === CONFIG.T6.Wound.Severe)) {
+                this._rollTrauma()
+            }
         })
         removedWounds.forEach(w => {
             this._showValueChangeText(game.i18n.localize(this.woundsTooltips[w]) + ` (${w})`, false)
         })
 
         return super._preUpdate(data, options, user)
+    }
+
+    async _rollTrauma() {
+        const roll = new Roll("1d6cs>1")
+        roll.toMessage({flavor: game.i18n.localize("T6.ChatMessage.Flavors.TraumaRoll")})
+        const result = roll.terms[0].results[0].result;
+        if (result === 1) {
+            const tableId = game.settings.get('t6', 'traumasTable')
+            const traumaTable = game.tables.get(tableId);
+            const result = (await traumaTable.draw()).results[0];
+            let trauma;
+            if (result.type === CONST.TABLE_RESULT_TYPES.COMPENDIUM) {
+                const pack = game.packs.get(result.documentCollection);
+                trauma = await pack.getDocument(result.documentId)
+            } else if (result.type === CONST.TABLE_RESULT_TYPES.DOCUMENT) {
+                trauma = await game.items.get(result.documentId)
+            } else {
+                return;
+            }
+            await this.createEmbeddedDocuments('Item', [trauma])
+        }
     }
 
     _onUpdate(data, options, userId) {
@@ -38,7 +63,12 @@ export default class T6Actor extends Actor {
     _showValueChangeText(wound, received, stroke = 0x000000) {
         const tokens = this.isToken ? [this.token?.object] : this.getActiveTokens(true);
         T6Actor.showValueChangeText(tokens, wound, received, stroke);
-        Socket.emit("tokensAttributeChange", { tokens: tokens.map(t => t.id), wound: wound, received: received, stroke: stroke });
+        Socket.emit("tokensAttributeChange", {
+            tokens: tokens.map(t => t.id),
+            wound: wound,
+            received: received,
+            stroke: stroke
+        });
     }
 
     static listenWoundChange() {
@@ -99,24 +129,26 @@ export default class T6Actor extends Actor {
         this.woundsTooltips = {}
         const rWounds = Object.keys(this.wounds).reverse();
         for (let i = 0; i <= rWounds.length - 1; i++) {
-            this.woundsTooltips[rWounds[i]] = game.i18n.localize(CONFIG.T6.woundNames[i]);
+            this.woundsTooltips[rWounds[i]] = CONFIG.T6.WoundNames[i];
         }
 
         this.armor = this._equipArmor()
 
         this.system.woundsBar = {
-            value: this.wounds[wounds.max] ? 0 : wounds.max/2-Object.values(this.wounds).filter(w => w).length,
-            max: wounds.max/2
+            value: this.wounds[wounds.max] ? 0 : wounds.max / 2 - Object.values(this.wounds).filter(w => w).length,
+            max: wounds.max / 2
         }
     }
 
     async dealDamage(dmg) {
         if (this.isDefeated) return;
         let wounds = this.system.wounds.received.filter(w => !!w);
-        dmg = Math.ceil(dmg/2)*2;
+        dmg = Math.ceil(dmg / 2) * 2;
         while (wounds.includes(`${dmg}`)) dmg += 2;
         wounds.push(`${dmg}`)
-        await this.update({system:{wounds:{received:wounds}}})
+        await this.update({system: {wounds: {received: wounds}}})
+
+        await game.tables.get("7L87EuWElKmwg6KS").draw()
     }
 
     _prepareWounds(wounds) {

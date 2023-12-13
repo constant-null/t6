@@ -91,7 +91,7 @@ export default class T6ChatMessage extends ChatMessage {
             selectedTraits: this.selectedTraits,
             totalDamage: totalDamage,
             armor: this.speakerActor?.equippedArmor,
-            total: isPrivate ? "?" : Math.round(roll.total * 100) / 100,
+            total: isPrivate ? "?" : (roll._formula === "1d6cs>1" ? roll.terms[0].results[0].result : Math.round(roll.total * 100) / 100),
             complication: this._checkForComplications(roll)
         };
 

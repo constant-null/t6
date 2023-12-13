@@ -378,3 +378,12 @@ select.t6 option {
 .t6.roll-against-label {
     margin-right: 5px;
 }
+
+.t6 a.content-link {
+    background-color: transparent;
+    border: 1px solid #00cd00;
+}
+
+.t6 a.content-link i, a.inline-roll i {
+    color: #00cd00;
+}
