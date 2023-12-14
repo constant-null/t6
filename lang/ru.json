@@ -76,7 +76,7 @@
         "Mild": "Средняя",
         "Light": "Легкая"
       },
-      "RLWoundTooltip": "<div class=\"t6 wound-tooltip\"><u>Левый клик</u> для отметки обычной раны<br/><u>Правый клик</u> для отметки квантового урона</div>"
+      "RLWoundTooltip": "<div class=\"t6 wound-tooltip\"><u>Левый клик</u> для отметки обычной раны<br/><u>Правый клик</u> для отметки урона от взлома</div>"
     },
     "Settings": {
       "TraitTypes": {

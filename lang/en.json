@@ -73,7 +73,7 @@
         "Mild": "Mild",
         "Light": "Light"
       },
-      "RLWoundTooltip": "<div class=\"t6 wound-tooltip\"><u>Left click</u> to mark regular wound<br/><u>Right click</u> to mark quantum damage</div>"
+      "RLWoundTooltip": "<div class=\"t6 wound-tooltip\"><u>Left click</u> to mark regular wound<br/><u>Right click</u> to mark hacking damage</div>"
     },
     "Settings": {
       "TraitTypes": {
