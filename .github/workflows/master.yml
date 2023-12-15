@@ -28,8 +28,9 @@ jobs:
           echo "RELEASE_INSTALL_URL=https://github.com/${{github.repository}}/releases/download/$TAG/system.json" >> $GITHUB_STATE
           JSON=$(cat ./system.json)
           echo ::set-output name=SYSTEM_JSON::${JSON//'%'/'%25'}
+
       - name: Adjust manifest
-        uses: joshlrogers/variable-substitution@v1.1
+        uses: joshlrogers/variable-substitution@v1.1.5
         with:
           files: "system.json"
         env:
