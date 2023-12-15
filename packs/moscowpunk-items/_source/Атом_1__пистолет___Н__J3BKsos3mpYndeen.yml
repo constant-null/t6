@@ -1,0 +1,39 @@
+folder: liKGzf5rlJZErmxJ
+name: Атом-1 (пистолет) (Н)
+type: trait
+_id: J3BKsos3mpYndeen
+img: systems/t6/assets/icons/weapons/pistol-gun.svg
+system:
+  description: >-
+    <h3>Характеристики</h3><p><strong>Руки:</strong>
+    1</p><p><strong>Дистанция:</strong> 12</p><p><strong>Шум:</strong>
+    Громкий</p><p>Боеприпасы: А-Ячейка</p><p><strong>Цена:</strong>
+    150.000р</p><p></p><h3>Информация</h3><p></p>
+  type: Имущество
+  dice: 1
+  damaged: false
+  armor:
+    max: 0
+    received: []
+    protection: 0
+  linkedToWound: 0
+  active: true
+  uses:
+    value: 15
+    max: 15
+  damage: 4
+effects: []
+flags: {}
+_stats:
+  systemId: t6
+  systemVersion: 1.2.0
+  coreVersion: '11.315'
+  createdTime: 1702571932863
+  modifiedTime: 1702658484892
+  lastModifiedBy: 6fzdJDn0QE2JU4FT
+sort: 0
+ownership:
+  default: 0
+  6fzdJDn0QE2JU4FT: 3
+_key: '!items!J3BKsos3mpYndeen'
+

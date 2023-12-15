@@ -1,0 +1,17 @@
+name: Энергетическое
+sorting: m
+folder: 5mCgvaUAu6FdTBvW
+type: Item
+_id: liKGzf5rlJZErmxJ
+sort: 300000
+color: '#2358af'
+flags: {}
+_stats:
+  systemId: t6
+  systemVersion: 1.2.0
+  coreVersion: '11.315'
+  createdTime: 1702566366653
+  modifiedTime: 1702658484753
+  lastModifiedBy: 6fzdJDn0QE2JU4FT
+_key: '!folders!liKGzf5rlJZErmxJ'
+

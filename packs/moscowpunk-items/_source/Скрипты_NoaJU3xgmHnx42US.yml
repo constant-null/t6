@@ -1,0 +1,17 @@
+name: Скрипты
+sorting: m
+folder: 0BP0WIEaiXt34nOD
+type: Item
+_id: NoaJU3xgmHnx42US
+sort: 167188
+color: '#007c85'
+flags: {}
+_stats:
+  systemId: t6
+  systemVersion: 1.2.0
+  coreVersion: '11.315'
+  createdTime: 1702642082720
+  modifiedTime: 1702658484753
+  lastModifiedBy: 6fzdJDn0QE2JU4FT
+_key: '!folders!NoaJU3xgmHnx42US'
+

@@ -1,0 +1,17 @@
+name: Гражданские
+sorting: a
+folder: null
+type: Actor
+_id: 7Yq7kLKTTms0oLqC
+sort: 100000
+color: null
+flags: {}
+_stats:
+  systemId: t6
+  systemVersion: 1.2.0
+  coreVersion: '11.315'
+  createdTime: 1702665445694
+  modifiedTime: 1702667264043
+  lastModifiedBy: 6fzdJDn0QE2JU4FT
+_key: '!folders!7Yq7kLKTTms0oLqC'
+

@@ -1,0 +1,40 @@
+folder: 634wba5iX3gqLrSx
+name: Автомат Горбачева (АГ) (Н)
+type: trait
+img: systems/t6/assets/icons/weapons/ak47u.svg
+system:
+  description: >-
+    <h3>Характеристики</h3><p><strong>Руки:</strong>
+    2</p><p><strong>Дистанция:</strong> 20</p><p><strong>Шум:</strong>
+    Громкий</p><p>Боеприпасы: Винтовочные</p><p><strong>Цена:</strong>
+    90.000р</p><p>*Автоматический огонь</p><p></p><h3>Информация</h3><p></p>
+  type: Имущество
+  dice: 0
+  damaged: false
+  armor:
+    max: 0
+    received: []
+    protection: 0
+  linkedToWound: 0
+  active: true
+  uses:
+    value: 40
+    max: 40
+  damage: 7
+effects: []
+flags:
+  core: {}
+_stats:
+  systemId: t6
+  systemVersion: 1.2.0
+  coreVersion: '11.315'
+  createdTime: 1702569837358
+  modifiedTime: 1702658484892
+  lastModifiedBy: 6fzdJDn0QE2JU4FT
+_id: GMso2URAwXgp4Xzg
+sort: 0
+ownership:
+  default: 0
+  6fzdJDn0QE2JU4FT: 3
+_key: '!items!GMso2URAwXgp4Xzg'
+

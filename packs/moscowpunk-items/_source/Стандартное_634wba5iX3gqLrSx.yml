@@ -1,0 +1,17 @@
+name: Стандартное
+sorting: m
+folder: 5mCgvaUAu6FdTBvW
+type: Item
+_id: 634wba5iX3gqLrSx
+sort: 100000
+color: '#292929'
+flags: {}
+_stats:
+  systemId: t6
+  systemVersion: 1.2.0
+  coreVersion: '11.315'
+  createdTime: 1702566312006
+  modifiedTime: 1702658484753
+  lastModifiedBy: 6fzdJDn0QE2JU4FT
+_key: '!folders!634wba5iX3gqLrSx'
+

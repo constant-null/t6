@@ -1,0 +1,37 @@
+folder: pS96OAflmiyvgtP1
+name: Граната
+type: trait
+_id: KNn3NS7yZEQm3Ts1
+img: systems/t6/assets/icons/weapons/flash-grenade.svg
+system:
+  description: >-
+    <h3>Характеристики</h3><p>Радиус: 2</p><p>Цена:
+    1.000р</p><p></p><h3>Информация</h3><p>Обычная граната</p>
+  type: Имущество
+  dice: 0
+  damaged: false
+  armor:
+    max: 0
+    received: []
+    protection: 0
+  linkedToWound: 0
+  active: true
+  uses:
+    value: 1
+    max: 1
+  damage: 8
+effects: []
+flags: {}
+_stats:
+  systemId: t6
+  systemVersion: 1.2.0
+  coreVersion: '11.315'
+  createdTime: 1702579030940
+  modifiedTime: 1702658484892
+  lastModifiedBy: 6fzdJDn0QE2JU4FT
+sort: 0
+ownership:
+  default: 0
+  6fzdJDn0QE2JU4FT: 3
+_key: '!items!KNn3NS7yZEQm3Ts1'
+

@@ -1,0 +1,38 @@
+folder: 5e53JiykVmi4fLO4
+name: АтомСтрах Контроллер
+type: trait
+img: systems/t6/assets/icons/software/cyber-brain.svg
+system:
+  description: >-
+    <h3>Характеристики</h3><p>Защита: Средняя</p><p>Версия Софта:
+    Проприетарная</p><p>Цена: 1.500.000р</p><p></p><h3>Информация</h3><p>Софт
+    для контрольного чипа, слушает сигналы мозга и передает их имплантам.</p>
+  type: Софт
+  dice: 0
+  damaged: false
+  armor:
+    max: 0
+    received: []
+    protection: 0
+  linkedToWound: 0
+  active: true
+  uses:
+    value: 0
+    max: 0
+  damage: 0
+effects: []
+flags: {}
+_stats:
+  systemId: t6
+  systemVersion: 1.2.0
+  coreVersion: '11.315'
+  createdTime: 1702588178426
+  modifiedTime: 1702658484892
+  lastModifiedBy: 6fzdJDn0QE2JU4FT
+_id: pHW7JvRUkc4UVFNb
+sort: 0
+ownership:
+  default: 0
+  6fzdJDn0QE2JU4FT: 3
+_key: '!items!pHW7JvRUkc4UVFNb'
+

@@ -1,0 +1,35 @@
+folder: NoaJU3xgmHnx42US
+name: Скопировать Данные
+type: trait
+img: systems/t6/assets/icons/software/script-file.svg
+system:
+  description: '<h3>Характеристики</h3><p>Цена: 50.000р</p><p></p><h3>Информация</h3><p></p>'
+  type: Софт
+  dice: 0
+  damaged: false
+  armor:
+    max: 0
+    received: []
+    protection: 0
+  linkedToWound: 0
+  active: true
+  uses:
+    value: 0
+    max: 0
+  damage: 0
+effects: []
+flags: {}
+_stats:
+  systemId: t6
+  systemVersion: 1.2.0
+  coreVersion: '11.315'
+  createdTime: 1702642121767
+  modifiedTime: 1702658485004
+  lastModifiedBy: 6fzdJDn0QE2JU4FT
+_id: viC6tnSLmxwA3WNY
+sort: 0
+ownership:
+  default: 0
+  6fzdJDn0QE2JU4FT: 3
+_key: '!items!viC6tnSLmxwA3WNY'
+

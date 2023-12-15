@@ -1,0 +1,39 @@
+folder: 634wba5iX3gqLrSx
+name: Пистолет Сергеева (ПС-9)
+type: trait
+_id: iFKY59hyZC3J2fER
+img: systems/t6/assets/icons/weapons/pistol-gun.svg
+system:
+  description: >-
+    <h3>Характеристики</h3><p><strong>Руки:</strong>
+    1</p><p><strong>Дистанция:</strong> 8</p><p><strong>Шум:</strong>
+    Тихий</p><p>Боеприпасы: Пистолетные</p><p><strong>Цена:</strong>
+    60.000р</p><p></p><h3>Информация</h3><p></p>
+  type: Имущество
+  dice: 0
+  damaged: false
+  armor:
+    max: 0
+    received: []
+    protection: 0
+  linkedToWound: 0
+  active: true
+  uses:
+    value: 12
+    max: 12
+  damage: 2
+effects: []
+flags: {}
+_stats:
+  systemId: t6
+  systemVersion: 1.2.0
+  coreVersion: '11.315'
+  createdTime: 1702566821282
+  modifiedTime: 1702658484892
+  lastModifiedBy: 6fzdJDn0QE2JU4FT
+sort: 0
+ownership:
+  default: 0
+  6fzdJDn0QE2JU4FT: 3
+_key: '!items!iFKY59hyZC3J2fER'
+

@@ -1,0 +1,44 @@
+folder: OADeljh6xRIxJoSL
+name: УРК-1 (Ускоритель Рогунина Компактный) (Н)
+type: trait
+img: systems/t6/assets/icons/weapons/pistol-gun.svg
+system:
+  description: >-
+    <h3>Характеристики</h3><p><strong>Руки:</strong>
+    1</p><p><strong>Дистанция:</strong> 8</p><p><strong>Шум:</strong>
+    Громкий</p><p>Боеприпасы: Батарея</p><p><strong>Цена:</strong>
+    60.000р</p><p></p><h3>Информация</h3><div class="page" title="Page 3"><div
+    class="section"><div class="layoutArea"><div class="column"><p><span
+    style="font-family: 'Calibri'"><em>Первая серия ускорителей Рогунина. Имеет
+    механизм раскручивания снарядов, что увеличивает дальность и точность, но
+    может приводить к сбоям при
+    использовании</em></span></p></div></div></div></div>
+  type: Имущество
+  dice: 1
+  damaged: false
+  armor:
+    max: 0
+    received: []
+    protection: 0
+  linkedToWound: 0
+  active: true
+  uses:
+    value: 20
+    max: 20
+  damage: 3
+effects: []
+flags: {}
+_stats:
+  systemId: t6
+  systemVersion: 1.2.0
+  coreVersion: '11.315'
+  createdTime: 1702568442784
+  modifiedTime: 1702658484892
+  lastModifiedBy: 6fzdJDn0QE2JU4FT
+_id: 2V1WxIuX8IK9doBB
+sort: 0
+ownership:
+  default: 0
+  6fzdJDn0QE2JU4FT: 3
+_key: '!items!2V1WxIuX8IK9doBB'
+

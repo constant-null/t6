@@ -1,0 +1,17 @@
+name: Импланты
+sorting: m
+folder: null
+type: Item
+_id: xpiypRVPfjTfygCY
+sort: -50000
+color: '#a3a3a3'
+flags: {}
+_stats:
+  systemId: t6
+  systemVersion: 1.2.0
+  coreVersion: '11.315'
+  createdTime: 1702584326975
+  modifiedTime: 1702658484753
+  lastModifiedBy: 6fzdJDn0QE2JU4FT
+_key: '!folders!xpiypRVPfjTfygCY'
+
