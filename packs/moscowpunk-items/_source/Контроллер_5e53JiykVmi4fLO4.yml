@@ -1,0 +1,17 @@
+name: Контроллер
+sorting: m
+folder: 0BP0WIEaiXt34nOD
+type: Item
+_id: 5e53JiykVmi4fLO4
+sort: 150000
+color: '#003c8a'
+flags: {}
+_stats:
+  systemId: t6
+  systemVersion: 1.1.1
+  coreVersion: '11.315'
+  createdTime: 1702588110907
+  modifiedTime: 1702590988615
+  lastModifiedBy: 6fzdJDn0QE2JU4FT
+_key: '!folders!5e53JiykVmi4fLO4'
+

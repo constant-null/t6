@@ -1,0 +1,38 @@
+folder: xpiypRVPfjTfygCY
+name: Рука «Левша»
+type: trait
+img: systems/t6/assets/icons/implants/mechanical-arm.svg
+system:
+  description: >-
+    <h3>Характеристики</h3><p>Цена:
+    250.000р</p><p></p><h3>Информация</h3><p>Дает бонусы к действиям требующим
+    сноровки и ловкости</p>
+  type: Импланты
+  dice: 2
+  damaged: false
+  armor:
+    max: 0
+    received: []
+    protection: 0
+  linkedToWound: 4
+  active: true
+  uses:
+    value: 0
+    max: 0
+  damage: 0
+effects: []
+flags: {}
+_stats:
+  systemId: t6
+  systemVersion: 1.1.1
+  coreVersion: '11.315'
+  createdTime: 1702584354743
+  modifiedTime: 1702590988667
+  lastModifiedBy: 6fzdJDn0QE2JU4FT
+_id: YyegEpgLGdOd5ArA
+sort: 0
+ownership:
+  default: 0
+  6fzdJDn0QE2JU4FT: 3
+_key: '!items!YyegEpgLGdOd5ArA'
+

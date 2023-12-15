@@ -23,7 +23,7 @@
     "trait": {
       "description": "",
       "type": "",
-      "dice": 1,
+      "dice": 0,
       "damaged": false,
       "armor": {
         "max": 0,

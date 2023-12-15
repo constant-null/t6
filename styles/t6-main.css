@@ -7,6 +7,10 @@
     font-family: bedstead;
 }
 
+.t6 h1, h2, h3, h4 {
+    border-color: #00cd00;
+}
+
 input.t6:hover, button.t6:hover {
     box-shadow: none;
 }

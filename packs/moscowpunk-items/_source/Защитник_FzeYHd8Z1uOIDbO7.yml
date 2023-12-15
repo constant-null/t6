@@ -1,0 +1,17 @@
+name: Защитник
+sorting: m
+folder: 0BP0WIEaiXt34nOD
+type: Item
+_id: FzeYHd8Z1uOIDbO7
+sort: 162500
+color: '#008060'
+flags: {}
+_stats:
+  systemId: t6
+  systemVersion: 1.1.1
+  coreVersion: '11.315'
+  createdTime: 1702590202089
+  modifiedTime: 1702590988615
+  lastModifiedBy: 6fzdJDn0QE2JU4FT
+_key: '!folders!FzeYHd8Z1uOIDbO7'
+

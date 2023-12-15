@@ -1,0 +1,17 @@
+name: Электромагнитное
+sorting: m
+folder: 5mCgvaUAu6FdTBvW
+type: Item
+_id: OADeljh6xRIxJoSL
+sort: 150000
+color: '#3d9399'
+flags: {}
+_stats:
+  systemId: t6
+  systemVersion: 1.1.1
+  coreVersion: '11.315'
+  createdTime: 1702566327187
+  modifiedTime: 1702590988615
+  lastModifiedBy: 6fzdJDn0QE2JU4FT
+_key: '!folders!OADeljh6xRIxJoSL'
+

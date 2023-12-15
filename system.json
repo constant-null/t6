@@ -2,7 +2,7 @@
   "id": "t6",
   "title": "T6 System",
   "description": "FoundryVTT official T6 system",
-  "version": "1.1.1",
+  "version": "1.2.0",
   "compatibility": {
     "minimum": "10",
     "verified": "11",
@@ -27,13 +27,15 @@
   ],
   "packs": [
     {
-      "name": "monsters",
-      "label": "My Monsters",
+      "name": "moscowpunk-enemies",
+      "label": "МоскваПанк Противники",
+      "system": "t6",
       "type": "Actor"
     },
     {
-      "name": "items",
-      "label": "My Items",
+      "name": "moscowpunk-items",
+      "label": "МоскваПанк Предметы",
+      "system": "t6",
       "type": "Item"
     }
   ],
@@ -57,6 +59,6 @@
   "secondaryTokenAttribute": "resources.power",
   "url": "https://your/hosted/system/repo/",
   "background": "systems/t6/assets/sheet/background.gif",
-  "manifest": "https://raw.githubusercontent.com/constant-null/t6/master/system.json",
+  "manifest": "https://github.com/constant-null/t6/releases/latest/download/system.json",
   "download": "https://github.com/constant-null/t6/archive/refs/heads/master.zip"
 }

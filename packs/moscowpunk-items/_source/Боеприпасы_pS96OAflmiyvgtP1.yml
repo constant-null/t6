@@ -1,0 +1,17 @@
+name: Боеприпасы
+sorting: m
+folder: OQWPTA81bnkzeWBc
+type: Item
+_id: pS96OAflmiyvgtP1
+sort: -100000
+color: '#212121'
+flags: {}
+_stats:
+  systemId: t6
+  systemVersion: 1.1.1
+  coreVersion: '11.315'
+  createdTime: 1702573710568
+  modifiedTime: 1702590988615
+  lastModifiedBy: 6fzdJDn0QE2JU4FT
+_key: '!folders!pS96OAflmiyvgtP1'
+

@@ -1,3 +1,11 @@
 .idea
 app
-packs
+
+packs/**/*.log
+packs/**/*.old
+packs/**/*.ldb
+packs/**/LOCK
+packs/**/MANIFEST
+packs/**/CURRENT
+packs/**/LOG
+packs/**/MANIFEST-*

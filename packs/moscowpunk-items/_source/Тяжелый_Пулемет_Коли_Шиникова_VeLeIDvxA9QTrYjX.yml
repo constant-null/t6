@@ -1,0 +1,40 @@
+folder: 634wba5iX3gqLrSx
+name: Тяжелый Пулемет Коли Шиникова
+type: trait
+img: systems/t6/assets/icons/weapons/minigun.svg
+system:
+  description: >-
+    <h3>Характеристики</h3><p><strong>Руки:</strong>
+    2</p><p><strong>Дистанция:</strong> 20</p><p><strong>Шум:</strong>
+    Громкая</p><p>Боеприпасы: Винтовочные</p><p><strong>Цена:</strong>
+    400.000р</p><p>*Всегда автоматический</p><p></p><h3>Информация</h3><p></p>
+  type: Имущество
+  dice: 2
+  damaged: false
+  armor:
+    max: 0
+    received: []
+    protection: 0
+  linkedToWound: 0
+  active: true
+  uses:
+    value: 10
+    max: 10
+  damage: 6
+effects: []
+flags:
+  core: {}
+_stats:
+  systemId: t6
+  systemVersion: 1.1.1
+  coreVersion: '11.315'
+  createdTime: 1702569837358
+  modifiedTime: 1702590988667
+  lastModifiedBy: 6fzdJDn0QE2JU4FT
+_id: VeLeIDvxA9QTrYjX
+sort: 0
+ownership:
+  default: 0
+  6fzdJDn0QE2JU4FT: 3
+_key: '!items!VeLeIDvxA9QTrYjX'
+

@@ -1,0 +1,17 @@
+name: Демон
+sorting: m
+folder: 0BP0WIEaiXt34nOD
+type: Item
+_id: f231CkBZd8K8EzPE
+sort: 100000
+color: '#262626'
+flags: {}
+_stats:
+  systemId: t6
+  systemVersion: 1.1.1
+  coreVersion: '11.315'
+  createdTime: 1702589548025
+  modifiedTime: 1702590988615
+  lastModifiedBy: 6fzdJDn0QE2JU4FT
+_key: '!folders!f231CkBZd8K8EzPE'
+

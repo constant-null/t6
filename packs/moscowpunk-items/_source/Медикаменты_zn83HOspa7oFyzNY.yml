@@ -1,0 +1,17 @@
+name: Медикаменты
+sorting: m
+folder: null
+type: Item
+_id: zn83HOspa7oFyzNY
+sort: -75000
+color: '#0a9400'
+flags: {}
+_stats:
+  systemId: t6
+  systemVersion: 1.1.1
+  coreVersion: '11.315'
+  createdTime: 1702582366079
+  modifiedTime: 1702590988615
+  lastModifiedBy: 6fzdJDn0QE2JU4FT
+_key: '!folders!zn83HOspa7oFyzNY'
+
