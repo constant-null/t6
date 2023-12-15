@@ -42,8 +42,8 @@ jobs:
           RELEASE_DOWNLOAD: ${{steps.get_vars.outputs.RELEASE_DOWNLOAD_URL}}
         run: |
           JSON=$(cat ./system.json)
-          PACKAGE_VERSION=${{fromJSON(JSON).version}}
-          PACKAGE_DOWNLOAD=${{fromJSON(JSON).download}}
+          PACKAGE_VERSION=${{fromJSON($JSON).version}}
+          PACKAGE_DOWNLOAD=${{fromJSON($JSON).download}}
           # Validate that the tag being released matches the package version.
           if [[ ! $TAG_NAME == $PACKAGE_VERSION ]]; then
             echo "The system.json version does not match tag name."
