@@ -27,13 +27,15 @@
   ],
   "packs": [
     {
-      "name": "monsters",
-      "label": "My Monsters",
+      "name": "moscowpunk-enemies",
+      "label": "МоскваПанк Противники",
+      "system": "t6",
       "type": "Actor"
     },
     {
-      "name": "items",
-      "label": "My Items",
+      "name": "moscowpunk-items",
+      "label": "МоскваПанк Предметы",
+      "system": "t6",
       "type": "Item"
     }
   ],

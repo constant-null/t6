@@ -1,0 +1,40 @@
+folder: 634wba5iX3gqLrSx
+name: Тактическая Винтовка (СВР-Т)
+type: trait
+img: systems/t6/assets/icons/weapons/rifle-gun.svg
+system:
+  description: >-
+    <h3>Характеристики</h3><p><strong>Руки:</strong>
+    2</p><p><strong>Дистанция:</strong> 25</p><p><strong>Шум:</strong>
+    Тихий</p><p>Боеприпасы: Винтовочные</p><p><strong>Цена:</strong>
+    250.000р</p><p></p><h3>Информация</h3><p></p>
+  type: Имущество
+  dice: 0
+  damaged: false
+  armor:
+    max: 0
+    received: []
+    protection: 0
+  linkedToWound: 0
+  active: true
+  uses:
+    value: 10
+    max: 10
+  damage: 7
+effects: []
+flags:
+  core: {}
+_stats:
+  systemId: t6
+  systemVersion: 1.1.1
+  coreVersion: '11.315'
+  createdTime: 1702569837358
+  modifiedTime: 1702590988667
+  lastModifiedBy: 6fzdJDn0QE2JU4FT
+_id: gn3naz60eqbprR8f
+sort: 0
+ownership:
+  default: 0
+  6fzdJDn0QE2JU4FT: 3
+_key: '!items!gn3naz60eqbprR8f'
+

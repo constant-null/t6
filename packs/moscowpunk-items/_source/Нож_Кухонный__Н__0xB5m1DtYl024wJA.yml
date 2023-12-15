@@ -1,0 +1,37 @@
+folder: D5kfjI8060HBpqyp
+name: Нож Кухонный (Н)
+type: trait
+_id: 0xB5m1DtYl024wJA
+img: systems/t6/assets/icons/weapons/kitchen-knives.svg
+system:
+  description: >-
+    <h3>Характеристики</h3><p>Руки: 1</p><p>Цена:
+    500р</p><p></p><h3>Информация</h3><p>Обычный кухонный нож</p>
+  type: Имущество
+  dice: 0
+  damaged: false
+  armor:
+    max: 0
+    received: []
+    protection: 0
+  linkedToWound: 0
+  active: true
+  uses:
+    value: 0
+    max: 0
+  damage: 1
+effects: []
+flags: {}
+_stats:
+  systemId: t6
+  systemVersion: 1.1.1
+  coreVersion: '11.315'
+  createdTime: 1702579669263
+  modifiedTime: 1702590988667
+  lastModifiedBy: 6fzdJDn0QE2JU4FT
+sort: 0
+ownership:
+  default: 0
+  6fzdJDn0QE2JU4FT: 3
+_key: '!items!0xB5m1DtYl024wJA'
+
