@@ -1,0 +1,17 @@
+name: Экслойт
+sorting: m
+folder: 0BP0WIEaiXt34nOD
+type: Item
+_id: hMgNUhh4RmNA143M
+sort: 166407
+color: null
+flags: {}
+_stats:
+  systemId: t6
+  systemVersion: 1.1.1
+  coreVersion: '11.315'
+  createdTime: 1702640923763
+  modifiedTime: 1702643913723
+  lastModifiedBy: 6fzdJDn0QE2JU4FT
+_key: '!folders!hMgNUhh4RmNA143M'
+

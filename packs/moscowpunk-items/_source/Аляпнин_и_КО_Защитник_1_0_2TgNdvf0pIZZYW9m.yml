@@ -7,7 +7,7 @@ system:
     <h3>Характеристики</h3><p>Защита: Слабая</p><p>Цена:
     100.000р</p><p></p><h3>Информация</h3><p>Софт для управления доступом людей
     к системам</p>
-  type: Личные
+  type: Софт
   dice: 0
   damaged: false
   armor:
@@ -28,7 +28,7 @@ _stats:
   systemVersion: 1.1.1
   coreVersion: '11.315'
   createdTime: 1702589579734
-  modifiedTime: 1702590988667
+  modifiedTime: 1702643913782
   lastModifiedBy: 6fzdJDn0QE2JU4FT
 _id: 2TgNdvf0pIZZYW9m
 sort: 0

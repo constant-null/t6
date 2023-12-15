@@ -1,0 +1,38 @@
+folder: 6dbdWuP0PPsA9BqV
+name: Рация
+type: trait
+img: systems/t6/assets/icons/gear/headset.svg
+system:
+  description: >-
+    <h3>Характеристики</h3><p>Цена:
+    200.000р</p><p></p><h3>Информация</h3><p>Компактная квантовая рация, заряда
+    хватает на 3 часа. Софт Защитник в комплект не входит!</p>
+  type: Имущество
+  dice: 0
+  damaged: false
+  armor:
+    max: 2
+    received: []
+    protection: 0
+  linkedToWound: 0
+  active: true
+  uses:
+    value: 0
+    max: 0
+  damage: 0
+effects: []
+flags: {}
+_stats:
+  systemId: t6
+  systemVersion: 1.1.1
+  coreVersion: '11.315'
+  createdTime: 1702642690554
+  modifiedTime: 1702643913782
+  lastModifiedBy: 6fzdJDn0QE2JU4FT
+_id: ipRiLrbOsYZBNJUr
+sort: 0
+ownership:
+  default: 0
+  6fzdJDn0QE2JU4FT: 3
+_key: '!items!ipRiLrbOsYZBNJUr'
+

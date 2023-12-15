@@ -1,0 +1,39 @@
+folder: hMgNUhh4RmNA143M
+name: Экплойт для Контроллера 1.0
+type: trait
+img: systems/t6/assets/icons/software/virus.svg
+system:
+  description: >-
+    <h3>Характеристики</h3><p>Цена:
+    800.000р</p><p></p><h3>Информация</h3><p>Универсальный экплойт для
+    стандартных Контроллеров</p>
+  type: Софт
+  dice: 0
+  damaged: false
+  armor:
+    max: 0
+    received: []
+    protection: 0
+  linkedToWound: 0
+  active: true
+  uses:
+    value: 0
+    max: 0
+  damage: 0
+effects: []
+flags:
+  core: {}
+_stats:
+  systemId: t6
+  systemVersion: 1.1.1
+  coreVersion: '11.315'
+  createdTime: 1702589579734
+  modifiedTime: 1702643913782
+  lastModifiedBy: 6fzdJDn0QE2JU4FT
+_id: JOypuoHNxY4Yw4vi
+sort: 0
+ownership:
+  default: 0
+  6fzdJDn0QE2JU4FT: 3
+_key: '!items!JOypuoHNxY4Yw4vi'
+
