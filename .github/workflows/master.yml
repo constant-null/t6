@@ -68,6 +68,11 @@ jobs:
             exit 1
           fi
 
+      # `npm ci` is recommended:
+      # https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-nodejs
+      - name: Install Dependencies
+        run: npm ci
+
       - name: Build All
         run: npm run build:pack
       # Create a zip file with all files required by the module to add to the release
