@@ -1,6 +1,9 @@
 name: Release Creation
 
-on: push
+on:
+  push:
+    tags:
+      - '*'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -22,12 +25,12 @@ jobs:
           echo "TAG_NAME=$TAG" >> $GITHUB_STATE
           echo "ZIP_NAME=t6-$TAG.zip" >> $GITHUB_STATE
           echo "RELEASE_DOWNLOAD_URL=https://github.com/${{github.repository}}/releases/download/$TAG/t6-$TAG.zip" >> $GITHUB_STATE
-          echo "RELEASE_INSTALL_URL::https://github.com/${{github.repository}}/releases/download/$TAG/system.json" >> $GITHUB_STATE
+          echo "RELEASE_INSTALL_URL=https://github.com/${{github.repository}}/releases/download/$TAG/system.json" >> $GITHUB_STATE
           JSON=$(cat ./system.json)
           echo "SYSTEM_JSON=${JSON//'%'/'%25'}" >> $GITHUB_STATE
 
       - name: Adjust manifest
-        uses: microsoft/variable-substitution@v1
+        uses: joshlrogers/variable-substitution@v1.1
         with:
           files: "system.json"
         env:
