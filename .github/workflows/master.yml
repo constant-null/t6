@@ -36,14 +36,18 @@ jobs:
         env:
           download: ${{steps.get_vars.outputs.RELEASE_DOWNLOAD_URL}}
 
+      - name: Read adjusted manifest
+        id: read_manifest
+        run: echo "MANIFEST_JSON=${JSON//'%'/'%25'}}" >> $GITHUB_OUTPUT
+
       # Run some tests to make sure our `system.json` is correct
       # Exit before setting up node if not
       - name: Verify correct naming
         env:
           TAG_NAME: ${{ steps.get_vars.outputs.TAG_NAME }}
           RELEASE_DOWNLOAD: ${{steps.get_vars.outputs.RELEASE_DOWNLOAD_URL}}
-          PACKAGE_VERSION: ${{fromJSON(steps.get_vars.outputs.SYSTEM_JSON).version}}
-          PACKAGE_DOWNLOAD: ${{fromJSON(steps.get_vars.outputs.SYSTEM_JSON).download}}
+          PACKAGE_VERSION: ${{fromJSON(steps.read_manifest.outputs.MANIFEST_JSON).version}}
+          PACKAGE_DOWNLOAD: ${{fromJSON(steps.read_manifest.outputs.MANIFEST_JSON).download}}
         run: |
           # Validate that the tag being released matches the package version.
           if [[ ! $TAG_NAME == $PACKAGE_VERSION ]]; then
