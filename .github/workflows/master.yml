@@ -22,10 +22,10 @@ jobs:
         id: get_vars
         run: |
           TAG=${GITHUB_REF/refs\/tags\//}
-          echo "TAG_NAME=$TAG" >> $GITHUB_STATE
-          echo "ZIP_NAME=t6-$TAG.zip" >> $GITHUB_STATE
-          echo "RELEASE_DOWNLOAD_URL=https://github.com/${{github.repository}}/releases/download/$TAG/t6-$TAG.zip" >> $GITHUB_STATE
-          echo "RELEASE_INSTALL_URL=https://github.com/${{github.repository}}/releases/download/$TAG/system.json" >> $GITHUB_STATE
+          echo "TAG_NAME=$TAG" >> $GITHUB_OUTPUT
+          echo "ZIP_NAME=t6-$TAG.zip" >> $GITHUB_OUTPUT
+          echo "RELEASE_DOWNLOAD_URL=https://github.com/${{github.repository}}/releases/download/$TAG/t6-$TAG.zip" >> $GITHUB_OUTPUT
+          echo "RELEASE_INSTALL_URL=https://github.com/${{github.repository}}/releases/download/$TAG/system.json" >> $GITHUB_OUTPUT
           JSON=$(cat ./system.json)
           echo ::set-output name=SYSTEM_JSON::${JSON//'%'/'%25'}
 
