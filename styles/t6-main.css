@@ -52,6 +52,7 @@ input.t6:active, button.t6:active {
     white-space: nowrap;
     font-size: x-large;
     margin-bottom: 6px;
+    line-height: 24px;
 }
 
 .t6.long-input {

@@ -2,7 +2,7 @@ import Socket from "../sockets/socket.mjs";
 
 export default class T6Actor extends Actor {
     static async create(data, options) {
-        if (!data instanceof T6Actor) {
+        if (!(data instanceof T6Actor)) {
             data.token = {
                 actorLink: data.type !== "npc",
                 disposition: data.type !== "npc" ? 1 : -1,

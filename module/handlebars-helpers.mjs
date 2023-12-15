@@ -62,6 +62,16 @@ export default function registerHandlebarsHelpers() {
         return list.includes(el);
     });
 
+    Handlebars.registerHelper("fontSize", (text) => {
+        let size = "x-large";
+        if  (text.length > 16) size = "large"
+        if (text.length > 18) size = "larger"
+        if (text.length > 19) size = "medium"
+        if (text.length > 21) size = "revert"
+        if (text.length > 23) size = "small"
+        return `style="font-size:${size}"`
+    });
+
     Handlebars.registerHelper("lastElement", (list) => {
         if (!list) return false;
 
