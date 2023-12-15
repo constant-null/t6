@@ -8,7 +8,8 @@ export default class T6NPCSheet extends ActorSheet {
 
         options.template = "systems/t6/templates/sheets/t6-npc-sheet.html";
         options.classes = options.classes.concat(["t6"]);
-        options.width = 540;
+        options.width = 560;
+        options.height = 500;
 
         return options;
     }
@@ -47,7 +48,9 @@ export default class T6NPCSheet extends ActorSheet {
         const checked = e.target.checked = !e.target.checked;
         const wound =  e.target.value;
 
-        const linkedItems = this.actor.items.filter(i => i._system.linkedToWound == wound)
+        const linkedItems = this.actor.items.filter(
+            i => i._system.linkedToWound == wound || (this.actor._system.wounds.max == wound && i._system.linkedToWound > this.actor._system.wounds.max)
+        )
         linkedItems.forEach(i => i._system.damaged = checked)
         this.actor.updateEmbeddedDocuments("Item", linkedItems.map(i => {
             return {_id: i.id, system: i._system};
@@ -174,9 +177,13 @@ export default class T6NPCSheet extends ActorSheet {
                 item.selected = false;
             }
 
-            if (item._system.active && item._system.linkedToWound) {
+            let linkedToWound = item._system.linkedToWound;
+            if (item._system.active && linkedToWound) {
                 item.linked = !item.isDestroyed;
-                context.linkedWounds[item._system.linkedToWound] = true;
+                if (linkedToWound > this.actor._system.wounds.max) {
+                    linkedToWound = this.actor._system.wounds.max;
+                }
+                context.linkedWounds[linkedToWound] = true;
             } else {
                 item.linked = false
             }

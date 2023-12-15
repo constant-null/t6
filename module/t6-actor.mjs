@@ -2,34 +2,38 @@ import Socket from "../sockets/socket.mjs";
 
 export default class T6Actor extends Actor {
     static async create(data, options) {
-        data.token = {
-            actorLink: data.type !== "npc",
-            disposition: data.type !== "npc" ? 1 : -1,
-            vision: data.type !== "npc",
-            displayBars: 50,
-            bar1: {attribute: "woundsBar"},
-        }
+        if (!data instanceof T6Actor) {
+            data.token = {
+                actorLink: data.type !== "npc",
+                disposition: data.type !== "npc" ? 1 : -1,
+                vision: data.type !== "npc",
+                displayBars: 50,
+                bar1: {attribute: "woundsBar"},
+            }
 
-        if (data.type === "npc") {
-            data.flags = {"core": {"sheetClass": "t6.T6NPCSheet"}};
+            if (data.type === "npc") {
+                data.flags = {"core": {"sheetClass": "t6.T6NPCSheet"}};
+            }
         }
 
         await super.create(data, options)
     }
 
     async _preUpdate(data, options, user) {
-        const removedWounds = this._system.wounds.received.filter(w => !!w && !data.system.wounds.received.includes(w));
-        const receivedWounds = data.system.wounds?.received.filter(w => !!w && !this._system.wounds.received.includes(w)) || [];
-        const traumasEnabled = game.settings.get('t6', 'traumas')
-        receivedWounds.forEach(w => {
-            this._showValueChangeText(game.i18n.localize(this.woundsTooltips[w]) + ` (${w})`, true)
-            if (traumasEnabled && (this.woundsTooltips[w] === CONFIG.T6.Wound.Mortal || this.woundsTooltips[w] === CONFIG.T6.Wound.Severe)) {
-                this._rollTrauma()
-            }
-        })
-        removedWounds.forEach(w => {
-            this._showValueChangeText(game.i18n.localize(this.woundsTooltips[w]) + ` (${w})`, false)
-        })
+        if (data.system?.wounds) {
+            const removedWounds = this._system.wounds?.received?.filter(w => !!w && !data.system.wounds.received?.includes(w)) || [];
+            const receivedWounds = data.system.wounds.received?.filter(w => !!w && !this._system.wounds.received?.includes(w)) || [];
+            const traumasEnabled = game.settings.get('t6', 'traumas')
+            receivedWounds.forEach(w => {
+                this._showValueChangeText(game.i18n.localize(this.woundsTooltips[w]) + ` (${w})`, true)
+                if (traumasEnabled && (this.woundsTooltips[w] === CONFIG.T6.Wound.Mortal || this.woundsTooltips[w] === CONFIG.T6.Wound.Severe)) {
+                    this._rollTrauma()
+                }
+            })
+            removedWounds.forEach(w => {
+                this._showValueChangeText(game.i18n.localize(this.woundsTooltips[w]) + ` (${w})`, false)
+            })
+        }
 
         return super._preUpdate(data, options, user)
     }
@@ -103,7 +107,7 @@ export default class T6Actor extends Actor {
     }
 
     get isDefeated() {
-        for (const wound of this._system.wounds.received) {
+        for (const wound of this._system.wounds?.received || []) {
             if (wound == this._system.wounds.max) return true
         }
         return false

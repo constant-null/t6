@@ -373,7 +373,7 @@ select.t6 option {
     margin-block: 2px;
 }
 
-.t6.wound-tooltip {
+.t6.trait-tooltip, .t6.wound-tooltip {
     font-size: small;
     margin-top: 5px;
     text-align: left;
