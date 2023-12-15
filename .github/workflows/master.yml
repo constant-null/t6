@@ -26,7 +26,8 @@ jobs:
           echo "ZIP_NAME=t6-$TAG.zip" >> $GITHUB_STATE
           echo "RELEASE_DOWNLOAD_URL=https://github.com/${{github.repository}}/releases/download/$TAG/t6-$TAG.zip" >> $GITHUB_STATE
           echo "RELEASE_INSTALL_URL=https://github.com/${{github.repository}}/releases/download/$TAG/system.json" >> $GITHUB_STATE
-
+          JSON=$(cat ./system.json)
+          echo ::set-output name=SYSTEM_JSON::${JSON//'%'/'%25'}
       - name: Adjust manifest
         uses: joshlrogers/variable-substitution@v1.1
         with:
@@ -40,10 +41,9 @@ jobs:
         env:
           TAG_NAME: ${{ steps.get_vars.outputs.TAG_NAME }}
           RELEASE_DOWNLOAD: ${{steps.get_vars.outputs.RELEASE_DOWNLOAD_URL}}
+          PACKAGE_VERSION: ${{fromJSON(steps.get_vars.outputs.SYSTEM_JSON).version}}
+          PACKAGE_DOWNLOAD: ${{fromJSON(steps.get_vars.outputs.SYSTEM_JSON).download}}
         run: |
-          JSON=$(cat ./system.json)
-          PACKAGE_VERSION=${{fromJSON($JSON).version}}
-          PACKAGE_DOWNLOAD=${{fromJSON($JSON).download}}
           # Validate that the tag being released matches the package version.
           if [[ ! $TAG_NAME == $PACKAGE_VERSION ]]; then
             echo "The system.json version does not match tag name."
