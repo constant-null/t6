@@ -19,13 +19,19 @@ jobs:
         id: get_vars
         run: |
           TAG=${GITHUB_REF/refs\/tags\//}
-          echo ::set-output name=TAG_NAME::$TAG
-          echo ::set-output name=ZIP_NAME::t6-$TAG.zip
-          echo ::set-output name=RELEASE_DOWNLOAD_URL::https://github.com/${{github.repository}}/releases/download/$TAG/t6-$TAG.zip
-          echo ::set-output name=RELEASE_INSTALL_URL::https://github.com/${{github.repository}}/releases/download/$TAG/system.json
+          echo "TAG_NAME=$TAG" >> $GITHUB_STATE
+          echo "ZIP_NAME=t6-$TAG.zip" >> $GITHUB_STATE
+          echo "RELEASE_DOWNLOAD_URL=https://github.com/${{github.repository}}/releases/download/$TAG/t6-$TAG.zip" >> $GITHUB_STATE
+          echo "RELEASE_INSTALL_URL::https://github.com/${{github.repository}}/releases/download/$TAG/system.json" >> $GITHUB_STATE
           JSON=$(cat ./system.json)
-          echo ::set-output name=SYSTEM_JSON::${JSON//'%'/'%25'}
-      
+          echo "SYSTEM_JSON=${JSON//'%'/'%25'}" >> $GITHUB_STATE
+
+      - name: Adjust manifest
+        uses: microsoft/variable-substitution@v1
+        with:
+          files: "system.json"
+        env:
+          download: ${{steps.get_vars.outputs.RELEASE_DOWNLOAD_URL}}
 
       # Run some tests to make sure our `system.json` is correct
       # Exit before setting up node if not
@@ -55,14 +61,6 @@ jobs:
             echo "Please fix this and push the tag again."
             exit 1
           fi
-
-
-      - name: Adjust manifest
-        uses: microsoft/variable-substitution@v1
-        with:
-          files: "system.json"
-        env:
-          flags.hotReload: false
 
       # Create a zip file with all files required by the module to add to the release
       - run: zip ${{steps.get_vars.outputs.ZIP_NAME}} -r assets lang module packs sockets styles templates system.json template.json
