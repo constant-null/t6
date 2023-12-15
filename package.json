@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "build:pack": "node ./utils/pack.mjs",
+    "build:unpack": "node ./utils/unpack.mjs"
+  },
+  "devDependencies": {
+    "@foundryvtt/foundryvtt-cli": "^1.0"
+  }
+}

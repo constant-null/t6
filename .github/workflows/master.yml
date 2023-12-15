@@ -68,6 +68,8 @@ jobs:
             exit 1
           fi
 
+      - name: Build All
+        run: npm run build:pack
       # Create a zip file with all files required by the module to add to the release
       - run: zip ${{steps.get_vars.outputs.ZIP_NAME}} -r assets lang module packs sockets styles templates system.json template.json
 
