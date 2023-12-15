@@ -40,7 +40,7 @@ jobs:
         id: read_manifest
         run: |
           JSON=$(cat ./system.json)
-          echo "MANIFEST_JSON=${JSON//'%'/'%25'}" >> $GITHUB_OUTPUT
+          echo "MANIFEST_JSON=${JSON}" >> $GITHUB_OUTPUT
 
       # Run some tests to make sure our `system.json` is correct
       # Exit before setting up node if not
