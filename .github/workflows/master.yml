@@ -26,8 +26,6 @@ jobs:
           echo "ZIP_NAME=t6-$TAG.zip" >> $GITHUB_OUTPUT
           echo "RELEASE_DOWNLOAD_URL=https://github.com/${{github.repository}}/releases/download/$TAG/t6-$TAG.zip" >> $GITHUB_OUTPUT
           echo "RELEASE_INSTALL_URL=https://github.com/${{github.repository}}/releases/download/$TAG/system.json" >> $GITHUB_OUTPUT
-          JSON=$(cat ./system.json)
-          echo ::set-output name=SYSTEM_JSON::${JSON//'%'/'%25'}
 
       - name: Adjust manifest
         uses: joshlrogers/variable-substitution@v1.1.5
@@ -40,7 +38,7 @@ jobs:
         id: read_manifest
         run: |
           JSON=$(cat ./system.json)
-          echo "MANIFEST_JSON=\"${JSON}\"" >> $GITHUB_OUTPUT
+          echo ::set-output name=MANIFEST_JSON::${JSON//'%'/'%25'}
 
       # Run some tests to make sure our `system.json` is correct
       # Exit before setting up node if not
