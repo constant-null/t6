@@ -64,6 +64,8 @@ export default function registerHandlebarsHelpers() {
 
     Handlebars.registerHelper("fontSize", (text) => {
         let size = "x-large";
+        if (!text) return ;
+
         if  (text.length > 16) size = "large"
         if (text.length > 18) size = "larger"
         if (text.length > 19) size = "medium"

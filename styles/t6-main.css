@@ -151,7 +151,6 @@ input.t6:active, button.t6:active {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    align-items: flex-start;
 }
 
 .item-list.npc .item {
@@ -196,7 +195,7 @@ select.t6 {
 .t6.trait {
     font-size: large;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     margin: 2px auto 2px 0px;
     cursor: pointer;
     flex-direction: row;

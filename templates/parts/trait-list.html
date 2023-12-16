@@ -20,7 +20,7 @@
                     {{#if (gt trait._system.uses.max 0)}}
                     ({{trait._system.uses.value}}/{{trait._system.uses.max}})
                     {{/if}}
-                    {{ifThen (ne trait._system.dice 1) (signedInt trait._system.dice) ""}}
+                    {{ifThen (ne trait._system.dice 0) (signedInt trait._system.dice) ""}}
                 </div>
             </div>
             <div>

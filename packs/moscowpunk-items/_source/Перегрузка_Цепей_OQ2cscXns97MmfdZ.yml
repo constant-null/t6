@@ -5,7 +5,7 @@ img: systems/t6/assets/icons/software/script-file.svg
 system:
   description: '<h3>Характеристики</h3><p>Цена: 40.000р</p><p></p><h3>Информация</h3><p></p>'
   type: Софт
-  dice: 2
+  dice: 0
   damaged: false
   armor:
     max: 0
@@ -16,15 +16,15 @@ system:
   uses:
     value: 0
     max: 0
-  damage: 0
+  damage: 2
 effects: []
 flags: {}
 _stats:
   systemId: t6
-  systemVersion: 1.2.0
+  systemVersion: 1.2.4
   coreVersion: '11.315'
   createdTime: 1702642121767
-  modifiedTime: 1702658484892
+  modifiedTime: 1702719446169
   lastModifiedBy: 6fzdJDn0QE2JU4FT
 _id: OQ2cscXns97MmfdZ
 sort: 0

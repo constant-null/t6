@@ -24,7 +24,7 @@ prototypeToken:
   appendNumber: false
   prependAdjective: false
   texture:
-    src: systems/t6/assets/portraits/trained/*.png
+    src: systems/t6/assets/portraits/trained/*.jpeg
     scaleX: 1
     scaleY: 1
     offsetX: 0
@@ -61,7 +61,7 @@ prototypeToken:
   detectionModes: []
   flags: {}
   randomImg: true
-img: systems/t6/assets/portraits/trained/00029-550735360.png
+img: systems/t6/assets/portraits/trained/00131-3923413017.jpeg
 system:
   wounds:
     max: 4
@@ -279,10 +279,10 @@ effects: []
 folder: ON504bHGJX7ZkYMY
 _stats:
   systemId: t6
-  systemVersion: 1.2.0
+  systemVersion: 1.2.4
   coreVersion: '11.315'
   createdTime: 1702654526654
-  modifiedTime: 1702667264102
+  modifiedTime: 1702720324347
   lastModifiedBy: 6fzdJDn0QE2JU4FT
 _id: Q7Dv6PC1IGkYUdyD
 sort: 0

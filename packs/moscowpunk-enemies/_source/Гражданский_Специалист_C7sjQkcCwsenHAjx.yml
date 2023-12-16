@@ -25,7 +25,7 @@ prototypeToken:
   appendNumber: false
   prependAdjective: false
   texture:
-    src: systems/t6/assets/portraits/civilian/*.png
+    src: systems/t6/assets/portraits/civilian/*.jpeg
     scaleX: 1
     scaleY: 1
     offsetX: 0
@@ -62,7 +62,7 @@ prototypeToken:
   detectionModes: []
   flags: {}
   randomImg: true
-img: systems/t6/assets/portraits/civilian/00122-4196220958.png
+img: systems/t6/assets/portraits/civilian/00093-2803499114.jpeg
 system:
   wounds:
     max: 2
@@ -72,10 +72,10 @@ items: []
 effects: []
 _stats:
   systemId: t6
-  systemVersion: 1.2.0
+  systemVersion: 1.2.4
   coreVersion: '11.315'
   createdTime: 1702665456529
-  modifiedTime: 1702667264102
+  modifiedTime: 1702720324347
   lastModifiedBy: 6fzdJDn0QE2JU4FT
 _id: C7sjQkcCwsenHAjx
 sort: 0

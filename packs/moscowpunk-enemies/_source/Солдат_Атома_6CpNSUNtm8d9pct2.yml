@@ -25,7 +25,7 @@ prototypeToken:
   appendNumber: false
   prependAdjective: false
   texture:
-    src: systems/t6/assets/portraits/atom_solder/*.png
+    src: systems/t6/assets/portraits/atom_solder/*.jpeg
     scaleX: 1
     scaleY: 1
     offsetX: 0
@@ -62,7 +62,7 @@ prototypeToken:
   detectionModes: []
   flags: {}
   randomImg: true
-img: systems/t6/assets/portraits/atom_solder/00070-1342470871.png
+img: systems/t6/assets/portraits/atom_solder/00033-3445040203.jpeg
 system:
   wounds:
     max: 6
@@ -284,10 +284,10 @@ items:
 effects: []
 _stats:
   systemId: t6
-  systemVersion: 1.2.0
+  systemVersion: 1.2.4
   coreVersion: '11.315'
   createdTime: 1702658117814
-  modifiedTime: 1702667264102
+  modifiedTime: 1702720324347
   lastModifiedBy: 6fzdJDn0QE2JU4FT
 _id: 6CpNSUNtm8d9pct2
 sort: 0

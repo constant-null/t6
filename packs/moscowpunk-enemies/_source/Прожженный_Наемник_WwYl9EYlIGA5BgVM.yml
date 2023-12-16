@@ -1,0 +1,17 @@
+name: Прожженный Наемник
+sorting: m
+folder: null
+type: Actor
+_id: WwYl9EYlIGA5BgVM
+sort: 250000
+color: null
+flags: {}
+_stats:
+  systemId: t6
+  systemVersion: 1.2.4
+  coreVersion: '11.315'
+  createdTime: 1702718321689
+  modifiedTime: 1702720324276
+  lastModifiedBy: 6fzdJDn0QE2JU4FT
+_key: '!folders!WwYl9EYlIGA5BgVM'
+

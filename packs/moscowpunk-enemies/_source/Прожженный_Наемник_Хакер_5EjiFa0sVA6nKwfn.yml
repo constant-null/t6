@@ -1,0 +1,528 @@
+name: Прожженный Наемник Хакер
+type: npc
+flags:
+  core:
+    sheetClass: t6.T6NPCSheet
+prototypeToken:
+  actorLink: false
+  disposition: -1
+  displayBars: 50
+  bar1:
+    attribute: woundsBar
+  sight:
+    enabled: false
+    range: 0
+    angle: 360
+    visionMode: basic
+    attenuation: 0.1
+    brightness: 0
+    saturation: 0
+    contrast: 0
+    color: null
+  name: test
+  displayName: 0
+  appendNumber: false
+  prependAdjective: false
+  texture:
+    src: systems/t6/assets/portraits/elite/*.jpeg
+    scaleX: 1
+    scaleY: 1
+    offsetX: 0
+    offsetY: 0
+    rotation: 0
+    tint: null
+  width: 1
+  height: 1
+  lockRotation: false
+  rotation: 0
+  alpha: 1
+  bar2:
+    attribute: null
+  light:
+    alpha: 0.5
+    angle: 360
+    bright: 0
+    coloration: 1
+    dim: 0
+    attenuation: 0.5
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    animation:
+      type: null
+      speed: 5
+      intensity: 5
+      reverse: false
+    darkness:
+      min: 0
+      max: 1
+    color: null
+  detectionModes: []
+  flags: {}
+  randomImg: true
+img: systems/t6/assets/portraits/elite/00121-4272058603.jpeg
+system:
+  wounds:
+    max: 6
+    received:
+      - null
+      - null
+      - null
+  proficiency: 5
+  armor:
+    received:
+      - null
+      - null
+items:
+  - folder: D5kfjI8060HBpqyp
+    name: ОА Тактический Нож
+    type: trait
+    img: systems/t6/assets/icons/weapons/bowie-knife.svg
+    system:
+      description: >-
+        <h3>Характеристики</h3><p>Руки: 1</p><p>Цена: 30.000р</p><p>*Игнорирует
+        броню</p><p></p><h3>Информация</h3><p>Одноатомный тактический нож</p>
+      type: Имущество
+      dice: 0
+      damaged: false
+      armor:
+        max: 0
+        received: []
+        protection: 0
+      linkedToWound: 0
+      active: true
+      uses:
+        value: 0
+        max: 0
+      damage: 2
+    effects: []
+    flags:
+      core:
+        sourceId: Compendium.t6.moscowpunk-items.Item.CUJnqybpOHO4Kktw
+    _stats:
+      systemId: t6
+      systemVersion: 1.2.0
+      coreVersion: '11.315'
+      createdTime: 1702579669263
+      modifiedTime: 1702665377044
+      lastModifiedBy: 6fzdJDn0QE2JU4FT
+    _id: Vh4hcydYvuOxnbPC
+    sort: 0
+    ownership:
+      default: 0
+      6fzdJDn0QE2JU4FT: 3
+    _key: '!actors.items!5EjiFa0sVA6nKwfn.Vh4hcydYvuOxnbPC'
+  - folder: hwiY1jNX4Jz2zLKe
+    name: Элитная Одежда из Синмета
+    type: trait
+    img: systems/t6/assets/icons/armor/suit-and-tie-outfit.svg
+    system:
+      description: >-
+        <h3>Характеристики</h3><p>Цена: 200.000р</p><p>*Бонус к проверкам
+        зависящим от внешнего вида пока броня не
+        повреждена.</p><p></p><h3>Информация</h3><p>Одежда с подкладкой из
+        синтетического металла (синмета). Внешне неотличима от высококласной
+        одежды</p>
+      type: Имущество
+      dice: 1
+      damaged: false
+      armor:
+        max: 4
+        received:
+          - null
+          - null
+        protection: 5
+      linkedToWound: 0
+      active: true
+      uses:
+        value: 0
+        max: 0
+      damage: 0
+    effects: []
+    flags:
+      core:
+        sourceId: Compendium.t6.moscowpunk-items.Item.ayvjJk5P9fi5FVm1
+    _stats:
+      systemId: t6
+      systemVersion: 1.2.4
+      coreVersion: '11.315'
+      createdTime: 1702581024896
+      modifiedTime: 1702718976722
+      lastModifiedBy: 6fzdJDn0QE2JU4FT
+    _id: S0c6IpPtcJxSTuuH
+    sort: 0
+    ownership:
+      default: 0
+      6fzdJDn0QE2JU4FT: 3
+    _key: '!actors.items!5EjiFa0sVA6nKwfn.S0c6IpPtcJxSTuuH'
+  - folder: pT5Vc9JT0HNyicyK
+    name: Сбер П3 (пистолет)
+    type: trait
+    _id: B6JUacTNbRdd0A5z
+    img: systems/t6/assets/icons/weapons/pistol-gun.svg
+    system:
+      description: >-
+        <h3>Характеристики</h3><p><strong>Руки:</strong>
+        1</p><p><strong>Дистанция:</strong> 10</p><p><strong>Шум:</strong>
+        Т</p><p>Боеприпасы: Спец Пистолетный</p><p><strong>Цена:</strong>
+        150.000р</p><p></p><h3>Информация</h3><p></p>
+      type: Имущество
+      dice: 0
+      damaged: false
+      armor:
+        max: 0
+        received: []
+        protection: 0
+      linkedToWound: 0
+      active: true
+      uses:
+        value: 12
+        max: 12
+      damage: 2
+    effects: []
+    flags:
+      core:
+        sourceId: Compendium.t6.moscowpunk-items.Item.Bj50w2ztSXjGFGGo
+    _stats:
+      systemId: t6
+      systemVersion: 1.2.4
+      coreVersion: '11.315'
+      createdTime: 1702572627560
+      modifiedTime: 1702719041218
+      lastModifiedBy: 6fzdJDn0QE2JU4FT
+    sort: 0
+    ownership:
+      default: 0
+      6fzdJDn0QE2JU4FT: 3
+    _key: '!actors.items!5EjiFa0sVA6nKwfn.B6JUacTNbRdd0A5z'
+  - folder: xpiypRVPfjTfygCY
+    name: Датчик сканирования «Дозорный»
+    type: trait
+    img: systems/t6/assets/icons/implants/eye-target.svg
+    system:
+      description: >-
+        <h3>Характеристики</h3><p>Цена:
+        500.000р</p><p></p><h3>Информация</h3><p>Оповещает владельца о попытках
+        просканировать их и позволяет провести проверку обнаружения источника
+        сканирования и дает бонус к этой проверке.</p>
+      type: Импланты
+      dice: 2
+      damaged: false
+      armor:
+        max: 0
+        received: []
+        protection: 0
+      linkedToWound: 8
+      active: true
+      uses:
+        value: 0
+        max: 0
+      damage: 0
+    effects: []
+    flags:
+      core:
+        sourceId: Compendium.t6.moscowpunk-items.Item.JydQxlTfj4drxADG
+    _stats:
+      systemId: t6
+      systemVersion: 1.2.4
+      coreVersion: '11.315'
+      createdTime: 1702584354743
+      modifiedTime: 1702719061386
+      lastModifiedBy: 6fzdJDn0QE2JU4FT
+    _id: lBOCwbcLj2kO9hdZ
+    sort: 0
+    ownership:
+      default: 0
+      6fzdJDn0QE2JU4FT: 3
+    _key: '!actors.items!5EjiFa0sVA6nKwfn.lBOCwbcLj2kO9hdZ'
+  - folder: xpiypRVPfjTfygCY
+    name: СберТех «Джарвис»
+    type: trait
+    img: systems/t6/assets/icons/implants/artificial-intelligence.svg
+    system:
+      description: >-
+        <h3>Характеристики</h3><p>Цена:
+        250.000р</p><p></p><h3>Информация</h3><p>Ограниченный искусственный
+        интеллект оказывающий помощ в написании кода, взломе защите от взлома и
+        в нахождении информации.</p>
+      type: Импланты
+      dice: 2
+      damaged: false
+      armor:
+        max: 0
+        received: []
+        protection: 0
+      linkedToWound: 10
+      active: true
+      uses:
+        value: 0
+        max: 0
+      damage: 0
+    effects: []
+    flags:
+      core:
+        sourceId: Compendium.t6.moscowpunk-items.Item.zhAhVJlSi0kLex2h
+    _stats:
+      systemId: t6
+      systemVersion: 1.2.4
+      coreVersion: '11.315'
+      createdTime: 1702584354743
+      modifiedTime: 1702719071514
+      lastModifiedBy: 6fzdJDn0QE2JU4FT
+    _id: yOetWfr8kKXG0y4v
+    sort: 0
+    ownership:
+      default: 0
+      6fzdJDn0QE2JU4FT: 3
+    _key: '!actors.items!5EjiFa0sVA6nKwfn.yOetWfr8kKXG0y4v'
+  - folder: xpiypRVPfjTfygCY
+    name: Квантовый Компьютер «Мудрец»
+    type: trait
+    img: systems/t6/assets/icons/implants/cpu-shot.svg
+    system:
+      description: >-
+        <h3>Характеристики</h3><p>Цена:
+        500.000р</p><p></p><h3>Информация</h3><p>Встроенный в мозг квантовый
+        компьютер, помогает при анализе информации, хакинге и написании
+        кода.</p>
+      type: Импланты
+      dice: 2
+      damaged: false
+      armor:
+        max: 0
+        received: []
+        protection: 0
+      linkedToWound: 10
+      active: true
+      uses:
+        value: 0
+        max: 0
+      damage: 0
+    effects: []
+    flags:
+      core:
+        sourceId: Compendium.t6.moscowpunk-items.Item.W672nXu7B0toGJzF
+    _stats:
+      systemId: t6
+      systemVersion: 1.2.4
+      coreVersion: '11.315'
+      createdTime: 1702584354743
+      modifiedTime: 1702719081025
+      lastModifiedBy: 6fzdJDn0QE2JU4FT
+    _id: k7w038Z9163dkrTo
+    sort: 0
+    ownership:
+      default: 0
+      6fzdJDn0QE2JU4FT: 3
+    _key: '!actors.items!5EjiFa0sVA6nKwfn.k7w038Z9163dkrTo'
+  - folder: xpiypRVPfjTfygCY
+    name: Квантовый Коннектор 10кл
+    type: trait
+    img: systems/t6/assets/icons/implants/aerial-signal.svg
+    system:
+      description: >-
+        <h3>Характеристики</h3><p>Цена: 200.000р (20.000р за 1 клетку
+        дальности)</p><p></p><h3>Информация</h3><p>Встроенный в тело квантовый
+        приемник/передатчик позволяющий подключаться к удаленным системам на
+        указанной дальности.</p>
+      type: Импланты
+      dice: 0
+      damaged: false
+      armor:
+        max: 0
+        received: []
+        protection: 0
+      linkedToWound: 2
+      active: true
+      uses:
+        value: 0
+        max: 0
+      damage: 0
+    effects: []
+    flags:
+      core:
+        sourceId: Compendium.t6.moscowpunk-items.Item.vIWuuqkgyswHcFf4
+    _stats:
+      systemId: t6
+      systemVersion: 1.2.4
+      coreVersion: '11.315'
+      createdTime: 1702584354743
+      modifiedTime: 1702719119142
+      lastModifiedBy: 6fzdJDn0QE2JU4FT
+    _id: WlHvuH6j6XjGmlM5
+    sort: 0
+    ownership:
+      default: 0
+      6fzdJDn0QE2JU4FT: 3
+    _key: '!actors.items!5EjiFa0sVA6nKwfn.WlHvuH6j6XjGmlM5'
+  - folder: GsRCVdzugJt8lz25
+    name: Самописный Экран
+    type: trait
+    img: systems/t6/assets/icons/software/network-protection.svg
+    system:
+      description: >-
+        <h3>Характеристики</h3><p>Защита: Сильная</p><p>Цена:
+        ???</p><p></p><h3>Информация</h3><p>Софт для управления предотвращения
+        взлома системы.</p>
+      type: Софт
+      dice: 0
+      damaged: false
+      armor:
+        max: 0
+        received: []
+        protection: 0
+      linkedToWound: 0
+      active: true
+      uses:
+        value: 0
+        max: 0
+      damage: 0
+    effects: []
+    flags:
+      core:
+        sourceId: Compendium.t6.moscowpunk-items.Item.Lja3MDVAS9m3dnoB
+    _stats:
+      systemId: t6
+      systemVersion: 1.2.4
+      coreVersion: '11.315'
+      createdTime: 1702589579734
+      modifiedTime: 1702720084133
+      lastModifiedBy: 6fzdJDn0QE2JU4FT
+    _id: xSBZYvAkDp5QuAb2
+    sort: 0
+    ownership:
+      default: 0
+      6fzdJDn0QE2JU4FT: 3
+    _key: '!actors.items!5EjiFa0sVA6nKwfn.xSBZYvAkDp5QuAb2'
+  - folder: hMgNUhh4RmNA143M
+    name: Экплойт для Экрана 4.0
+    type: trait
+    img: systems/t6/assets/icons/software/virus.svg
+    system:
+      description: >-
+        <h3>Характеристики</h3><p>Цена:
+        2.100.000р</p><p></p><h3>Информация</h3><p>Универсальный экплойт для
+        стандартных Экранов</p>
+      type: Софт
+      dice: 0
+      damaged: false
+      armor:
+        max: 0
+        received: []
+        protection: 0
+      linkedToWound: 0
+      active: true
+      uses:
+        value: 0
+        max: 0
+      damage: 0
+    effects: []
+    flags:
+      core:
+        sourceId: Compendium.t6.moscowpunk-items.Item.K9SL4P9c4eruCQQo
+    _stats:
+      systemId: t6
+      systemVersion: 1.2.4
+      coreVersion: '11.315'
+      createdTime: 1702589579734
+      modifiedTime: 1702719656587
+      lastModifiedBy: 6fzdJDn0QE2JU4FT
+    _id: j5T088bYB0VF8IV1
+    sort: 0
+    ownership:
+      default: 0
+      6fzdJDn0QE2JU4FT: 3
+    _key: '!actors.items!5EjiFa0sVA6nKwfn.j5T088bYB0VF8IV1'
+  - folder: NoaJU3xgmHnx42US
+    name: Перегрузка Сетей
+    type: trait
+    img: systems/t6/assets/icons/software/script-file.svg
+    system:
+      description: >-
+        <h3>Характеристики</h3><p>Цена:
+        80.000р</p><p></p><h3>Информация</h3><p></p>
+      type: Софт
+      dice: 0
+      damaged: false
+      armor:
+        max: 0
+        received: []
+        protection: 0
+      linkedToWound: 0
+      active: true
+      uses:
+        value: 0
+        max: 0
+      damage: 4
+    effects: []
+    flags:
+      core:
+        sourceId: Compendium.t6.moscowpunk-items.Item.eJqyXNRVPb6Ksj2v
+    _stats:
+      systemId: t6
+      systemVersion: 1.2.4
+      coreVersion: '11.315'
+      createdTime: 1702642121767
+      modifiedTime: 1702719452532
+      lastModifiedBy: 6fzdJDn0QE2JU4FT
+    _id: bsUoVvtcQYGAbji5
+    sort: 0
+    ownership:
+      default: 0
+      6fzdJDn0QE2JU4FT: 3
+    _key: '!actors.items!5EjiFa0sVA6nKwfn.bsUoVvtcQYGAbji5'
+  - folder: NoaJU3xgmHnx42US
+    name: Отключить/Включить
+    type: trait
+    img: systems/t6/assets/icons/software/script-file.svg
+    system:
+      description: >-
+        <h3>Характеристики</h3><p>Цена:
+        70.000р</p><p></p><h3>Информация</h3><p></p>
+      type: Софт
+      dice: 0
+      damaged: false
+      armor:
+        max: 0
+        received: []
+        protection: 0
+      linkedToWound: 0
+      active: true
+      uses:
+        value: 0
+        max: 0
+      damage: 0
+    effects: []
+    flags:
+      core:
+        sourceId: Compendium.t6.moscowpunk-items.Item.WT1569XYpQPGhcYM
+    _stats:
+      systemId: t6
+      systemVersion: 1.2.4
+      coreVersion: '11.315'
+      createdTime: 1702642121767
+      modifiedTime: 1702719461232
+      lastModifiedBy: 6fzdJDn0QE2JU4FT
+    _id: PISzcL976mMqPNgT
+    sort: 0
+    ownership:
+      default: 0
+      6fzdJDn0QE2JU4FT: 3
+    _key: '!actors.items!5EjiFa0sVA6nKwfn.PISzcL976mMqPNgT'
+effects: []
+folder: WwYl9EYlIGA5BgVM
+_stats:
+  systemId: t6
+  systemVersion: 1.2.4
+  coreVersion: '11.315'
+  createdTime: 1702654526654
+  modifiedTime: 1702720324427
+  lastModifiedBy: 6fzdJDn0QE2JU4FT
+_id: 5EjiFa0sVA6nKwfn
+sort: 0
+ownership:
+  default: 0
+  6fzdJDn0QE2JU4FT: 3
+_key: '!actors!5EjiFa0sVA6nKwfn'
+
