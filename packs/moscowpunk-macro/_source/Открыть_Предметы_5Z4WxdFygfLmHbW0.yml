@@ -1,0 +1,25 @@
+name: Открыть Предметы
+type: script
+scope: global
+author: 6fzdJDn0QE2JU4FT
+img: icons/svg/book.svg
+command: |-
+  const itemsPack = game.packs.get("t6.moscowpunk-items")
+  itemsPack.render(true);
+folder: null
+ownership:
+  default: 0
+  6fzdJDn0QE2JU4FT: 3
+flags:
+  core: {}
+_stats:
+  systemId: t6
+  systemVersion: 1.2.7
+  coreVersion: '11.315'
+  createdTime: 1702755358698
+  modifiedTime: 1702756806940
+  lastModifiedBy: 6fzdJDn0QE2JU4FT
+_id: 5Z4WxdFygfLmHbW0
+sort: 200000
+_key: '!macros!5Z4WxdFygfLmHbW0'
+

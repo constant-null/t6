@@ -4,29 +4,96 @@ _id: 8CCY56lJs6DxHN58
 img: icons/svg/d20-grey.svg
 description: ''
 results:
-  - type: 0
+  - type: 2
+    documentCollection: t6.moscowpunk-random-traits
     weight: 1
     range:
       - 1
       - 1
     drawn: false
-    _id: nHMWmeyXU6qO4tv8
-    text: '1'
-    documentId: null
+    text: Подставил напарник
+    documentId: h1NgDVI2tYX5rXJD
+    img: systems/t6/assets/icons/traits/trouble.svg
+    _id: lDqrn4yHyOe7h8sU
     flags: {}
-    img: icons/svg/d20-black.svg
-    _key: '!tables.results!8CCY56lJs6DxHN58.nHMWmeyXU6qO4tv8'
+    _key: '!tables.results!8CCY56lJs6DxHN58.lDqrn4yHyOe7h8sU'
+  - type: 2
+    documentCollection: t6.moscowpunk-random-traits
+    weight: 1
+    range:
+      - 2
+      - 2
+    drawn: false
+    text: Жестко провалил последнюю работу
+    documentId: plF6ltv99Us15c9B
+    img: systems/t6/assets/icons/traits/trouble.svg
+    _id: AD314i1M8DkGFNMK
+    flags: {}
+    _key: '!tables.results!8CCY56lJs6DxHN58.AD314i1M8DkGFNMK'
+  - type: 2
+    documentCollection: t6.moscowpunk-random-traits
+    weight: 1
+    range:
+      - 3
+      - 3
+    drawn: false
+    text: Убит близкий
+    documentId: 8hDmSRWykvDP3IoR
+    img: systems/t6/assets/icons/traits/trouble.svg
+    _id: ReP190ZQOpfr4YC7
+    flags: {}
+    _key: '!tables.results!8CCY56lJs6DxHN58.ReP190ZQOpfr4YC7'
+  - type: 2
+    documentCollection: t6.moscowpunk-random-traits
+    weight: 1
+    range:
+      - 4
+      - 4
+    drawn: false
+    text: Внезапно образовавшийся долг
+    documentId: r8aLZSiYFN7Ahse0
+    img: systems/t6/assets/icons/traits/trouble.svg
+    _id: yMZGdMceCD1prTKL
+    flags: {}
+    _key: '!tables.results!8CCY56lJs6DxHN58.yMZGdMceCD1prTKL'
+  - type: 2
+    documentCollection: t6.moscowpunk-random-traits
+    weight: 1
+    range:
+      - 5
+      - 5
+    drawn: false
+    text: Работа под прикрытием
+    documentId: 1sKfzU9TojSSUfQy
+    img: systems/t6/assets/icons/traits/trouble.svg
+    _id: SBcrSaiVx37dZsEq
+    flags: {}
+    _key: '!tables.results!8CCY56lJs6DxHN58.SBcrSaiVx37dZsEq'
+  - type: 2
+    documentCollection: t6.moscowpunk-random-traits
+    weight: 1
+    range:
+      - 6
+      - 6
+    drawn: false
+    text: Цель чьей-то мести
+    documentId: Qu6CpL5kDl0QleBh
+    img: systems/t6/assets/icons/traits/trouble.svg
+    _id: enPjLvNQd6fz92lu
+    flags: {}
+    _key: '!tables.results!8CCY56lJs6DxHN58.enPjLvNQd6fz92lu'
 replacement: true
 displayRoll: true
-flags: {}
+flags:
+  core: {}
 _stats:
   systemId: t6
   systemVersion: 1.2.7
   coreVersion: '11.315'
   createdTime: 1702729570456
-  modifiedTime: 1702746917956
-  lastModifiedBy: 50QpUwJC9cGeePYy
-formula: 1d0
+  modifiedTime: 1702751794968
+  lastModifiedBy: 6fzdJDn0QE2JU4FT
+formula: 1d6
 sort: 0
 ownership:
   default: 0

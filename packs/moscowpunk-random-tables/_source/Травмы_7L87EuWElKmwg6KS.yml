@@ -4,94 +4,95 @@ img: icons/svg/d20-grey.svg
 description: ''
 results:
   - type: 2
-    documentCollection: world.travmy
+    documentCollection: t6.moscowpunk-random-traumas
     weight: 1
     range:
       - 1
       - 1
     drawn: false
     text: Левый Глаз
-    documentId: Puklg5RWLzmg579z
-    img: icons/svg/item-bag.svg
+    documentId: 8dEwIIyjhJ1kBwVn
+    img: systems/t6/assets/icons/traumas/eye.png
     _id: Xi9pglyflzhFlb9L
     flags: {}
     _key: '!tables.results!7L87EuWElKmwg6KS.Xi9pglyflzhFlb9L'
   - type: 2
-    documentCollection: world.travmy
+    documentCollection: t6.moscowpunk-random-traumas
     weight: 1
     range:
       - 2
       - 2
     drawn: false
     text: Правый Глаз
-    documentId: whqHntwaaudsAmz7
-    img: icons/svg/item-bag.svg
+    documentId: ZQVP1tZ4MVJlRPgi
+    img: systems/t6/assets/icons/traumas/eye.png
     _id: tN4BQ1J0Uu3UCeAv
     flags: {}
     _key: '!tables.results!7L87EuWElKmwg6KS.tN4BQ1J0Uu3UCeAv'
   - type: 2
-    documentCollection: world.travmy
+    documentCollection: t6.moscowpunk-random-traumas
     weight: 1
     range:
       - 3
       - 3
     drawn: false
     text: Левая Рука
-    documentId: z75QgifPbqg61moo
-    img: icons/svg/item-bag.svg
+    documentId: dm9AVJRzfWYPXJ11
+    img: systems/t6/assets/icons/traumas/left-arm.png
     _id: hzCFY12AqdRXWVYl
     flags: {}
     _key: '!tables.results!7L87EuWElKmwg6KS.hzCFY12AqdRXWVYl'
   - type: 2
-    documentCollection: world.travmy
+    documentCollection: t6.moscowpunk-random-traumas
     weight: 1
     range:
       - 4
       - 4
     drawn: false
     text: Правая Рука
-    documentId: UnLYeNbrdT9dImv3
-    img: icons/svg/item-bag.svg
+    documentId: PtK6kqyKKdGEd1V9
+    img: systems/t6/assets/icons/traumas/right-arm.png
     _id: 1E9THYLzi1WSV7P7
     flags: {}
     _key: '!tables.results!7L87EuWElKmwg6KS.1E9THYLzi1WSV7P7'
   - type: 2
-    documentCollection: world.travmy
+    documentCollection: t6.moscowpunk-random-traumas
     weight: 1
     range:
       - 5
       - 5
     drawn: false
     text: Левая Нога
-    documentId: ZbQQYUVOhlqaQIpC
-    img: icons/svg/item-bag.svg
+    documentId: OOILn9YQvH4LJtVj
+    img: systems/t6/assets/icons/traumas/left-leg.png
     _id: V4fUIU0kMnB6Zwug
     flags: {}
     _key: '!tables.results!7L87EuWElKmwg6KS.V4fUIU0kMnB6Zwug'
   - type: 2
-    documentCollection: world.travmy
+    documentCollection: t6.moscowpunk-random-traumas
     weight: 1
     range:
       - 6
       - 6
     drawn: false
     text: Правая Нога
-    documentId: Ow3Vzg1CElMlOJak
-    img: icons/svg/item-bag.svg
+    documentId: a4jJpkIgZQqcRq3D
+    img: systems/t6/assets/icons/traumas/right-leg.png
     _id: K4DRwoOnM1E0RQH9
     flags: {}
     _key: '!tables.results!7L87EuWElKmwg6KS.K4DRwoOnM1E0RQH9'
 replacement: true
 displayRoll: false
 folder: null
-flags: {}
+flags:
+  core: {}
 _stats:
   systemId: t6
   systemVersion: 1.2.7
   coreVersion: '11.315'
   createdTime: 1702224997838
-  modifiedTime: 1702746917956
-  lastModifiedBy: 50QpUwJC9cGeePYy
+  modifiedTime: 1702751643703
+  lastModifiedBy: 6fzdJDn0QE2JU4FT
 formula: 1d6
 sort: 0
 ownership:

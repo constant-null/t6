@@ -1,11 +1,11 @@
-folder: null
-name: Левый Глаз
+folder: KjOalW25IEvvTtp9
+name: Разработчик Софта
 type: trait
-img: systems/t6/assets/icons/traumas/eye.png
+img: systems/t6/assets/icons/traits/dossier.svg
 system:
   description: ''
-  type: Проблема
-  dice: -1
+  type: История
+  dice: 1
   damaged: false
   armor:
     max: 0
@@ -24,13 +24,13 @@ _stats:
   systemId: t6
   systemVersion: 1.2.7
   coreVersion: '11.315'
-  createdTime: 1702230316772
-  modifiedTime: 1702749716093
+  createdTime: 1702750084235
+  modifiedTime: 1702751358009
   lastModifiedBy: 6fzdJDn0QE2JU4FT
-_id: 8dEwIIyjhJ1kBwVn
+_id: 1v58kiVyQzb86u9O
 sort: 0
 ownership:
   default: 0
-  50QpUwJC9cGeePYy: 3
-_key: '!items!8dEwIIyjhJ1kBwVn'
+  6fzdJDn0QE2JU4FT: 3
+_key: '!items!1v58kiVyQzb86u9O'
 

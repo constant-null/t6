@@ -1,11 +1,11 @@
-folder: null
-name: Левый Глаз
+folder: u7U0u2HHHfb6TKSA
+name: Изобретательный
 type: trait
-img: systems/t6/assets/icons/traumas/eye.png
+img: systems/t6/assets/icons/traits/personal.svg
 system:
   description: ''
-  type: Проблема
-  dice: -1
+  type: Личные
+  dice: 1
   damaged: false
   armor:
     max: 0
@@ -18,19 +18,18 @@ system:
     max: 0
   damage: 0
 effects: []
-flags:
-  core: {}
+flags: {}
 _stats:
   systemId: t6
   systemVersion: 1.2.7
   coreVersion: '11.315'
-  createdTime: 1702230316772
-  modifiedTime: 1702749716093
+  createdTime: 1702750084235
+  modifiedTime: 1702751358009
   lastModifiedBy: 6fzdJDn0QE2JU4FT
-_id: 8dEwIIyjhJ1kBwVn
+_id: kf0GtOopGWNLTqi5
 sort: 0
 ownership:
   default: 0
-  50QpUwJC9cGeePYy: 3
-_key: '!items!8dEwIIyjhJ1kBwVn'
+  6fzdJDn0QE2JU4FT: 3
+_key: '!items!kf0GtOopGWNLTqi5'
 

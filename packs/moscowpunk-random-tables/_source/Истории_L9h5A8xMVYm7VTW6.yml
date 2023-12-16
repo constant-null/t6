@@ -4,41 +4,252 @@ _id: L9h5A8xMVYm7VTW6
 img: icons/svg/d20-grey.svg
 description: ''
 results:
-  - type: 0
+  - type: 2
+    documentCollection: t6.moscowpunk-random-traits
     weight: 1
     range:
       - 1
       - 1
     drawn: false
-    _id: 5PoYrtt2Y1bzT4L0
-    text: '1'
-    documentId: null
+    text: Агент под прикрытием
+    documentId: Pkzxd2hdsXbxiX5o
+    img: systems/t6/assets/icons/traits/dossier.svg
+    _id: ZKyJVeKItSJqPCBh
     flags: {}
-    img: icons/svg/d20-black.svg
-    _key: '!tables.results!L9h5A8xMVYm7VTW6.5PoYrtt2Y1bzT4L0'
-  - type: 0
+    _key: '!tables.results!L9h5A8xMVYm7VTW6.ZKyJVeKItSJqPCBh'
+  - type: 2
+    documentCollection: t6.moscowpunk-random-traits
     weight: 1
     range:
       - 2
       - 2
     drawn: false
-    _id: y9WohEaqF97ApyLr
-    text: '2'
-    documentId: null
+    text: Актер
+    documentId: i9OtqnTj5eTv5cdL
+    img: systems/t6/assets/icons/traits/dossier.svg
+    _id: QgttMv8ABNy1Dxut
     flags: {}
-    img: icons/svg/d20-black.svg
-    _key: '!tables.results!L9h5A8xMVYm7VTW6.y9WohEaqF97ApyLr'
+    _key: '!tables.results!L9h5A8xMVYm7VTW6.QgttMv8ABNy1Dxut'
+  - type: 2
+    documentCollection: t6.moscowpunk-random-traits
+    weight: 1
+    range:
+      - 3
+      - 3
+    drawn: false
+    text: Ведущий Радио
+    documentId: H1BucMQOFfGKOHvz
+    img: systems/t6/assets/icons/traits/dossier.svg
+    _id: M0ou119oWebld3nx
+    flags: {}
+    _key: '!tables.results!L9h5A8xMVYm7VTW6.M0ou119oWebld3nx'
+  - type: 2
+    documentCollection: t6.moscowpunk-random-traits
+    weight: 1
+    range:
+      - 4
+      - 4
+    drawn: false
+    text: Военный
+    documentId: sPSfJckEUjrNxLDm
+    img: systems/t6/assets/icons/traits/dossier.svg
+    _id: s2K4g2dJdey8PtSD
+    flags: {}
+    _key: '!tables.results!L9h5A8xMVYm7VTW6.s2K4g2dJdey8PtSD'
+  - type: 2
+    documentCollection: t6.moscowpunk-random-traits
+    weight: 1
+    range:
+      - 5
+      - 5
+    drawn: false
+    text: Инженер ---
+    documentId: xHYNXdxePalIF9tz
+    img: systems/t6/assets/icons/traits/dossier.svg
+    _id: blgaIHD0fXEdTWOf
+    flags: {}
+    _key: '!tables.results!L9h5A8xMVYm7VTW6.blgaIHD0fXEdTWOf'
+  - type: 2
+    documentCollection: t6.moscowpunk-random-traits
+    weight: 1
+    range:
+      - 6
+      - 6
+    drawn: false
+    text: Контрабандист
+    documentId: tqfySqKcXzbsD1Rg
+    img: systems/t6/assets/icons/traits/dossier.svg
+    _id: b6AKfnl2l0pMLfia
+    flags: {}
+    _key: '!tables.results!L9h5A8xMVYm7VTW6.b6AKfnl2l0pMLfia'
+  - type: 2
+    documentCollection: t6.moscowpunk-random-traits
+    weight: 1
+    range:
+      - 7
+      - 7
+    drawn: false
+    text: Корпоративный охранник
+    documentId: NB8sfdH2lDaiqkre
+    img: systems/t6/assets/icons/traits/dossier.svg
+    _id: J5r9BqRFSlkui9Qy
+    flags: {}
+    _key: '!tables.results!L9h5A8xMVYm7VTW6.J5r9BqRFSlkui9Qy'
+  - type: 2
+    documentCollection: t6.moscowpunk-random-traits
+    weight: 1
+    range:
+      - 8
+      - 8
+    drawn: false
+    text: Куртизан(ка)
+    documentId: Sii0BI9GsGQCxlS3
+    img: systems/t6/assets/icons/traits/dossier.svg
+    _id: aw5KSikd2AMOAP7k
+    flags: {}
+    _key: '!tables.results!L9h5A8xMVYm7VTW6.aw5KSikd2AMOAP7k'
+  - type: 2
+    documentCollection: t6.moscowpunk-random-traits
+    weight: 1
+    range:
+      - 9
+      - 9
+    drawn: false
+    text: Лицензированный врач
+    documentId: ml3CYWuetp0v83BI
+    img: systems/t6/assets/icons/traits/dossier.svg
+    _id: DDV7WOnWXLaxjwr7
+    flags: {}
+    _key: '!tables.results!L9h5A8xMVYm7VTW6.DDV7WOnWXLaxjwr7'
+  - type: 2
+    documentCollection: t6.moscowpunk-random-traits
+    weight: 1
+    range:
+      - 10
+      - 10
+    drawn: false
+    text: Подпольный док
+    documentId: 4n8DE8lMvfTGJXF1
+    img: systems/t6/assets/icons/traits/dossier.svg
+    _id: qJzTke7ae437rjZn
+    flags: {}
+    _key: '!tables.results!L9h5A8xMVYm7VTW6.qJzTke7ae437rjZn'
+  - type: 2
+    documentCollection: t6.moscowpunk-random-traits
+    weight: 1
+    range:
+      - 11
+      - 11
+    drawn: false
+    text: Про Водила
+    documentId: gltLL9silo9sxUB1
+    img: systems/t6/assets/icons/traits/dossier.svg
+    _id: g78BgslEA0nfQ4ok
+    flags: {}
+    _key: '!tables.results!L9h5A8xMVYm7VTW6.g78BgslEA0nfQ4ok'
+  - type: 2
+    documentCollection: t6.moscowpunk-random-traits
+    weight: 1
+    range:
+      - 12
+      - 12
+    drawn: false
+    text: Разработчик Софта
+    documentId: 1v58kiVyQzb86u9O
+    img: systems/t6/assets/icons/traits/dossier.svg
+    _id: 5i96PvyHIuLsg7jc
+    flags: {}
+    _key: '!tables.results!L9h5A8xMVYm7VTW6.5i96PvyHIuLsg7jc'
+  - type: 2
+    documentCollection: t6.moscowpunk-random-traits
+    weight: 1
+    range:
+      - 13
+      - 13
+    drawn: false
+    text: Смотрящий
+    documentId: Bsm7CdOAJUOxfaM0
+    img: systems/t6/assets/icons/traits/dossier.svg
+    _id: pgdXhxyFS67vSqow
+    flags: {}
+    _key: '!tables.results!L9h5A8xMVYm7VTW6.pgdXhxyFS67vSqow'
+  - type: 2
+    documentCollection: t6.moscowpunk-random-traits
+    weight: 1
+    range:
+      - 14
+      - 14
+    drawn: false
+    text: Телохранитель
+    documentId: 2ON8YwyvntRKMiqo
+    img: systems/t6/assets/icons/traits/dossier.svg
+    _id: iuYYL0JWiMHi0TTj
+    flags: {}
+    _key: '!tables.results!L9h5A8xMVYm7VTW6.iuYYL0JWiMHi0TTj'
+  - type: 2
+    documentCollection: t6.moscowpunk-random-traits
+    weight: 1
+    range:
+      - 15
+      - 15
+    drawn: false
+    text: Торговец оружием
+    documentId: KVtHxKG1dNmJrQwK
+    img: systems/t6/assets/icons/traits/dossier.svg
+    _id: xJLJo7gLj2QiJQJY
+    flags: {}
+    _key: '!tables.results!L9h5A8xMVYm7VTW6.xJLJo7gLj2QiJQJY'
+  - type: 2
+    documentCollection: t6.moscowpunk-random-traits
+    weight: 1
+    range:
+      - 16
+      - 16
+    drawn: false
+    text: Фармацевт
+    documentId: lf5rxx0ieRbTQUOJ
+    img: systems/t6/assets/icons/traits/dossier.svg
+    _id: kjXvyvxxGplClxIj
+    flags: {}
+    _key: '!tables.results!L9h5A8xMVYm7VTW6.kjXvyvxxGplClxIj'
+  - type: 2
+    documentCollection: t6.moscowpunk-random-traits
+    weight: 1
+    range:
+      - 17
+      - 17
+    drawn: false
+    text: Хакер
+    documentId: cv6CfDTcnt6bCLZL
+    img: systems/t6/assets/icons/traits/dossier.svg
+    _id: k9hlDhaRODEsTk1x
+    flags: {}
+    _key: '!tables.results!L9h5A8xMVYm7VTW6.k9hlDhaRODEsTk1x'
+  - type: 2
+    documentCollection: t6.moscowpunk-random-traits
+    weight: 1
+    range:
+      - 18
+      - 18
+    drawn: false
+    text: Шарлатан
+    documentId: m73w59GYQnDix8XY
+    img: systems/t6/assets/icons/traits/dossier.svg
+    _id: QWkCG1V43TnoUvMQ
+    flags: {}
+    _key: '!tables.results!L9h5A8xMVYm7VTW6.QWkCG1V43TnoUvMQ'
 replacement: true
 displayRoll: true
-flags: {}
+flags:
+  core: {}
 _stats:
   systemId: t6
   systemVersion: 1.2.7
   coreVersion: '11.315'
   createdTime: 1702729549240
-  modifiedTime: 1702746917956
-  lastModifiedBy: 50QpUwJC9cGeePYy
-formula: 1d0
+  modifiedTime: 1702751643703
+  lastModifiedBy: 6fzdJDn0QE2JU4FT
+formula: 1d3*1d6
 sort: 0
 ownership:
   default: 0

@@ -45,21 +45,35 @@
       "label": "МоскваПанк Травмы",
       "system": "t6",
       "type": "Item",
-      "banner": "systems/t6/assets/banners/mp-items.jpeg"
+      "banner": "systems/t6/assets/banners/mp-traumas.jpeg"
     },
     {
       "name": "moscowpunk-random-tables",
       "label": "МоскваПанк Таблицы",
       "system": "t6",
       "type": "RollTable",
-      "banner": "systems/t6/assets/banners/mp-items.jpeg"
+      "banner": "systems/t6/assets/banners/mp-roll-table.jpeg"
     },
     {
       "name": "moscowpunk-random-traits",
       "label": "МоскваПанк Стандартные Черты",
       "system": "t6",
       "type": "Item",
-      "banner": "systems/t6/assets/banners/mp-items.jpeg"
+      "banner": "systems/t6/assets/banners/mp-traits.jpeg"
+    },
+    {
+      "name": "moscowpunk-macro",
+      "label": "МоскваПанк Макросы",
+      "system": "t6",
+      "type": "Macro",
+      "banner": "systems/t6/assets/sheet/background.gif"
+    },
+    {
+      "name": "moscowpunk-rules",
+      "label": "МоскваПанк Правила",
+      "system": "t6",
+      "type": "JournalEntry",
+      "banner": "systems/t6/assets/sheet/background.gif"
     }
   ],
   "languages": [

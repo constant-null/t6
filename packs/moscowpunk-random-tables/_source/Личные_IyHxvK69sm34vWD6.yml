@@ -4,53 +4,252 @@ _id: IyHxvK69sm34vWD6
 img: icons/svg/d20-grey.svg
 description: ''
 results:
-  - type: 0
+  - type: 2
+    documentCollection: t6.moscowpunk-random-traits
     weight: 1
     range:
       - 1
       - 1
     drawn: false
-    _id: sgghBthl1SSoeY3n
-    text: '1'
-    documentId: null
+    text: Зоркий
+    documentId: jLuXR3WD36yVCUxi
+    img: systems/t6/assets/icons/traits/personal.svg
+    _id: 8qliBqZVUUUOmTQE
     flags: {}
-    img: icons/svg/d20-black.svg
-    _key: '!tables.results!IyHxvK69sm34vWD6.sgghBthl1SSoeY3n'
-  - type: 0
+    _key: '!tables.results!IyHxvK69sm34vWD6.8qliBqZVUUUOmTQE'
+  - type: 2
+    documentCollection: t6.moscowpunk-random-traits
     weight: 1
     range:
       - 2
       - 2
     drawn: false
-    _id: sDCppwwyKr5a3e0A
-    text: '2'
-    documentId: null
+    text: Изобретательный
+    documentId: kf0GtOopGWNLTqi5
+    img: systems/t6/assets/icons/traits/personal.svg
+    _id: wiylP4rHhRiEUGL4
     flags: {}
-    img: icons/svg/d20-black.svg
-    _key: '!tables.results!IyHxvK69sm34vWD6.sDCppwwyKr5a3e0A'
-  - type: 0
+    _key: '!tables.results!IyHxvK69sm34vWD6.wiylP4rHhRiEUGL4'
+  - type: 2
+    documentCollection: t6.moscowpunk-random-traits
     weight: 1
     range:
       - 3
       - 3
     drawn: false
-    _id: kTatd7RWllnUKAlv
-    text: '3'
-    documentId: null
+    text: Красивый
+    documentId: 39QLSWAP5e7J91qZ
+    img: systems/t6/assets/icons/traits/personal.svg
+    _id: 2PUxcLDdqUDszod0
     flags: {}
-    img: icons/svg/d20-black.svg
-    _key: '!tables.results!IyHxvK69sm34vWD6.kTatd7RWllnUKAlv'
+    _key: '!tables.results!IyHxvK69sm34vWD6.2PUxcLDdqUDszod0'
+  - type: 2
+    documentCollection: t6.moscowpunk-random-traits
+    weight: 1
+    range:
+      - 4
+      - 4
+    drawn: false
+    text: Красноречивый
+    documentId: 0FOmxkjFoDaczS4T
+    img: systems/t6/assets/icons/traits/personal.svg
+    _id: 2OgXHP6Hl1TIYcN1
+    flags: {}
+    _key: '!tables.results!IyHxvK69sm34vWD6.2OgXHP6Hl1TIYcN1'
+  - type: 2
+    documentCollection: t6.moscowpunk-random-traits
+    weight: 1
+    range:
+      - 5
+      - 5
+    drawn: false
+    text: Крепкий
+    documentId: qKGst7BI2HrG0wig
+    img: systems/t6/assets/icons/traits/personal.svg
+    _id: da7NL5e6KCAJAs3g
+    flags: {}
+    _key: '!tables.results!IyHxvK69sm34vWD6.da7NL5e6KCAJAs3g'
+  - type: 2
+    documentCollection: t6.moscowpunk-random-traits
+    weight: 1
+    range:
+      - 6
+      - 6
+    drawn: false
+    text: Лжец
+    documentId: MLaSE3fmNgfzIxaG
+    img: systems/t6/assets/icons/traits/personal.svg
+    _id: FrDsiLtwasB2tsUa
+    flags: {}
+    _key: '!tables.results!IyHxvK69sm34vWD6.FrDsiLtwasB2tsUa'
+  - type: 2
+    documentCollection: t6.moscowpunk-random-traits
+    weight: 1
+    range:
+      - 7
+      - 7
+    drawn: false
+    text: Ловкий
+    documentId: 0io54sX6qBj67M0Z
+    img: systems/t6/assets/icons/traits/personal.svg
+    _id: 1peffUb6HTsmloNy
+    flags: {}
+    _key: '!tables.results!IyHxvK69sm34vWD6.1peffUb6HTsmloNy'
+  - type: 2
+    documentCollection: t6.moscowpunk-random-traits
+    weight: 1
+    range:
+      - 8
+      - 8
+    drawn: false
+    text: Наблюдательный
+    documentId: M1vw9xnaAdtSZFhp
+    img: systems/t6/assets/icons/traits/personal.svg
+    _id: jyzaizIrGaLZxZDb
+    flags: {}
+    _key: '!tables.results!IyHxvK69sm34vWD6.jyzaizIrGaLZxZDb'
+  - type: 2
+    documentCollection: t6.moscowpunk-random-traits
+    weight: 1
+    range:
+      - 9
+      - 9
+    drawn: false
+    text: Непримечательный
+    documentId: gtBcQQr6L9cUwHdQ
+    img: systems/t6/assets/icons/traits/personal.svg
+    _id: 2faLY1GTUnmU61lj
+    flags: {}
+    _key: '!tables.results!IyHxvK69sm34vWD6.2faLY1GTUnmU61lj'
+  - type: 2
+    documentCollection: t6.moscowpunk-random-traits
+    weight: 1
+    range:
+      - 10
+      - 10
+    drawn: false
+    text: Обаятельный
+    documentId: pHzWeVVWcxAGIAGO
+    img: systems/t6/assets/icons/traits/personal.svg
+    _id: FbErupX002wGhXJM
+    flags: {}
+    _key: '!tables.results!IyHxvK69sm34vWD6.FbErupX002wGhXJM'
+  - type: 2
+    documentCollection: t6.moscowpunk-random-traits
+    weight: 1
+    range:
+      - 11
+      - 11
+    drawn: false
+    text: Сильный
+    documentId: UUqoyp1LByqF9w94
+    img: systems/t6/assets/icons/traits/personal.svg
+    _id: b6DMrsaGeJvRPtHU
+    flags: {}
+    _key: '!tables.results!IyHxvK69sm34vWD6.b6DMrsaGeJvRPtHU'
+  - type: 2
+    documentCollection: t6.moscowpunk-random-traits
+    weight: 1
+    range:
+      - 12
+      - 12
+    drawn: false
+    text: Смекалистый
+    documentId: 0CAmn6Q75g4AgZAa
+    img: systems/t6/assets/icons/traits/personal.svg
+    _id: IFVt4TFj32PBNlLK
+    flags: {}
+    _key: '!tables.results!IyHxvK69sm34vWD6.IFVt4TFj32PBNlLK'
+  - type: 2
+    documentCollection: t6.moscowpunk-random-traits
+    weight: 1
+    range:
+      - 13
+      - 13
+    drawn: false
+    text: Стойкий
+    documentId: GPXxwOX84Ha40F61
+    img: systems/t6/assets/icons/traits/personal.svg
+    _id: rWLRYgcPG8ZSApkf
+    flags: {}
+    _key: '!tables.results!IyHxvK69sm34vWD6.rWLRYgcPG8ZSApkf'
+  - type: 2
+    documentCollection: t6.moscowpunk-random-traits
+    weight: 1
+    range:
+      - 14
+      - 14
+    drawn: false
+    text: Страшный
+    documentId: CBY5C4ED1JCyiCi4
+    img: systems/t6/assets/icons/traits/personal.svg
+    _id: osxsSvTcChe5Cv4W
+    flags: {}
+    _key: '!tables.results!IyHxvK69sm34vWD6.osxsSvTcChe5Cv4W'
+  - type: 2
+    documentCollection: t6.moscowpunk-random-traits
+    weight: 1
+    range:
+      - 15
+      - 15
+    drawn: false
+    text: Умный
+    documentId: VCXwt9rhR5yep9LE
+    img: systems/t6/assets/icons/traits/personal.svg
+    _id: shgPtQWOYgfngv9l
+    flags: {}
+    _key: '!tables.results!IyHxvK69sm34vWD6.shgPtQWOYgfngv9l'
+  - type: 2
+    documentCollection: t6.moscowpunk-random-traits
+    weight: 1
+    range:
+      - 16
+      - 16
+    drawn: false
+    text: Харизматичный
+    documentId: mlRGgVohb5xaK0Hv
+    img: systems/t6/assets/icons/traits/personal.svg
+    _id: ENp2c5GrstfwMX4n
+    flags: {}
+    _key: '!tables.results!IyHxvK69sm34vWD6.ENp2c5GrstfwMX4n'
+  - type: 2
+    documentCollection: t6.moscowpunk-random-traits
+    weight: 1
+    range:
+      - 17
+      - 17
+    drawn: false
+    text: Хитрый
+    documentId: dl8YH0m005PjCD5N
+    img: systems/t6/assets/icons/traits/personal.svg
+    _id: 7MIFu4eR2PojWvIC
+    flags: {}
+    _key: '!tables.results!IyHxvK69sm34vWD6.7MIFu4eR2PojWvIC'
+  - type: 2
+    documentCollection: t6.moscowpunk-random-traits
+    weight: 1
+    range:
+      - 18
+      - 18
+    drawn: false
+    text: Эрудированный
+    documentId: QHz7q82Llae7Sirw
+    img: systems/t6/assets/icons/traits/personal.svg
+    _id: dDrqV78ehaQpVjHs
+    flags: {}
+    _key: '!tables.results!IyHxvK69sm34vWD6.dDrqV78ehaQpVjHs'
 replacement: true
 displayRoll: true
-flags: {}
+flags:
+  core: {}
 _stats:
   systemId: t6
   systemVersion: 1.2.7
   coreVersion: '11.315'
   createdTime: 1702729444476
-  modifiedTime: 1702746917956
-  lastModifiedBy: 50QpUwJC9cGeePYy
-formula: d3*10+d6
+  modifiedTime: 1702751643703
+  lastModifiedBy: 6fzdJDn0QE2JU4FT
+formula: 1d3*d6
 sort: 0
 ownership:
   default: 0

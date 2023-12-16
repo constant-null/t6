@@ -1,0 +1,1069 @@
+name: Система Т6
+pages:
+  - sort: 100000
+    name: Черты
+    type: text
+    _id: NCDHPyA78ouxesj1
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: "<h2>Черты персонажа</h2><p>Персонажи игроков состоят из черт. Черты описывают способности персонажа, его историю и имущество.</p><p>Черты персонажей бывают четырех типов:</p><p>@UUID[Compendium.t6.moscowpunk-random-tables.RollTable.IyHxvK69sm34vWD6]{Личные} Врожденные и обретенные\_черты.</p><p><em>Примеры: сильный хитрый, меткий, красивый.</em></p><p>@UUID[Compendium.t6.moscowpunk-random-tables.RollTable.L9h5A8xMVYm7VTW6]{История} Важные эпизоды жизни, образование, профессия.</p><p><em>Примеры: родился в трущобах, выпускник летной школы, подпольный доктор, контрабандист</em></p><p>@UUID[Compendium.t6.moscowpunk-random-tables.RollTable.8CCY56lJs6DxHN58]{Проблема} Что заставило персонажа сменить его карьеру.</p><p><em>Примеры: тяжелое ранение, долг, награда за голову.</em></p><p>@UUID[Compendium.t6.moscowpunk-macro.Macro.5Z4WxdFygfLmHbW0]{Имущество} Вещи и снаряжение которые всегда с собой.</p><p><em>Примеры: бронежилет, набор инструментов, ноутбук, бластер, кредитная карта с деньгами.</em></p><div class=\"page\" title=\"Page 1\"><div class=\"layoutArea\"><div class=\"column\"><h2>Создание персонажа</h2><p>Создавая персонажа, игрок сначала должен придумать его имя и предысторию. Затем используя предысторию как основу, придумать 5 черт персонажа:</p><p><strong>Личные</strong> - 2<br /><strong>Истории</strong> - 2<br /><strong>Проблема</strong> - 1<br /><strong>Имущество</strong> - на сумму в 1.000.000р</p></div><p>Или сгенерировать @UUID[Compendium.t6.moscowpunk-macro.Macro.oiXQmMzI8QoLGynI]{Случайного Персонажа}</p></div></div>"
+      markdown: ''
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    system: {}
+    ownership:
+      default: -1
+      6fzdJDn0QE2JU4FT: 3
+    flags:
+      core:
+        sheetClass: core.JournalTextPageSheet
+    _stats:
+      systemId: t6
+      systemVersion: 1.2.7
+      coreVersion: '11.315'
+      createdTime: 1702753704972
+      modifiedTime: 1702757003034
+      lastModifiedBy: 6fzdJDn0QE2JU4FT
+    _key: '!journal.pages!jzspDvO5zIytjmhs.NCDHPyA78ouxesj1'
+  - sort: 200000
+    name: Действия
+    type: text
+    _id: QWc2guXO8mPq2Nvg
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <div><div><div><p>Совершая действие, игрок описывает что он хочет
+        сделать и бросает количество кубиков равное количеству черт, которые
+        могут ему в этом помочь.</p><p>Кубики с результатом выше или равным
+        сложности считаются успехами.</p><p>Сложность действия определяется
+        Ведущим: <br /><strong>4 – Простая</strong><br /><strong>5 – Обычная<br
+        />6 – Сложная</strong></p><p>Задача считается завершенной, когда игрок
+        суммарно набрал необходимое для ее выполнения количество
+        успехов.</p><p><strong>Количество успехов</strong> нужное для выполнения
+        задачи показывает, сколько усилий/времени нужно потратить для ее
+        завершения, где:</p><p><strong>1 </strong>– крайне мало, а<strong> 5+
+        </strong>– крайне много. <br />Ведущий может ограничить количество
+        ходов доступных игроку на выполнение задачи.</p></div></div></div>
+      markdown: ''
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    system: {}
+    ownership:
+      default: -1
+      6fzdJDn0QE2JU4FT: 3
+    flags: {}
+    _stats:
+      systemId: t6
+      systemVersion: 1.2.7
+      coreVersion: '11.315'
+      createdTime: 1702756889683
+      modifiedTime: 1702757160154
+      lastModifiedBy: 6fzdJDn0QE2JU4FT
+    _key: '!journal.pages!jzspDvO5zIytjmhs.QWc2guXO8mPq2Nvg'
+  - sort: 300000
+    name: Сражение
+    type: text
+    _id: pwKXLRr0MEhgJ85G
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <div><div><div><p>В начале боя игроки делают бросок инициативы. Для
+        этого они бросают черты, которые моли бы помочь им в получении
+        преимущество в начале боя и складывают результаты. Игрок с наибольшим
+        результатом ходит первый, а с наименьшим последним.</p><p>В свой ход
+        игрок совершает одно действие, которое может быть
+        <strong>атакой</strong>. Попав под атаку, игрок может попытаться
+        <strong>защититься</strong> или
+        <strong>контратаковать</strong>.</p><p>При <strong>защите</strong>
+        персонаж получает <strong>урона</strong> равное разнице между успехами
+        <strong>атаки</strong> и <strong>защиты</strong>.</p><p>При
+        <strong>контратаке</strong> оба получают <strong>урон</strong>, равные
+        количеству успехов <strong>атаки</strong>
+        противника.</p></div></div></div>
+      markdown: ''
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    system: {}
+    ownership:
+      default: -1
+      6fzdJDn0QE2JU4FT: 3
+    flags: {}
+    _stats:
+      systemId: t6
+      systemVersion: 1.2.7
+      coreVersion: '11.315'
+      createdTime: 1702756976666
+      modifiedTime: 1702757120173
+      lastModifiedBy: 6fzdJDn0QE2JU4FT
+    _key: '!journal.pages!jzspDvO5zIytjmhs.pwKXLRr0MEhgJ85G'
+  - sort: 400000
+    name: Раны
+    type: text
+    _id: s3FCnL6Nxug3z8IB
+    title:
+      show: true
+      level: 2
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <div><div><div><p>Получая урон, игрок отмечает ближайшую свободную рану
+        со значением равным или больше урона. У персонажей игроков 5
+        ран.</p><p>2 – <strong>Легкая</strong> <em>(Легкий ожег, порез,
+        царапина)</em><br />4 – <strong>Средняя</strong> <em>(Пулевая или
+        колотая рана)</em><br />6 – <strong>Опасная</strong> <em>(Глубокая или
+        рваная рана, задетая вена)</em><br />8 – <strong>Тяжелая</strong>
+        <em>(Повреждение или потеря органов)</em> <br />10 –
+        <strong>Смертельная</strong> <em>(Рана позвоночника, сердца,
+        мозга)</em></p><p>Персонаж выбывает из боя по получению самой большой
+        раны.</p></div></div></div>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    system: {}
+    ownership:
+      default: -1
+      6fzdJDn0QE2JU4FT: 3
+    flags: {}
+    _stats:
+      systemId: t6
+      systemVersion: 1.2.7
+      coreVersion: '11.315'
+      createdTime: 1702757171182
+      modifiedTime: 1702757478235
+      lastModifiedBy: 6fzdJDn0QE2JU4FT
+    _key: '!journal.pages!jzspDvO5zIytjmhs.s3FCnL6Nxug3z8IB'
+  - sort: 500000
+    name: Лечение
+    type: text
+    _id: aAbp0qoXYncwHvMB
+    title:
+      show: true
+      level: 2
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <div><div><div><p>Чтобы исцелить <strong>рану</strong>, игрок должен
+        набрать количество успехов равное её значению/2. Игрок, производящий
+        лечение может выбрать любую рану для лечения. Лишь одна рана может быть
+        вылечена за раз.</p></div></div></div>
+      markdown: ''
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    system: {}
+    ownership:
+      default: -1
+      6fzdJDn0QE2JU4FT: 3
+    flags: {}
+    _stats:
+      systemId: t6
+      systemVersion: 1.2.7
+      coreVersion: '11.315'
+      createdTime: 1702757266571
+      modifiedTime: 1702757481899
+      lastModifiedBy: 6fzdJDn0QE2JU4FT
+    _key: '!journal.pages!jzspDvO5zIytjmhs.aAbp0qoXYncwHvMB'
+  - sort: 225000
+    name: Осложнения
+    type: text
+    _id: ry6BhIb4h3Id9Igd
+    title:
+      show: true
+      level: 2
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <div><div><div><p>Если при броске на половине (округляя в большую
+        сторону) кубиков выпала единица, то неважно как завершилось основное
+        действие, на усмотрение ведущего персонаж страдает от непредвиденных
+        осложнений.</p></div></div></div>
+      markdown: ''
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    system: {}
+    ownership:
+      default: -1
+      6fzdJDn0QE2JU4FT: 3
+    flags: {}
+    _stats:
+      systemId: t6
+      systemVersion: 1.2.7
+      coreVersion: '11.315'
+      createdTime: 1702757294014
+      modifiedTime: 1702757466662
+      lastModifiedBy: 6fzdJDn0QE2JU4FT
+    _key: '!journal.pages!jzspDvO5zIytjmhs.ry6BhIb4h3Id9Igd'
+  - sort: 250000
+    name: Помощь и Помеха
+    type: text
+    _id: ePQfkXQzQKPosEkN
+    title:
+      show: true
+      level: 2
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <div><div><div><p>Один игрок может <strong>попытаться</strong> помочь
+        или помешать другому персонажу. Для это он совершает
+        <strong>действие</strong>, и игрок, которому оказывается помощь,
+        добавляет к своему броску количество кубиков равное количеству
+        <strong>успехов помощи</strong>.</p><p>В случае <strong>помехи</strong>
+        цель может попытаться защититься от воздействия, как при атаке в
+        <strong>сражении</strong>, вычитая успехи защиты из успехов помехи.
+        После чего она вычитает полученный результат из последующих
+        бросков.</p><p>Помощь и помеха длятся до конца раунда.</p><p>Если
+        количество кубиков опускается ниже 1, действие невозможно
+        совершить.</p><p>В ситуациях, когда черта активно мешает в совершении
+        действия игрок вычитает из броска количество кубиков равное количеству
+        мешающих действию черт.</p></div></div></div>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    system: {}
+    ownership:
+      default: -1
+      6fzdJDn0QE2JU4FT: 3
+    flags: {}
+    _stats:
+      systemId: t6
+      systemVersion: 1.2.7
+      coreVersion: '11.315'
+      createdTime: 1702757350058
+      modifiedTime: 1702757472752
+      lastModifiedBy: 6fzdJDn0QE2JU4FT
+    _key: '!journal.pages!jzspDvO5zIytjmhs.ePQfkXQzQKPosEkN'
+  - sort: 600000
+    name: Оружие
+    type: text
+    _id: LlM1fX7P32lQTFYu
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <div class="page" title="Page 2"><div class="layoutArea"><div
+        class="column"><p>Оружие бывает дистанционным и ближним.</p><p>Оба типа
+        оружия требуют использования одной или двух рук, имеет кубики атаки,
+        которые могут добавляться или вычитаться из броска при использовании
+        оружия, и уроном.</p><p>В руки можно взять либо два одноручных оружия,
+        либо одно двуручное. Атакуя цель сразу двумя оружиями их урон
+        складывается, а при атаке двух разных целей, атака бросается на каждое
+        оружие отдельно с <strong>помехой 1 (атака -1)</strong>.</p><p>Атаки в
+        пределах <strong>дистанции</strong> является <em>простой</em>, за её
+        пределами <em>обычной</em>. В ближнем бою <em>сложной</em>. Двойная
+        дистанция является максимальной.</p><p>Снизив эффективную дистанцию
+        оружия в 2 раза, игрок может провести атаку по незащищенной части тела
+        противника игнорируя броню (если возможно).</p><p>В случае успешного
+        попадания (хотя бы один успех) урон оружия добавляется к успехам для
+        определения финального урона.</p><p>Число в скобках рядом с уроном
+        указывает что оружие бьет по области, и атака действует на всех
+        противников в указанном расстоянии от цели. В то время как «А» указывает
+        на автоматическое оружие, которое может вести огонь очередями, за каждые
+        10 дополнительно потраченных патронов игрок может добавить 1 кубик к
+        броску, или атаковать дополнительную цель.</p><p>«Н» отмечает ненадежное
+        оружие, которое сбоит во время
+        <strong>осложнения</strong>.</p><h2>Перезарядка</h2><p>Перезарядка
+        оружия требует полного хода и производится заменой магазина, патроны
+        или заряды, остававшиеся в нем, теряются.</p></div></div></div>
+      markdown: ''
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    system: {}
+    ownership:
+      default: -1
+      6fzdJDn0QE2JU4FT: 3
+    flags: {}
+    _stats:
+      systemId: t6
+      systemVersion: 1.2.7
+      coreVersion: '11.315'
+      createdTime: 1702757488334
+      modifiedTime: 1702758768446
+      lastModifiedBy: 6fzdJDn0QE2JU4FT
+    _key: '!journal.pages!jzspDvO5zIytjmhs.LlM1fX7P32lQTFYu'
+  - sort: 700000
+    name: Типы Стрелкового Оружия
+    type: text
+    _id: UxzO1NPCuhPRa0dx
+    title:
+      show: true
+      level: 2
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <div><div><div><h2>Стандартное</h2><div><div><div><p><strong>Стандартное</strong>
+        оружие является базой для остальных и перечислено в таблице на этой
+        странице. И его характеристики являются базой для всех остальных типов
+        стрелкового оружия. При осложнении оружие
+        заедает.</p></div></div></div><p>Этот тип оружия использует стандартные
+        безгильзовые патроны.</p><p><em>Черты: Сила, Ловкость,
+        Внимание</em></p><h2>Энергетическое</h2><div><div><div><p><strong>Энергетическое
+        </strong>направляет в противника сверхплотный разряд заряженных частиц.
+        Оружие позволяет потратить ход чтобы накопить заряд и удвоить наносимый
+        следующим выстрелом урон.</p></div></div></div><p>Заряженное
+        энергетическое оружие также пробивает укрытия снижая их эффективность на
+        1 (полное укрытие становится частичным, а частичное игнорируется). При
+        осложнении заряженное оружие взрывается, нанося свой обычный урон в
+        радиусе 2.</p><p>Этот тип оружия использует ячейки с антиматерией
+        (А-Ячейка)</p><p><em>Черты: Сила, Технические,
+        Внимание</em></p><h2>Электромагнитное</h2><div><div><div><p><strong>Электромагнитное
+        </strong>оружие использует электромагнитное поле для ускорение
+        металлического снаряда до смертельных
+        скоростей.</p></div></div></div><p>Оружие можно переключить в
+        беззвучный режим с потерей 1 урона или «разогнать», увеличивая урон и
+        расход на 1, но рискуя повреждением оружия при осложнении.</p><p>Сами
+        боеприпасы к оружию настолько просты и дешевы, что считаются
+        бесплатными, магазинов в этом случае служит батарея, держащая заряд.
+        Батареи электромагнитного оружия можно перезарядить за
+        час.</p><p><em>Черты: Ловкость, Технические,
+        Внимание</em></p><h2>Спец</h2></div><div><div><div><div><p><strong>Спец
+        </strong>оружие использует первый «выстрел» чтобы захватить цель, после
+        чего все последующие выстрелы автоматически наводятся на нее. Огонь по
+        захваченной цели производится с бонусом к атаке +2 и снижает
+        эффективность укрытия на 1 (полное укрытие становится частичным, а
+        частичное игнорируется).</p></div></div></div><p>Для того чтобы начать
+        стрелять в новую цель требуется повторить процедуру захвата.</p><p>Для
+        использования спец оружия нужны импланты
+        @UUID[Compendium.t6.moscowpunk-items.Item.vIWuuqkgyswHcFf4]{Квантовый
+        Коннектор } и
+        @UUID[Compendium.t6.moscowpunk-items.Item.W672nXu7B0toGJzF]{«Мудрец».}</p><p>Использует
+        «Специальные» патроны.</p><p><em>Черты: Ловкость, Интеллект,
+        Технические.</em></p></div></div></div>
+      markdown: ''
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    system: {}
+    ownership:
+      default: -1
+      6fzdJDn0QE2JU4FT: 3
+    flags: {}
+    _stats:
+      systemId: t6
+      systemVersion: 1.2.7
+      coreVersion: '11.315'
+      createdTime: 1702757615005
+      modifiedTime: 1702758694519
+      lastModifiedBy: 6fzdJDn0QE2JU4FT
+    _key: '!journal.pages!jzspDvO5zIytjmhs.UxzO1NPCuhPRa0dx'
+  - sort: 800000
+    name: Укрытие
+    type: text
+    _id: sGGvZbQg5zzShMTx
+    title:
+      show: true
+      level: 2
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <div><div><div><p>Персонажи могут прятаться за объектами на поля боя
+        чтобы избежать получения урона. Если персонаж скрыт за объектом на 2/3
+        укрытие считается частичным и атаки по нему становятся обычными, если
+        персонаж почти весь скрыт за объектом, укрытие считается полным, и атаки
+        становятся сложными.</p></div></div></div>
+      markdown: ''
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    system: {}
+    ownership:
+      default: -1
+      6fzdJDn0QE2JU4FT: 3
+    flags: {}
+    _stats:
+      systemId: t6
+      systemVersion: 1.2.7
+      coreVersion: '11.315'
+      createdTime: 1702757862398
+      modifiedTime: 1702757876091
+      lastModifiedBy: 6fzdJDn0QE2JU4FT
+    _key: '!journal.pages!jzspDvO5zIytjmhs.sGGvZbQg5zzShMTx'
+  - sort: 900000
+    name: Ближнее Оружие
+    type: text
+    _id: jqfNHPbLderm3A4x
+    title:
+      show: true
+      level: 2
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <div><div><div><p>Сложность атаки оружием ближнего боя всегда
+        <em>простая</em>, но от него можно защищаться другим ближним оружием с
+        <em>простой</em> сложностью.</p><p>Используя стрелковое оружие для
+        защиты, его кубики атаки не добавляются, сложность становится
+        <em>обычной</em> и в случае осложнения, оружие, использовавшееся для
+        защиты, ломается.</p><p>Одноручное оружие может быть взято двумя руками
+        чтобы добавить 2 кубика к броску атаки.</p></div></div></div>
+      markdown: ''
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    system: {}
+    ownership:
+      default: -1
+      6fzdJDn0QE2JU4FT: 3
+    flags: {}
+    _stats:
+      systemId: t6
+      systemVersion: 1.2.7
+      coreVersion: '11.315'
+      createdTime: 1702757881807
+      modifiedTime: 1702759025425
+      lastModifiedBy: 6fzdJDn0QE2JU4FT
+    _key: '!journal.pages!jzspDvO5zIytjmhs.jqfNHPbLderm3A4x'
+  - sort: 1000000
+    name: Броня
+    type: text
+    _id: CEHbBCuLKsTp2EYG
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <div class="page" title="Page 2"><div class="layoutArea"><div><p>Подобно
+        персонажу, обладает «ранами» называемыми «повреждениями» и
+        защиту.</p><p>Когда персонаж должен получить урон он вычитает из него
+        показатель брони. Если результат равен или меньше 0 броня отражает
+        атаку, иначе <strong>и персонаж</strong>, <strong>и броня</strong>
+        получают рану, равную оставшемуся урону.</p><p>Без специализированных
+        имплантов защита от любого стрелкового оружия
+        <em>сложная</em>.</p><p>Как и персонаж, когда броня получает самое
+        большое повреждение она ломается и больше не может исполнять свои
+        функции.</p><p>Тяжелая броня может сковывать движения персонажа давая
+        <strong>помеху</strong> к связанных с мобильностью
+        действиям.</p></div><p></p></div></div>
+      markdown: ''
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    system: {}
+    ownership:
+      default: -1
+      6fzdJDn0QE2JU4FT: 3
+    flags: {}
+    _stats:
+      systemId: t6
+      systemVersion: 1.2.7
+      coreVersion: '11.315'
+      createdTime: 1702757906172
+      modifiedTime: 1702759158954
+      lastModifiedBy: 6fzdJDn0QE2JU4FT
+    _key: '!journal.pages!jzspDvO5zIytjmhs.CEHbBCuLKsTp2EYG'
+  - sort: 1100000
+    name: Шум и Скрытность
+    type: text
+    _id: 0hu2ypxvlxgB9Vp8
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <div><div><div><p>Оружие может иметь 4 класса шумна при
+        использовании:<br /><strong>Б</strong> (бесшумное) – невозможно
+        обнаружить.<br /><strong>Т</strong> (тихое) – обнаружение требует
+        <em>обычной</em> проверки на расстоянии 5, <em>сложной</em> до 8 и не
+        обнаружимо на больших дистанциях<br /><strong>Г</strong> (громкое) –
+        незамедлительно обнаружимо. <br /><em>Считается, что все дозвуковое
+        оружие обладает встроенным глушителем.</em></p><p>При убийстве, при
+        отсутствии шумов свободное падение тела на землю считается тихим
+        шумом.</p><p>При проверке обнаружения 1 успех позволяет заметить
+        действие, 2 успеха определить направление и 3 определить точное
+        положение цели.</p><p>Громкие атаки считаются сразу имеющими 2 успеха
+        обнаружения.</p></div></div></div>
+      markdown: ''
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    system: {}
+    ownership:
+      default: -1
+      6fzdJDn0QE2JU4FT: 3
+    flags: {}
+    _stats:
+      systemId: t6
+      systemVersion: 1.2.7
+      coreVersion: '11.315'
+      createdTime: 1702759054447
+      modifiedTime: 1702759156114
+      lastModifiedBy: 6fzdJDn0QE2JU4FT
+    _key: '!journal.pages!jzspDvO5zIytjmhs.0hu2ypxvlxgB9Vp8'
+  - sort: 1200000
+    name: Доступность и Цены Снаряжения
+    type: text
+    _id: DUHPb5XiNgJld1D1
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <div><div><div><p><strong>Стандартное, Легкая броня, Одежда из
+        Синмета</strong> – доступно свободно <br /><strong>Электромагнитное,
+        Армейская/Элитная брона</strong> – довольно редкое <br
+        /><strong>Спец/Энергетическое, Мобильная Броня</strong> – броню, оружие
+        и боеприпасы к нему кране редко и сложно достать.</p><p>Даже если
+        готовое к использованию оружие сложно достать, на рынке можно найти
+        поврежденное или заблокированное оружие. Такое оружие проще найти (на
+        одну ступень), и оно стоит в два раза дешевле.</p><p>Ремонт производится
+        по стандартным правилам (ниже), а для взлома оружие считается имеющей
+        <em>проприетарный софт с сильной защитой</em>.</p></div></div></div>
+      markdown: ''
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    system: {}
+    ownership:
+      default: -1
+      6fzdJDn0QE2JU4FT: 3
+    flags: {}
+    _stats:
+      systemId: t6
+      systemVersion: 1.2.7
+      coreVersion: '11.315'
+      createdTime: 1702759178218
+      modifiedTime: 1702759359583
+      lastModifiedBy: 6fzdJDn0QE2JU4FT
+    _key: '!journal.pages!jzspDvO5zIytjmhs.DUHPb5XiNgJld1D1'
+  - sort: 1300000
+    name: Медицина и Лечение
+    type: text
+    _id: NXXM1Tm8wovOlonP
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <div><p>Легкие, Средние и Опасные раны могут быть излечены в полевых
+        условиях без негативных последствий.</p><p>Тяжелые и Смертельные раны,
+        с другой стороны, имеют шанс привести к <strong>травмам</strong> и
+        могут быть излечены только при наличии медицинского оборудования.
+        Получая одну из этих ран бросьте кубик, при 1 вы получили
+        <strong>травму</strong>.</p><p>Персонаж, получивший Смертельную рану,
+        не может совершать действий кроме движения на 1 клетку раз в ход.
+        Проведя проверку Лечения, он может быть стабилизирован в полевых
+        условиях, что позволит ему передвигаться на 3 клетки и совершать
+        действия с помехой 2.</p><p>Если стабилизированный, но не излеченный
+        от смертельной или тяжелой раны персонаж получает её повторно он
+        гарантировано получает
+        <strong>травму</strong>.</p></div><table><tbody><tr><td
+        data-colwidth="55"><div class="page" title="Page 4"><div
+        class="layoutArea"><div class="column"><p><span
+        style="font-family:'Calibri'"><strong>Кубик
+        </strong></span></p></div></div></div></td><td data-colwidth="91"><div
+        class="page" title="Page 4"><div class="layoutArea"><div
+        class="column"><p><span
+        style="font-family:'Calibri'"><strong>Потерян...</strong></span></p></div></div></div></td></tr><tr><td
+        data-colwidth="55"><p>1</p></td><td data-colwidth="91"><p>Левый
+        Глаз</p></td></tr><tr><td data-colwidth="55"><p>2</p></td><td
+        data-colwidth="91"><p>Правый Глаз</p></td></tr><tr><td
+        data-colwidth="55"><p>3</p></td><td data-colwidth="91"><p>Левая
+        Рука</p></td></tr><tr><td data-colwidth="55"><p>4</p></td><td
+        data-colwidth="91"><p>Правая Рука</p></td></tr><tr><td
+        data-colwidth="55"><p>5</p></td><td data-colwidth="91"><p>Левая
+        Нога</p></td></tr><tr><td data-colwidth="55"><p>6</p></td><td
+        data-colwidth="91"><p>Правая
+        Нога</p></td></tr></tbody></table><h2>Препараты</h2><p>Применение
+        препаратов в бою требует хода и их эффект наступает в начале следующего
+        хода игрока (если не сказано обратного)</p>
+      markdown: ''
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    system: {}
+    ownership:
+      default: -1
+      6fzdJDn0QE2JU4FT: 3
+    flags: {}
+    _stats:
+      systemId: t6
+      systemVersion: 1.2.7
+      coreVersion: '11.315'
+      createdTime: 1702759397743
+      modifiedTime: 1702763648912
+      lastModifiedBy: 6fzdJDn0QE2JU4FT
+    _key: '!journal.pages!jzspDvO5zIytjmhs.NXXM1Tm8wovOlonP'
+  - sort: 1400000
+    name: Импланты
+    type: text
+    _id: PLg2IbNR6cq9jgm8
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <div><div><div><p>Когда персонаж теряет конечность или старая перестает
+        его устраивать он может установит импланты на замену.</p><p>Установка
+        имплантов подразумевает установку контрольного чипа, сам чип бесплатен и
+        поставляется с софтом
+        @UUID[Compendium.t6.moscowpunk-items.Item.SCUzBdjN5QG4ENQf]. Хоть
+        импланты полезнее их мясных аналогов, они тем не менее подвержены
+        хакингу, который может нанести не меньше вреда чем пулевая
+        рана.</p><p>Если хакер получил доступ к контрольному чипу, он может
+        выполнять на нем любые скрипты, а также атаковать его напрямую кодом.
+        Эффект обычного кода длится один ход, а при использовании ядерных
+        скриптов персонаж получает рану равную количеству успехов атакующего, но
+        только если с этой раной связан хотя бы один имплант. Дополнительно,
+        все импланты, связанные с этой раной, выходят из строя.</p><p>В
+        отличии от обычных ран урон от взлома не «поднимается» если рана уже
+        получена. Если у персонажа меньше ран чем нужно для установки импланта,
+        имплант связывается с максимально доступной раной.</p><p>Цель взлома
+        уведомляется, когда взломщик получает доступ к контрольному
+        чипу.</p></div></div></div>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    system: {}
+    ownership:
+      default: -1
+      6fzdJDn0QE2JU4FT: 3
+    flags: {}
+    _stats:
+      systemId: t6
+      systemVersion: 1.2.7
+      coreVersion: '11.315'
+      createdTime: 1702763654472
+      modifiedTime: 1702763857066
+      lastModifiedBy: 6fzdJDn0QE2JU4FT
+    _key: '!journal.pages!jzspDvO5zIytjmhs.PLg2IbNR6cq9jgm8'
+  - sort: 1500000
+    name: Хакерство
+    type: text
+    _id: EaCyFSIvIqAinO0j
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <div class="page" title="Page 5"><div class="layoutArea"><div
+        class="column"><p><span style="font-family:'Calibri'">Все в цифровом
+        мире управляется софтом, но не существует кода без ошибок и ошибки эти
+        дают возможность хакерам делать с ними непотребные
+        вещи.</span></p><p><span style="font-family:'Calibri'">Софт, который
+        использует эти ошибки, называется <strong>эксплойтами</strong>.
+        Существует 4 базовых класса софта и эксплойтов к
+        нему:</span></p><p><span style="font-family:'Calibri'"><strong>Демон
+        </strong>– используется в автоматизированных системах таких как камеры,
+        турели, двери, заводы.<br /><strong>Контроллер </strong>– предустановлен
+        на контрольных чипах, слушает сигналы мозга и передает их
+        имплантам.</span></p><p><span
+        style="font-family:'Calibri'"><strong>Защитник </strong>– управляет
+        цифровыми замками, биометрической авторизацией и всем что проверяет
+        что пользователь тот, за кого себя выдает<br /><strong>Экраны </strong>–
+        защищает другие виды софта от атак эксплойтами.</span></p><p><span
+        style="font-family:'Calibri'">Все типы софта имеют версии, которые
+        показывают, какие ошибки в нем присутствуют и какая версия эксплойта
+        нужна, чтобы получить к ней доступ.</span></p><p><span
+        style="font-family:'Calibri'">Большинство софта, встречающегося в мире,
+        являются стандартными, и к любому <em>контроллер вер. 2 </em>можно
+        получить доступ стандартным <em>эксплойтом контроллера вер. 2 </em>и
+        выше, за единственным исключением...</span></p><p><span
+        style="font-family:'Calibri'"><strong>Проприетарный софт — </strong>это
+        софт, написанный умельцем в гараже, корпоративным программистом или
+        просто настолько редкий что он не включен в стандартные эксплоиты.
+        Такой софт требует написания или покупки отдельных эксплойтов, чтобы
+        получить к нему доступ.</span></p><p><span
+        style="font-family:'Calibri'">Хотя стандартные эксплоиты подходят ко
+        всему софту кроме проприетарного, одни системы более защищены чем другие
+        и количество успехов, которые нужно <strong>получить за раз,
+        </strong>для совершения действия, будут разными в зависимости от
+        степени их защиты.</span></p><p><span
+        style="font-family:'Calibri'"><strong>Слабая защита </strong>– 1 успех
+        <br /><strong>Средняя защита </strong>– 2 успеха <br /><strong>Сильная
+        защита </strong>– 3 успеха</span></p><p></p></div></div></div>
+      markdown: ''
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    system: {}
+    ownership:
+      default: -1
+      6fzdJDn0QE2JU4FT: 3
+    flags: {}
+    _stats:
+      systemId: t6
+      systemVersion: 1.2.7
+      coreVersion: '11.315'
+      createdTime: 1702763910875
+      modifiedTime: 1702764006103
+      lastModifiedBy: 6fzdJDn0QE2JU4FT
+    _key: '!journal.pages!jzspDvO5zIytjmhs.EaCyFSIvIqAinO0j'
+  - sort: 1600000
+    name: Действия взлома
+    type: text
+    _id: 37EOcrwEcMD1kKF2
+    title:
+      show: true
+      level: 2
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <div class="page" title="Page 5"><div class="layoutArea"><div
+        class="column"><p><span style="font-family:'Calibri'">Если цель –
+        создать код, который наносит вред цели взлома напрямую, к примеру
+        повреждая импланты или перегружая цепи турели, ему нужно использовать
+        «вредные» операторы, такие как <em>перегрузи(цепи), увеличь(напряжение)
+        </em>и подобные.</span></p><p><span
+        style="font-family:'Calibri'">Подобные скрипты используются подобно
+        оружию и каждый «вредоносный» оператор действия добавляет 1 к урону.
+        Цель не может защититься от этой атаки если она не является хакером и
+        не имеет импланта «Мудрец».</span></p></div></div><div
+        class="layoutArea"><div class="column"><h2><span
+        style="font-family:'NasalizationRg'">Скан</span></h2></div></div><div
+        class="layoutArea"><div class="column"><p><span
+        style="font-family:'Calibri'">Сканирование цели возвращает версии
+        установленного софта. Если у цели есть установленные экраны возвращается
+        только версия одного из экранов на выбор ведущего.</span></p><p><span
+        style="font-family:'Calibri'"><strong>Прямое подключение</strong><em> –
+        простое</em> действие<em>,<br /></em><strong>Удаленное подключение и
+        потратив хотя бы ход</strong> <em>– обычное </em>действие<em><br
+        /></em><strong>Мгновенное удаленное подключение</strong> <em>– сложное
+        </em>действие<em>.</em></span></p><h2><span
+        style="font-family:'NasalizationRg'">Получение
+        Доступа</span></h2><p><span style="font-family:'Calibri'">Когда версия
+        определена хакер может попытаться получить к ней доступ, сложность
+        этого действия будет разниться в зависимости от версии имеющегося
+        эксплойта:</span></p><p><span style="font-family:'Calibri'"><strong>Нет
+        эксплойта </strong>– <em>высокая </em>сложность<br /><strong>Более
+        старой версии </strong>– <em>средняя </em>сложность<br
+        /><strong>Текущей или более новой версии </strong>– <em>простая
+        </em>сложность</span></p><h2><span
+        style="font-family:'NasalizationRg'">Выполнение
+        Скриптов</span></h2><p><span style="font-family:'Calibri'">Получив
+        доступ к системе, хакер может свободно выполнять на нем любые скрипты
+        который захочет.</span></p><p><span style="font-family:'Calibri'">Код
+        можно выполнить незамедлительно, либо привязать его запуск к
+        определенному физическому взаимодействию с одним из взломанных
+        объектов, такому как: нажатие кнопки, открытие двери, включение
+        компьютера, включение света.</span></p><p><span
+        style="font-family:'Calibri'">Выполнение кода не требует
+        проверки.</span></p></div></div></div>
+      markdown: ''
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    system: {}
+    ownership:
+      default: -1
+      6fzdJDn0QE2JU4FT: 3
+    flags: {}
+    _stats:
+      systemId: t6
+      systemVersion: 1.2.7
+      coreVersion: '11.315'
+      createdTime: 1702764008489
+      modifiedTime: 1702764080999
+      lastModifiedBy: 6fzdJDn0QE2JU4FT
+    _key: '!journal.pages!jzspDvO5zIytjmhs.37EOcrwEcMD1kKF2'
+  - sort: 1700000
+    name: Написание Скриптов
+    type: text
+    _id: 8DWdijPh3mPQ4ceT
+    title:
+      show: true
+      level: 2
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <div class="page" title="Page 5"><div class="layoutArea"><div
+        class="column"><p><span style="font-family:'Calibri'">Скрипты состоит из
+        операторов, которые описывают действия, которые он будет совершать.
+        Операторы бывают следующих типов <strong>операторы действий,
+        значений, проверки </strong>и
+        <strong>управляющие.</strong></span></p><p><span
+        style="font-family:'Calibri'">В спокойной обстановке хакер может за
+        час написать количество <em>операторов </em>равное количеству его
+        успехов совершив проверку низкой сложности, или, если время поджимает,
+        он может провести <em>сложную </em>проверку и сократить время до
+        хода.</span></p><p><span style="font-family:'Calibri'">При осложнении, в
+        создаваемый код закрадываются ошибки.</span></p><h2><span
+        style="font-family:'NasalizationRg'">Операторы</span></h2><p><span
+        style="font-family:'Calibri'"><strong>Операторы действий </strong>–
+        указывают какое действие нужно совершить устройство и <strong>всегда
+        </strong>состоят из одного слова и относятся к основной функции
+        устройства, оканчиваются на «()». <em>Пример: включить(), открой(),
+        закрой(), стреляй(), найди(), перегрузи().</em></span></p><p><span
+        style="font-family:'Calibri'"><strong>Значение </strong>нужно передать в
+        действие чтобы указать к чему оно относится. Значение должно описывать
+        общий тип объекта и не включать в себя более конкретных его черт. К
+        примеру, можно указать н<em>айди(человек) </em>но нельзя указать
+        <em>найди(бос) </em>или <em>найди(враг)</em>.</span></p><p><span
+        style="font-family:'Calibri'"><strong>Операторы проверки –
+        </strong>отвечают на заданный вопрос одним из двух вариантов <strong>да
+        </strong>или <strong>нет</strong>. Как и оператор действия вопрос
+        должен состоять из одного слова и заканчиваться на «?». <em>Пример:
+        Враг? Друг? Рядом? Открыт?</em></span></p><p><span
+        style="font-family:'Calibri'"><strong>Управляющие </strong>– задают
+        условия совершения действий, существуют следующие операторы:<br
+        /><em>ЕСЛИ </em>– Выполняет команду, когда проверка возвращает «да».
+        <em>Пример: найди(человек) ЕСЛИ враг?
+        стреляй(человек).</em></span></p><p><span
+        style="font-family:'Calibri'"><em>ИНАЧЕ – </em>всегда идет после
+        <em>ЕСЛИ </em>и выполняется, когда проверка возвращает «нет».<br
+        /><em>Пример: ЕСЛИ друг? открой(дверь) ИНАЧЕ закрой(дверь) – будет
+        открывать дверь друзьям и закрывать врагам</em></span></p><p><span
+        style="font-family:'Calibri'"><em>ПОВТОРИ – </em>повторяет перечисленные
+        действия бесконечно. <em>Пример: «ПОВТОРИ найди(человек) ЕСЛИ враг?
+        стреляй(человек)» - будет бесконечно искать врагов и стрелять в
+        них</em></span></p><h2><span
+        style="font-family:'NasalizationRg'">Ядерные скрипты</span></h2><p><span
+        style="font-family:'Calibri'">Если цель – создать код, который наносит
+        вред цели взлома напрямую, к примеру повреждая импланты или перегружая
+        цепи турели, ему нужно использовать «вредные» операторы, такие как
+        <em>перегрузи(цепи), увеличь(напряжение) </em>и
+        подобные.</span></p><p><span style="font-family:'Calibri'">Подобные
+        скрипты используются подобно оружию и каждый «вредоносный» оператор
+        действия добавляет 1 к урону. Цель не может защититься от этой атаки
+        если она не является хакером и не имеет импланта
+        @UUID[Compendium.t6.moscowpunk-items.Item.W672nXu7B0toGJzF]{«Мудрец»}.</span></p></div></div></div>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    system: {}
+    ownership:
+      default: -1
+      6fzdJDn0QE2JU4FT: 3
+    flags: {}
+    _stats:
+      systemId: t6
+      systemVersion: 1.2.7
+      coreVersion: '11.315'
+      createdTime: 1702764302335
+      modifiedTime: 1702764603957
+      lastModifiedBy: 6fzdJDn0QE2JU4FT
+    _key: '!journal.pages!jzspDvO5zIytjmhs.8DWdijPh3mPQ4ceT'
+  - sort: 1800000
+    name: Создание Эксплойтов
+    type: text
+    _id: yS7hH2SICtuaDMOh
+    title:
+      show: true
+      level: 2
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <div class="page" title="Page 6"><div class="layoutArea"><div
+        class="column"><p><span style="font-family:'Calibri'">Если у хакера нет
+        денег или просто достаточно навыков, времени, и связей он может
+        попытаться самостоятельно найти ошибки в чужом софте и создать к нему
+        эксплоит.</span></p><p><span style="font-family:'Calibri'">Для этого ему
+        потребуется рабочая версия софта той версии, которую он пытается
+        взломать и время на его анализ.</span></p><p><span
+        style="font-family:'Calibri'">Одна попытка анализа занимает полный день
+        и для её успешного прохождения хакер должен успешно <em>получить доступ
+        </em>к ней используя правила выше.</span></p><p><span
+        style="font-family:'Calibri'">Чтобы найти ошибки требуется успешно
+        провести анализ количество раз, соответствующее уровню защиты
+        софта.</span></p><p><span style="font-family:'Calibri'">Так чтобы найти
+        ошибки в софте со <em>средней защитой </em>нужно получить одновременно
+        как минимум 2 успеха в проверке получения доступа и сделать это 2
+        раза.</span></p><p><span style="font-family:'Calibri'">После завершения
+        анализа хакер должен написать сам эксплойт. Это действие имеет
+        <em>обычную </em>сложность и требует количество успехов равное уровню
+        защиты софта. Каждая попытка занимает полный день.</span></p><p><span
+        style="font-family:'Calibri'">Созданный таким образом эксплойт будет
+        работать только против одного типа софта конкретного производителя.
+        Чтобы он начал работать против всех производителей, хакеру нужно
+        создать эксплойт для такого же софта другого
+        производителя.</span></p><p><span
+        style="font-family:'Calibri'"><strong>Эксплойты проприетарного софта
+        </strong>создаются по тем же правилам, но имеют срок жизни от 1 до 6
+        недель или от 1 до 6 дней после применения, после чего корпорация,
+        создавшая софт исправляет ошибки и эксплойт перестает
+        работать.</span></p></div></div></div>
+      markdown: ''
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    system: {}
+    ownership:
+      default: -1
+      6fzdJDn0QE2JU4FT: 3
+    flags: {}
+    _stats:
+      systemId: t6
+      systemVersion: 1.2.7
+      coreVersion: '11.315'
+      createdTime: 1702764468882
+      modifiedTime: 1702764528737
+      lastModifiedBy: 6fzdJDn0QE2JU4FT
+    _key: '!journal.pages!jzspDvO5zIytjmhs.yS7hH2SICtuaDMOh'
+  - sort: 1900000
+    name: Написание Софта
+    type: text
+    _id: 2r9XHMBBb8OUuK8L
+    title:
+      show: true
+      level: 2
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <div class="page" title="Page 6"><div class="layoutArea"><div
+        class="column"><p><span style="font-family:'Calibri'">Написание софта
+        требует недели работы, в конце которой делается проверка. Сложность
+        проверки зависит от уровня защиты создаваемого софта. <em>Простая
+        </em>для слабой защиты, <em>обычная </em>для средней и <em>сложная
+        </em>для сильной.</span></p><p><span
+        style="font-family:'Calibri'">Осложнение понижает уровень защиты на 1
+        ступень. Получившийся софт будет считаться
+        проприетарным.</span></p></div></div></div>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    system: {}
+    ownership:
+      default: -1
+      6fzdJDn0QE2JU4FT: 3
+    flags: {}
+    _stats:
+      systemId: t6
+      systemVersion: 1.2.7
+      coreVersion: '11.315'
+      createdTime: 1702764535217
+      modifiedTime: 1702764541356
+      lastModifiedBy: 6fzdJDn0QE2JU4FT
+    _key: '!journal.pages!jzspDvO5zIytjmhs.2r9XHMBBb8OUuK8L'
+  - sort: 2000000
+    name: Ремонт и Создание Предметов
+    type: text
+    _id: qanLLJnLVxZEOqB0
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <div class="page" title="Page 6"><div class="layoutArea"><div
+        class="column"><p><span style="font-family:'Calibri'">Для создания и
+        ремонта предметов требуется Мастерская, Компоненты предмета и Базовые
+        материалы.</span></p><p><span style="font-family:'Calibri'">Чтобы
+        создать предмет с нуля, персонажу требуются его компоненты суммарной
+        стоимостью равной стоимости оружия. Создание предмета в этом случае
+        займет день и будет являться <em>простой проверкой</em>. В случае
+        провала персонаж может повторить проверку на следующий
+        день.</span></p><p><span style="font-family:'Calibri'">Создание предмета
+        с использованием частей от другого похожего оружия (но не больше
+        половины стоимости) будет являться <em>сложной
+        проверкой.</em></span></p><p><span
+        style="font-family:'Calibri'">Создание предмета с использованием частей
+        от совершенно другого оружия (не больше половины стоимости), будет
+        являться сложной, но инженеру нужно будет получить 2 успеха
+        одновременно чтобы завершить её успешно.</span></p><p><span
+        style="font-family:'Calibri'">Ремонт оружия осуществляется по тем же
+        правилам, но инженеру потребуется количество деталей равное 1⁄4
+        стоимости оружия.</span></p><p><span style="font-family:'Calibri'">В
+        случае возникновения осложнения во время ремонта или создания, обычное
+        оружие становится <strong>ненадежным</strong>, а ненадежное не работает
+        вообще.</span></p><p><span style="font-family:'Calibri'">Инженер может
+        попытаться создать компоненты предмета из базовых материалов суммарной
+        ценой равной половине их цены. Для этого ему нужна неделя и
+        прохождение <em>сложной проверку. </em>При одном успехе компоненты
+        понижают <strong>надежность </strong>предмета, при двух их качество
+        почти идентично оригинальной.</span></p><h2><span
+        style="font-family:'NasalizationRg'">Улучшение
+        Предмета</span></h2><p><span style="font-family:'Calibri'">Чтобы
+        увеличить любое значение оружия на 1 требуются компоненты предмета
+        равные 1⁄4 стоимости оружия и день работы, и прохождение <em>сложной
+        </em>проверки. При провале предмет сломан и требует ремонта, при 1
+        успехе улучшение успешно, но надежность предмета упала, при 2 успехах
+        предмет улучшен без негативных последствий.</span></p><p><span
+        style="font-family:'Calibri'">Чтобы добавить к одному предмету функцию
+        другого предмета, требуются оба этих предмета и провести проверку как
+        при улучшении.</span></p></div></div></div>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    system: {}
+    ownership:
+      default: -1
+      6fzdJDn0QE2JU4FT: 3
+    flags: {}
+    _stats:
+      systemId: t6
+      systemVersion: 1.2.7
+      coreVersion: '11.315'
+      createdTime: 1702764561808
+      modifiedTime: 1702764589897
+      lastModifiedBy: 6fzdJDn0QE2JU4FT
+    _key: '!journal.pages!jzspDvO5zIytjmhs.qanLLJnLVxZEOqB0'
+folder: null
+ownership:
+  default: 0
+  6fzdJDn0QE2JU4FT: 3
+flags:
+  core: {}
+_stats:
+  systemId: t6
+  systemVersion: 1.2.7
+  coreVersion: '11.315'
+  createdTime: 1702753584874
+  modifiedTime: 1702764881613
+  lastModifiedBy: 6fzdJDn0QE2JU4FT
+_id: jzspDvO5zIytjmhs
+sort: 0
+_key: '!journal!jzspDvO5zIytjmhs'
+

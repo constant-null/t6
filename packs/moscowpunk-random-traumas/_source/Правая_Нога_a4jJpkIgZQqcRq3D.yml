@@ -1,7 +1,7 @@
 folder: null
 name: Правая Нога
 type: trait
-img: icons/svg/item-bag.svg
+img: systems/t6/assets/icons/traumas/right-leg.png
 system:
   description: ''
   type: Проблема
@@ -25,8 +25,8 @@ _stats:
   systemVersion: 1.2.7
   coreVersion: '11.315'
   createdTime: 1702230391568
-  modifiedTime: 1702747098967
-  lastModifiedBy: 50QpUwJC9cGeePYy
+  modifiedTime: 1702749716093
+  lastModifiedBy: 6fzdJDn0QE2JU4FT
 _id: a4jJpkIgZQqcRq3D
 sort: 0
 ownership:
