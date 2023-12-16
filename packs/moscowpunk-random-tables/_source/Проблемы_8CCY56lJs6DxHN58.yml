@@ -1,0 +1,35 @@
+folder: null
+name: Проблемы
+_id: 8CCY56lJs6DxHN58
+img: icons/svg/d20-grey.svg
+description: ''
+results:
+  - type: 0
+    weight: 1
+    range:
+      - 1
+      - 1
+    drawn: false
+    _id: nHMWmeyXU6qO4tv8
+    text: '1'
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!8CCY56lJs6DxHN58.nHMWmeyXU6qO4tv8'
+replacement: true
+displayRoll: true
+flags: {}
+_stats:
+  systemId: t6
+  systemVersion: 1.2.7
+  coreVersion: '11.315'
+  createdTime: 1702729570456
+  modifiedTime: 1702746917956
+  lastModifiedBy: 50QpUwJC9cGeePYy
+formula: 1d0
+sort: 0
+ownership:
+  default: 0
+  50QpUwJC9cGeePYy: 3
+_key: '!tables!8CCY56lJs6DxHN58'
+

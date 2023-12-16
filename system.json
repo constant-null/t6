@@ -39,6 +39,27 @@
       "system": "t6",
       "type": "Item",
       "banner": "systems/t6/assets/banners/mp-items.jpeg"
+    },
+    {
+      "name": "moscowpunk-random-traumas",
+      "label": "МоскваПанк Травмы",
+      "system": "t6",
+      "type": "Item",
+      "banner": "systems/t6/assets/banners/mp-items.jpeg"
+    },
+    {
+      "name": "moscowpunk-random-tables",
+      "label": "МоскваПанк Таблицы",
+      "system": "t6",
+      "type": "RollTable",
+      "banner": "systems/t6/assets/banners/mp-items.jpeg"
+    },
+    {
+      "name": "moscowpunk-random-traits",
+      "label": "МоскваПанк Стандартные Черты",
+      "system": "t6",
+      "type": "Item",
+      "banner": "systems/t6/assets/banners/mp-items.jpeg"
     }
   ],
   "languages": [

@@ -1,0 +1,36 @@
+folder: null
+name: Правая Нога
+type: trait
+img: icons/svg/item-bag.svg
+system:
+  description: ''
+  type: Проблема
+  dice: -1
+  damaged: false
+  armor:
+    max: 0
+    received: []
+    protection: 0
+  linkedToWound: 0
+  active: true
+  uses:
+    value: 0
+    max: 0
+  damage: 0
+effects: []
+flags:
+  core: {}
+_stats:
+  systemId: t6
+  systemVersion: 1.2.7
+  coreVersion: '11.315'
+  createdTime: 1702230391568
+  modifiedTime: 1702747098967
+  lastModifiedBy: 50QpUwJC9cGeePYy
+_id: a4jJpkIgZQqcRq3D
+sort: 0
+ownership:
+  default: 0
+  50QpUwJC9cGeePYy: 3
+_key: '!items!a4jJpkIgZQqcRq3D'
+

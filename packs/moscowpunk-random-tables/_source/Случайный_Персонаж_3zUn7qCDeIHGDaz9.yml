@@ -1,0 +1,88 @@
+folder: null
+name: Случайный Персонаж
+_id: 3zUn7qCDeIHGDaz9
+img: icons/svg/d20-grey.svg
+description: ''
+results:
+  - type: 1
+    documentCollection: RollTable
+    weight: 1
+    range:
+      - 1
+      - 1
+    drawn: false
+    text: Личные
+    documentId: IyHxvK69sm34vWD6
+    img: icons/svg/d20-grey.svg
+    _id: vhAcg68mvzOPw2tk
+    flags: {}
+    _key: '!tables.results!3zUn7qCDeIHGDaz9.vhAcg68mvzOPw2tk'
+  - type: 1
+    documentCollection: RollTable
+    weight: 1
+    range:
+      - 1
+      - 1
+    drawn: false
+    text: Личные
+    documentId: IyHxvK69sm34vWD6
+    img: icons/svg/d20-grey.svg
+    _id: ba6vXSudzTuzOX2A
+    flags: {}
+    _key: '!tables.results!3zUn7qCDeIHGDaz9.ba6vXSudzTuzOX2A'
+  - type: 1
+    documentCollection: RollTable
+    weight: 1
+    range:
+      - 1
+      - 1
+    drawn: false
+    text: Истории
+    documentId: L9h5A8xMVYm7VTW6
+    img: icons/svg/d20-grey.svg
+    _id: ewo1IowvlBtHoqQT
+    flags: {}
+    _key: '!tables.results!3zUn7qCDeIHGDaz9.ewo1IowvlBtHoqQT'
+  - type: 1
+    documentCollection: RollTable
+    weight: 1
+    range:
+      - 1
+      - 1
+    drawn: false
+    text: Истории
+    documentId: L9h5A8xMVYm7VTW6
+    img: icons/svg/d20-grey.svg
+    _id: VOMWzWWZNv5c58sy
+    flags: {}
+    _key: '!tables.results!3zUn7qCDeIHGDaz9.VOMWzWWZNv5c58sy'
+  - type: 1
+    documentCollection: RollTable
+    weight: 1
+    range:
+      - 1
+      - 1
+    drawn: false
+    text: Проблемы
+    documentId: 8CCY56lJs6DxHN58
+    img: icons/svg/d20-grey.svg
+    _id: wWMz8tybdRCuu6sH
+    flags: {}
+    _key: '!tables.results!3zUn7qCDeIHGDaz9.wWMz8tybdRCuu6sH'
+replacement: true
+displayRoll: false
+flags: {}
+_stats:
+  systemId: t6
+  systemVersion: 1.2.7
+  coreVersion: '11.315'
+  createdTime: 1702729419500
+  modifiedTime: 1702746917956
+  lastModifiedBy: 50QpUwJC9cGeePYy
+formula: '1'
+sort: 0
+ownership:
+  default: 0
+  50QpUwJC9cGeePYy: 3
+_key: '!tables!3zUn7qCDeIHGDaz9'
+

@@ -1,0 +1,47 @@
+folder: null
+name: Истории
+_id: L9h5A8xMVYm7VTW6
+img: icons/svg/d20-grey.svg
+description: ''
+results:
+  - type: 0
+    weight: 1
+    range:
+      - 1
+      - 1
+    drawn: false
+    _id: 5PoYrtt2Y1bzT4L0
+    text: '1'
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!L9h5A8xMVYm7VTW6.5PoYrtt2Y1bzT4L0'
+  - type: 0
+    weight: 1
+    range:
+      - 2
+      - 2
+    drawn: false
+    _id: y9WohEaqF97ApyLr
+    text: '2'
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!L9h5A8xMVYm7VTW6.y9WohEaqF97ApyLr'
+replacement: true
+displayRoll: true
+flags: {}
+_stats:
+  systemId: t6
+  systemVersion: 1.2.7
+  coreVersion: '11.315'
+  createdTime: 1702729549240
+  modifiedTime: 1702746917956
+  lastModifiedBy: 50QpUwJC9cGeePYy
+formula: 1d0
+sort: 0
+ownership:
+  default: 0
+  50QpUwJC9cGeePYy: 3
+_key: '!tables!L9h5A8xMVYm7VTW6'
+
