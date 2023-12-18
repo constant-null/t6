@@ -33,7 +33,8 @@
       "NoArmor": "Ошибка",
       "OpenNotes": "Открыть досье",
       "Notes": "Досье",
-      "OtherTraits": "Другое"
+      "OtherTraits": "Другое",
+      "NoDescription": "Нет описания"
     },
     "UI": {
       "Roll": "Бросить",

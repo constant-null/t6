@@ -83,6 +83,12 @@ export default class T6ChatMessage extends ChatMessage {
         const totalDamage = this.selectedTraits?.reduce((damage, trait) => {
             return damage + (trait.system?.damage || 0)
         }, 0)
+        this.selectedTraits?.forEach(t => {
+            const vehicle = t.flags?.t6?.vehicle;
+            if (vehicle) {
+                t.name = `(${vehicle.name}) ${t.name}`
+            }
+        })
         if (!roll._evaluated) await roll.evaluate({async: true});
         const chatData = {
             formula: isPrivate ? "???" : roll._formula,

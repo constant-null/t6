@@ -33,7 +33,8 @@
       "NoArmor": "Error",
       "OpenNotes": "Open dossier",
       "Notes": "Dossier",
-      "OtherTraits": "Other"
+      "OtherTraits": "Other",
+      "NoDescription": "No description"
     },
     "UI": {
       "Roll": "Roll",

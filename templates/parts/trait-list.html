@@ -7,7 +7,11 @@
         {{#each traits as |trait|}}
         <div
                 class="item t6 trait glow box {{ifThen trait.selected 'active' ''}}{{ifThen trait.isDestroyed 'red' ''}} {{ifThen trait.linked 'blue' ''}}"
-                data-tooltip="<div class='t6 trait-tooltip'>{{ trait._system.description }}</div>"
+                {{#if trait._system.description}}
+                    data-tooltip="<div class='t6 trait-tooltip'>{{ trait._system.description }}</div>"
+                {{else}}
+                    data-tooltip="<div class='t6 trait-tooltip'>{{localize "T6.Sheet.NoDescription"}}</div>"
+                {{/if}}
                 data-item-id="{{trait.id}}"
         >
             <div class="flex row">
