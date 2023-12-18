@@ -45,6 +45,7 @@ export default class T6Actor extends Actor {
         if (result === 1) {
             const tableId = game.settings.get('t6', 'traumasTable')
             const traumaTable = game.tables.get(tableId);
+            traumaTable.roll()
             const result = (await traumaTable.draw()).results[0];
             let trauma;
             if (result.type === CONST.TABLE_RESULT_TYPES.COMPENDIUM) {
@@ -151,8 +152,6 @@ export default class T6Actor extends Actor {
         while (wounds.includes(`${dmg}`)) dmg += 2;
         wounds.push(`${dmg}`)
         await this.update({system: {wounds: {received: wounds}}})
-
-        await game.tables.get("7L87EuWElKmwg6KS").draw()
     }
 
     _prepareWounds(wounds) {

@@ -38,6 +38,9 @@ Hooks.once("init", function () {
 
     Socket.initialize("t6");
     T6Actor.listenWoundChange()
+
+    game.T6 = {};
+    game.T6.rollRandomCharacter = rollRandomCharacter;
 });
 
 Hooks.once("setup", function () {
@@ -124,3 +127,16 @@ async function initializeAppConfig() {
     // });
 }
 
+async function rollRandomCharacter() {
+    const randomTablesPack = game.packs.get("t6.moscowpunk-random-tables")
+
+    const table = await randomTablesPack.getDocument("3zUn7qCDeIHGDaz9")
+    const roll = await table.roll()
+    while (roll.results[0].range === roll.results[1].range) {
+        roll.results[1] = (await roll.results[1].parent.roll()).results[0];
+    }
+    while (roll.results[2].range === roll.results[3].range) {
+        roll.results[3] = (await roll.results[3].parent.roll()).results[0];
+    }
+    table.draw(roll)
+}

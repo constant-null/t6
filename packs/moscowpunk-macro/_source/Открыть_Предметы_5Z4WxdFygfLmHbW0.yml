@@ -1,7 +1,7 @@
 name: Открыть Предметы
 type: script
 scope: global
-author: 6fzdJDn0QE2JU4FT
+author: 50QpUwJC9cGeePYy
 img: icons/svg/book.svg
 command: |-
   const itemsPack = game.packs.get("t6.moscowpunk-items")
@@ -14,11 +14,11 @@ flags:
   core: {}
 _stats:
   systemId: t6
-  systemVersion: 1.2.7
+  systemVersion: 1.3.0
   coreVersion: '11.315'
   createdTime: 1702755358698
-  modifiedTime: 1702756806940
-  lastModifiedBy: 6fzdJDn0QE2JU4FT
+  modifiedTime: 1702915628950
+  lastModifiedBy: 50QpUwJC9cGeePYy
 _id: 5Z4WxdFygfLmHbW0
 sort: 200000
 _key: '!macros!5Z4WxdFygfLmHbW0'

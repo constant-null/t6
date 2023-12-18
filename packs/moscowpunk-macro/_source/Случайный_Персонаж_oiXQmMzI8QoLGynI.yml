@@ -1,12 +1,9 @@
 name: Случайный Персонаж
 type: script
 scope: global
-author: 6fzdJDn0QE2JU4FT
+author: 50QpUwJC9cGeePYy
 img: systems/t6/assets/icons/traits/generate-character.svg
-command: |-
-  const randomTablesPack = game.packs.get("t6.moscowpunk-random-tables")
-
-  randomTablesPack.getDocument("3zUn7qCDeIHGDaz9").then(table => table.draw())
+command: game.T6.rollRandomCharacter()
 folder: null
 ownership:
   default: 0
@@ -15,11 +12,11 @@ flags:
   core: {}
 _stats:
   systemId: t6
-  systemVersion: 1.2.7
+  systemVersion: 1.3.0
   coreVersion: '11.315'
   createdTime: 1702754975826
-  modifiedTime: 1702756816968
-  lastModifiedBy: 6fzdJDn0QE2JU4FT
+  modifiedTime: 1702915628950
+  lastModifiedBy: 50QpUwJC9cGeePYy
 _id: oiXQmMzI8QoLGynI
 sort: 0
 _key: '!macros!oiXQmMzI8QoLGynI'
