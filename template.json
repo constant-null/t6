@@ -1,6 +1,6 @@
 {
   "Actor": {
-    "types": ["pc", "npc"],
+    "types": ["pc", "npc", "vehicle"],
     "templates": {
       "wounds": {
         "wounds": {
@@ -16,7 +16,8 @@
     "npc": {
       "templates": ["wounds"],
       "proficiency": 1
-    }
+    },
+    "vehicle": ["wounds"]
   },
   "Item": {
     "types": ["trait"],

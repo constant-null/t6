@@ -19,6 +19,11 @@
     "NPC": {
       "Proficiency": "Навык"
     },
+    "Vehicle": {
+      "Name": "Название",
+      "Durability": "Повреждения",
+      "Parts": "Компоненты"
+    },
     "Sheet": {
       "Wounds": "Раны",
       "Death": "Смерть",
@@ -34,6 +39,7 @@
       "Roll": "Бросить",
       "CharacterSheetName": "Персонаж",
       "NPCSheetName": "НИП",
+      "VehicleSheetName": "Транспорт",
       "ItemSheetName": "Черта или Предмет",
       "Confirm": {
         "DeleteTrait": {

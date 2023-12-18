@@ -9,19 +9,19 @@
                 </div>
                 <div class="flex">
                     <div class="t6 box">
-                        <div class="t6 glow big-label">{{ localize 'T6.PC.Name' }}</div>
+                        <div class="t6 glow big-label">{{ localize 'T6.Vehicle.Name' }}</div>
                         <div class="t6 box-input glow">
                             <input id="char-name" name="name" class="t6 glow long-input caretjs"
                                    value="{{actor.name}}"/>
                         </div>
                     </div>
                     <div class="flex row">
-                        <!-- Wounds-->
+                        <!-- Wounds/Durability-->
                         <div class="t6 box {{ifThen actor.isDefeated 'red' ''}}">
                             <div class="flex row wide">
                                 <div class="t6 glow big-label {{ifThen (lastElement wounds) 'red glitch' ''}}"
-                                     data-text="{{ localize 'T6.Sheet.Wounds' }}">
-                                    {{ localize 'T6.Sheet.Wounds' }}
+                                     data-text="{{ localize 'T6.Vehicle.Durability' }}">
+                                    {{ localize 'T6.Vehicle.Durability' }}
                                 </div>
                                 <div>
                                     {{numberInput data.wounds.max name="data.wounds.max" step=2 min=0 max=10 class="t6
@@ -79,14 +79,7 @@
         <div class="traits">
             <div class="flex row">
                 <div class="trait-container">
-                    {{> "systems/t6/templates/parts/trait-list.html" npc=true title="T6.Sheet.Equipment"}}
-                </div>
-                <div class="t6 box glow">
-                    <div class="t6 npc-skill">{{ localize 'T6.NPC.Proficiency' }}</div>
-                    {{numberInput data.proficiency name="data.proficiency" step=1 min=0 max=6 class="t6 glow
-                    small-input"}}
-                    <button class="t6 glow roll button npc proficient">{{ localize 'T6.UI.Roll' }}</button>
-                    <button class="t6 glow roll button npc no-skill">+0</button>
+                    {{> "systems/t6/templates/parts/trait-list.html" npc=true title="T6.Vehicle.Parts"}}
                 </div>
             </div>
         </div>

@@ -10,6 +10,7 @@ import {T6} from "./config.mjs";
 import Socket from "../sockets/socket.mjs";
 import T6Combatant from "./t6-combatant.mjs";
 import T6Combat from "./t6-combat.mjs";
+import T6VehicleSheet from "./sheets/t6-vehicle-sheet.mjs";
 
 Hooks.once("init", function () {
     console.log("T6 | Initializing T6 System");
@@ -22,6 +23,7 @@ Hooks.once("init", function () {
     Actors.unregisterSheet("core", ActorSheet);
     Actors.registerSheet("t6", T6PCSheet, {makeDefault: true, label: "T6.UI.CharacterSheetName"});
     Actors.registerSheet("t6", T6NPCSheet, {label: "T6.UI.NPCSheetName"});
+    Actors.registerSheet("t6", T6VehicleSheet, {label: "T6.UI.VehicleSheetName"});
 
     CONFIG.ChatMessage.documentClass = T6ChatMessage;
     CONFIG.ChatMessage.template = "systems/t6/templates/chat/chat-message.html"
@@ -60,8 +62,6 @@ Hooks.on("renderPlayerList", function (app, html, data) {
 async function preloadTemplates() {
     return loadTemplates([
         "systems/t6/templates/parts/trait-list.html",
-        "systems/t6/templates/parts/pc-traits.html",
-        "systems/t6/templates/parts/npc-traits.html"
     ]);
 }
 

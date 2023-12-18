@@ -4,7 +4,7 @@
             <div class="flex row">
                 <div class="flex">
                     <div class="t6 glow box">
-                        <img src="{{actor.img}}" data-edit="img" title="{{actor.name}}" height="149"/>
+                        <img src="{{actor.img}}" data-edit="img" title="{{actor.name}}"/>
                     </div>
                 </div>
                 <div class="flex">
@@ -41,10 +41,12 @@
                         </div>
                         <!-- Armor-->
                         <div class="t6 box {{ifThen armor '' 'red'}}{{ifThen (lastElement armor) 'red' ''}}">
+                            {{#if armor}}
                             <div class="t6 glow big-label {{ifThen armor '' 'red'}}{{ifThen (lastElement armor) 'red glitch' ''}}"
                                  data-text="{{ actor.equippedArmor.name }}">
                                 {{ actor.equippedArmor.name }}
                             </div>
+                            {{/if}}
                             <fieldset class="t6 wounds armor">
                                 {{#if armor}}
                                 {{#each armor as |dealt wound|}}
@@ -78,7 +80,11 @@
                     <button class="t6 glow roll roll-dice button">{{ localize 'T6.UI.Roll' }}</button>
                 </div>
             </div>
-            {{> "systems/t6/templates/parts/pc-traits.html"}}
+            <div class="trait-container">
+                {{#each traitGroups as |traits title|}}
+                {{> "systems/t6/templates/parts/trait-list.html" traits=traits title=title}}
+                {{/each}}
+            </div>
         </div>
     </section>
 </form>

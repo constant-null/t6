@@ -23,6 +23,10 @@ input.t6:active, button.t6:active {
     box-shadow: none;
 }
 
+.t6 img[data-edit="img"] {
+    height: auto;
+    width: 149px;
+}
 
 .wounds {
     display: flex;
@@ -133,7 +137,7 @@ input.t6:active, button.t6:active {
 }
 
 .none {
-    margin-top: 0.8em !important;
+    margin-top: 1em !important;
     margin: auto;
 }
 

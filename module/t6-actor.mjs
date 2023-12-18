@@ -4,15 +4,18 @@ export default class T6Actor extends Actor {
     static async create(data, options) {
         if (!(data instanceof T6Actor)) {
             data.token = {
-                actorLink: data.type !== "npc",
-                disposition: data.type !== "npc" ? 1 : -1,
-                vision: data.type !== "npc",
+                actorLink: data.type === "pc",
+                disposition: data.type === "pc" ? 1 : -1,
+                vision: data.type === "pc",
                 displayBars: 50,
                 bar1: {attribute: "woundsBar"},
             }
 
             if (data.type === "npc") {
                 data.flags = {"core": {"sheetClass": "t6.T6NPCSheet"}};
+            }
+            if (data.type === "vehicle") {
+                data.flags = {"core": {"sheetClass": "t6.T6VehicleSheet"}};
             }
         }
 

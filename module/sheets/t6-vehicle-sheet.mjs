@@ -1,26 +1,28 @@
-import RollPrompt from "../dialog/roll-dialog.mjs";
-import T6PCNotesSheet from "./t6-pc-notes-sheet.mjs";
-import T6VehicleSheet from "./t6-vehicle-sheet.mjs";
-
-export default class T6PCSheet extends ActorSheet {
+export default class T6VehicleSheet extends ActorSheet {
     _selectedTraits = [];
 
     static get defaultOptions() {
         const options = super.defaultOptions;
 
-        options.template = "systems/t6/templates/sheets/t6-pc-sheet.html";
+        options.template = "systems/t6/templates/sheets/t6-vehicle-sheet.html";
         options.classes = options.classes.concat(["t6"]);
-        options.width = 545;
+        options.width = 540;
+        options.height = 500;
 
         return options;
     }
 
     get selectedTraits() {
-        return this._selectedTraits.concat(T6VehicleSheet.VehicleTraits)
+        return this._selectedTraits;
     }
 
     set selectedTraits(value) {
-        this._selectedTraits = value
+        this._selectedTraits = value;
+    }
+
+    static get VehicleTraits() {
+        const vehicleSheet = Object.values(ui.windows).find(w => w instanceof T6VehicleSheet && w.selectedTraits.length);
+        return vehicleSheet?.selectedTraits || [];
     }
 
     /** @type T6Actor */
@@ -35,22 +37,7 @@ export default class T6PCSheet extends ActorSheet {
         html.find(".wound.checkbox").contextmenu(this._woundRightClick.bind(this))
         html.find(".t6.trait").contextmenu(this._traitContextMenu.bind(this));
         html.find(".t6.trait").click(this._traitClicked.bind(this));
-        html.find(".t6.trait-x2").click(this._traitx2Clicked.bind(this));
-        html.find(".roll-dice").click(this._rollDiceClicked.bind(this));
         html.find(".add-button").click(this._addTraitClicked.bind(this));
-        html.find(".reset-button").click(this._resetSelectedClicked.bind(this));
-        html.find("#open-notes").click(this._openNotesClicked.bind(this));
-    }
-
-    async _openNotesClicked(e) {
-        new T6PCNotesSheet(this.actor).render(true);
-    }
-
-    async _resetSelectedClicked(e) {
-        e.preventDefault()
-
-        this.selectedTraits = [];
-        this.render(true);
     }
 
     async _addTraitClicked(e) {
@@ -70,7 +57,9 @@ export default class T6PCSheet extends ActorSheet {
         const checked = e.target.checked = !e.target.checked;
         const wound =  e.target.value;
 
-        const linkedItems = this.actor.items.filter(i => i._system.linkedToWound == wound)
+        const linkedItems = this.actor.items.filter(
+            i => i._system.linkedToWound == wound || (this.actor._system.wounds.max == wound && i._system.linkedToWound > this.actor._system.wounds.max)
+        )
         linkedItems.forEach(i => i._system.damaged = checked)
         this.actor.updateEmbeddedDocuments("Item", linkedItems.map(i => {
             return {_id: i.id, system: i._system};
@@ -117,41 +106,6 @@ export default class T6PCSheet extends ActorSheet {
         this.render();
     }
 
-    async _rollDiceClicked(e) {
-        e.preventDefault()
-
-        let pool = 0;
-        let selectedTraits = []
-        for (const trait of this.actor.items) {
-            if (!trait.isDestroyed && this.selectedTraits.includes(trait.id)) {
-                pool += parseInt(trait._system.dice);
-                selectedTraits.push(trait)
-            }
-        }
-
-        if (pool === 0) return;
-        RollPrompt.show(this.actor, selectedTraits, pool, () => {
-            selectedTraits.forEach(t => t.use())
-            this.render()
-        });
-    }
-
-    async _traitx2Clicked(e) {
-        e.preventDefault()
-        const itemId = e.target.closest(".item").dataset.itemId;
-        const selectedItemId = this.selectedTraits.find(i => i === itemId);
-
-        let item = this.actor.items.find(i => i.id === itemId);
-        if (item.isDestroyed || !item._system.active) return
-
-        if (selectedItemId) {
-            this.selectedTraits = this.selectedTraits.filter(i => i !== itemId);
-        }
-        this.selectedTraits.push(itemId, itemId)
-
-        this.render();
-    }
-
     async _traitClicked(e) {
         e.preventDefault()
         const itemId = e.target.closest(".item").dataset.itemId;
@@ -189,19 +143,10 @@ export default class T6PCSheet extends ActorSheet {
         context.armor = this.actor.armor;
         context.woundTooltips = this.actor.woundsTooltips;
 
-        context.traitGroups = {}
-        const types = game.settings.get('t6', 'traitTypes').split(',').map(e => e.trim())
-        let otherTraitsGroup = game.i18n.localize('T6.Sheet.OtherTraits');
-
-        for (const type of types) {
-            context.traitGroups[type] = []
-        }
-
-        context.linkedWounds = {}
+        context.linkedWounds = {};
         context.traitsSelected = false;
-        context.traitsSelectedAmount = 0
+        context.traits = this.actor.items;
         for (const item of this.actor.items) {
-            let t = item._system.type;
             if (this.selectedTraits.find(i => i === item.id)) {
                 if (!item.isDestroyed) {
                     context.traitsSelected = true;
@@ -209,25 +154,19 @@ export default class T6PCSheet extends ActorSheet {
                     this.selectedTraits = this.selectedTraits.filter(i => i !== item.id);
                 }
                 item.selected = true;
-                context.traitsSelectedAmount += item._system.dice;
             } else {
                 item.selected = false;
             }
 
-            if (item._system.active && item._system.linkedToWound) {
+            let linkedToWound = item._system.linkedToWound;
+            if (item._system.active && linkedToWound) {
                 item.linked = !item.isDestroyed;
-                context.linkedWounds[item._system.linkedToWound] = true;
+                if (linkedToWound > this.actor._system.wounds.max) {
+                    linkedToWound = this.actor._system.wounds.max;
+                }
+                context.linkedWounds[linkedToWound] = true;
             } else {
                 item.linked = false
-            }
-
-            if (t in context.traitGroups) {
-                context.traitGroups[t].push(item)
-            } else {
-                if (!(otherTraitsGroup in context.traitGroups)) {
-                    context.traitGroups[otherTraitsGroup] = []
-                }
-                context.traitGroups[otherTraitsGroup].push(item)
             }
         }
 

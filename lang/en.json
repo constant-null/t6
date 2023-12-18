@@ -19,6 +19,11 @@
     "NPC": {
       "Proficiency": "Skill"
     },
+    "Vehicle": {
+      "Name": "Name",
+      "Durability": "Durability",
+      "Parts": "Parts"
+    },
     "Sheet": {
       "Wounds": "Wounds",
       "Death": "Death",
@@ -34,6 +39,7 @@
       "Roll": "Roll",
       "CharacterSheetName": "Character",
       "NPCSheetName": "NPC",
+      "VehicleSheetName": "Vehicle",
       "ItemSheetName": "Trait or Item",
       "Confirm": {
         "DeleteTrait": {
