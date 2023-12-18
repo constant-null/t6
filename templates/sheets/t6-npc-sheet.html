@@ -44,9 +44,12 @@
                         </div>
                         <!-- Armor-->
                         <div class="t6 box {{ifThen armor '' 'red'}}{{ifThen (lastElement armor) 'red' ''}}">
-                            <div {{{ fontSize actor.equippedArmor.name }}} class="t6 glow big-label {{ifThen armor '' 'red'}}{{ifThen (lastElement armor) 'red glitch' ''}}"
-                                 data-text="{{ localize 'T6.Sheet.Armor' }}">
-                                {{ actor.equippedArmor.name }}
+                            <div class="t6 flex row">
+                                <div class="t6 glow protection" data-tooltip="{{ localize 'T6.Item.Protection'}}">{{ actor.equippedArmor._system.armor.protection }}</div>
+                                <div {{{ fontSize actor.equippedArmor.name }}} class="t6 glow big-label {{ifThen armor '' 'red'}}{{ifThen (lastElement armor) 'red glitch' ''}}"
+                                     data-text="{{ localize 'T6.Sheet.Armor' }}">
+                                    {{ actor.equippedArmor.name }}
+                                </div>
                             </div>
                             <fieldset class="t6 wounds armor">
                                 {{#if armor}}

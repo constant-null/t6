@@ -38,6 +38,16 @@ input.t6:active, button.t6:active {
     font-weight: 600;
 }
 
+.t6.protection {
+    text-align: center;
+    line-height: 2em;
+    background-size: cover;
+    background-image: url(/systems/t6/assets/sheet/shield.svg);
+    min-width: 26px;
+    height: 2em;
+    margin-left: -5px;
+}
+
 .flex {
     display: flex;
     vertical-align: top;
