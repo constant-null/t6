@@ -1,0 +1,13 @@
+:root {
+    --main-color: #00cd00;
+    --muted-main-color-1: #008000;
+    --muted-main-color-2: #006900;
+    --secondary-color: red;
+    --muted-secondary-color-1: #a10000;
+    --muted-secondary-color-2: #830000;
+    --supplimentary-color: aquamarine;
+    --muted-supplimentary-color-1: #60c09f;
+    --muted-supplimentary-color-2: #4d9a80;
+    --main-background-image: url(/systems/t6/assets/sheet/background.gif);
+}
+

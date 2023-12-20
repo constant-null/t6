@@ -1,17 +1,17 @@
 .t6.chat-message {
+    background-image: var(--main-background-image);
+    border-color: var(--main-color);
     font-size: 1.1em;
-    background-image: url(/systems/t6/assets/sheet/background.gif);
     border-radius: 0;
-    border-color: #00cd00;
 }
 
 .t6 .message-header {
-    color: #00cd00;
+    color: var(--main-color);
 }
 
 .t6.dice-roll.t6die {
-    border: 1px solid #00cd00;
-    background-color: red;
+    border: 1px solid var(--main-color);
+    background-color: var(--secondary-color);
     background-size: contain;
     width: 30px;
     height: 30px;
@@ -19,9 +19,8 @@
 }
 
 .t6.dice-roll.t6die.success {
-    background-color:  #00cd00;
+    background-color: var(--main-color);
 }
-
 
 .t6.dice-roll.t6die.r1 {
     background-image: url(/systems/t6/assets/dice/1.svg);

@@ -6,7 +6,7 @@
     font: inherit;
     width: 0.8em;
     height: 0.8em;
-    border: 0.05em solid green;
+    border: 0.05em solid var(--main-color);
 
     display: grid;
     place-content: center;
@@ -29,13 +29,13 @@
     height: 0.45em;
     transform: scale(0);
     transition: 120ms transform ease-in-out;
-    box-shadow: inset .8em .8em #00cd00;
-    filter: drop-shadow(0 0 0.75rem #00cd00);
+    box-shadow: inset .8em .8em var(--main-color);
+    filter: drop-shadow(0 0 0.75rem var(--main-color));
 }
 
 .t6-checkbox-container.red input.checkbox::before {
-    box-shadow: inset .8em .8em red;
-    filter: drop-shadow(0 0 0.75rem red);
+    box-shadow: inset .8em .8em var(--secondary-color);
+    filter: drop-shadow(0 0 0.75rem var(--secondary-color));
 
     animation-name: red-shadow-pulse;
     animation-duration: 2s;
@@ -47,8 +47,8 @@
 }
 
 .t6-checkbox-container.full-red input.checkbox::before {
-    box-shadow: inset .8em .8em red;
-    filter: drop-shadow(0 0 0.75rem red);
+    box-shadow: inset .8em .8em var(--secondary-color);
+    filter: drop-shadow(0 0 0.75rem var(--secondary-color));
 
     animation-name: red-shadow-pulse;
     animation-duration: 2s;
@@ -56,24 +56,24 @@
 }
 
 .t6-checkbox-container.full-red input.checkbox {
-    border-color: red;
+    border-color: var(--secondary-color);
 }
 
 .t6-checkbox-container.full-blue input.checkbox::before {
-    box-shadow: inset .8em .8em aquamarine;
-    filter: drop-shadow(0 0 0.75rem aquamarine);
+    box-shadow: inset .8em .8em var(--supplimentary-color);
+    filter: drop-shadow(0 0 0.75rem var(--supplimentary-color));
 }
 
 .t6-checkbox-container.full-blue input.checkbox {
-    border-color: aquamarine;
+    border-color: var(--supplimentary-color);
 }
 
 .t6-checkbox-container.blue-border input.checkbox {
-    border-color: aquamarine;
+    border-color: var(--supplimentary-color);
 }
 
 @keyframes red-shadow-pulse {
-    0% {box-shadow: inset .8em .8em red;}
-    50% {box-shadow: inset .8em .8em rgba(255, 0, 0, 0.6);}
-    100% {box-shadow: inset .8em .8em red;}
+    0% {box-shadow: inset .8em .8em var(--secondary-color);}
+    50% {box-shadow: inset .8em .8em var(--muted-secondary-color-1);}
+    100% {box-shadow: inset .8em .8em var(--secondary-color);}
 }

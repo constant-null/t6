@@ -11,12 +11,12 @@ import Socket from "../sockets/socket.mjs";
 import T6Combatant from "./t6-combatant.mjs";
 import T6Combat from "./t6-combat.mjs";
 import T6VehicleSheet from "./sheets/t6-vehicle-sheet.mjs";
+import T6Themes from "./t6-themes.mjs";
 
 Hooks.once("init", function () {
     console.log("T6 | Initializing T6 System");
-    CONFIG.debug.hooks = true;
+    CONFIG.debug.hooks = false;
     CONFIG.T6 = T6
-
     CONFIG.Combatant.documentClass = T6Combatant;
     CONFIG.Combat.documentClass = T6Combat;
     CONFIG.Actor.documentClass = T6Actor;
@@ -41,12 +41,12 @@ Hooks.once("init", function () {
     Socket.initialize("t6");
     T6Actor.listenWoundChange()
 
-    game.T6 = {};
-    game.T6.rollRandomCharacter = rollRandomCharacter;
+    initMacroHelpers()
 });
 
 Hooks.once("setup", function () {
     initializeAppConfig();
+    T6Themes.injectStyle()
 });
 
 Hooks.on("renderCameraViews", function (app, html, data) {
@@ -58,6 +58,11 @@ Hooks.on("renderPlayerList", function (app, html, data) {
     const cameraGM = html.find("span:contains('GM')");
     cameraGM.text(cameraGM.text().replace('GM', game.i18n.localize("T6.Narrator")));
 });
+
+function initMacroHelpers() {
+    game.T6 = {};
+    game.T6.rollRandomCharacter = rollRandomCharacter;
+}
 
 async function preloadTemplates() {
     return loadTemplates([

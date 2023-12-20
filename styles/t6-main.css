@@ -8,7 +8,7 @@
 }
 
 .t6 h1, h2, h3, h4 {
-    border-color: #00cd00;
+    border-color: var(--muted-main-color-1);
 }
 
 input.t6:hover, button.t6:hover {
@@ -72,7 +72,7 @@ input.t6:active, button.t6:active {
 .t6.long-input {
     font-size: 1em;
     background-color: transparent;
-    border-color: green;
+    border-color: var(--main-color);
     border-width: 0 0 1px 0;
     min-height: 1.4em;
     min-width: 320px;
@@ -81,15 +81,14 @@ input.t6:active, button.t6:active {
 .t6.input {
     font-size: 1em;
     background-color: transparent;
-    border-color: green;
+    border-color: var(--muted-main-color-1);
     border-width: 0 0 1px 0;
     min-height: 1.4em;
 }
 
-
 .t6.small-input {
     background-color: transparent;
-    border-color: green;
+    border-color: var(--muted-main-color-1);
     border-width: 0 0 1px 0;
     min-height: 1.4em;
     width: 100%;
@@ -97,14 +96,13 @@ input.t6:active, button.t6:active {
     font-size: large;
 }
 
-
 .app.t6 > .window-content {
-    background-image: url(/systems/t6/assets/sheet/background.gif);
+    background-image: var(--main-background-image);
 }
 
 .glow.t6 {
     color: #00cd00;
-    filter: drop-shadow(0 0 0.75rem green);
+    filter: drop-shadow(0 0 0.75rem var(--muted-main-color-1));
 }
 
 .t6.wounds {
@@ -117,7 +115,7 @@ input.t6:active, button.t6:active {
 }
 
 .t6.box {
-    border: 1px solid #00cd00;
+    border: 1px solid var(--main-color);
     padding: 5px;
     display: flex;
     flex-direction: column;
@@ -129,11 +127,11 @@ input.t6:active, button.t6:active {
 }
 
 .t6.box.red {
-    border: 1px solid red;
+    border: 1px solid var(--secondary-color);
 }
 
 .t6.box.blue {
-    border: 1px solid aquamarine;
+    border: 1px solid var(--supplimentary-color);
 }
 
 .none {
@@ -142,13 +140,13 @@ input.t6:active, button.t6:active {
 }
 
 .glow.red {
-    color: red;
-    filter: drop-shadow(0 0 0.75rem red);
+    color: var(--secondary-color);
+    filter: drop-shadow(0 0 0.75rem var(--secondary-color));
 }
 
 .glow.blue {
-    color: aquamarine;
-    filter: drop-shadow(0 0 0.75rem aquamarine);
+    color: var(--supplimentary-color);
+    filter: drop-shadow(0 0 0.75rem var(--supplimentary-color));
 }
 
 
@@ -185,7 +183,7 @@ input.t6:active, button.t6:active {
 
 select.t6 {
     border-radius: 0;
-    border-color: #00cd00;
+    border-color: var(--main-color);
 }
 
 .t6 .editor {
@@ -198,7 +196,7 @@ select.t6 {
 
 .t6 .prosemirror menu button.active, .t6 .prosemirror menu button:hover {
     color: black;
-    background-color: #00cd00;
+    background-color: var(--main-color);
 }
 
 .t6 .prosemirror menu button {
@@ -224,30 +222,30 @@ select.t6 {
 .t6.delete-button {
     margin: auto 0;
     font-size: 29px;
-    color: red;
+    color: var(--secondary-color);
     cursor: pointer;
 }
 
 .t6.dialog * {
-    color: #00cd00;
+    color: var(--main-color);
 }
 
 .t6 button {
     border-radius: 0;
-    border-color: #00cd00 !important;
+    border-color: var(--main-color) !important;
     background-color: rgba(0,0,0,0.1);
 }
 
 .t6.red button {
-    border-color: red !important;
+    border-color: var(--secondary-color) !important;
 }
 
 .t6.blue button {
-    border-color: aquamarine !important;
+    border-color: var(--supplimentary-color) !important;
 }
 
 .t6.box.active {
-    background-color: rgba(0, 128, 0, 0.47);
+    background-color: var(--muted-main-color-2);
 }
 
 .flex.wide {
@@ -277,7 +275,7 @@ button.t6.npc {
 }
 
 button.t6:active {
-    background-color: #007500;
+    background-color: var(--muted-main-color-1);
 }
 
 button.t6:hover {
@@ -296,37 +294,37 @@ button.t6.blue:hover {
 
 @keyframes green-pulse {
     0% {
-        background-color: #006900
+        background-color: var(--muted-main-color-2)
     }
     50% {
-        background-color: #008000
+        background-color: var(--muted-main-color-1)
     }
     100% {
-        background-color: #006900
+        background-color: var(--muted-main-color-2)
     }
 }
 
 @keyframes red-pulse {
     0% {
-        background-color: #830000
+        background-color: var(--muted-secondary-color-2)
     }
     50% {
-        background-color: #a10000
+        background-color: var(--muted-secondary-color-1)
     }
     100% {
-        background-color: #830000
+        background-color: var(--muted-secondary-color-2)
     }
 }
 
 @keyframes blue-pulse {
     0% {
-        background-color: #4d9a80;
+        background-color: var(--muted-supplimentary-color-2);
     }
     50% {
-        background-color: #60c09f;
+        background-color: var(--muted-supplimentary-color-1);
     }
     100% {
-        background-color: #4d9a80;
+        background-color: var(--muted-supplimentary-color-2);
     }
 }
 
@@ -399,9 +397,9 @@ select.t6 option {
 
 .t6 a.content-link {
     background-color: transparent;
-    border: 1px solid #00cd00;
+    border: 1px solid var(--main-color);
 }
 
 .t6 a.content-link i, a.inline-roll i {
-    color: #00cd00;
+    color: var(--main-color);
 }
