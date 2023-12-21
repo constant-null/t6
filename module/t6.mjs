@@ -72,13 +72,14 @@ async function preloadTemplates() {
 
 async function initializeAppConfig() {
     game.settings.register('t6', 'theme', {
-        name: 'T6.Settings.TraitTypes.Name',
-        hint: 'T6.Settings.TraitTypes.Description',
-        label: "T6.Settings.TraitTypes.Label",
+        name: 'T6.Settings.Theme.Name',
         config: true, // false if you don't want it to show in module config
         type: String,
-        restricted: true,
-        default: game.i18n.localize('T6.Settings.TraitTypes.Default')
+        scope: "client",
+        choices: T6Themes.options,
+        requiresReload: true,
+        restricted: false,
+        default: "punk"
     });
     game.settings.register('t6', 'traitTypes', {
         name: 'T6.Settings.TraitTypes.Name',
@@ -86,6 +87,7 @@ async function initializeAppConfig() {
         label: "T6.Settings.TraitTypes.Label",
         config: true, // false if you don't want it to show in module config
         type: String,
+        scope: "world",
         restricted: true,
         default: game.i18n.localize('T6.Settings.TraitTypes.Default')
     });
@@ -94,6 +96,7 @@ async function initializeAppConfig() {
         hint: 'T6.Settings.Complications.Description',
         label: "T6.Settings.Complications.Label",
         config: true,
+        scope: "world",
         type: Boolean,
         restricted: true,
         default: true
@@ -103,6 +106,7 @@ async function initializeAppConfig() {
         hint: 'T6.Settings.Traumas.Description',
         label: "T6.Settings.Traumas.Label",
         config: true,
+        scope: "world",
         type: Boolean,
         requiresReload: true,
         restricted: true,
@@ -116,6 +120,7 @@ async function initializeAppConfig() {
             name: 'T6.Settings.TraumasTable.Name',
             hint: 'T6.Settings.TraumasTable.Description',
             config: true,
+            scope: "world",
             type: String,
             choices: tables,
             restricted: true,

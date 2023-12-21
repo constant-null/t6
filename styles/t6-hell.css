@@ -1,3 +1,8 @@
+@font-face {
+    font-family: mainfont;
+    src: url(/systems/t6/assets/fonts/brahms-gotisch.ttf);
+}
+
 :root {
     --main-color: #FFD729;
     --muted-main-color-1: #b24605;
@@ -9,7 +14,6 @@
     --muted-supplimentary-color-1: #60c09f;
     --muted-supplimentary-color-2: #4d9a80;
     --main-background-image: url(/systems/t6/assets/sheet/sigil.png);
-    --main-background-size: cover;
 }
 
 .app.t6 > .window-content {

@@ -102,7 +102,14 @@
       "TraumasTable": {
         "Name": "Table with traumas",
         "Description": "Please choose which table to use for trauma rolls (it should be table of items)"
+      },
+      "Theme": {
+        "Name": "UI Theme"
       }
+    },
+    "Themes": {
+      "punk": "Punk",
+      "hell": "Hell"
     },
     "Narrator": "Master"
   }

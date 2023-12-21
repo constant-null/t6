@@ -1,10 +1,6 @@
-@font-face {
-    font-family: bedstead;
-    src: url(/systems/t6/assets/fonts/brahms-gotisch.ttf);
-}
 
 .t6 {
-    font-family: bedstead;
+    font-family: mainfont;
 }
 
 .t6 h1, h2, h3, h4 {
