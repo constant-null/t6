@@ -71,6 +71,15 @@ async function preloadTemplates() {
 }
 
 async function initializeAppConfig() {
+    game.settings.register('t6', 'theme', {
+        name: 'T6.Settings.TraitTypes.Name',
+        hint: 'T6.Settings.TraitTypes.Description',
+        label: "T6.Settings.TraitTypes.Label",
+        config: true, // false if you don't want it to show in module config
+        type: String,
+        restricted: true,
+        default: game.i18n.localize('T6.Settings.TraitTypes.Default')
+    });
     game.settings.register('t6', 'traitTypes', {
         name: 'T6.Settings.TraitTypes.Name',
         hint: 'T6.Settings.TraitTypes.Description',

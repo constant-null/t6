@@ -1,0 +1,27 @@
+:root {
+    --main-color: #FFD729;
+    --muted-main-color-1: #b24605;
+    --muted-main-color-2: #9b4605;
+    --secondary-color: red;
+    --muted-secondary-color-1: #a10000;
+    --muted-secondary-color-2: #830000;
+    --supplimentary-color: #ffffff;
+    --muted-supplimentary-color-1: #60c09f;
+    --muted-supplimentary-color-2: #4d9a80;
+    --main-background-image: url(/systems/t6/assets/sheet/sigil.png);
+    --main-background-size: cover;
+}
+
+.app.t6 > .window-content {
+    background-size: 400px;
+    background-repeat: no-repeat;
+    background-color: black;
+    background-position: bottom -155px right -150px;
+}
+
+.t6.chat-message {
+    background-size: 200px;
+    background-repeat: no-repeat;
+    background-color: black;
+    background-position: bottom -60px right -62px;
+}

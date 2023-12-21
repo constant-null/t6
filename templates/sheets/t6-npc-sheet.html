@@ -30,7 +30,7 @@
                             </div>
                             <fieldset class="t6 wounds">
                                 {{#each wounds as |dealt wound|}}
-                                <div data-tooltip="{{ localize (lookup ../woundTooltips wound)}}{{ localize 'T6.Tooltip.RLWoundTooltip'}}" class="wound">
+                                <div data-tooltip="<span class='t6'>{{ localize (lookup ../woundTooltips wound)}}</span>{{ localize 'T6.Tooltip.RLWoundTooltip'}}" class="wound">
                                     <div class="t6 glow label {{ifThen (lookup ../linkedWounds wound) 'blue' ''}}">
                                         {{wound}}
                                     </div>
