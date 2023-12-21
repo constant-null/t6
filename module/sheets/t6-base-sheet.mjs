@@ -114,7 +114,7 @@ export default class T6BaseSheet extends ActorSheet {
     }
 
     _getVehicleTraits() {
-        const vehicleSheet = Object.values(ui.windows).find(w => w.actor.type === "vehicle" && w.selectedTraits.length);
+        const vehicleSheet = Object.values(ui.windows).find(w => w.actor && w.actor.type === "vehicle" && w.selectedTraits.length);
         const traits = vehicleSheet?.selectedTraits.map(ti => {
             const vehicleTrait = vehicleSheet.actor.items.find(i => i.id === ti);
             vehicleTrait.setFlag('t6', 'vehicle', vehicleSheet.actor);

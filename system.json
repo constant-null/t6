@@ -66,14 +66,14 @@
       "label": "МоскваПанк Макросы",
       "system": "t6",
       "type": "Macro",
-      "banner": "systems/t6/assets/sheet/background.gif"
+      "banner": "systems/t6/assets/sheet/scanlines.gif"
     },
     {
       "name": "moscowpunk-rules",
       "label": "МоскваПанк Правила",
       "system": "t6",
       "type": "JournalEntry",
-      "banner": "systems/t6/assets/sheet/background.gif"
+      "banner": "systems/t6/assets/sheet/scanlines.gif"
     }
   ],
   "languages": [
@@ -95,7 +95,7 @@
   "primaryTokenAttribute": "resources.health",
   "secondaryTokenAttribute": "resources.power",
   "url": "https://your/hosted/system/repo/",
-  "background": "systems/t6/assets/sheet/background.gif",
+  "background": "systems/t6/assets/sheet/scanlines.gif",
   "manifest": "https://github.com/constant-null/t6/releases/latest/download/system.json",
   "download": "https://github.com/constant-null/t6/archive/refs/heads/master.zip"
 }
