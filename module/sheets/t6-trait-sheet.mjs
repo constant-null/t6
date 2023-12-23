@@ -44,9 +44,11 @@ export default class T6TraitSheet extends ItemSheet {
         const context = super.getData(options);
         context.item = this.item;
         context.data = this.item.system;
-        context.types = game.settings.get('t6', 'traitTypes').split(',').map(e => e.trim())
+
+        const traitConfigData = game.settings.get('t6', 'traitConfigData');
+        context.types = Object.keys(traitConfigData)
         context.deleteEnabled = !!this.actor;
-        context.settings = game.settings.get('t6', 'traitConfigData')[this.item.system.type] || T6ItemModel.defaultPropertiesConfig();
+        context.settings = traitConfigData[this.item.system.type] || T6ItemModel.defaultPropertiesConfig();
         return context;
     }
 }
