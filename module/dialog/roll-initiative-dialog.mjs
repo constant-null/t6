@@ -29,11 +29,11 @@ export default class RollInitiativeDialog extends Dialog {
     }
 
     _selectedTraitsPool() {
-        let pool = this.actor.type === "npc" ? this.actor._system.proficiency : 0;
+        let pool = this.actor.type === "npc" ? this.actor.system.proficiency : 0;
         let selected = []
         for (const trait of this.actor.items) {
             if (!trait.isDestroyed && this.selectedTraits.includes(trait.id)) {
-                pool += parseInt(trait._system.dice);
+                pool += parseInt(trait.system.dice);
                 selected.push(trait)
             }
         }
@@ -50,7 +50,7 @@ export default class RollInitiativeDialog extends Dialog {
         const selectedItemId = this.selectedTraits.find(i => i === itemId);
 
         let item = this.actor.items.find(i => i.id === itemId);
-        if (item.isDestroyed || !item._system.active) return
+        if (item.isDestroyed || !item.system.active) return
 
         if (selectedItemId) {
             this.selectedTraits = this.selectedTraits.filter(i => i !== itemId);
@@ -79,9 +79,9 @@ export default class RollInitiativeDialog extends Dialog {
                 item.selected = false;
             }
 
-            if (item._system.active && item._system.linkedToWound) {
+            if (item.system.active && item.system.linkedToWound) {
                 item.linked = !item.isDestroyed;
-                context.linkedWounds[item._system.linkedToWound] = true;
+                context.linkedWounds[item.system.linkedToWound] = true;
             } else {
                 item.linked = false
             }

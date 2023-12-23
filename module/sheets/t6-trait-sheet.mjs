@@ -1,3 +1,5 @@
+import T6ItemModel from "../models/t6-item-model.mjs";
+
 export default class T6TraitSheet extends ItemSheet {
     static get defaultOptions() {
         const options = super.defaultOptions;
@@ -41,9 +43,10 @@ export default class T6TraitSheet extends ItemSheet {
     getData(options = {}) {
         const context = super.getData(options);
         context.item = this.item;
-        context.data = this.item._system;
+        context.data = this.item.system;
         context.types = game.settings.get('t6', 'traitTypes').split(',').map(e => e.trim())
         context.deleteEnabled = !!this.actor;
+        context.settings = game.settings.get('t6', 'traitConfigData')[this.item.system.type] || T6ItemModel.defaultPropertiesConfig();
         return context;
     }
 }

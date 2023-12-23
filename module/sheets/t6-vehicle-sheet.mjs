@@ -40,7 +40,7 @@ export default class T6VehicleSheet extends T6BaseSheet {
     getData(options = {}) {
         const context = super.getData(options);
         context.actor = this.actor;
-        context.data = this.actor._system;
+        context.data = this.actor.system;
         context.wounds = this.actor.wounds;
         context.armor = this.actor.armor;
         context.woundTooltips = this.actor.woundsTooltips;
@@ -60,11 +60,11 @@ export default class T6VehicleSheet extends T6BaseSheet {
                 item.selected = false;
             }
 
-            let linkedToWound = item._system.linkedToWound;
-            if (item._system.active && linkedToWound) {
+            let linkedToWound = item.system.linkedToWound;
+            if (item.system.active && linkedToWound) {
                 item.linked = !item.isDestroyed;
-                if (linkedToWound > this.actor._system.wounds.max) {
-                    linkedToWound = this.actor._system.wounds.max;
+                if (linkedToWound > this.actor.system.wounds.max) {
+                    linkedToWound = this.actor.system.wounds.max;
                 }
                 context.linkedWounds[linkedToWound] = true;
             } else {

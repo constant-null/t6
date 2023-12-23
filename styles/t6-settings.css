@@ -1,0 +1,57 @@
+#trait-types-config  header.table-header {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 5px;
+    border: 1px solid var(--color-border-dark-primary);
+    text-align: center;
+    color: var(--color-text-light-highlight);
+    font-weight: bold;
+    text-shadow: 1px 1px var(--color-shadow-dark);
+}
+#trait-types-config  ul.permissions-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    max-height: 400px;
+    overflow: hidden auto;
+    scrollbar-width: thin;
+}
+#trait-types-config  li.permission {
+    padding: 5px;
+    border-bottom: 1px solid var(--color-border-light-tertiary);
+}
+#trait-types-config  li.permission .form-fields {
+    justify-content: space-around;
+}
+#trait-types-config  li.permission input[type="checkbox"] {
+    margin: 0;
+}
+#trait-types-config  .index {
+    flex: 0 0 200px;
+    text-align: left;
+    font-weight: bold;
+}
+#trait-types-config  .hint {
+    flex: 0 0 100%;
+    color: var(--color-text-dark-secondary);
+    font-size: var(--font-size-13);
+    margin: 5px 0 0;
+}
+
+#trait-types-config form .notes, form .hint {
+    flex: 0 0 auto;
+}
+
+#trait-types-config #template-add {
+    font-size: large;
+    cursor: pointer;
+}
+
+#trait-types-config .template-delete {
+    font-size: large;
+    color: red;
+    cursor: pointer;
+    max-width: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

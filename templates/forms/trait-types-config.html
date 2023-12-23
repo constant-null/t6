@@ -1,5 +1,32 @@
 <form autocomplete="off" onsubmit="event.preventDefault();">
-    {{#each traits as |trait|}}
+    <div class="flex row wide">
+    <p class="notes">{{localize 'T6.Settings.TraitTypes.Notes'}}</p>
+        <select id="template" name="template">
+            <option disabled selected value> -{{ localize 'T6.Settings.TraitTypes.Template'}}- </option>
+            {{#each templates as |template|}}
+            <option value="{{template}}">{{template}}</option>
+            {{/each}}
+        </select>
+    </div>
+    <header class="table-header flexrow">
+        <label class="index">{{localize 'T6.Item.Type'}}</label>
+        {{#each settings as |name|}}
+        <label>{{localize (concat 'T6.Item.' (capitalize name))}}</label>
+        {{/each}}
+        <div id="template-add">+</div>
+    </header>
+    {{#each traits as |settings name|}}
+    <ul class="permissions-list">
+        <li class="permission form-group">
+            <input type="text" class="index" name="name" value="{{name}}"/>
+            <div class="form-fields">
+                {{#each settings as |value setting|}}
+                <input type="checkbox" name="{{setting}}" {{checked value}}/>
+                {{/each}}
+                <div class="template-delete" data-name="{{name}}">-</div>
+            </div>
+        </li>
+    </ul>
     <div>
         {{trait}}
     </div>

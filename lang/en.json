@@ -13,6 +13,7 @@
       "LinkedToWound": "Wound",
       "DefaultName": "New Trait",
       "Uses": "Uses",
+      "Armor": "Armor",
       "Damage": "Damage",
       "Damaged": "Damaged"
     },
@@ -27,7 +28,6 @@
     "Sheet": {
       "Wounds": "Wounds",
       "Death": "Death",
-      "Armor": "Armor",
       "Traits": "Traits",
       "Equipment": "Equipment",
       "NoArmor": "Error",
@@ -61,7 +61,7 @@
     "ChatMessage": {
       "Dices": "Dices",
       "Result": "Result",
-      "Against":"Against",
+      "Against": "Against",
       "YouWon": "Success",
       "YouLost": "Failure",
       "YouLostDamage": "Damage received",
@@ -85,9 +85,23 @@
     "Settings": {
       "TraitTypes": {
         "Name": "Trait Types",
-        "Description": "List types of traits that used in your campaign, separated by comma",
+        "Description": "Configure types of traits that used in your campaign",
         "Label": "Add/Remove Trait Types",
-        "Default": "Personal,History,Troubles,Equipment,Implants,Software,Effects"
+        "Notes": "There you can choose what properties each type of trait should have.",
+        "Template": "Template",
+        "CustomTemplate": "Custom",
+        "DefaultNames": {
+          "Personal": "Personal",
+          "History": "History",
+          "Troubles": "Troubles",
+          "Equipment": "Equipment",
+          "Weapon": "Weapon",
+          "Armor": "Armor",
+          "Implants": "Implants",
+          "Software": "Software",
+          "Effects": "Effects",
+          "Magic": "Magic"
+        }
       },
       "Complications": {
         "Name": "Complications",

@@ -2,7 +2,7 @@
   "id": "t6",
   "title": "T6 System",
   "description": "FoundryVTT official T6 system",
-  "version": "1.4.1",
+  "version": "1.5.0",
   "compatibility": {
     "minimum": "10",
     "verified": "11",
@@ -23,7 +23,8 @@
     "styles/t6-main.css",
     "styles/t6-checkbox.css",
     "styles/glitch.css",
-    "styles/t6-chat.css"
+    "styles/t6-chat.css",
+    "styles/t6-settings.css"
   ],
   "packs": [
     {

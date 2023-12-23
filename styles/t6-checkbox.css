@@ -11,8 +11,6 @@
     display: grid;
     place-content: center;
     cursor: pointer;
-    padding-left: 1px;
-    padding-top: 1px;
 }
 
 .t6-checkbox-container {
@@ -28,8 +26,11 @@
     width: 0.45em;
     height: 0.45em;
     transform: scale(0);
-    transition: 120ms transform ease-in-out;
+}
+
+.t6-checkbox-container input.checkbox::before {
     box-shadow: inset .8em .8em var(--main-color);
+    transition: 120ms transform ease-in-out;
     filter: drop-shadow(0 0 0.75rem var(--main-color));
 }
 

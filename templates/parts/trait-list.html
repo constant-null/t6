@@ -7,8 +7,8 @@
         {{#each traits as |trait|}}
         <div
                 class="item t6 trait glow box {{ifThen trait.selected 'active' ''}}{{ifThen trait.isDestroyed 'red' ''}} {{ifThen trait.linked 'blue' ''}}"
-                {{#if trait._system.description}}
-                    data-tooltip="<div class='t6 trait-tooltip'>{{ trait._system.description }}</div>"
+                {{#if trait.system.description}}
+                    data-tooltip="<div class='t6 trait-tooltip'>{{ trait.system.description }}</div>"
                 {{else}}
                     data-tooltip="<div class='t6 trait-tooltip'>{{localize "T6.Sheet.NoDescription"}}</div>"
                 {{/if}}
@@ -17,14 +17,14 @@
             <div class="flex row">
                 <label class="t6-checkbox-container  {{ifThen trait.isDestroyed 'full-red' ''}} {{ifThen trait.linked 'full-blue' ''}}">
                     <input class="checkbox activate-trait" type="checkbox" data-item-id="{{trait.id}}" {{checked
-                           trait._system.active}}/>
+                           trait.system.active}}/>
                 </label>
                 <div style="margin: auto 5px">{{trait.name}}</div>
                 <div style="margin: auto 0">
-                    {{#if (gt trait._system.uses.max 0)}}
-                    ({{trait._system.uses.value}}/{{trait._system.uses.max}})
+                    {{#if (gt trait.system.uses.max 0)}}
+                    ({{trait.system.uses.value}}/{{trait.system.uses.max}})
                     {{/if}}
-                    {{ifThen (ne trait._system.dice 0) (signedInt trait._system.dice) ""}}
+                    {{ifThen (ne trait.system.dice 0) (signedInt trait.system.dice) ""}}
                 </div>
             </div>
             <div>

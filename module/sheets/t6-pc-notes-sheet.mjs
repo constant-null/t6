@@ -19,7 +19,7 @@ export default class T6PCNotesSheet extends ActorSheet {
     getData(options = {}) {
         const context = super.getData(options);
         context.actor = this.actor;
-        context.data = this.actor._system;
+        context.data = this.actor.system;
 
         return context
     }

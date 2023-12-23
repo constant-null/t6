@@ -1,13 +1,4 @@
 export default class T6Item extends Item {
-    get _system() {
-        const v10 = game.release.generation >= 10;
-        if (v10) {
-            return this.system;
-        } else {
-            return this.data.data;
-        }
-    }
-
     async use() {
         const uses = this._getUses()
 
@@ -16,11 +7,11 @@ export default class T6Item extends Item {
     }
 
     _getUses() {
-        return this._system.uses || {value: 0, max: 0};
+        return this.system.uses || {value: 0, max: 0};
     }
 
     get isDestroyed() {
-        const armor = this._system.armor;
+        const armor = this.system.armor;
 
         if (!armor.received) {
             armor.received = [];
@@ -29,7 +20,7 @@ export default class T6Item extends Item {
             if (armor.max == damage) return true; // == is by design!!!
         }
 
-        if (this._system.damaged) {
+        if (this.system.damaged) {
             return true;
         }
 

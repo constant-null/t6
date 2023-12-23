@@ -41,13 +41,13 @@ export default class T6PCSheet extends T6BaseSheet {
     getData(options = {}) {
         const context = super.getData(options);
         context.actor = this.actor;
-        context.data = this.actor._system;
+        context.data = this.actor.system;
         context.wounds = this.actor.wounds;
         context.armor = this.actor.armor;
         context.woundTooltips = this.actor.woundsTooltips;
 
         context.traitGroups = {}
-        const types = game.settings.get('t6', 'traitTypes').split(',').map(e => e.trim())
+        const types = Object.keys(game.settings.get('t6', 'traitConfigData'))
         let otherTraitsGroup = game.i18n.localize('T6.Sheet.OtherTraits');
 
         for (const type of types) {
@@ -59,7 +59,7 @@ export default class T6PCSheet extends T6BaseSheet {
         context.traitsSelected = false;
         context.traitsSelectedAmount = vehicle.pool;
         for (const item of this.actor.items) {
-            let t = item._system.type;
+            let t = item.system.type;
             if (this.selectedTraits.find(i => i === item.id)) {
                 if (!item.isDestroyed) {
                     context.traitsSelected = true;
@@ -67,14 +67,14 @@ export default class T6PCSheet extends T6BaseSheet {
                     this.selectedTraits = this.selectedTraits.filter(i => i !== item.id);
                 }
                 item.selected = true;
-                context.traitsSelectedAmount += item._system.dice;
+                context.traitsSelectedAmount += item.system.dice;
             } else {
                 item.selected = false;
             }
 
-            if (item._system.active && item._system.linkedToWound) {
+            if (item.system.active && item.system.linkedToWound) {
                 item.linked = !item.isDestroyed;
-                context.linkedWounds[item._system.linkedToWound] = true;
+                context.linkedWounds[item.system.linkedToWound] = true;
             } else {
                 item.linked = false
             }

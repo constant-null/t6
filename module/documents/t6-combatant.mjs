@@ -1,4 +1,4 @@
-import RollInitiativeDialog from "./dialog/roll-initiative-dialog.mjs";
+import RollInitiativeDialog from "../dialog/roll-initiative-dialog.mjs";
 
 export default class T6Combatant extends Combatant {
     initiativeTraits = []

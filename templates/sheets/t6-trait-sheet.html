@@ -24,14 +24,19 @@
         </div>
     </header>
     <div class="flex row">
+        {{#if settings.dice}}
         <div class="t6 box">
             <div class="t6 glow big-label">{{ localize 'T6.Item.Dice' }}</div>
             {{numberInput data.dice name="data.dice" step=1 min=0 max=6 class="t6 glow small-input"}}
         </div>
+        {{/if}}
+        {{#if settings.damage}}
         <div class="t6 box">
             <div class="t6 glow big-label">{{ localize 'T6.Item.Damage' }}</div>
             {{numberInput data.damage name="data.damage" step=1 min=0 max=6 class="t6 glow small-input"}}
         </div>
+        {{/if}}
+        {{#if settings.armor}}
         <div class="t6 box">
             <div class="t6 glow big-label">{{ localize 'T6.Item.Protection' }}</div>
             {{numberInput data.armor.protection name="data.armor.protection" step=1 min=0 max=6 class="t6 glow small-input"}}
@@ -40,10 +45,14 @@
             <div class="t6 glow big-label">{{ localize 'T6.Item.Durability' }}</div>
             {{numberInput data.armor.max name="data.armor.max" step=2 min=0 max=10 class="t6 glow small-input"}}
         </div>
+        {{/if}}
+        {{#if settings.linkedToWound}}
         <div class="t6 box">
             <div class="t6 glow big-label">{{ localize 'T6.Item.LinkedToWound' }}</div>
             {{numberInput data.linkedToWound name="data.linkedToWound" step=2 min=0 max=10 class="t6 glow small-input"}}
         </div>
+        {{/if}}
+        {{#if settings.uses}}
         <div class="t6 box">
             <div class="t6 glow big-label">{{ localize 'T6.Item.Uses' }}</div>
             <div class="t6 min-max-input">
@@ -52,6 +61,7 @@
                 {{numberInput data.uses.max name="data.uses.max" step=1 min=0 class="t6 glow small-input"}}
             </div>
         </div>
+        {{/if}}
         <div class="t6 box">
             <div class="t6 glow big-label">{{ localize 'T6.Item.Type' }}</div>
             <select class="t6 glow" name="data.type">

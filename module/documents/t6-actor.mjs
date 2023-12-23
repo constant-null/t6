@@ -1,4 +1,4 @@
-import Socket from "../sockets/socket.mjs";
+import Socket from "../../sockets/socket.mjs";
 
 export default class T6Actor extends Actor {
     static async create(data, options) {
@@ -24,8 +24,8 @@ export default class T6Actor extends Actor {
 
     async _preUpdate(data, options, user) {
         if (data.system?.wounds) {
-            const removedWounds = this._system.wounds?.received?.filter(w => !!w && !data.system.wounds.received?.includes(w)) || [];
-            const receivedWounds = data.system.wounds.received?.filter(w => !!w && !this._system.wounds.received?.includes(w)) || [];
+            const removedWounds = this.system.wounds?.received?.filter(w => !!w && !data.system.wounds.received?.includes(w)) || [];
+            const receivedWounds = data.system.wounds.received?.filter(w => !!w && !this.system.wounds.received?.includes(w)) || [];
             const traumasEnabled = game.settings.get('t6', 'traumas')
             receivedWounds.forEach(w => {
                 this._showValueChangeText(game.i18n.localize(this.woundsTooltips[w]) + ` (${w})`, true)
@@ -101,18 +101,9 @@ export default class T6Actor extends Actor {
         }
     }
 
-    get _system() {
-        const v10 = game.release.generation >= 10;
-        if (v10) {
-            return this.system;
-        } else {
-            return this.data.data;
-        }
-    }
-
     get isDefeated() {
-        for (const wound of this._system.wounds?.received || []) {
-            if (wound == this._system.wounds.max) return true
+        for (const wound of this.system.wounds?.received || []) {
+            if (wound == this.system.wounds.max) return true
         }
         return false
     }
@@ -128,7 +119,7 @@ export default class T6Actor extends Actor {
     prepareDerivedData() {
         super.prepareDerivedData();
 
-        const wounds = this._system.wounds;
+        const wounds = this.system.wounds;
         if (this.type === "pc") {
             wounds.max = 10;
         }
@@ -178,11 +169,11 @@ export default class T6Actor extends Actor {
     _equipArmor() {
         this.equippedArmor = null;
         for (const trait of this.items) {
-            if (!trait._system.active || trait._system.armor.max <= 0) {
+            if (!trait.system.active || trait.system.armor.max <= 0) {
                 continue;
             }
 
-            if (!this.equippedArmor || this.equippedArmor._system.armor.max < trait._system.armor.max) {
+            if (!this.equippedArmor || this.equippedArmor.system.armor.max < trait.system.armor.max) {
                 this.equippedArmor = trait;
             }
         }
@@ -191,6 +182,6 @@ export default class T6Actor extends Actor {
             return null;
         }
 
-        return this._prepareWounds(this.equippedArmor._system.armor)
+        return this._prepareWounds(this.equippedArmor.system.armor)
     }
 }

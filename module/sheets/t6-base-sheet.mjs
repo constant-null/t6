@@ -26,7 +26,7 @@ export default class T6BaseSheet extends ActorSheet {
 
         const checked = e.target.checked;
         const trait = this.actor.items.find(t => t.id === itemId)
-        let uses = trait._system.uses;
+        let uses = trait.system.uses;
         if (!checked) {
             this.selectedTraits = this.selectedTraits.filter(i => i !== itemId);
         } else {
@@ -63,7 +63,7 @@ export default class T6BaseSheet extends ActorSheet {
         const selectedItemId = this.selectedTraits.find(i => i === itemId);
 
         let item = this.actor.items.find(i => i.id === itemId);
-        if (item.isDestroyed || !item._system.active) return
+        if (item.isDestroyed || !item.system.active) return
 
         if (selectedItemId) {
             this.selectedTraits = this.selectedTraits.filter(i => i !== itemId);
@@ -91,11 +91,11 @@ export default class T6BaseSheet extends ActorSheet {
         const wound = e.target.value;
 
         const linkedItems = this.actor.items.filter(
-            i => i._system.linkedToWound == wound || (this.actor._system.wounds.max == wound && i._system.linkedToWound > this.actor._system.wounds.max)
+            i => i.system.linkedToWound == wound || (this.actor.system.wounds.max == wound && i.system.linkedToWound > this.actor.system.wounds.max)
         )
-        linkedItems.forEach(i => i._system.damaged = checked)
+        linkedItems.forEach(i => i.system.damaged = checked)
         this.actor.updateEmbeddedDocuments("Item", linkedItems.map(i => {
-            return {_id: i.id, system: i._system};
+            return {_id: i.id, system: i.system};
         }))
         this.submit()
     }
@@ -121,7 +121,7 @@ export default class T6BaseSheet extends ActorSheet {
             return vehicleTrait;
         }) || [];
         const pool = traits.reduce((dice, trait) => {
-            return dice + trait._system.dice
+            return dice + trait.system.dice
         }, 0);
         return {sheet: vehicleSheet, pool, traits}
     }
@@ -132,7 +132,7 @@ export default class T6BaseSheet extends ActorSheet {
         let selectedTraits = [];
         for (const trait of this.actor.items) {
             if (!trait.isDestroyed && this.selectedTraits.includes(trait.id)) {
-                pool += parseInt(trait._system.dice);
+                pool += parseInt(trait.system.dice);
                 selectedTraits.push(trait)
             }
         }
