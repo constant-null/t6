@@ -90,6 +90,7 @@ export default class T6ChatMessage extends ChatMessage {
             }
         })
         if (!roll._evaluated) await roll.evaluate({async: true});
+        const [complication, ones] = this._checkForComplications(roll);
         const chatData = {
             formula: isPrivate ? "???" : roll._formula,
             flavor: isPrivate ? null : flavor,
@@ -98,10 +99,12 @@ export default class T6ChatMessage extends ChatMessage {
             totalDamage: totalDamage,
             armor: this.speakerActor?.equippedArmor,
             total: isPrivate ? "?" : (roll._formula === "1d6cs>1" ? roll.terms[0].results[0].result : Math.round(roll.total * 100) / 100),
-            complication: this._checkForComplications(roll)
+            complication: complication,
+            ones: ones
         };
 
         if (this.oppositeRoll !== undefined) {
+            chatData.opposite = true;
             chatData.oppositeRoll = this.oppositeRoll.roll;
             chatData.oppositeRollDamage = this.oppositeRoll.totalDamage;
             chatData.oppositeRollResult = this.oppositeRoll.roll - roll.total;
@@ -118,10 +121,9 @@ export default class T6ChatMessage extends ChatMessage {
         if (!game.settings.get("t6", "complications")) return false;
 
         const dice = roll.dice[0]
-        const poolSize = dice.results.length;
         const ones = dice.results.reduce((ones, die) => {
             return die.result === 1 ? ones+1: ones
         }, 0)
-        return Math.ceil(poolSize/2) <= ones
+        return [roll.total < ones, ones]
     }
 }

@@ -250,7 +250,7 @@ select.t6 {
     align-items: flex-end;
 }
 
-.wide.center {
+.flex.center {
     align-items: center;
 }
 
