@@ -10,7 +10,15 @@
                 <div class="t6 dice">
                     <header class="t6 box">
                         <div>
-                            <span class="big-label">{{localize "T6.ChatMessage.Dices"}} {{this.rolls.length}}</span>
+                            <span class="t6 flex row wide">
+                                <span class="big-label">{{localize "T6.ChatMessage.Dices"}} {{this.rolls.length}}</span>
+                                <span class="t6 glow red big-label flex row center">
+                                    {{ifThen ../ones ../ones ""}}
+                                    {{#if ../complication}}
+                                    <span title="{{localize 'T6.ChatMessage.Complication'}}" class="fa-solid fa-triangle-exclamation"></span>
+                                    {{/if}}
+                                </span>
+                            </span>
                             {{#each ../selectedTraits as |trait|}}
                             <div>
                                 {{trait.name}} {{signedInt trait.system.dice}}
@@ -25,17 +33,9 @@
                         {{#if this.flavor}}<span class="part-flavor">{{this.flavor}}</span>{{/if}}
                     </header>
                     <h4 class="t6 box">
-                        <span class="flex row wide">
-                            <span class="t6 big-label">
-                                {{localize "T6.ChatMessage.Result"}}: {{../total}}
-                                <span class="t6 glow red">{{ifThen ../totalDamage (concat "+ " ../totalDamage) ""}}</span>
-                            </span>
-                            <span class="t6 glow red big-label flex row center">
-                                {{ifThen ../ones ../ones ""}}
-                                {{#if ../complication}}
-                                <span title="{{localize 'T6.ChatMessage.Complication'}}" class="fa-solid fa-triangle-exclamation"></span>
-                                {{/if}}
-                            </span>
+                        <span class="t6 big-label">
+                            {{localize "T6.ChatMessage.Result"}}: {{../total}}
+                            <span class="t6 glow red">{{ifThen ../totalDamage (concat "+ " ../totalDamage) ""}}</span>
                         </span>
                         {{#if ../opposite}}
                         {{#if ../oppositeRollDamage}}
@@ -51,7 +51,7 @@
                         <span class="t6 glow blue">{{localize "T6.ChatMessage.YouWon"}}: {{abs ../oppositeRollResult}}</span>
                         {{else}}
                         <span class="t6 glow blue">{{localize "T6.Item.Protection"}}: {{../armor.system.armor.protection}}</span>
-                        <span class="t6 glow red flex row  wide center">
+                        <span class="t6 glow red flex row wide center">
                                     <b>{{localize "T6.ChatMessage.YouLostDamage"}}: {{../finalDamage}}</b>
                                     <button title="{{localize 'T6.ChatMessage.DealDamage'}}" style="width: inherit"
                                             class="t6 glow red button deal-damage">
