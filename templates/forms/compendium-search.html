@@ -1,0 +1,26 @@
+<form autocomplete="off" onsubmit="event.preventDefault();">
+    <div class="flex row">
+        <span>{{localize 'T6.Settings.TraitTypes.Notes'}}</span>
+        <select id="pack" class="t6 glow" name="template">
+            <option disabled selected value> -{{ localize 'T6.UI.NotSelected'}}-</option>
+            {{#each packs as |title id|}}
+            <option value="{{id}}">{{title}}</option>
+            {{/each}}
+        </select>
+    </div>
+    <div class="flex row">
+        <span>{{localize 'T6.Settings.TraitTypes.Notes'}}</span>
+        <select id="folder" class="t6 glow" name="template">
+            <option disabled selected value> -{{ localize 'T6.UI.NotSelected'}}-</option>
+            {{#each folders as |title id|}}
+            <option value="{{id}}">{{title}}</option>
+            {{/each}}
+        </select>
+    </div>
+    {{#each items as |items|}}
+
+    {{/each}}
+    <button type="submit">
+        <i class="fas fa-save"></i> {{localize 'T6.UI.Search'}}
+    </button>
+</form>

@@ -14,10 +14,11 @@ import T6VehicleSheet from "./sheets/t6-vehicle-sheet.mjs";
 import T6Themes from "./t6-themes.mjs";
 import initializeAppSettings from "./t6-settings.mjs";
 import T6ItemModel from "./models/t6-item-model.mjs";
+import CompendiumSearch from "./forms/compendium-search.mjs";
 
 Hooks.once("init", function () {
     console.log("T6 | Initializing T6 System");
-    CONFIG.debug.hooks = false;
+    CONFIG.debug.hooks = true;
     CONFIG.T6 = T6
 
     CONFIG.Item.dataModels.trait = T6ItemModel;
@@ -48,6 +49,13 @@ Hooks.once("init", function () {
 
     initMacroHelpers()
 });
+
+Hooks.once("renderCompendiumDirectory", function (app, compendiumTab, data) {
+    const button = document.createElement('button')
+    button.innerText = "Test"
+    button.addEventListener("click", () => (new CompendiumSearch()).render(true))
+    compendiumTab.append(button)
+})
 
 Hooks.once("setup", function () {
     initializeAppSettings();
