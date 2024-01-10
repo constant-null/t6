@@ -14,7 +14,7 @@ system:
     механизм раскручивания снарядов, что увеличивает дальность и точность, но
     может приводить к сбоям при
     использовании<br></em></span></p></div></div></div></div><p></p>
-  type: Имущество
+  type: Оружие
   dice: 1
   damaged: false
   armor:
@@ -31,11 +31,11 @@ effects: []
 flags: {}
 _stats:
   systemId: t6
-  systemVersion: 1.2.0
+  systemVersion: 1.5.4
   coreVersion: '11.315'
   createdTime: 1702571375135
-  modifiedTime: 1702658484892
-  lastModifiedBy: 6fzdJDn0QE2JU4FT
+  modifiedTime: 1704925444137
+  lastModifiedBy: 50QpUwJC9cGeePYy
 sort: 0
 ownership:
   default: 0

@@ -7,7 +7,7 @@ system:
     <h3>Характеристики</h3><p>Цена: 1.000.000р</p><p>*Полностью закрывает
     тело.</p><p></p><h3>Информация</h3><p>Механизированная тяжелая броня, сильно
     сковывает движения</p>
-  type: Имущество
+  type: Броня
   dice: -2
   damaged: false
   armor:
@@ -24,11 +24,11 @@ effects: []
 flags: {}
 _stats:
   systemId: t6
-  systemVersion: 1.2.0
+  systemVersion: 1.5.4
   coreVersion: '11.315'
   createdTime: 1702581024896
-  modifiedTime: 1702659844069
-  lastModifiedBy: 6fzdJDn0QE2JU4FT
+  modifiedTime: 1704925301217
+  lastModifiedBy: 50QpUwJC9cGeePYy
 _id: N55y9eY8nk5KLgUn
 sort: 100000
 ownership:

@@ -9,7 +9,7 @@ system:
     использовании дроби)</p><p><strong>Шум:</strong> Громкий</p><p>Боеприпасы:
     Батарея</p><p><strong>Цена:</strong>
     100.000р</p><p></p><h3>Информация</h3><p></p>
-  type: Имущество
+  type: Оружие
   dice: 0
   damaged: false
   armor:
@@ -27,11 +27,11 @@ flags:
   core: {}
 _stats:
   systemId: t6
-  systemVersion: 1.2.0
+  systemVersion: 1.5.4
   coreVersion: '11.315'
   createdTime: 1702568442784
-  modifiedTime: 1702658484892
-  lastModifiedBy: 6fzdJDn0QE2JU4FT
+  modifiedTime: 1704925441325
+  lastModifiedBy: 50QpUwJC9cGeePYy
 _id: 4XxoxUFsEQhh39jz
 sort: 0
 ownership:

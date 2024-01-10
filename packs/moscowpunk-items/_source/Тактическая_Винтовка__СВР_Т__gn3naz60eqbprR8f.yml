@@ -8,7 +8,7 @@ system:
     2</p><p><strong>Дистанция:</strong> 25</p><p><strong>Шум:</strong>
     Тихий</p><p>Боеприпасы: Винтовочные</p><p><strong>Цена:</strong>
     250.000р</p><p></p><h3>Информация</h3><p></p>
-  type: Имущество
+  type: Оружие
   dice: 0
   damaged: false
   armor:
@@ -26,11 +26,11 @@ flags:
   core: {}
 _stats:
   systemId: t6
-  systemVersion: 1.2.0
+  systemVersion: 1.5.4
   coreVersion: '11.315'
   createdTime: 1702569837358
-  modifiedTime: 1702658484892
-  lastModifiedBy: 6fzdJDn0QE2JU4FT
+  modifiedTime: 1704925397599
+  lastModifiedBy: 50QpUwJC9cGeePYy
 _id: gn3naz60eqbprR8f
 sort: 0
 ownership:

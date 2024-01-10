@@ -11,7 +11,7 @@ system:
     class="section"><div class="layoutArea"><div class="column"><p><span
     style="font-family:
     'Calibri'"><em><br></em></span></p></div></div></div></div><p></p>
-  type: Имущество
+  type: Оружие
   dice: 0
   damaged: false
   armor:
@@ -29,11 +29,11 @@ flags:
   core: {}
 _stats:
   systemId: t6
-  systemVersion: 1.2.0
+  systemVersion: 1.5.4
   coreVersion: '11.315'
   createdTime: 1702571375135
-  modifiedTime: 1702658484892
-  lastModifiedBy: 6fzdJDn0QE2JU4FT
+  modifiedTime: 1704925446976
+  lastModifiedBy: 50QpUwJC9cGeePYy
 _id: AM0TeTBJ0pqo1nOw
 sort: 0
 ownership:

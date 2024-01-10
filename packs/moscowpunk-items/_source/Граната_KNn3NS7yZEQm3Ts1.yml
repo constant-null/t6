@@ -7,7 +7,7 @@ system:
   description: >-
     <h3>Характеристики</h3><p>Радиус: 2</p><p>Цена:
     1.000р</p><p></p><h3>Информация</h3><p>Обычная граната</p>
-  type: Имущество
+  type: Оружие
   dice: 0
   damaged: false
   armor:
@@ -24,11 +24,11 @@ effects: []
 flags: {}
 _stats:
   systemId: t6
-  systemVersion: 1.2.0
+  systemVersion: 1.5.4
   coreVersion: '11.315'
   createdTime: 1702579030940
-  modifiedTime: 1702658484892
-  lastModifiedBy: 6fzdJDn0QE2JU4FT
+  modifiedTime: 1704925650025
+  lastModifiedBy: 50QpUwJC9cGeePYy
 sort: 0
 ownership:
   default: 0

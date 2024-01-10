@@ -8,7 +8,7 @@ system:
     2</p><p><strong>Дистанция:</strong> 18</p><p><strong>Шум:</strong>
     Т</p><p>Боеприпасы: Спец Винтовочный</p><p><strong>Цена:</strong>
     400.000р</p><p>*Автоматический огонь</p><p></p><h3>Информация</h3><p></p>
-  type: Имущество
+  type: Оружие
   dice: 0
   damaged: false
   armor:
@@ -25,11 +25,11 @@ effects: []
 flags: {}
 _stats:
   systemId: t6
-  systemVersion: 1.2.0
+  systemVersion: 1.5.4
   coreVersion: '11.315'
   createdTime: 1702572627560
-  modifiedTime: 1702658484892
-  lastModifiedBy: 6fzdJDn0QE2JU4FT
+  modifiedTime: 1704925487083
+  lastModifiedBy: 50QpUwJC9cGeePYy
 _id: gUqCVJjrXmtnEjox
 sort: 0
 ownership:
