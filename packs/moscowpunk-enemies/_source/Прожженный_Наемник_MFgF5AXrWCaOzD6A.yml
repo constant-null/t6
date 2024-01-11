@@ -20,9 +20,9 @@ prototypeToken:
     contrast: 0
     color: null
   name: Прожженный Наемник
-  displayName: 0
+  displayName: 30
   appendNumber: false
-  prependAdjective: false
+  prependAdjective: true
   texture:
     src: systems/t6/assets/portraits/elite/*.jpeg
     scaleX: 1

@@ -7,7 +7,9 @@ export default class T6Actor extends Actor {
                 actorLink: data.type === "pc",
                 disposition: data.type === "pc" ? 1 : -1,
                 vision: data.type === "pc",
-                displayBars: 50,
+                displayBars: 50, // Always for everyone
+                displayName: 30, // Hovered by Anyone
+                prependAdjective: true,
                 bar1: {attribute: "woundsBar"},
             }
 

@@ -17,6 +17,8 @@ for ( const folder of folders ) {
         if (doc.prototypeToken) {
             console.log(`Fixing names in Actor file ${filePath}`);
             doc.prototypeToken.name = doc.name;
+            doc.prototypeToken.prependAdjective = true;
+            doc.prototypeToken.displayName = 30;
             fs.writeFileSync(filePath, yaml.dump(doc)+"\n")
         }
     })
