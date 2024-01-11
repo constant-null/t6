@@ -2,7 +2,7 @@
   "id": "t6",
   "title": "T6 System",
   "description": "FoundryVTT official T6 system",
-  "version": "1.5.5",
+  "version": "1.5.6",
   "compatibility": {
     "minimum": "10",
     "verified": "11",
@@ -29,49 +29,49 @@
   "packs": [
     {
       "name": "moscowpunk-enemies",
-      "label": "МоскваПанк Противники",
+      "label": "СнегоПанк Противники",
       "system": "t6",
       "type": "Actor",
       "banner": "systems/t6/assets/banners/mp-enemies.jpeg"
     },
     {
       "name": "moscowpunk-items",
-      "label": "МоскваПанк Предметы",
+      "label": "СнегоПанк Предметы",
       "system": "t6",
       "type": "Item",
       "banner": "systems/t6/assets/banners/mp-items.jpeg"
     },
     {
       "name": "moscowpunk-random-traumas",
-      "label": "МоскваПанк Травмы",
+      "label": "СнегоПанк Травмы",
       "system": "t6",
       "type": "Item",
       "banner": "systems/t6/assets/banners/mp-traumas.jpeg"
     },
     {
       "name": "moscowpunk-random-tables",
-      "label": "МоскваПанк Таблицы",
+      "label": "СнегоПанк Таблицы",
       "system": "t6",
       "type": "RollTable",
       "banner": "systems/t6/assets/banners/mp-roll-table.jpeg"
     },
     {
       "name": "moscowpunk-random-traits",
-      "label": "МоскваПанк Стандартные Черты",
+      "label": "СнегоПанк Стандартные Черты",
       "system": "t6",
       "type": "Item",
       "banner": "systems/t6/assets/banners/mp-traits.jpeg"
     },
     {
       "name": "moscowpunk-macro",
-      "label": "МоскваПанк Макросы",
+      "label": "СнегоПанк Макросы",
       "system": "t6",
       "type": "Macro",
       "banner": "systems/t6/assets/sheet/scanlines.gif"
     },
     {
       "name": "moscowpunk-rules",
-      "label": "МоскваПанк Правила",
+      "label": "СнегоПанк Правила",
       "system": "t6",
       "type": "JournalEntry",
       "banner": "systems/t6/assets/sheet/scanlines.gif"
