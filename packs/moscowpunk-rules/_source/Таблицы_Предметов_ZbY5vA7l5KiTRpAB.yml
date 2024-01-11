@@ -7240,6 +7240,548 @@ pages:
       modifiedTime: 1704925139689
       lastModifiedBy: 50QpUwJC9cGeePYy
     _key: '!journal.pages!ZbY5vA7l5KiTRpAB.K2fgVwteT8ZMiBWl'
+  - sort: 900000
+    name: Товары и Услуги
+    type: text
+    _id: XFr0lggAelwGOhLo
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <table class="MsoTable15Grid4" border="1"
+        style="width:100.0%;border-collapse:collapse;border:none;mso-border-alt:solid
+        #666666
+        .5pt;mso-border-themecolor:text1;mso-border-themetint:153;mso-yfti-tbllook:1184;mso-padding-alt:0cm
+        5.4pt 0cm 5.4pt"><tbody><tr
+        style="mso-yfti-irow:-1;mso-yfti-firstrow:yes;mso-yfti-lastfirstrow:yes"><td
+        style="width:71.2%;border:solid black
+        1.0pt;mso-border-themecolor:text1;border-right:none;mso-border-top-alt:solid
+        black .5pt;mso-border-top-themecolor:text1;mso-border-left-alt:solid
+        black .5pt;mso-border-left-themecolor:text1;mso-border-bottom-alt:solid
+        black
+        .5pt;mso-border-bottom-themecolor:text1;background:black;mso-background-themecolor:text1;padding:0cm
+        5.4pt 0cm 5.4pt"><p class="MsoNormal"
+        style="margin-top:0cm;text-indent:0cm;line-height:normal;mso-yfti-cnfc:5"><span
+        style="font-size:7.0pt;color:white;mso-themecolor:background1"><strong>Еда</strong></span></p></td><td
+        style="width:28.8%;border:solid black
+        1.0pt;mso-border-themecolor:text1;border-left:none;mso-border-top-alt:solid
+        black .5pt;mso-border-top-themecolor:text1;mso-border-bottom-alt:solid
+        black .5pt;mso-border-bottom-themecolor:text1;mso-border-right-alt:solid
+        black
+        .5pt;mso-border-right-themecolor:text1;background:black;mso-background-themecolor:text1;padding:0cm
+        5.4pt 0cm 5.4pt"><p class="MsoNormal"
+        style="margin-top:0cm;text-indent:0cm;line-height:normal;mso-yfti-cnfc:1;text-align:center"><span
+        style="font-size:7.0pt;color:white;mso-themecolor:background1"><strong>Цена
+        в месяц</strong></span></p></td></tr><tr style="mso-yfti-irow:0"><td
+        style="width:71.2%;border:solid #666666
+        1.0pt;mso-border-themecolor:text1;mso-border-themetint:153;border-top:none;mso-border-top-alt:solid
+        #666666
+        .5pt;mso-border-top-themecolor:text1;mso-border-top-themetint:153;mso-border-alt:solid
+        #666666
+        .5pt;mso-border-themecolor:text1;mso-border-themetint:153;background:#CCCCCC;mso-background-themecolor:text1;mso-background-themetint:51;padding:0cm
+        5.4pt 0cm 5.4pt"><p class="MsoNormal"
+        style="margin-top:0cm;text-indent:0cm;line-height:normal;mso-yfti-cnfc:68"><span
+        style="font-size:7.0pt;color:black;mso-color-alt:windowtext"><strong>Доширак</strong></span></p></td><td
+        style="width:28.8%;border-top:none;border-left:none;border-bottom:solid
+        #666666
+        1.0pt;mso-border-bottom-themecolor:text1;mso-border-bottom-themetint:153;border-right:solid
+        #666666
+        1.0pt;mso-border-right-themecolor:text1;mso-border-right-themetint:153;mso-border-top-alt:solid
+        #666666
+        .5pt;mso-border-top-themecolor:text1;mso-border-top-themetint:153;mso-border-left-alt:solid
+        #666666
+        .5pt;mso-border-left-themecolor:text1;mso-border-left-themetint:153;mso-border-alt:solid
+        #666666
+        .5pt;mso-border-themecolor:text1;mso-border-themetint:153;background:#CCCCCC;mso-background-themecolor:text1;mso-background-themetint:51;padding:0cm
+        5.4pt 0cm 5.4pt"><p class="MsoNormal"
+        style="margin-top:0cm;text-indent:0cm;line-height:normal;mso-yfti-cnfc:64;text-align:center"><span
+        style="font-size:7.0pt;color:black;mso-color-alt:windowtext">4500р</span></p></td></tr><tr
+        style="mso-yfti-irow:1"><td style="width:71.2%;border:solid #666666
+        1.0pt;mso-border-themecolor:text1;mso-border-themetint:153;border-top:none;mso-border-top-alt:solid
+        #666666
+        .5pt;mso-border-top-themecolor:text1;mso-border-top-themetint:153;mso-border-alt:solid
+        #666666
+        .5pt;mso-border-themecolor:text1;mso-border-themetint:153;padding:0cm
+        5.4pt 0cm 5.4pt"><p class="MsoNormal"
+        style="margin-top:0cm;text-indent:0cm;line-height:normal;mso-yfti-cnfc:4"><span
+        style="font-size:7.0pt"><strong>Сухая Еда</strong></span></p></td><td
+        style="width:28.8%;border-top:none;border-left:none;border-bottom:solid
+        #666666
+        1.0pt;mso-border-bottom-themecolor:text1;mso-border-bottom-themetint:153;border-right:solid
+        #666666
+        1.0pt;mso-border-right-themecolor:text1;mso-border-right-themetint:153;mso-border-top-alt:solid
+        #666666
+        .5pt;mso-border-top-themecolor:text1;mso-border-top-themetint:153;mso-border-left-alt:solid
+        #666666
+        .5pt;mso-border-left-themecolor:text1;mso-border-left-themetint:153;mso-border-alt:solid
+        #666666
+        .5pt;mso-border-themecolor:text1;mso-border-themetint:153;padding:0cm
+        5.4pt 0cm 5.4pt"><p class="MsoNormal"
+        style="margin-top:0cm;text-indent:0cm;line-height:normal;text-align:center"><span
+        style="font-size:7.0pt">9000</span></p></td></tr><tr
+        style="mso-yfti-irow:2"><td style="width:71.2%;border:solid #666666
+        1.0pt;mso-border-themecolor:text1;mso-border-themetint:153;border-top:none;mso-border-top-alt:solid
+        #666666
+        .5pt;mso-border-top-themecolor:text1;mso-border-top-themetint:153;mso-border-alt:solid
+        #666666
+        .5pt;mso-border-themecolor:text1;mso-border-themetint:153;background:#CCCCCC;mso-background-themecolor:text1;mso-background-themetint:51;padding:0cm
+        5.4pt 0cm 5.4pt"><p class="MsoNormal"
+        style="margin-top:0cm;text-indent:0cm;line-height:normal;mso-yfti-cnfc:68"><span
+        style="font-size:7.0pt;color:black;mso-color-alt:windowtext"><strong>Шаурма</strong></span></p></td><td
+        style="width:28.8%;border-top:none;border-left:none;border-bottom:solid
+        #666666
+        1.0pt;mso-border-bottom-themecolor:text1;mso-border-bottom-themetint:153;border-right:solid
+        #666666
+        1.0pt;mso-border-right-themecolor:text1;mso-border-right-themetint:153;mso-border-top-alt:solid
+        #666666
+        .5pt;mso-border-top-themecolor:text1;mso-border-top-themetint:153;mso-border-left-alt:solid
+        #666666
+        .5pt;mso-border-left-themecolor:text1;mso-border-left-themetint:153;mso-border-alt:solid
+        #666666
+        .5pt;mso-border-themecolor:text1;mso-border-themetint:153;background:#CCCCCC;mso-background-themecolor:text1;mso-background-themetint:51;padding:0cm
+        5.4pt 0cm 5.4pt"><p class="MsoNormal"
+        style="margin-top:0cm;text-indent:0cm;line-height:normal;mso-yfti-cnfc:64;text-align:center"><span
+        style="font-size:7.0pt;color:black;mso-color-alt:windowtext">15тр</span></p></td></tr><tr
+        style="mso-yfti-irow:3"><td style="width:71.2%;border:solid #666666
+        1.0pt;mso-border-themecolor:text1;mso-border-themetint:153;border-top:none;mso-border-top-alt:solid
+        #666666
+        .5pt;mso-border-top-themecolor:text1;mso-border-top-themetint:153;mso-border-alt:solid
+        #666666
+        .5pt;mso-border-themecolor:text1;mso-border-themetint:153;padding:0cm
+        5.4pt 0cm 5.4pt"><p class="MsoNormal"
+        style="margin-top:0cm;text-indent:0cm;line-height:normal;mso-yfti-cnfc:4"><span
+        style="font-size:7.0pt"><strong>Забегаловки</strong></span></p></td><td
+        style="width:28.8%;border-top:none;border-left:none;border-bottom:solid
+        #666666
+        1.0pt;mso-border-bottom-themecolor:text1;mso-border-bottom-themetint:153;border-right:solid
+        #666666
+        1.0pt;mso-border-right-themecolor:text1;mso-border-right-themetint:153;mso-border-top-alt:solid
+        #666666
+        .5pt;mso-border-top-themecolor:text1;mso-border-top-themetint:153;mso-border-left-alt:solid
+        #666666
+        .5pt;mso-border-left-themecolor:text1;mso-border-left-themetint:153;mso-border-alt:solid
+        #666666
+        .5pt;mso-border-themecolor:text1;mso-border-themetint:153;padding:0cm
+        5.4pt 0cm 5.4pt"><p class="MsoNormal"
+        style="margin-top:0cm;text-indent:0cm;line-height:normal;text-align:center"><span
+        style="font-size:7.0pt">45тр</span></p></td></tr><tr
+        style="mso-yfti-irow:4;mso-yfti-lastrow:yes"><td
+        style="width:71.2%;border:solid #666666
+        1.0pt;mso-border-themecolor:text1;mso-border-themetint:153;border-top:none;mso-border-top-alt:solid
+        #666666
+        .5pt;mso-border-top-themecolor:text1;mso-border-top-themetint:153;mso-border-alt:solid
+        #666666
+        .5pt;mso-border-themecolor:text1;mso-border-themetint:153;background:#CCCCCC;mso-background-themecolor:text1;mso-background-themetint:51;padding:0cm
+        5.4pt 0cm 5.4pt"><p class="MsoNormal"
+        style="margin-top:0cm;text-indent:0cm;line-height:normal;mso-yfti-cnfc:68"><span
+        style="font-size:7.0pt;color:black;mso-color-alt:windowtext"><strong>Рестораны</strong></span></p></td><td
+        style="width:28.8%;border-top:none;border-left:none;border-bottom:solid
+        #666666
+        1.0pt;mso-border-bottom-themecolor:text1;mso-border-bottom-themetint:153;border-right:solid
+        #666666
+        1.0pt;mso-border-right-themecolor:text1;mso-border-right-themetint:153;mso-border-top-alt:solid
+        #666666
+        .5pt;mso-border-top-themecolor:text1;mso-border-top-themetint:153;mso-border-left-alt:solid
+        #666666
+        .5pt;mso-border-left-themecolor:text1;mso-border-left-themetint:153;mso-border-alt:solid
+        #666666
+        .5pt;mso-border-themecolor:text1;mso-border-themetint:153;background:#CCCCCC;mso-background-themecolor:text1;mso-background-themetint:51;padding:0cm
+        5.4pt 0cm 5.4pt"><p class="MsoNormal"
+        style="margin-top:0cm;text-indent:0cm;line-height:normal;mso-yfti-cnfc:64;text-align:center"><span
+        style="font-size:7.0pt;color:black;mso-color-alt:windowtext">100тр</span></p></td></tr></tbody></table><table
+        class="MsoTable15Grid4" border="1"
+        style="width:100.0%;border-collapse:collapse;border:none;mso-border-alt:solid
+        #666666
+        .5pt;mso-border-themecolor:text1;mso-border-themetint:153;mso-yfti-tbllook:1184;mso-padding-alt:0cm
+        5.4pt 0cm 5.4pt"><tbody><tr
+        style="mso-yfti-irow:-1;mso-yfti-firstrow:yes;mso-yfti-lastfirstrow:yes"><td
+        style="width:71.2%;border:solid black
+        1.0pt;mso-border-themecolor:text1;border-right:none;mso-border-top-alt:solid
+        black .5pt;mso-border-top-themecolor:text1;mso-border-left-alt:solid
+        black .5pt;mso-border-left-themecolor:text1;mso-border-bottom-alt:solid
+        black
+        .5pt;mso-border-bottom-themecolor:text1;background:black;mso-background-themecolor:text1;padding:0cm
+        5.4pt 0cm 5.4pt"><p class="MsoNormal"
+        style="margin-top:0cm;text-indent:0cm;line-height:normal;mso-yfti-cnfc:5"><span
+        style="font-size:7.0pt;color:white;mso-themecolor:background1"><strong>Жилье</strong></span></p></td><td
+        style="width:28.8%;border:solid black
+        1.0pt;mso-border-themecolor:text1;border-left:none;mso-border-top-alt:solid
+        black .5pt;mso-border-top-themecolor:text1;mso-border-bottom-alt:solid
+        black .5pt;mso-border-bottom-themecolor:text1;mso-border-right-alt:solid
+        black
+        .5pt;mso-border-right-themecolor:text1;background:black;mso-background-themecolor:text1;padding:0cm
+        5.4pt 0cm 5.4pt"><p class="MsoNormal"
+        style="margin-top:0cm;text-indent:0cm;line-height:normal;mso-yfti-cnfc:1;text-align:center"><span
+        style="font-size:7.0pt;color:white;mso-themecolor:background1"><strong>Цена
+        в месяц</strong></span></p></td></tr><tr style="mso-yfti-irow:0"><td
+        style="width:71.2%;border:solid #666666
+        1.0pt;mso-border-themecolor:text1;mso-border-themetint:153;border-top:none;mso-border-top-alt:solid
+        #666666
+        .5pt;mso-border-top-themecolor:text1;mso-border-top-themetint:153;mso-border-alt:solid
+        #666666
+        .5pt;mso-border-themecolor:text1;mso-border-themetint:153;background:#CCCCCC;mso-background-themecolor:text1;mso-background-themetint:51;padding:0cm
+        5.4pt 0cm 5.4pt"><p class="MsoNormal"
+        style="margin-top:0cm;text-indent:0cm;line-height:normal;mso-yfti-cnfc:68"><span
+        style="font-size:7.0pt;color:black;mso-color-alt:windowtext"><strong>На
+        теплотрассе</strong></span></p></td><td
+        style="width:28.8%;border-top:none;border-left:none;border-bottom:solid
+        #666666
+        1.0pt;mso-border-bottom-themecolor:text1;mso-border-bottom-themetint:153;border-right:solid
+        #666666
+        1.0pt;mso-border-right-themecolor:text1;mso-border-right-themetint:153;mso-border-top-alt:solid
+        #666666
+        .5pt;mso-border-top-themecolor:text1;mso-border-top-themetint:153;mso-border-left-alt:solid
+        #666666
+        .5pt;mso-border-left-themecolor:text1;mso-border-left-themetint:153;mso-border-alt:solid
+        #666666
+        .5pt;mso-border-themecolor:text1;mso-border-themetint:153;background:#CCCCCC;mso-background-themecolor:text1;mso-background-themetint:51;padding:0cm
+        5.4pt 0cm 5.4pt"><p class="MsoNormal"
+        style="margin-top:0cm;text-indent:0cm;line-height:normal;mso-yfti-cnfc:64;text-align:center"><span
+        style="font-size:7.0pt;color:black;mso-color-alt:windowtext">0р</span></p></td></tr><tr
+        style="mso-yfti-irow:1"><td style="width:71.2%;border:solid #666666
+        1.0pt;mso-border-themecolor:text1;mso-border-themetint:153;border-top:none;mso-border-top-alt:solid
+        #666666
+        .5pt;mso-border-top-themecolor:text1;mso-border-top-themetint:153;mso-border-alt:solid
+        #666666
+        .5pt;mso-border-themecolor:text1;mso-border-themetint:153;padding:0cm
+        5.4pt 0cm 5.4pt"><p class="MsoNormal"
+        style="margin-top:0cm;text-indent:0cm;line-height:normal;mso-yfti-cnfc:4"><span
+        style="font-size:7.0pt"><strong>Подвал</strong></span></p></td><td
+        style="width:28.8%;border-top:none;border-left:none;border-bottom:solid
+        #666666
+        1.0pt;mso-border-bottom-themecolor:text1;mso-border-bottom-themetint:153;border-right:solid
+        #666666
+        1.0pt;mso-border-right-themecolor:text1;mso-border-right-themetint:153;mso-border-top-alt:solid
+        #666666
+        .5pt;mso-border-top-themecolor:text1;mso-border-top-themetint:153;mso-border-left-alt:solid
+        #666666
+        .5pt;mso-border-left-themecolor:text1;mso-border-left-themetint:153;mso-border-alt:solid
+        #666666
+        .5pt;mso-border-themecolor:text1;mso-border-themetint:153;padding:0cm
+        5.4pt 0cm 5.4pt"><p class="MsoNormal"
+        style="margin-top:0cm;text-indent:0cm;line-height:normal;text-align:center"><span
+        style="font-size:7.0pt">3000р</span></p></td></tr><tr
+        style="mso-yfti-irow:2"><td style="width:71.2%;border:solid #666666
+        1.0pt;mso-border-themecolor:text1;mso-border-themetint:153;border-top:none;mso-border-top-alt:solid
+        #666666
+        .5pt;mso-border-top-themecolor:text1;mso-border-top-themetint:153;mso-border-alt:solid
+        #666666
+        .5pt;mso-border-themecolor:text1;mso-border-themetint:153;background:#CCCCCC;mso-background-themecolor:text1;mso-background-themetint:51;padding:0cm
+        5.4pt 0cm 5.4pt"><p class="MsoNormal"
+        style="margin-top:0cm;text-indent:0cm;line-height:normal;mso-yfti-cnfc:68"><span
+        style="font-size:7.0pt;color:black;mso-color-alt:windowtext"><strong>Общага</strong></span></p></td><td
+        style="width:28.8%;border-top:none;border-left:none;border-bottom:solid
+        #666666
+        1.0pt;mso-border-bottom-themecolor:text1;mso-border-bottom-themetint:153;border-right:solid
+        #666666
+        1.0pt;mso-border-right-themecolor:text1;mso-border-right-themetint:153;mso-border-top-alt:solid
+        #666666
+        .5pt;mso-border-top-themecolor:text1;mso-border-top-themetint:153;mso-border-left-alt:solid
+        #666666
+        .5pt;mso-border-left-themecolor:text1;mso-border-left-themetint:153;mso-border-alt:solid
+        #666666
+        .5pt;mso-border-themecolor:text1;mso-border-themetint:153;background:#CCCCCC;mso-background-themecolor:text1;mso-background-themetint:51;padding:0cm
+        5.4pt 0cm 5.4pt"><p class="MsoNormal"
+        style="margin-top:0cm;text-indent:0cm;line-height:normal;mso-yfti-cnfc:64;text-align:center"><span
+        style="font-size:7.0pt;color:black;mso-color-alt:windowtext">10тр</span></p></td></tr><tr
+        style="mso-yfti-irow:3"><td style="width:71.2%;border:solid #666666
+        1.0pt;mso-border-themecolor:text1;mso-border-themetint:153;border-top:none;mso-border-top-alt:solid
+        #666666
+        .5pt;mso-border-top-themecolor:text1;mso-border-top-themetint:153;mso-border-alt:solid
+        #666666
+        .5pt;mso-border-themecolor:text1;mso-border-themetint:153;padding:0cm
+        5.4pt 0cm 5.4pt"><p class="MsoNormal"
+        style="margin-top:0cm;text-indent:0cm;line-height:normal;mso-yfti-cnfc:4"><span
+        style="font-size:7.0pt"><strong>Квартира 1к</strong></span></p></td><td
+        style="width:28.8%;border-top:none;border-left:none;border-bottom:solid
+        #666666
+        1.0pt;mso-border-bottom-themecolor:text1;mso-border-bottom-themetint:153;border-right:solid
+        #666666
+        1.0pt;mso-border-right-themecolor:text1;mso-border-right-themetint:153;mso-border-top-alt:solid
+        #666666
+        .5pt;mso-border-top-themecolor:text1;mso-border-top-themetint:153;mso-border-left-alt:solid
+        #666666
+        .5pt;mso-border-left-themecolor:text1;mso-border-left-themetint:153;mso-border-alt:solid
+        #666666
+        .5pt;mso-border-themecolor:text1;mso-border-themetint:153;padding:0cm
+        5.4pt 0cm 5.4pt"><p class="MsoNormal"
+        style="margin-top:0cm;text-indent:0cm;line-height:normal;text-align:center"><span
+        style="font-size:7.0pt">50тр</span></p></td></tr><tr
+        style="mso-yfti-irow:4;mso-yfti-lastrow:yes"><td
+        style="width:71.2%;border:solid #666666
+        1.0pt;mso-border-themecolor:text1;mso-border-themetint:153;border-top:none;mso-border-top-alt:solid
+        #666666
+        .5pt;mso-border-top-themecolor:text1;mso-border-top-themetint:153;mso-border-alt:solid
+        #666666
+        .5pt;mso-border-themecolor:text1;mso-border-themetint:153;background:#CCCCCC;mso-background-themecolor:text1;mso-background-themetint:51;padding:0cm
+        5.4pt 0cm 5.4pt"><p class="MsoNormal"
+        style="margin-top:0cm;text-indent:0cm;line-height:normal;mso-yfti-cnfc:68"><span
+        style="font-size:7.0pt;color:black;mso-color-alt:windowtext"><strong>Квартира
+        2к</strong></span></p></td><td
+        style="width:28.8%;border-top:none;border-left:none;border-bottom:solid
+        #666666
+        1.0pt;mso-border-bottom-themecolor:text1;mso-border-bottom-themetint:153;border-right:solid
+        #666666
+        1.0pt;mso-border-right-themecolor:text1;mso-border-right-themetint:153;mso-border-top-alt:solid
+        #666666
+        .5pt;mso-border-top-themecolor:text1;mso-border-top-themetint:153;mso-border-left-alt:solid
+        #666666
+        .5pt;mso-border-left-themecolor:text1;mso-border-left-themetint:153;mso-border-alt:solid
+        #666666
+        .5pt;mso-border-themecolor:text1;mso-border-themetint:153;background:#CCCCCC;mso-background-themecolor:text1;mso-background-themetint:51;padding:0cm
+        5.4pt 0cm 5.4pt"><p class="MsoNormal"
+        style="margin-top:0cm;text-indent:0cm;line-height:normal;mso-yfti-cnfc:64;text-align:center"><span
+        style="font-size:7.0pt;color:black;mso-color-alt:windowtext">100тр</span></p></td></tr></tbody></table><p
+        class="Notes"><span style="font-family:Arial"><em>Цены указаны для
+        внутри МКАДа, цены внутри ТТК x2, в садовом </em></span><span
+        style="mso-ansi-language:EN-US"><span
+        style="font-family:Arial"><em>x</em></span></span><span
+        style="font-family:Arial"><em>10, за МКАДом </em></span><span
+        style="mso-ansi-language:EN-US"><span
+        style="font-family:Arial"><em>x</em></span></span><span
+        style="font-family:Arial"><em>0.5</em></span></p><table
+        class="MsoTable15Grid4" border="1"
+        style="width:100.0%;border-collapse:collapse;border:none;mso-border-alt:solid
+        #666666
+        .5pt;mso-border-themecolor:text1;mso-border-themetint:153;mso-yfti-tbllook:1184;mso-padding-alt:0cm
+        5.4pt 0cm 5.4pt"><tbody><tr
+        style="mso-yfti-irow:-1;mso-yfti-firstrow:yes;mso-yfti-lastfirstrow:yes"><td
+        style="width:71.2%;border:solid black
+        1.0pt;mso-border-themecolor:text1;border-right:none;mso-border-top-alt:solid
+        black .5pt;mso-border-top-themecolor:text1;mso-border-left-alt:solid
+        black .5pt;mso-border-left-themecolor:text1;mso-border-bottom-alt:solid
+        black
+        .5pt;mso-border-bottom-themecolor:text1;background:black;mso-background-themecolor:text1;padding:0cm
+        5.4pt 0cm 5.4pt"><p class="MsoNormal"
+        style="margin-top:0cm;text-indent:0cm;line-height:normal;mso-yfti-cnfc:5"><span
+        style="font-size:7.0pt;color:white;mso-themecolor:background1"><strong>Коммуналк</strong>а</span></p></td><td
+        style="width:28.8%;border:solid black
+        1.0pt;mso-border-themecolor:text1;border-left:none;mso-border-top-alt:solid
+        black .5pt;mso-border-top-themecolor:text1;mso-border-bottom-alt:solid
+        black .5pt;mso-border-bottom-themecolor:text1;mso-border-right-alt:solid
+        black
+        .5pt;mso-border-right-themecolor:text1;background:black;mso-background-themecolor:text1;padding:0cm
+        5.4pt 0cm 5.4pt"><p class="MsoNormal"
+        style="margin-top:0cm;text-indent:0cm;line-height:normal;mso-yfti-cnfc:1;text-align:center"><span
+        style="font-size:7.0pt;color:white;mso-themecolor:background1"><strong>Цена
+        в месяц</strong></span></p></td></tr><tr style="mso-yfti-irow:0"><td
+        style="width:71.2%;border:solid #666666
+        1.0pt;mso-border-themecolor:text1;mso-border-themetint:153;border-top:none;mso-border-top-alt:solid
+        #666666
+        .5pt;mso-border-top-themecolor:text1;mso-border-top-themetint:153;mso-border-alt:solid
+        #666666
+        .5pt;mso-border-themecolor:text1;mso-border-themetint:153;background:#CCCCCC;mso-background-themecolor:text1;mso-background-themetint:51;padding:0cm
+        5.4pt 0cm 5.4pt"><p class="MsoNormal"
+        style="margin-top:0cm;text-indent:0cm;line-height:normal;mso-yfti-cnfc:68"><span
+        style="font-size:7.0pt;color:black;mso-color-alt:windowtext"><strong>Свет</strong></span></p></td><td
+        style="width:28.8%;border-top:none;border-left:none;border-bottom:solid
+        #666666
+        1.0pt;mso-border-bottom-themecolor:text1;mso-border-bottom-themetint:153;border-right:solid
+        #666666
+        1.0pt;mso-border-right-themecolor:text1;mso-border-right-themetint:153;mso-border-top-alt:solid
+        #666666
+        .5pt;mso-border-top-themecolor:text1;mso-border-top-themetint:153;mso-border-left-alt:solid
+        #666666
+        .5pt;mso-border-left-themecolor:text1;mso-border-left-themetint:153;mso-border-alt:solid
+        #666666
+        .5pt;mso-border-themecolor:text1;mso-border-themetint:153;background:#CCCCCC;mso-background-themecolor:text1;mso-background-themetint:51;padding:0cm
+        5.4pt 0cm 5.4pt"><p class="MsoNormal"
+        style="margin-top:0cm;text-indent:0cm;line-height:normal;mso-yfti-cnfc:64;text-align:center"><span
+        style="font-size:7.0pt;color:black;mso-color-alt:windowtext">5000р</span></p></td></tr><tr
+        style="mso-yfti-irow:1"><td style="width:71.2%;border:solid #666666
+        1.0pt;mso-border-themecolor:text1;mso-border-themetint:153;border-top:none;mso-border-top-alt:solid
+        #666666
+        .5pt;mso-border-top-themecolor:text1;mso-border-top-themetint:153;mso-border-alt:solid
+        #666666
+        .5pt;mso-border-themecolor:text1;mso-border-themetint:153;padding:0cm
+        5.4pt 0cm 5.4pt"><p class="MsoNormal"
+        style="margin-top:0cm;text-indent:0cm;line-height:normal;mso-yfti-cnfc:4"><span
+        style="font-size:7.0pt"><strong>Дрова для
+        отопления</strong></span><sup><span
+        style="font-size:7.0pt"><strong>1</strong></span></sup></p></td><td
+        style="width:28.8%;border-top:none;border-left:none;border-bottom:solid
+        #666666
+        1.0pt;mso-border-bottom-themecolor:text1;mso-border-bottom-themetint:153;border-right:solid
+        #666666
+        1.0pt;mso-border-right-themecolor:text1;mso-border-right-themetint:153;mso-border-top-alt:solid
+        #666666
+        .5pt;mso-border-top-themecolor:text1;mso-border-top-themetint:153;mso-border-left-alt:solid
+        #666666
+        .5pt;mso-border-left-themecolor:text1;mso-border-left-themetint:153;mso-border-alt:solid
+        #666666
+        .5pt;mso-border-themecolor:text1;mso-border-themetint:153;padding:0cm
+        5.4pt 0cm 5.4pt"><p class="MsoNormal"
+        style="margin-top:0cm;text-indent:0cm;line-height:normal;text-align:center"><span
+        style="font-size:7.0pt">3000тр</span></p></td></tr><tr
+        style="mso-yfti-irow:2"><td style="width:71.2%;border:solid #666666
+        1.0pt;mso-border-themecolor:text1;mso-border-themetint:153;border-top:none;mso-border-top-alt:solid
+        #666666
+        .5pt;mso-border-top-themecolor:text1;mso-border-top-themetint:153;mso-border-alt:solid
+        #666666
+        .5pt;mso-border-themecolor:text1;mso-border-themetint:153;background:#CCCCCC;mso-background-themecolor:text1;mso-background-themetint:51;padding:0cm
+        5.4pt 0cm 5.4pt"><p class="MsoNormal"
+        style="margin-top:0cm;text-indent:0cm;line-height:normal;mso-yfti-cnfc:68"><span
+        style="font-size:7.0pt;color:black;mso-color-alt:windowtext"><strong>Уголь
+        для отопления</strong></span></p></td><td
+        style="width:28.8%;border-top:none;border-left:none;border-bottom:solid
+        #666666
+        1.0pt;mso-border-bottom-themecolor:text1;mso-border-bottom-themetint:153;border-right:solid
+        #666666
+        1.0pt;mso-border-right-themecolor:text1;mso-border-right-themetint:153;mso-border-top-alt:solid
+        #666666
+        .5pt;mso-border-top-themecolor:text1;mso-border-top-themetint:153;mso-border-left-alt:solid
+        #666666
+        .5pt;mso-border-left-themecolor:text1;mso-border-left-themetint:153;mso-border-alt:solid
+        #666666
+        .5pt;mso-border-themecolor:text1;mso-border-themetint:153;background:#CCCCCC;mso-background-themecolor:text1;mso-background-themetint:51;padding:0cm
+        5.4pt 0cm 5.4pt"><p class="MsoNormal"
+        style="margin-top:0cm;text-indent:0cm;line-height:normal;mso-yfti-cnfc:64;text-align:center"><span
+        style="font-size:7.0pt;color:black;mso-color-alt:windowtext">5000тр</span></p></td></tr><tr
+        style="mso-yfti-irow:3"><td style="width:71.2%;border:solid #666666
+        1.0pt;mso-border-themecolor:text1;mso-border-themetint:153;border-top:none;mso-border-top-alt:solid
+        #666666
+        .5pt;mso-border-top-themecolor:text1;mso-border-top-themetint:153;mso-border-alt:solid
+        #666666
+        .5pt;mso-border-themecolor:text1;mso-border-themetint:153;padding:0cm
+        5.4pt 0cm 5.4pt"><p class="MsoNormal"
+        style="margin-top:0cm;text-indent:0cm;line-height:normal;mso-yfti-cnfc:4"><span
+        style="font-size:7.0pt"><strong>Центральное
+        отопление</strong></span></p></td><td
+        style="width:28.8%;border-top:none;border-left:none;border-bottom:solid
+        #666666
+        1.0pt;mso-border-bottom-themecolor:text1;mso-border-bottom-themetint:153;border-right:solid
+        #666666
+        1.0pt;mso-border-right-themecolor:text1;mso-border-right-themetint:153;mso-border-top-alt:solid
+        #666666
+        .5pt;mso-border-top-themecolor:text1;mso-border-top-themetint:153;mso-border-left-alt:solid
+        #666666
+        .5pt;mso-border-left-themecolor:text1;mso-border-left-themetint:153;mso-border-alt:solid
+        #666666
+        .5pt;mso-border-themecolor:text1;mso-border-themetint:153;padding:0cm
+        5.4pt 0cm 5.4pt"><p class="MsoNormal"
+        style="margin-top:0cm;text-indent:0cm;line-height:normal;text-align:center"><span
+        style="font-size:7.0pt">10тр</span></p></td></tr><tr
+        style="mso-yfti-irow:4"><td style="width:71.2%;border:solid #666666
+        1.0pt;mso-border-themecolor:text1;mso-border-themetint:153;border-top:none;mso-border-top-alt:solid
+        #666666
+        .5pt;mso-border-top-themecolor:text1;mso-border-top-themetint:153;mso-border-alt:solid
+        #666666
+        .5pt;mso-border-themecolor:text1;mso-border-themetint:153;background:#CCCCCC;mso-background-themecolor:text1;mso-background-themetint:51;padding:0cm
+        5.4pt 0cm 5.4pt"><p class="MsoNormal"
+        style="margin-top:0cm;text-indent:0cm;line-height:normal;mso-yfti-cnfc:68"><span
+        style="font-size:7.0pt;color:black;mso-color-alt:windowtext"><strong>Вода</strong></span></p></td><td
+        style="width:28.8%;border-top:none;border-left:none;border-bottom:solid
+        #666666
+        1.0pt;mso-border-bottom-themecolor:text1;mso-border-bottom-themetint:153;border-right:solid
+        #666666
+        1.0pt;mso-border-right-themecolor:text1;mso-border-right-themetint:153;mso-border-top-alt:solid
+        #666666
+        .5pt;mso-border-top-themecolor:text1;mso-border-top-themetint:153;mso-border-left-alt:solid
+        #666666
+        .5pt;mso-border-left-themecolor:text1;mso-border-left-themetint:153;mso-border-alt:solid
+        #666666
+        .5pt;mso-border-themecolor:text1;mso-border-themetint:153;background:#CCCCCC;mso-background-themecolor:text1;mso-background-themetint:51;padding:0cm
+        5.4pt 0cm 5.4pt"><p class="MsoNormal"
+        style="margin-top:0cm;text-indent:0cm;line-height:normal;mso-yfti-cnfc:64;text-align:center"><span
+        style="font-size:7.0pt;color:black;mso-color-alt:windowtext">3000р</span></p></td></tr><tr
+        style="mso-yfti-irow:5;mso-yfti-lastrow:yes"><td
+        style="width:71.2%;border:solid #666666
+        1.0pt;mso-border-themecolor:text1;mso-border-themetint:153;border-top:none;mso-border-top-alt:solid
+        #666666
+        .5pt;mso-border-top-themecolor:text1;mso-border-top-themetint:153;mso-border-alt:solid
+        #666666
+        .5pt;mso-border-themecolor:text1;mso-border-themetint:153;padding:0cm
+        5.4pt 0cm 5.4pt"><p class="MsoNormal"
+        style="margin-top:0cm;text-indent:0cm;line-height:normal;mso-yfti-cnfc:4"><span
+        style="font-size:7.0pt"><strong>Горячая вода</strong></span></p></td><td
+        style="width:28.8%;border-top:none;border-left:none;border-bottom:solid
+        #666666
+        1.0pt;mso-border-bottom-themecolor:text1;mso-border-bottom-themetint:153;border-right:solid
+        #666666
+        1.0pt;mso-border-right-themecolor:text1;mso-border-right-themetint:153;mso-border-top-alt:solid
+        #666666
+        .5pt;mso-border-top-themecolor:text1;mso-border-top-themetint:153;mso-border-left-alt:solid
+        #666666
+        .5pt;mso-border-left-themecolor:text1;mso-border-left-themetint:153;mso-border-alt:solid
+        #666666
+        .5pt;mso-border-themecolor:text1;mso-border-themetint:153;padding:0cm
+        5.4pt 0cm 5.4pt"><p class="MsoNormal"
+        style="margin-top:0cm;text-indent:0cm;line-height:normal;text-align:center"><span
+        style="font-size:7.0pt">5000р</span></p></td></tr></tbody></table><p
+        class="Notes"><sup><span
+        style="font-family:Arial"><em>1</em></span></sup><span
+        style="font-family:Arial"><em>Требует проверки внимания ночью чтобы не
+        дать огню затухнуть.</em></span></p><table class="MsoTable15Grid4"
+        border="1"
+        style="width:100.0%;border-collapse:collapse;border:none;mso-border-alt:solid
+        #666666
+        .5pt;mso-border-themecolor:text1;mso-border-themetint:153;mso-yfti-tbllook:1184;mso-padding-alt:0cm
+        5.4pt 0cm 5.4pt"><tbody><tr
+        style="mso-yfti-irow:-1;mso-yfti-firstrow:yes;mso-yfti-lastfirstrow:yes"><td
+        style="width:71.2%;border:solid black
+        1.0pt;mso-border-themecolor:text1;border-right:none;mso-border-top-alt:solid
+        black .5pt;mso-border-top-themecolor:text1;mso-border-left-alt:solid
+        black .5pt;mso-border-left-themecolor:text1;mso-border-bottom-alt:solid
+        black
+        .5pt;mso-border-bottom-themecolor:text1;background:black;mso-background-themecolor:text1;padding:0cm
+        5.4pt 0cm 5.4pt"><p class="MsoNormal"
+        style="margin-top:0cm;text-indent:0cm;line-height:normal;mso-yfti-cnfc:5"><span
+        style="font-size:7.0pt;color:white;mso-themecolor:background1"><strong>Другое</strong></span></p></td><td
+        style="width:28.8%;border:solid black
+        1.0pt;mso-border-themecolor:text1;border-left:none;mso-border-top-alt:solid
+        black .5pt;mso-border-top-themecolor:text1;mso-border-bottom-alt:solid
+        black .5pt;mso-border-bottom-themecolor:text1;mso-border-right-alt:solid
+        black
+        .5pt;mso-border-right-themecolor:text1;background:black;mso-background-themecolor:text1;padding:0cm
+        5.4pt 0cm 5.4pt"><p class="MsoNormal"
+        style="margin-top:0cm;text-indent:0cm;line-height:normal;mso-yfti-cnfc:1;text-align:center"><span
+        style="font-size:7.0pt;color:white;mso-themecolor:background1"><strong>Цена</strong></span></p></td></tr><tr
+        style="mso-yfti-irow:0;mso-yfti-lastrow:yes"><td
+        style="width:71.2%;border:solid #666666
+        1.0pt;mso-border-themecolor:text1;mso-border-themetint:153;border-top:none;mso-border-top-alt:solid
+        #666666
+        .5pt;mso-border-top-themecolor:text1;mso-border-top-themetint:153;mso-border-alt:solid
+        #666666
+        .5pt;mso-border-themecolor:text1;mso-border-themetint:153;background:#CCCCCC;mso-background-themecolor:text1;mso-background-themetint:51;padding:0cm
+        5.4pt 0cm 5.4pt"><p class="MsoNormal"
+        style="margin-top:0cm;text-indent:0cm;line-height:normal;mso-yfti-cnfc:68"><span
+        style="font-size:7.0pt;color:black;mso-color-alt:windowtext"><strong>Топливо
+        (Бензин/Дизель)</strong></span></p></td><td
+        style="width:28.8%;border-top:none;border-left:none;border-bottom:solid
+        #666666
+        1.0pt;mso-border-bottom-themecolor:text1;mso-border-bottom-themetint:153;border-right:solid
+        #666666
+        1.0pt;mso-border-right-themecolor:text1;mso-border-right-themetint:153;mso-border-top-alt:solid
+        #666666
+        .5pt;mso-border-top-themecolor:text1;mso-border-top-themetint:153;mso-border-left-alt:solid
+        #666666
+        .5pt;mso-border-left-themecolor:text1;mso-border-left-themetint:153;mso-border-alt:solid
+        #666666
+        .5pt;mso-border-themecolor:text1;mso-border-themetint:153;background:#CCCCCC;mso-background-themecolor:text1;mso-background-themetint:51;padding:0cm
+        5.4pt 0cm 5.4pt"><p class="MsoNormal"
+        style="margin-top:0cm;text-indent:0cm;line-height:normal;mso-yfti-cnfc:64;text-align:center"><span
+        style="font-size:7.0pt;color:black;mso-color-alt:windowtext">60р/литр</span></p></td></tr></tbody></table>
+      markdown: ''
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    system: {}
+    ownership:
+      default: -1
+      50QpUwJC9cGeePYy: 3
+    flags: {}
+    _stats:
+      systemId: t6
+      systemVersion: 1.5.7
+      coreVersion: '11.315'
+      createdTime: 1704997963957
+      modifiedTime: 1704998249589
+      lastModifiedBy: 50QpUwJC9cGeePYy
+    _key: '!journal.pages!ZbY5vA7l5KiTRpAB.XFr0lggAelwGOhLo'
 folder: null
 ownership:
   default: 0
@@ -7248,10 +7790,10 @@ flags:
   core: {}
 _stats:
   systemId: t6
-  systemVersion: 1.5.4
+  systemVersion: 1.5.7
   coreVersion: '11.315'
   createdTime: 1704923516155
-  modifiedTime: 1704925631411
+  modifiedTime: 1704998249589
   lastModifiedBy: 50QpUwJC9cGeePYy
 _id: ZbY5vA7l5KiTRpAB
 sort: 0

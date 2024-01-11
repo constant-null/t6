@@ -25,11 +25,11 @@ pages:
         sheetClass: core.JournalTextPageSheet
     _stats:
       systemId: t6
-      systemVersion: 1.2.7
+      systemVersion: 1.5.7
       coreVersion: '11.315'
       createdTime: 1702753704972
-      modifiedTime: 1702757003034
-      lastModifiedBy: 6fzdJDn0QE2JU4FT
+      modifiedTime: 1704993138817
+      lastModifiedBy: 50QpUwJC9cGeePYy
     _key: '!journal.pages!jzspDvO5zIytjmhs.NCDHPyA78ouxesj1'
   - sort: 200000
     name: Действия
@@ -1058,11 +1058,11 @@ flags:
   core: {}
 _stats:
   systemId: t6
-  systemVersion: 1.2.7
+  systemVersion: 1.5.7
   coreVersion: '11.315'
   createdTime: 1702753584874
-  modifiedTime: 1702764881613
-  lastModifiedBy: 6fzdJDn0QE2JU4FT
+  modifiedTime: 1704993138817
+  lastModifiedBy: 50QpUwJC9cGeePYy
 _id: jzspDvO5zIytjmhs
 sort: 0
 _key: '!journal!jzspDvO5zIytjmhs'
