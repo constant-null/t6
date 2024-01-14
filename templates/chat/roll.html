@@ -24,7 +24,7 @@
                                 {{trait.name}} {{signedInt trait.system.dice}}
                                 <span class="t6 glow red">
                                     {{#if trait.system.damage}}
-                                    (+{{trait.system.damage}} {{localize "T6.ChatMessage.Damage"}} [{{sub trait.system.uses.value 1}}/{{trait.system.uses.max}}])
+                                    (+{{trait.system.damage}} {{localize "T6.ChatMessage.Damage"}}{{#if (gt trait.system.uses.value 0)}}[{{sub trait.system.uses.value 1}}/{{trait.system.uses.max}}]{{/if}})
                                     {{/if}}
                                 </span>
                             </div>

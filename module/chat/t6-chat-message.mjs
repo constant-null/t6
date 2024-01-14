@@ -108,7 +108,7 @@ export default class T6ChatMessage extends ChatMessage {
             chatData.oppositeRoll = this.oppositeRoll.roll;
             chatData.oppositeRollDamage = this.oppositeRoll.totalDamage;
             chatData.oppositeRollResult = this.oppositeRoll.roll - roll.total;
-            chatData.finalDamage = Math.max(chatData.oppositeRollResult + chatData.oppositeRollDamage - this.speakerActor.equippedArmor.system.armor.protection, 0);
+            chatData.finalDamage = Math.max(chatData.oppositeRollResult + chatData.oppositeRollDamage - (this.speakerActor.equippedArmor?.system.armor.protection || 0), 0);
             this.finalDamage = chatData.finalDamage;
         }
 
