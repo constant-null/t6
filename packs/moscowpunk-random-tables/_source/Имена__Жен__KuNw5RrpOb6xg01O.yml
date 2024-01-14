@@ -1,0 +1,4692 @@
+name: Имена (Жен)
+description: ''
+results:
+  - type: 0
+    text: Анна
+    weight: 1
+    range:
+      - 1
+      - 1
+    drawn: false
+    _id: oFzQHXqalJxUo2Kn
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.oFzQHXqalJxUo2Kn'
+  - type: 0
+    text: Мария
+    weight: 1
+    range:
+      - 2
+      - 2
+    drawn: false
+    _id: P0NclsruuTEeAKXy
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.P0NclsruuTEeAKXy'
+  - type: 0
+    text: Анастасия
+    weight: 1
+    range:
+      - 3
+      - 3
+    drawn: false
+    _id: KEbOSTRuLnKKPvuz
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.KEbOSTRuLnKKPvuz'
+  - type: 0
+    text: Дарья
+    weight: 1
+    range:
+      - 4
+      - 4
+    drawn: false
+    _id: OWSHwwMQkNIkGeqv
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.OWSHwwMQkNIkGeqv'
+  - type: 0
+    text: Виктория
+    weight: 1
+    range:
+      - 5
+      - 5
+    drawn: false
+    _id: BubZRTsZjT4jFWGo
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.BubZRTsZjT4jFWGo'
+  - type: 0
+    text: Елизавета
+    weight: 1
+    range:
+      - 6
+      - 6
+    drawn: false
+    _id: UETmfZtXQLudlSKE
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.UETmfZtXQLudlSKE'
+  - type: 0
+    text: Полина
+    weight: 1
+    range:
+      - 7
+      - 7
+    drawn: false
+    _id: hnRMRkTWmKqWYyHp
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.hnRMRkTWmKqWYyHp'
+  - type: 0
+    text: Екатерина
+    weight: 1
+    range:
+      - 8
+      - 8
+    drawn: false
+    _id: 4juCKtdNYvbxUe6Z
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.4juCKtdNYvbxUe6Z'
+  - type: 0
+    text: Софья
+    weight: 1
+    range:
+      - 9
+      - 9
+    drawn: false
+    _id: 62IDHhgoOn6bOIud
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.62IDHhgoOn6bOIud'
+  - type: 0
+    text: Ксения
+    weight: 1
+    range:
+      - 10
+      - 10
+    drawn: false
+    _id: sB0qE8pRc3E7EYYf
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.sB0qE8pRc3E7EYYf'
+  - type: 0
+    text: Александра
+    weight: 1
+    range:
+      - 11
+      - 11
+    drawn: false
+    _id: veSLCGjPxnuXZ4bH
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.veSLCGjPxnuXZ4bH'
+  - type: 0
+    text: Алина
+    weight: 1
+    range:
+      - 12
+      - 12
+    drawn: false
+    _id: nDyIlfRw9jcVcEHh
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.nDyIlfRw9jcVcEHh'
+  - type: 0
+    text: Арина
+    weight: 1
+    range:
+      - 13
+      - 13
+    drawn: false
+    _id: CwQbDufxDak9uMuU
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.CwQbDufxDak9uMuU'
+  - type: 0
+    text: Варвара
+    weight: 1
+    range:
+      - 14
+      - 14
+    drawn: false
+    _id: JxiwgbJ2upX19RxD
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.JxiwgbJ2upX19RxD'
+  - type: 0
+    text: Ольга
+    weight: 1
+    range:
+      - 15
+      - 15
+    drawn: false
+    _id: ONVhayPB0ErEItyM
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.ONVhayPB0ErEItyM'
+  - type: 0
+    text: Вероника
+    weight: 1
+    range:
+      - 16
+      - 16
+    drawn: false
+    _id: 3orZhIqz5F7J2oQm
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.3orZhIqz5F7J2oQm'
+  - type: 0
+    text: Ирина
+    weight: 1
+    range:
+      - 17
+      - 17
+    drawn: false
+    _id: MQ7BJT4xCGxuXNI7
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.MQ7BJT4xCGxuXNI7'
+  - type: 0
+    text: София
+    weight: 1
+    range:
+      - 18
+      - 18
+    drawn: false
+    _id: aXHiWhZh5IWbFOvA
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.aXHiWhZh5IWbFOvA'
+  - type: 0
+    text: Юлия
+    weight: 1
+    range:
+      - 19
+      - 19
+    drawn: false
+    _id: D7QGOQbgPaoZjeft
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.D7QGOQbgPaoZjeft'
+  - type: 0
+    text: Валерия
+    weight: 1
+    range:
+      - 20
+      - 20
+    drawn: false
+    _id: 0ofdvkJbX4RXxMVO
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.0ofdvkJbX4RXxMVO'
+  - type: 0
+    text: Алиса
+    weight: 1
+    range:
+      - 21
+      - 21
+    drawn: false
+    _id: 55I2rk6qgRO0DE6X
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.55I2rk6qgRO0DE6X'
+  - type: 0
+    text: Ульяна
+    weight: 1
+    range:
+      - 22
+      - 22
+    drawn: false
+    _id: HPxFcwJnvUGMpkQF
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.HPxFcwJnvUGMpkQF'
+  - type: 0
+    text: Кристина
+    weight: 1
+    range:
+      - 23
+      - 23
+    drawn: false
+    _id: MvwKj4FGJ2P4KAwa
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.MvwKj4FGJ2P4KAwa'
+  - type: 0
+    text: Елена
+    weight: 1
+    range:
+      - 24
+      - 24
+    drawn: false
+    _id: 0rHWgbOy1Mq647bg
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.0rHWgbOy1Mq647bg'
+  - type: 0
+    text: Татьяна
+    weight: 1
+    range:
+      - 25
+      - 25
+    drawn: false
+    _id: 6OJkKNaZ1BuVdQZa
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.6OJkKNaZ1BuVdQZa'
+  - type: 0
+    text: Алена
+    weight: 1
+    range:
+      - 26
+      - 26
+    drawn: false
+    _id: Gx1tomyh57TOI72A
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.Gx1tomyh57TOI72A'
+  - type: 0
+    text: Диана
+    weight: 1
+    range:
+      - 27
+      - 27
+    drawn: false
+    _id: MGyGmXyouSYTGSk0
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.MGyGmXyouSYTGSk0'
+  - type: 0
+    text: Василиса
+    weight: 1
+    range:
+      - 28
+      - 28
+    drawn: false
+    _id: 27WJ29rWmTUJb3c4
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.27WJ29rWmTUJb3c4'
+  - type: 0
+    text: Кира
+    weight: 1
+    range:
+      - 29
+      - 29
+    drawn: false
+    _id: f6O2LPQ76jD0KrwW
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.f6O2LPQ76jD0KrwW'
+  - type: 0
+    text: Яна
+    weight: 1
+    range:
+      - 30
+      - 30
+    drawn: false
+    _id: Z21uhtFYWQGS1nzM
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.Z21uhtFYWQGS1nzM'
+  - type: 0
+    text: Светлана
+    weight: 1
+    range:
+      - 31
+      - 31
+    drawn: false
+    _id: p48ckxwhiKqdLs0v
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.p48ckxwhiKqdLs0v'
+  - type: 0
+    text: Таисия
+    weight: 1
+    range:
+      - 32
+      - 32
+    drawn: false
+    _id: ZA4mMTySf9cpRDVu
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.ZA4mMTySf9cpRDVu'
+  - type: 0
+    text: Евгения
+    weight: 1
+    range:
+      - 33
+      - 33
+    drawn: false
+    _id: 8EEHbSguUuDfuovC
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.8EEHbSguUuDfuovC'
+  - type: 0
+    text: Вера
+    weight: 1
+    range:
+      - 34
+      - 34
+    drawn: false
+    _id: IVfuaNZwhiC1YxJF
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.IVfuaNZwhiC1YxJF'
+  - type: 0
+    text: Маргарита
+    weight: 1
+    range:
+      - 35
+      - 35
+    drawn: false
+    _id: 0ENSwzFhEWVHBwOu
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.0ENSwzFhEWVHBwOu'
+  - type: 0
+    text: Марина
+    weight: 1
+    range:
+      - 36
+      - 36
+    drawn: false
+    _id: DT1VYbdgtBNtEkAO
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.DT1VYbdgtBNtEkAO'
+  - type: 0
+    text: Ангелина
+    weight: 1
+    range:
+      - 37
+      - 37
+    drawn: false
+    _id: P6EcHtgfvxbtnI10
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.P6EcHtgfvxbtnI10'
+  - type: 0
+    text: Наталья
+    weight: 1
+    range:
+      - 38
+      - 38
+    drawn: false
+    _id: teADBe7CkBWWYaAG
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.teADBe7CkBWWYaAG'
+  - type: 0
+    text: Нина
+    weight: 1
+    range:
+      - 39
+      - 39
+    drawn: false
+    _id: iXN6lnktIbxG7KjS
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.iXN6lnktIbxG7KjS'
+  - type: 0
+    text: Олеся
+    weight: 1
+    range:
+      - 40
+      - 40
+    drawn: false
+    _id: qbwFMZxEL9rKPBu1
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.qbwFMZxEL9rKPBu1'
+  - type: 0
+    text: Надежда
+    weight: 1
+    range:
+      - 41
+      - 41
+    drawn: false
+    _id: TPOt52oAZagw4ugJ
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.TPOt52oAZagw4ugJ'
+  - type: 0
+    text: Ева
+    weight: 1
+    range:
+      - 42
+      - 42
+    drawn: false
+    _id: SdvEdAJZczxbijhr
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.SdvEdAJZczxbijhr'
+  - type: 0
+    text: Милана
+    weight: 1
+    range:
+      - 43
+      - 43
+    drawn: false
+    _id: TtyW3G4P7ys48KPG
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.TtyW3G4P7ys48KPG'
+  - type: 0
+    text: Карина
+    weight: 1
+    range:
+      - 44
+      - 44
+    drawn: false
+    _id: nrqgyXBKzIAxxEAE
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.nrqgyXBKzIAxxEAE'
+  - type: 0
+    text: Любовь
+    weight: 1
+    range:
+      - 45
+      - 45
+    drawn: false
+    _id: FDulf6GENLY6Vfj6
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.FDulf6GENLY6Vfj6'
+  - type: 0
+    text: Валентина
+    weight: 1
+    range:
+      - 46
+      - 46
+    drawn: false
+    _id: Qq0c6XG8HkUWpsmU
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.Qq0c6XG8HkUWpsmU'
+  - type: 0
+    text: Лилия
+    weight: 1
+    range:
+      - 47
+      - 47
+    drawn: false
+    _id: aJSUxzNTPCBuhANk
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.aJSUxzNTPCBuhANk'
+  - type: 0
+    text: Злата
+    weight: 1
+    range:
+      - 48
+      - 48
+    drawn: false
+    _id: CVyD1lh1an6OI79y
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.CVyD1lh1an6OI79y'
+  - type: 0
+    text: Владислава
+    weight: 1
+    range:
+      - 49
+      - 49
+    drawn: false
+    _id: LuIJqyqH61yNYu2v
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.LuIJqyqH61yNYu2v'
+  - type: 0
+    text: Милена
+    weight: 1
+    range:
+      - 50
+      - 50
+    drawn: false
+    _id: tIwZ0UGtGj9HN2ya
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.tIwZ0UGtGj9HN2ya'
+  - type: 0
+    text: Антонина
+    weight: 1
+    range:
+      - 51
+      - 51
+    drawn: false
+    _id: TpMZH1KUvhuG5jlX
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.TpMZH1KUvhuG5jlX'
+  - type: 0
+    text: Элина
+    weight: 1
+    range:
+      - 52
+      - 52
+    drawn: false
+    _id: GOBsgq4SNP07tIZ8
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.GOBsgq4SNP07tIZ8'
+  - type: 0
+    text: Анжелика
+    weight: 1
+    range:
+      - 53
+      - 53
+    drawn: false
+    _id: fOyGZ5RPe2A0q5Al
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.fOyGZ5RPe2A0q5Al'
+  - type: 0
+    text: Ярослава
+    weight: 1
+    range:
+      - 54
+      - 54
+    drawn: false
+    _id: FNjKIp2YCoYJ2iwY
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.FNjKIp2YCoYJ2iwY'
+  - type: 0
+    text: Эвелина
+    weight: 1
+    range:
+      - 55
+      - 55
+    drawn: false
+    _id: jJ1DNMvGEWalxBvw
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.jJ1DNMvGEWalxBvw'
+  - type: 0
+    text: Майя
+    weight: 1
+    range:
+      - 56
+      - 56
+    drawn: false
+    _id: q7joo2wXBKfEBcnX
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.q7joo2wXBKfEBcnX'
+  - type: 0
+    text: Оксана
+    weight: 1
+    range:
+      - 57
+      - 57
+    drawn: false
+    _id: jXOyOoTctkcjWlb5
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.jXOyOoTctkcjWlb5'
+  - type: 0
+    text: Амина
+    weight: 1
+    range:
+      - 58
+      - 58
+    drawn: false
+    _id: 92XTG1zAJcbiyJ89
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.92XTG1zAJcbiyJ89'
+  - type: 0
+    text: Камила
+    weight: 1
+    range:
+      - 59
+      - 59
+    drawn: false
+    _id: DlOFF2vCUYxPKUQ1
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.DlOFF2vCUYxPKUQ1'
+  - type: 0
+    text: Ника
+    weight: 1
+    range:
+      - 60
+      - 60
+    drawn: false
+    _id: 7DbzBfARjh0SbacI
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.7DbzBfARjh0SbacI'
+  - type: 0
+    text: Тамара
+    weight: 1
+    range:
+      - 61
+      - 61
+    drawn: false
+    _id: 8tPXmMLrWNUwrpLG
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.8tPXmMLrWNUwrpLG'
+  - type: 0
+    text: Евдокия
+    weight: 1
+    range:
+      - 62
+      - 62
+    drawn: false
+    _id: kZ73wIaBrWLTiLBM
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.kZ73wIaBrWLTiLBM'
+  - type: 0
+    text: Людмила
+    weight: 1
+    range:
+      - 63
+      - 63
+    drawn: false
+    _id: oKecU2K83z3CrGEc
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.oKecU2K83z3CrGEc'
+  - type: 0
+    text: Жанна
+    weight: 1
+    range:
+      - 64
+      - 64
+    drawn: false
+    _id: I6oLqolWgZGGXWNk
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.I6oLqolWgZGGXWNk'
+  - type: 0
+    text: Камилла
+    weight: 1
+    range:
+      - 65
+      - 65
+    drawn: false
+    _id: Ld39f30CdPd5z9st
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.Ld39f30CdPd5z9st'
+  - type: 0
+    text: Лидия
+    weight: 1
+    range:
+      - 66
+      - 66
+    drawn: false
+    _id: lG6bkc4Dh0i9YWs9
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.lG6bkc4Dh0i9YWs9'
+  - type: 0
+    text: Лейла
+    weight: 1
+    range:
+      - 67
+      - 67
+    drawn: false
+    _id: Q3VssWk0zbJ86Dn1
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.Q3VssWk0zbJ86Dn1'
+  - type: 0
+    text: Марьяна
+    weight: 1
+    range:
+      - 68
+      - 68
+    drawn: false
+    _id: xNOgV3eLscicLHYe
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.xNOgV3eLscicLHYe'
+  - type: 0
+    text: Марианна
+    weight: 1
+    range:
+      - 69
+      - 69
+    drawn: false
+    _id: l7aL9RkqwudK86md
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.l7aL9RkqwudK86md'
+  - type: 0
+    text: Зоя
+    weight: 1
+    range:
+      - 70
+      - 70
+    drawn: false
+    _id: EY1SZGhsc8HsWb7E
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.EY1SZGhsc8HsWb7E'
+  - type: 0
+    text: Альбина
+    weight: 1
+    range:
+      - 71
+      - 71
+    drawn: false
+    _id: yljEN8fNbLn53OZP
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.yljEN8fNbLn53OZP'
+  - type: 0
+    text: Анфиса
+    weight: 1
+    range:
+      - 72
+      - 72
+    drawn: false
+    _id: hyaAoQYMmq79I6IU
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.hyaAoQYMmq79I6IU'
+  - type: 0
+    text: Серафима
+    weight: 1
+    range:
+      - 73
+      - 73
+    drawn: false
+    _id: ICQGmbhF0Hg5aukb
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.ICQGmbhF0Hg5aukb'
+  - type: 0
+    text: Эмилия
+    weight: 1
+    range:
+      - 74
+      - 74
+    drawn: false
+    _id: nkZKMB0ceWKIitqQ
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.nkZKMB0ceWKIitqQ'
+  - type: 0
+    text: Стефания
+    weight: 1
+    range:
+      - 75
+      - 75
+    drawn: false
+    _id: MXOEIvkR9g44fZGM
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.MXOEIvkR9g44fZGM'
+  - type: 0
+    text: Галина
+    weight: 1
+    range:
+      - 76
+      - 76
+    drawn: false
+    _id: i9KZ4kYxs3GZYebL
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.i9KZ4kYxs3GZYebL'
+  - type: 0
+    text: Марьям
+    weight: 1
+    range:
+      - 77
+      - 77
+    drawn: false
+    _id: f9yDr42A18PbY91U
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.f9yDr42A18PbY91U'
+  - type: 0
+    text: Виолетта
+    weight: 1
+    range:
+      - 78
+      - 78
+    drawn: false
+    _id: duBVSyv2IKjUDql8
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.duBVSyv2IKjUDql8'
+  - type: 0
+    text: Марта
+    weight: 1
+    range:
+      - 79
+      - 79
+    drawn: false
+    _id: ywDujgzq1Xq7K71W
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.ywDujgzq1Xq7K71W'
+  - type: 0
+    text: Сабина
+    weight: 1
+    range:
+      - 80
+      - 80
+    drawn: false
+    _id: eF0fo2LmDg8mfg7T
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.eF0fo2LmDg8mfg7T'
+  - type: 0
+    text: Алла
+    weight: 1
+    range:
+      - 81
+      - 81
+    drawn: false
+    _id: MrgZu9PbW74qmeZ0
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.MrgZu9PbW74qmeZ0'
+  - type: 0
+    text: Эльвира
+    weight: 1
+    range:
+      - 82
+      - 82
+    drawn: false
+    _id: dXRfWPPCz2gnUuLU
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.dXRfWPPCz2gnUuLU'
+  - type: 0
+    text: Фатима
+    weight: 1
+    range:
+      - 83
+      - 83
+    drawn: false
+    _id: 7MIriQYawJNtZQVc
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.7MIriQYawJNtZQVc'
+  - type: 0
+    text: Эльмира
+    weight: 1
+    range:
+      - 84
+      - 84
+    drawn: false
+    _id: 65iRF1J6GkJMK2w7
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.65iRF1J6GkJMK2w7'
+  - type: 0
+    text: Дана
+    weight: 1
+    range:
+      - 85
+      - 85
+    drawn: false
+    _id: cAAt0R9oXf7NZ9tO
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.cAAt0R9oXf7NZ9tO'
+  - type: 0
+    text: Наталия
+    weight: 1
+    range:
+      - 86
+      - 86
+    drawn: false
+    _id: P20by3UhNMxSLqtR
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.P20by3UhNMxSLqtR'
+  - type: 0
+    text: Лада
+    weight: 1
+    range:
+      - 87
+      - 87
+    drawn: false
+    _id: Lg6cfxa6tvLw6L4t
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.Lg6cfxa6tvLw6L4t'
+  - type: 0
+    text: Каролина
+    weight: 1
+    range:
+      - 88
+      - 88
+    drawn: false
+    _id: F6LL1VgdOHaKvDjr
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.F6LL1VgdOHaKvDjr'
+  - type: 0
+    text: Станислава
+    weight: 1
+    range:
+      - 89
+      - 89
+    drawn: false
+    _id: FTK3GKtLFmhKlOq3
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.FTK3GKtLFmhKlOq3'
+  - type: 0
+    text: Элеонора
+    weight: 1
+    range:
+      - 90
+      - 90
+    drawn: false
+    _id: ZzPVB0zVbObmgPb5
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.ZzPVB0zVbObmgPb5'
+  - type: 0
+    text: Мадина
+    weight: 1
+    range:
+      - 91
+      - 91
+    drawn: false
+    _id: AwpbaCP3h4lByxHc
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.AwpbaCP3h4lByxHc'
+  - type: 0
+    text: Снежана
+    weight: 1
+    range:
+      - 92
+      - 92
+    drawn: false
+    _id: LD0HssJdLz44DR8L
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.LD0HssJdLz44DR8L'
+  - type: 0
+    text: Настя
+    weight: 1
+    range:
+      - 93
+      - 93
+    drawn: false
+    _id: RX0U0zFJbMce0Hwv
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.RX0U0zFJbMce0Hwv'
+  - type: 0
+    text: Юлиана
+    weight: 1
+    range:
+      - 94
+      - 94
+    drawn: false
+    _id: jn915qsxLXTfabJW
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.jn915qsxLXTfabJW'
+  - type: 0
+    text: Алсу
+    weight: 1
+    range:
+      - 95
+      - 95
+    drawn: false
+    _id: ra2sLrgWUnCijjxk
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.ra2sLrgWUnCijjxk'
+  - type: 0
+    text: Нелли
+    weight: 1
+    range:
+      - 96
+      - 96
+    drawn: false
+    _id: XusciYwhzSNdsctM
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.XusciYwhzSNdsctM'
+  - type: 0
+    text: Дина
+    weight: 1
+    range:
+      - 97
+      - 97
+    drawn: false
+    _id: ZYKELPO1UOZoyDLb
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.ZYKELPO1UOZoyDLb'
+  - type: 0
+    text: Ана
+    weight: 1
+    range:
+      - 98
+      - 98
+    drawn: false
+    _id: CPNPYQeP6mh0LE5W
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.CPNPYQeP6mh0LE5W'
+  - type: 0
+    text: Дарина
+    weight: 1
+    range:
+      - 99
+      - 99
+    drawn: false
+    _id: 9O0DlCyT3NSvP1yU
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.9O0DlCyT3NSvP1yU'
+  - type: 0
+    text: Лиана
+    weight: 1
+    range:
+      - 100
+      - 100
+    drawn: false
+    _id: obbewjQsHMfdCBBl
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.obbewjQsHMfdCBBl'
+  - type: 0
+    text: Самира
+    weight: 1
+    range:
+      - 101
+      - 101
+    drawn: false
+    _id: oqBaJLfrwqLwmgW9
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.oqBaJLfrwqLwmgW9'
+  - type: 0
+    text: Динара
+    weight: 1
+    range:
+      - 102
+      - 102
+    drawn: false
+    _id: RoN1nfK3mMubRzj0
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.RoN1nfK3mMubRzj0'
+  - type: 0
+    text: Алеся
+    weight: 1
+    range:
+      - 103
+      - 103
+    drawn: false
+    _id: JlDLZLSJxdvGbcHm
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.JlDLZLSJxdvGbcHm'
+  - type: 0
+    text: Мариам
+    weight: 1
+    range:
+      - 104
+      - 104
+    drawn: false
+    _id: KeTloXZ6PvivQyDO
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.KeTloXZ6PvivQyDO'
+  - type: 0
+    text: Лариса
+    weight: 1
+    range:
+      - 105
+      - 105
+    drawn: false
+    _id: VtP0lwmY4usAcqfM
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.VtP0lwmY4usAcqfM'
+  - type: 0
+    text: Алия
+    weight: 1
+    range:
+      - 106
+      - 106
+    drawn: false
+    _id: Nuvo1oAXNlmJRg38
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.Nuvo1oAXNlmJRg38'
+  - type: 0
+    text: Аделина
+    weight: 1
+    range:
+      - 107
+      - 107
+    drawn: false
+    _id: UAj2WLIWmHmQYqSO
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.UAj2WLIWmHmQYqSO'
+  - type: 0
+    text: Глафира
+    weight: 1
+    range:
+      - 108
+      - 108
+    drawn: false
+    _id: JROep8jFnqqhKvFk
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.JROep8jFnqqhKvFk'
+  - type: 0
+    text: Алевтина
+    weight: 1
+    range:
+      - 109
+      - 109
+    drawn: false
+    _id: HjGbB1XZEQTZnl4O
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.HjGbB1XZEQTZnl4O'
+  - type: 0
+    text: Влада
+    weight: 1
+    range:
+      - 110
+      - 110
+    drawn: false
+    _id: kD0UWSEzFn1V1wTu
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.kD0UWSEzFn1V1wTu'
+  - type: 0
+    text: Аксинья
+    weight: 1
+    range:
+      - 111
+      - 111
+    drawn: false
+    _id: PGkPov47HUXQdOoP
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.PGkPov47HUXQdOoP'
+  - type: 0
+    text: Ариадна
+    weight: 1
+    range:
+      - 112
+      - 112
+    drawn: false
+    _id: 0RmbeNWytj0AzTJE
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.0RmbeNWytj0AzTJE'
+  - type: 0
+    text: Лаура
+    weight: 1
+    range:
+      - 113
+      - 113
+    drawn: false
+    _id: MUVEcVeSbRsJVODI
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.MUVEcVeSbRsJVODI'
+  - type: 0
+    text: Фекла
+    weight: 1
+    range:
+      - 114
+      - 114
+    drawn: false
+    _id: Y0t5oV3bH9SzfmEh
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.Y0t5oV3bH9SzfmEh'
+  - type: 0
+    text: Рената
+    weight: 1
+    range:
+      - 115
+      - 115
+    drawn: false
+    _id: wCXNdSXOWHJpIcOh
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.wCXNdSXOWHJpIcOh'
+  - type: 0
+    text: Илона
+    weight: 1
+    range:
+      - 116
+      - 116
+    drawn: false
+    _id: 0vpFxFqpmYOov3As
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.0vpFxFqpmYOov3As'
+  - type: 0
+    text: Марфа
+    weight: 1
+    range:
+      - 117
+      - 117
+    drawn: false
+    _id: ZG5UfYRw680Ymo7i
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.ZG5UfYRw680Ymo7i'
+  - type: 0
+    text: Василина
+    weight: 1
+    range:
+      - 118
+      - 118
+    drawn: false
+    _id: dcIlLc895Iom6w1e
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.dcIlLc895Iom6w1e'
+  - type: 0
+    text: Доминика
+    weight: 1
+    range:
+      - 119
+      - 119
+    drawn: false
+    _id: 1SqglM3qvTXzGNYZ
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.1SqglM3qvTXzGNYZ'
+  - type: 0
+    text: Амира
+    weight: 1
+    range:
+      - 120
+      - 120
+    drawn: false
+    _id: 18CWefFdFItgwcWC
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.18CWefFdFItgwcWC'
+  - type: 0
+    text: Ася
+    weight: 1
+    range:
+      - 121
+      - 121
+    drawn: false
+    _id: czxXCrMuyihYm2bd
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.czxXCrMuyihYm2bd'
+  - type: 0
+    text: Аглая
+    weight: 1
+    range:
+      - 122
+      - 122
+    drawn: false
+    _id: wo5EVsjWP6bISSA7
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.wo5EVsjWP6bISSA7'
+  - type: 0
+    text: Изабелла
+    weight: 1
+    range:
+      - 123
+      - 123
+    drawn: false
+    _id: 83oYfjXUX9Vzr4Z2
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.83oYfjXUX9Vzr4Z2'
+  - type: 0
+    text: Лана
+    weight: 1
+    range:
+      - 124
+      - 124
+    drawn: false
+    _id: j5rvLWVCuPCyvb4B
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.j5rvLWVCuPCyvb4B'
+  - type: 0
+    text: Инна
+    weight: 1
+    range:
+      - 125
+      - 125
+    drawn: false
+    _id: YhDJ9Qr7CYoaM9R6
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.YhDJ9Qr7CYoaM9R6'
+  - type: 0
+    text: Инга
+    weight: 1
+    range:
+      - 126
+      - 126
+    drawn: false
+    _id: vCgrfglYwS8V3Uw7
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.vCgrfglYwS8V3Uw7'
+  - type: 0
+    text: Клавдия
+    weight: 1
+    range:
+      - 127
+      - 127
+    drawn: false
+    _id: H49VqE1YY4vsuS3m
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.H49VqE1YY4vsuS3m'
+  - type: 0
+    text: Мила
+    weight: 1
+    range:
+      - 128
+      - 128
+    drawn: false
+    _id: aVwFCqGdvMkVv4qq
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.aVwFCqGdvMkVv4qq'
+  - type: 0
+    text: Эльнара
+    weight: 1
+    range:
+      - 129
+      - 129
+    drawn: false
+    _id: Ih7RvhkiyONZgd6n
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.Ih7RvhkiyONZgd6n'
+  - type: 0
+    text: Евангелина
+    weight: 1
+    range:
+      - 130
+      - 130
+    drawn: false
+    _id: wWOhA4AY7xFnYgs6
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.wWOhA4AY7xFnYgs6'
+  - type: 0
+    text: Лия
+    weight: 1
+    range:
+      - 131
+      - 131
+    drawn: false
+    _id: jeeDSPqf5u3A5iCA
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.jeeDSPqf5u3A5iCA'
+  - type: 0
+    text: Луиза
+    weight: 1
+    range:
+      - 132
+      - 132
+    drawn: false
+    _id: 2txGYkiAqSScFBHO
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.2txGYkiAqSScFBHO'
+  - type: 0
+    text: Анжела
+    weight: 1
+    range:
+      - 133
+      - 133
+    drawn: false
+    _id: 8EcIyqOS8V26iQWw
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.8EcIyqOS8V26iQWw'
+  - type: 0
+    text: Малика
+    weight: 1
+    range:
+      - 134
+      - 134
+    drawn: false
+    _id: Rd2SSJ0LaqFG5mDm
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.Rd2SSJ0LaqFG5mDm'
+  - type: 0
+    text: Иванна
+    weight: 1
+    range:
+      - 135
+      - 135
+    drawn: false
+    _id: 8zT9bJTa6aQbQOp9
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.8zT9bJTa6aQbQOp9'
+  - type: 0
+    text: Анисия
+    weight: 1
+    range:
+      - 136
+      - 136
+    drawn: false
+    _id: wAdaUWR5Z0PNHpY2
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.wAdaUWR5Z0PNHpY2'
+  - type: 0
+    text: Зарина
+    weight: 1
+    range:
+      - 137
+      - 137
+    drawn: false
+    _id: Ij6h0lDuWio8zsfs
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.Ij6h0lDuWio8zsfs'
+  - type: 0
+    text: Агата
+    weight: 1
+    range:
+      - 138
+      - 138
+    drawn: false
+    _id: DNZK4NCoYrmnTLC5
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.DNZK4NCoYrmnTLC5'
+  - type: 0
+    text: Амалия
+    weight: 1
+    range:
+      - 139
+      - 139
+    drawn: false
+    _id: vH0NKrFMimu8X60B
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.vH0NKrFMimu8X60B'
+  - type: 0
+    text: Агния
+    weight: 1
+    range:
+      - 140
+      - 140
+    drawn: false
+    _id: QkvGIbAdEbffROea
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.QkvGIbAdEbffROea'
+  - type: 0
+    text: Аделя
+    weight: 1
+    range:
+      - 141
+      - 141
+    drawn: false
+    _id: AbzERCDOyEklFMKg
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.AbzERCDOyEklFMKg'
+  - type: 0
+    text: Ясмина
+    weight: 1
+    range:
+      - 142
+      - 142
+    drawn: false
+    _id: jk75LoJEkx26YEOT
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.jk75LoJEkx26YEOT'
+  - type: 0
+    text: Рада
+    weight: 1
+    range:
+      - 143
+      - 143
+    drawn: false
+    _id: 9EzD4xaidAzRxKP0
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.9EzD4xaidAzRxKP0'
+  - type: 0
+    text: Марья
+    weight: 1
+    range:
+      - 144
+      - 144
+    drawn: false
+    _id: zafegIFroHpHbWB6
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.zafegIFroHpHbWB6'
+  - type: 0
+    text: Дария
+    weight: 1
+    range:
+      - 145
+      - 145
+    drawn: false
+    _id: wwZFnnuDluFckn0H
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.wwZFnnuDluFckn0H'
+  - type: 0
+    text: Лина
+    weight: 1
+    range:
+      - 146
+      - 146
+    drawn: false
+    _id: 3IWzUSfELFhWOego
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.3IWzUSfELFhWOego'
+  - type: 0
+    text: Даниэла
+    weight: 1
+    range:
+      - 147
+      - 147
+    drawn: false
+    _id: nhuj9kSa6MoC85FU
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.nhuj9kSa6MoC85FU'
+  - type: 0
+    text: Белла
+    weight: 1
+    range:
+      - 148
+      - 148
+    drawn: false
+    _id: z6KFx72LU7qW9YqT
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.z6KFx72LU7qW9YqT'
+  - type: 0
+    text: Римма
+    weight: 1
+    range:
+      - 149
+      - 149
+    drawn: false
+    _id: sYl2EiyFDHvT6JyJ
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.sYl2EiyFDHvT6JyJ'
+  - type: 0
+    text: Пелагея
+    weight: 1
+    range:
+      - 150
+      - 150
+    drawn: false
+    _id: 01sCgPwXVA2HYclc
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.01sCgPwXVA2HYclc'
+  - type: 0
+    text: Виталия
+    weight: 1
+    range:
+      - 151
+      - 151
+    drawn: false
+    _id: xOdLYvtBEoZIeYvs
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.xOdLYvtBEoZIeYvs'
+  - type: 0
+    text: Мелания
+    weight: 1
+    range:
+      - 152
+      - 152
+    drawn: false
+    _id: Gv3fwXN9hEL8oUOx
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.Gv3fwXN9hEL8oUOx'
+  - type: 0
+    text: Айна
+    weight: 1
+    range:
+      - 153
+      - 153
+    drawn: false
+    _id: YngntAJsyJ1r2fJa
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.YngntAJsyJ1r2fJa'
+  - type: 0
+    text: Аида
+    weight: 1
+    range:
+      - 154
+      - 154
+    drawn: false
+    _id: 9EL3WxwJqJ9fuoUH
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.9EL3WxwJqJ9fuoUH'
+  - type: 0
+    text: Стелла
+    weight: 1
+    range:
+      - 155
+      - 155
+    drawn: false
+    _id: edG2wnonJOYygLOd
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.edG2wnonJOYygLOd'
+  - type: 0
+    text: Янина
+    weight: 1
+    range:
+      - 156
+      - 156
+    drawn: false
+    _id: PpHFS0GUAjSOoDwg
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.PpHFS0GUAjSOoDwg'
+  - type: 0
+    text: Катерина
+    weight: 1
+    range:
+      - 157
+      - 157
+    drawn: false
+    _id: O7FU1qsjFFAhp3rN
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.O7FU1qsjFFAhp3rN'
+  - type: 0
+    text: Эрика
+    weight: 1
+    range:
+      - 158
+      - 158
+    drawn: false
+    _id: ypGRmw5NwBhFjlC2
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.ypGRmw5NwBhFjlC2'
+  - type: 0
+    text: Раиса
+    weight: 1
+    range:
+      - 159
+      - 159
+    drawn: false
+    _id: 3pmABHwvesFSYLLc
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.3pmABHwvesFSYLLc'
+  - type: 0
+    text: Юлианна
+    weight: 1
+    range:
+      - 160
+      - 160
+    drawn: false
+    _id: VET4Lhre4jYi00yU
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.VET4Lhre4jYi00yU'
+  - type: 0
+    text: Лера
+    weight: 1
+    range:
+      - 161
+      - 161
+    drawn: false
+    _id: luxNTwxqcsDp7jYZ
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.luxNTwxqcsDp7jYZ'
+  - type: 0
+    text: Устинья
+    weight: 1
+    range:
+      - 162
+      - 162
+    drawn: false
+    _id: aSKyA1WmvVs1PBMF
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.aSKyA1WmvVs1PBMF'
+  - type: 0
+    text: Мирослава
+    weight: 1
+    range:
+      - 163
+      - 163
+    drawn: false
+    _id: qwGkYCjvWCfsBBZk
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.qwGkYCjvWCfsBBZk'
+  - type: 0
+    text: Седа
+    weight: 1
+    range:
+      - 164
+      - 164
+    drawn: false
+    _id: WBK73YrVtUBcAhau
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.WBK73YrVtUBcAhau'
+  - type: 0
+    text: Есения
+    weight: 1
+    range:
+      - 165
+      - 165
+    drawn: false
+    _id: WXcpjqvF0NxnYdc2
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.WXcpjqvF0NxnYdc2'
+  - type: 0
+    text: Соня
+    weight: 1
+    range:
+      - 166
+      - 166
+    drawn: false
+    _id: nlMSU95fgxFtQxBy
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.nlMSU95fgxFtQxBy'
+  - type: 0
+    text: Ксенья
+    weight: 1
+    range:
+      - 167
+      - 167
+    drawn: false
+    _id: Qq1AIeAToXDqUDZs
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.Qq1AIeAToXDqUDZs'
+  - type: 0
+    text: Аврора
+    weight: 1
+    range:
+      - 168
+      - 168
+    drawn: false
+    _id: O4kJI0ZUZBPgUBpf
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.O4kJI0ZUZBPgUBpf'
+  - type: 0
+    text: Инесса
+    weight: 1
+    range:
+      - 169
+      - 169
+    drawn: false
+    _id: 2o3BiVLi05rA8k2B
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.2o3BiVLi05rA8k2B'
+  - type: 0
+    text: Марика
+    weight: 1
+    range:
+      - 170
+      - 170
+    drawn: false
+    _id: a8lfONClE0SBfJnj
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.a8lfONClE0SBfJnj'
+  - type: 0
+    text: Эллина
+    weight: 1
+    range:
+      - 171
+      - 171
+    drawn: false
+    _id: nPvcrhal8hcB1MUG
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.nPvcrhal8hcB1MUG'
+  - type: 0
+    text: Камиля
+    weight: 1
+    range:
+      - 172
+      - 172
+    drawn: false
+    _id: vNksP7U1xuJPzG4w
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.vNksP7U1xuJPzG4w'
+  - type: 0
+    text: Фируза
+    weight: 1
+    range:
+      - 173
+      - 173
+    drawn: false
+    _id: GS8XZM3rRBAjSfvI
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.GS8XZM3rRBAjSfvI'
+  - type: 0
+    text: Аделия
+    weight: 1
+    range:
+      - 174
+      - 174
+    drawn: false
+    _id: bJM9VnbCz03cZDwI
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.bJM9VnbCz03cZDwI'
+  - type: 0
+    text: Христина
+    weight: 1
+    range:
+      - 175
+      - 175
+    drawn: false
+    _id: bvaC2G37S6kQyzE2
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.bvaC2G37S6kQyzE2'
+  - type: 0
+    text: Аэлита
+    weight: 1
+    range:
+      - 176
+      - 176
+    drawn: false
+    _id: QVs0i1zq3mDQYL0i
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.QVs0i1zq3mDQYL0i'
+  - type: 0
+    text: Раяна
+    weight: 1
+    range:
+      - 177
+      - 177
+    drawn: false
+    _id: Iu5ffZayFrWd0PJd
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.Iu5ffZayFrWd0PJd'
+  - type: 0
+    text: Диляра
+    weight: 1
+    range:
+      - 178
+      - 178
+    drawn: false
+    _id: yRgIjQPHQAkNheDU
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.yRgIjQPHQAkNheDU'
+  - type: 0
+    text: Ефросинья
+    weight: 1
+    range:
+      - 179
+      - 179
+    drawn: false
+    _id: i4WbgwQN6wsbvsiy
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.i4WbgwQN6wsbvsiy'
+  - type: 0
+    text: Линда
+    weight: 1
+    range:
+      - 180
+      - 180
+    drawn: false
+    _id: N7ySw9njIRsLQ8IW
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.N7ySw9njIRsLQ8IW'
+  - type: 0
+    text: Богдана
+    weight: 1
+    range:
+      - 181
+      - 181
+    drawn: false
+    _id: YP1sS8dN7hoYEHql
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.YP1sS8dN7hoYEHql'
+  - type: 0
+    text: Лиза
+    weight: 1
+    range:
+      - 182
+      - 182
+    drawn: false
+    _id: E10Rv8psp2UaYnKs
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.E10Rv8psp2UaYnKs'
+  - type: 0
+    text: Сафия
+    weight: 1
+    range:
+      - 183
+      - 183
+    drawn: false
+    _id: o5IFKKJZqFIOFw7F
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.o5IFKKJZqFIOFw7F'
+  - type: 0
+    text: Алана
+    weight: 1
+    range:
+      - 184
+      - 184
+    drawn: false
+    _id: quswDxa3fKd2Dfgm
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.quswDxa3fKd2Dfgm'
+  - type: 0
+    text: Сюзанна
+    weight: 1
+    range:
+      - 185
+      - 185
+    drawn: false
+    _id: FEeW594gAlbqqo02
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.FEeW594gAlbqqo02'
+  - type: 0
+    text: Мери
+    weight: 1
+    range:
+      - 186
+      - 186
+    drawn: false
+    _id: cdzmp7pAlu5GM4l3
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.cdzmp7pAlu5GM4l3'
+  - type: 0
+    text: Моника
+    weight: 1
+    range:
+      - 187
+      - 187
+    drawn: false
+    _id: 6K0blOOAoyFIv8YA
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.6K0blOOAoyFIv8YA'
+  - type: 0
+    text: Эльвина
+    weight: 1
+    range:
+      - 188
+      - 188
+    drawn: false
+    _id: J7i3HUb6u8c6V4WP
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.J7i3HUb6u8c6V4WP'
+  - type: 0
+    text: Зульфия
+    weight: 1
+    range:
+      - 189
+      - 189
+    drawn: false
+    _id: OaDPUTAnYYpRBgii
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.OaDPUTAnYYpRBgii'
+  - type: 0
+    text: Андриана
+    weight: 1
+    range:
+      - 190
+      - 190
+    drawn: false
+    _id: kdvYrKHOv7TJvzPJ
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.kdvYrKHOv7TJvzPJ'
+  - type: 0
+    text: Виталина
+    weight: 1
+    range:
+      - 191
+      - 191
+    drawn: false
+    _id: 99paqehx4E0jFmTr
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.99paqehx4E0jFmTr'
+  - type: 0
+    text: Далия
+    weight: 1
+    range:
+      - 192
+      - 192
+    drawn: false
+    _id: ztzCccVcUIVBWIV3
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.ztzCccVcUIVBWIV3'
+  - type: 0
+    text: Патимат
+    weight: 1
+    range:
+      - 193
+      - 193
+    drawn: false
+    _id: HDuCu4PQHEdsPqNb
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.HDuCu4PQHEdsPqNb'
+  - type: 0
+    text: Анжелина
+    weight: 1
+    range:
+      - 194
+      - 194
+    drawn: false
+    _id: KHFCjQDqazyrFbrF
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.KHFCjQDqazyrFbrF'
+  - type: 0
+    text: Аграфена
+    weight: 1
+    range:
+      - 195
+      - 195
+    drawn: false
+    _id: A6kCFRYrp495Sq5z
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.A6kCFRYrp495Sq5z'
+  - type: 0
+    text: Алефтина
+    weight: 1
+    range:
+      - 196
+      - 196
+    drawn: false
+    _id: yZiLPnazu7VDrOeb
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.yZiLPnazu7VDrOeb'
+  - type: 0
+    text: Юстина
+    weight: 1
+    range:
+      - 197
+      - 197
+    drawn: false
+    _id: 8fBAVfeNhruidYkD
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.8fBAVfeNhruidYkD'
+  - type: 0
+    text: Аиша
+    weight: 1
+    range:
+      - 198
+      - 198
+    drawn: false
+    _id: D25BSsO2tmeDue7O
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.D25BSsO2tmeDue7O'
+  - type: 0
+    text: Регина
+    weight: 1
+    range:
+      - 199
+      - 199
+    drawn: false
+    _id: HAjxKRaglcmYIzhQ
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.HAjxKRaglcmYIzhQ'
+  - type: 0
+    text: Макка
+    weight: 1
+    range:
+      - 200
+      - 200
+    drawn: false
+    _id: B0Alv2cAN1kTXOW4
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.B0Alv2cAN1kTXOW4'
+  - type: 0
+    text: Оливия
+    weight: 1
+    range:
+      - 201
+      - 201
+    drawn: false
+    _id: QA1TyEAdOeMKkZBh
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.QA1TyEAdOeMKkZBh'
+  - type: 0
+    text: Анджелина
+    weight: 1
+    range:
+      - 202
+      - 202
+    drawn: false
+    _id: Ah3sWiOkF2D3zNo7
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.Ah3sWiOkF2D3zNo7'
+  - type: 0
+    text: Тереза
+    weight: 1
+    range:
+      - 203
+      - 203
+    drawn: false
+    _id: 2qE4x2NJ7YPCKovy
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.2qE4x2NJ7YPCKovy'
+  - type: 0
+    text: Юлана
+    weight: 1
+    range:
+      - 204
+      - 204
+    drawn: false
+    _id: F9JM85CdR8uCMzXs
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.F9JM85CdR8uCMzXs'
+  - type: 0
+    text: Айшат
+    weight: 1
+    range:
+      - 205
+      - 205
+    drawn: false
+    _id: lucvEEhkBdwMQRuN
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.lucvEEhkBdwMQRuN'
+  - type: 0
+    text: Адель
+    weight: 1
+    range:
+      - 206
+      - 206
+    drawn: false
+    _id: rZM1MchJKdRYiPPc
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.rZM1MchJKdRYiPPc'
+  - type: 0
+    text: Ануш
+    weight: 1
+    range:
+      - 207
+      - 207
+    drawn: false
+    _id: jlIBFRH7rF88E8jz
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.jlIBFRH7rF88E8jz'
+  - type: 0
+    text: Назрин
+    weight: 1
+    range:
+      - 208
+      - 208
+    drawn: false
+    _id: Fhhszyqj2qXNNroF
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.Fhhszyqj2qXNNroF'
+  - type: 0
+    text: Зара
+    weight: 1
+    range:
+      - 209
+      - 209
+    drawn: false
+    _id: 46CgPGS7WBW1Fhnf
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.46CgPGS7WBW1Fhnf'
+  - type: 0
+    text: Элиза
+    weight: 1
+    range:
+      - 210
+      - 210
+    drawn: false
+    _id: WTOERs1jPiA7LNX3
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.WTOERs1jPiA7LNX3'
+  - type: 0
+    text: Дали
+    weight: 1
+    range:
+      - 211
+      - 211
+    drawn: false
+    _id: 2pzQyewYDQIYq0FK
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.2pzQyewYDQIYq0FK'
+  - type: 0
+    text: Наринэ
+    weight: 1
+    range:
+      - 212
+      - 212
+    drawn: false
+    _id: RI5UaLgBPfbfeIGf
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.RI5UaLgBPfbfeIGf'
+  - type: 0
+    text: Алёна
+    weight: 1
+    range:
+      - 213
+      - 213
+    drawn: false
+    _id: AIBNlfgGEfK3YVqV
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.AIBNlfgGEfK3YVqV'
+  - type: 0
+    text: Асия
+    weight: 1
+    range:
+      - 214
+      - 214
+    drawn: false
+    _id: ebgXhAoo3hEQheLp
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.ebgXhAoo3hEQheLp'
+  - type: 0
+    text: Селена
+    weight: 1
+    range:
+      - 215
+      - 215
+    drawn: false
+    _id: fF3GzTFMwvOCkYU8
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.fF3GzTFMwvOCkYU8'
+  - type: 0
+    text: Таисья
+    weight: 1
+    range:
+      - 216
+      - 216
+    drawn: false
+    _id: 2CCTxew65HO1gbj3
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.2CCTxew65HO1gbj3'
+  - type: 0
+    text: Нателла
+    weight: 1
+    range:
+      - 217
+      - 217
+    drawn: false
+    _id: XJrSA6qmVU5CjmET
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.XJrSA6qmVU5CjmET'
+  - type: 0
+    text: Виолета
+    weight: 1
+    range:
+      - 218
+      - 218
+    drawn: false
+    _id: FktJ7guJzcS0LXVp
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.FktJ7guJzcS0LXVp'
+  - type: 0
+    text: Саида
+    weight: 1
+    range:
+      - 219
+      - 219
+    drawn: false
+    _id: ILHKFAaNHGeasRwt
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.ILHKFAaNHGeasRwt'
+  - type: 0
+    text: Лала
+    weight: 1
+    range:
+      - 220
+      - 220
+    drawn: false
+    _id: nay5SR5B0Sot6iBN
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.nay5SR5B0Sot6iBN'
+  - type: 0
+    text: Нино
+    weight: 1
+    range:
+      - 221
+      - 221
+    drawn: false
+    _id: caBPMc16pkThHRx2
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.caBPMc16pkThHRx2'
+  - type: 0
+    text: Сатеник
+    weight: 1
+    range:
+      - 222
+      - 222
+    drawn: false
+    _id: Ssx9gMTfUYqIFB4n
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.Ssx9gMTfUYqIFB4n'
+  - type: 0
+    text: Наргиза
+    weight: 1
+    range:
+      - 223
+      - 223
+    drawn: false
+    _id: z1UvQtFjo3nNlVc0
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.z1UvQtFjo3nNlVc0'
+  - type: 0
+    text: Настасья
+    weight: 1
+    range:
+      - 224
+      - 224
+    drawn: false
+    _id: CZ2aL4ExxciIq6vA
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.CZ2aL4ExxciIq6vA'
+  - type: 0
+    text: Лола
+    weight: 1
+    range:
+      - 225
+      - 225
+    drawn: false
+    _id: cAgJzRiSmP4Jk3u3
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.cAgJzRiSmP4Jk3u3'
+  - type: 0
+    text: Радмила
+    weight: 1
+    range:
+      - 226
+      - 226
+    drawn: false
+    _id: oxpG2M6EsFcQpYDI
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.oxpG2M6EsFcQpYDI'
+  - type: 0
+    text: Руслана
+    weight: 1
+    range:
+      - 227
+      - 227
+    drawn: false
+    _id: nIabMtIq0wmW0MVx
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.nIabMtIq0wmW0MVx'
+  - type: 0
+    text: Тина
+    weight: 1
+    range:
+      - 228
+      - 228
+    drawn: false
+    _id: Ylp3JnQC94yHSKaG
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.Ylp3JnQC94yHSKaG'
+  - type: 0
+    text: Карине
+    weight: 1
+    range:
+      - 229
+      - 229
+    drawn: false
+    _id: rM25nlNHxMkas5Ut
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.rM25nlNHxMkas5Ut'
+  - type: 0
+    text: Лолита
+    weight: 1
+    range:
+      - 230
+      - 230
+    drawn: false
+    _id: 5o9WwbLvMOj2itm7
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.5o9WwbLvMOj2itm7'
+  - type: 0
+    text: Капитолина
+    weight: 1
+    range:
+      - 231
+      - 231
+    drawn: false
+    _id: PKlrJh8uwirfj7C0
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.PKlrJh8uwirfj7C0'
+  - type: 0
+    text: Рита
+    weight: 1
+    range:
+      - 232
+      - 232
+    drawn: false
+    _id: 9tOmCt4KqMfqeync
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.9tOmCt4KqMfqeync'
+  - type: 0
+    text: Илиана
+    weight: 1
+    range:
+      - 233
+      - 233
+    drawn: false
+    _id: GGrociGoJ9ZAtYBT
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.GGrociGoJ9ZAtYBT'
+  - type: 0
+    text: Лейсан
+    weight: 1
+    range:
+      - 234
+      - 234
+    drawn: false
+    _id: YqyamqVF5vj7jUGn
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.YqyamqVF5vj7jUGn'
+  - type: 0
+    text: Залина
+    weight: 1
+    range:
+      - 235
+      - 235
+    drawn: false
+    _id: 1L0F3AnfG4EDmWwZ
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.1L0F3AnfG4EDmWwZ'
+  - type: 0
+    text: Элен
+    weight: 1
+    range:
+      - 236
+      - 236
+    drawn: false
+    _id: rG0peMAGJLVxTeqU
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.rG0peMAGJLVxTeqU'
+  - type: 0
+    text: Гликерия
+    weight: 1
+    range:
+      - 237
+      - 237
+    drawn: false
+    _id: fk9Z8EaivbZvUkTO
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.fk9Z8EaivbZvUkTO'
+  - type: 0
+    text: Афина
+    weight: 1
+    range:
+      - 238
+      - 238
+    drawn: false
+    _id: rCZ0KdZHr4eoCJ4F
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.rCZ0KdZHr4eoCJ4F'
+  - type: 0
+    text: Сара
+    weight: 1
+    range:
+      - 239
+      - 239
+    drawn: false
+    _id: YV5AiJuS5Wek36za
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.YV5AiJuS5Wek36za'
+  - type: 0
+    text: Миланья
+    weight: 1
+    range:
+      - 240
+      - 240
+    drawn: false
+    _id: T5wpSNYblPYZxZ4e
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.T5wpSNYblPYZxZ4e'
+  - type: 0
+    text: Айнура
+    weight: 1
+    range:
+      - 241
+      - 241
+    drawn: false
+    _id: LuaBOFvEJD8KqVom
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.LuaBOFvEJD8KqVom'
+  - type: 0
+    text: Аурика
+    weight: 1
+    range:
+      - 242
+      - 242
+    drawn: false
+    _id: z0z0X6P1jZKJF3T8
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.z0z0X6P1jZKJF3T8'
+  - type: 0
+    text: Ассоль
+    weight: 1
+    range:
+      - 243
+      - 243
+    drawn: false
+    _id: tCsAXM1kEJ2aJ0FK
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.tCsAXM1kEJ2aJ0FK'
+  - type: 0
+    text: Агнеса
+    weight: 1
+    range:
+      - 244
+      - 244
+    drawn: false
+    _id: I2zy2nGiy0Pviax1
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.I2zy2nGiy0Pviax1'
+  - type: 0
+    text: Анника
+    weight: 1
+    range:
+      - 245
+      - 245
+    drawn: false
+    _id: 7O7OiudsO3QH6tEJ
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.7O7OiudsO3QH6tEJ'
+  - type: 0
+    text: Аминат
+    weight: 1
+    range:
+      - 246
+      - 246
+    drawn: false
+    _id: cWNfY7fNIkSn4e7w
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.cWNfY7fNIkSn4e7w'
+  - type: 0
+    text: Анисья
+    weight: 1
+    range:
+      - 247
+      - 247
+    drawn: false
+    _id: WctdxkmQfHiavr8Q
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.WctdxkmQfHiavr8Q'
+  - type: 0
+    text: Ярославна
+    weight: 1
+    range:
+      - 248
+      - 248
+    drawn: false
+    _id: xeBjWcgLY49RvgYs
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.xeBjWcgLY49RvgYs'
+  - type: 0
+    text: Степанида
+    weight: 1
+    range:
+      - 249
+      - 249
+    drawn: false
+    _id: eB9JNZhVrzX3Nv7y
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.eB9JNZhVrzX3Nv7y'
+  - type: 0
+    text: Венера
+    weight: 1
+    range:
+      - 250
+      - 250
+    drawn: false
+    _id: vQmoukm0Okp7vGVj
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.vQmoukm0Okp7vGVj'
+  - type: 0
+    text: Гретта
+    weight: 1
+    range:
+      - 251
+      - 251
+    drawn: false
+    _id: 4ZPi2NjRwN4nvdvf
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.4ZPi2NjRwN4nvdvf'
+  - type: 0
+    text: Ангелика
+    weight: 1
+    range:
+      - 252
+      - 252
+    drawn: false
+    _id: zsjnKfnYlKbAmtVn
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.zsjnKfnYlKbAmtVn'
+  - type: 0
+    text: Валида
+    weight: 1
+    range:
+      - 253
+      - 253
+    drawn: false
+    _id: 576xt68Fxnba6lLL
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.576xt68Fxnba6lLL'
+  - type: 0
+    text: Иоанна
+    weight: 1
+    range:
+      - 254
+      - 254
+    drawn: false
+    _id: EQPVVEp7yAPLggEh
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.EQPVVEp7yAPLggEh'
+  - type: 0
+    text: Долина
+    weight: 1
+    range:
+      - 255
+      - 255
+    drawn: false
+    _id: NYVTv2nQDWcPagLH
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.NYVTv2nQDWcPagLH'
+  - type: 0
+    text: Аделаида
+    weight: 1
+    range:
+      - 256
+      - 256
+    drawn: false
+    _id: 7p8BvaljRskTN0N1
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.7p8BvaljRskTN0N1'
+  - type: 0
+    text: Иллона
+    weight: 1
+    range:
+      - 257
+      - 257
+    drawn: false
+    _id: XJfBZu0T0HtKB1uQ
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.XJfBZu0T0HtKB1uQ'
+  - type: 0
+    text: Тинатин
+    weight: 1
+    range:
+      - 258
+      - 258
+    drawn: false
+    _id: aqg5UTbqLPnl4grr
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.aqg5UTbqLPnl4grr'
+  - type: 0
+    text: Илария
+    weight: 1
+    range:
+      - 259
+      - 259
+    drawn: false
+    _id: Lo9adhLGd0vP5qwF
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.Lo9adhLGd0vP5qwF'
+  - type: 0
+    text: Инэсса
+    weight: 1
+    range:
+      - 260
+      - 260
+    drawn: false
+    _id: INa1JWJN3dV9qv8r
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.INa1JWJN3dV9qv8r'
+  - type: 0
+    text: Лалита
+    weight: 1
+    range:
+      - 261
+      - 261
+    drawn: false
+    _id: 7DJ9UAHjLElBE1CH
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.7DJ9UAHjLElBE1CH'
+  - type: 0
+    text: Зарема
+    weight: 1
+    range:
+      - 262
+      - 262
+    drawn: false
+    _id: Jqe1moCke3j4J8v4
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.Jqe1moCke3j4J8v4'
+  - type: 0
+    text: Латифа
+    weight: 1
+    range:
+      - 263
+      - 263
+    drawn: false
+    _id: 7hStwujC6ZmL8ns7
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.7hStwujC6ZmL8ns7'
+  - type: 0
+    text: Данута
+    weight: 1
+    range:
+      - 264
+      - 264
+    drawn: false
+    _id: xi61E0T4JGKqlXRP
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.xi61E0T4JGKqlXRP'
+  - type: 0
+    text: Замира
+    weight: 1
+    range:
+      - 265
+      - 265
+    drawn: false
+    _id: rkBqHhDIXfavXosA
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.rkBqHhDIXfavXosA'
+  - type: 0
+    text: Дагмара
+    weight: 1
+    range:
+      - 266
+      - 266
+    drawn: false
+    _id: 3wrDlpgcMYlOHes4
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.3wrDlpgcMYlOHes4'
+  - type: 0
+    text: Татевик
+    weight: 1
+    range:
+      - 267
+      - 267
+    drawn: false
+    _id: jH1JYTAE0oke5UyS
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.jH1JYTAE0oke5UyS'
+  - type: 0
+    text: Линара
+    weight: 1
+    range:
+      - 268
+      - 268
+    drawn: false
+    _id: tJpokyZtkTYwmAhv
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.tJpokyZtkTYwmAhv'
+  - type: 0
+    text: Зинида
+    weight: 1
+    range:
+      - 269
+      - 269
+    drawn: false
+    _id: tMNvD5IyQ18SmiFF
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.tMNvD5IyQ18SmiFF'
+  - type: 0
+    text: Габриэлла
+    weight: 1
+    range:
+      - 270
+      - 270
+    drawn: false
+    _id: gw4jtqQNNkBme4XE
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.gw4jtqQNNkBme4XE'
+  - type: 0
+    text: Сусанна
+    weight: 1
+    range:
+      - 271
+      - 271
+    drawn: false
+    _id: dE88O8bupsN90ujh
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.dE88O8bupsN90ujh'
+  - type: 0
+    text: Гульнар
+    weight: 1
+    range:
+      - 272
+      - 272
+    drawn: false
+    _id: HwpaXY8XcxpbiarB
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.HwpaXY8XcxpbiarB'
+  - type: 0
+    text: Маргорита
+    weight: 1
+    range:
+      - 273
+      - 273
+    drawn: false
+    _id: xw5NaTkAq6xGFuse
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.xw5NaTkAq6xGFuse'
+  - type: 0
+    text: Джульетта
+    weight: 1
+    range:
+      - 274
+      - 274
+    drawn: false
+    _id: DyGKtESAOJgcxvNW
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.DyGKtESAOJgcxvNW'
+  - type: 0
+    text: Инара
+    weight: 1
+    range:
+      - 275
+      - 275
+    drawn: false
+    _id: IQXIC4KOZoQkJecl
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.IQXIC4KOZoQkJecl'
+  - type: 0
+    text: Михайлина
+    weight: 1
+    range:
+      - 276
+      - 276
+    drawn: false
+    _id: 6yJ1OHNuzSojdqTe
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.6yJ1OHNuzSojdqTe'
+  - type: 0
+    text: Клеопатра
+    weight: 1
+    range:
+      - 277
+      - 277
+    drawn: false
+    _id: 4F26vHjSkhSJZyJT
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.4F26vHjSkhSJZyJT'
+  - type: 0
+    text: Мальвина
+    weight: 1
+    range:
+      - 278
+      - 278
+    drawn: false
+    _id: inE2JD755VoWuGfz
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.inE2JD755VoWuGfz'
+  - type: 0
+    text: Васса
+    weight: 1
+    range:
+      - 279
+      - 279
+    drawn: false
+    _id: QsbJWjMvkFrE2cHa
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.QsbJWjMvkFrE2cHa'
+  - type: 0
+    text: Галия
+    weight: 1
+    range:
+      - 280
+      - 280
+    drawn: false
+    _id: 9aTtY4cklEcWpMXm
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.9aTtY4cklEcWpMXm'
+  - type: 0
+    text: Асият
+    weight: 1
+    range:
+      - 281
+      - 281
+    drawn: false
+    _id: UtGpAdCpchEDHKf1
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.UtGpAdCpchEDHKf1'
+  - type: 0
+    text: Анита
+    weight: 1
+    range:
+      - 282
+      - 282
+    drawn: false
+    _id: 8WHzI8npTlWk8dQf
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.8WHzI8npTlWk8dQf'
+  - type: 0
+    text: Матильда
+    weight: 1
+    range:
+      - 283
+      - 283
+    drawn: false
+    _id: TZiq5PWeUuAiZwq8
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.TZiq5PWeUuAiZwq8'
+  - type: 0
+    text: Павла
+    weight: 1
+    range:
+      - 284
+      - 284
+    drawn: false
+    _id: pdDgs9utQzMuwGUK
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.pdDgs9utQzMuwGUK'
+  - type: 0
+    text: Юна
+    weight: 1
+    range:
+      - 285
+      - 285
+    drawn: false
+    _id: ipOL8ERo7okB3kRk
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.ipOL8ERo7okB3kRk'
+  - type: 0
+    text: Мариэтта
+    weight: 1
+    range:
+      - 286
+      - 286
+    drawn: false
+    _id: iLNseYfo9QeJMPPV
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.iLNseYfo9QeJMPPV'
+  - type: 0
+    text: Каралина
+    weight: 1
+    range:
+      - 287
+      - 287
+    drawn: false
+    _id: ifYUhF4JOatg2UwX
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.ifYUhF4JOatg2UwX'
+  - type: 0
+    text: Айша
+    weight: 1
+    range:
+      - 288
+      - 288
+    drawn: false
+    _id: 40lYg7UaCAtnb4uU
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.40lYg7UaCAtnb4uU'
+  - type: 0
+    text: Крестина
+    weight: 1
+    range:
+      - 289
+      - 289
+    drawn: false
+    _id: ic1fw26GaWwJwTrz
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.ic1fw26GaWwJwTrz'
+  - type: 0
+    text: Ани
+    weight: 1
+    range:
+      - 290
+      - 290
+    drawn: false
+    _id: eBykcwF8RYmEBdo9
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.eBykcwF8RYmEBdo9'
+  - type: 0
+    text: Асмик
+    weight: 1
+    range:
+      - 291
+      - 291
+    drawn: false
+    _id: 9myhX4S62AWWHQUr
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.9myhX4S62AWWHQUr'
+  - type: 0
+    text: Весна
+    weight: 1
+    range:
+      - 292
+      - 292
+    drawn: false
+    _id: zg2AaZkMMY0dtjSu
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.zg2AaZkMMY0dtjSu'
+  - type: 0
+    text: Анаит
+    weight: 1
+    range:
+      - 293
+      - 293
+    drawn: false
+    _id: EiDtNSnddRN4H5XV
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.EiDtNSnddRN4H5XV'
+  - type: 0
+    text: Янна
+    weight: 1
+    range:
+      - 294
+      - 294
+    drawn: false
+    _id: nnqcP2la9S0xrKEC
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.nnqcP2la9S0xrKEC'
+  - type: 0
+    text: Джамиля
+    weight: 1
+    range:
+      - 295
+      - 295
+    drawn: false
+    _id: f9DoFizSoDFQTkZ8
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.f9DoFizSoDFQTkZ8'
+  - type: 0
+    text: Броха
+    weight: 1
+    range:
+      - 296
+      - 296
+    drawn: false
+    _id: 3RKAG4kGUknnZyHA
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.3RKAG4kGUknnZyHA'
+  - type: 0
+    text: Румия
+    weight: 1
+    range:
+      - 297
+      - 297
+    drawn: false
+    _id: Qj2zIjk2CyJfURqM
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.Qj2zIjk2CyJfURqM'
+  - type: 0
+    text: Лилит
+    weight: 1
+    range:
+      - 298
+      - 298
+    drawn: false
+    _id: HwndzVZJogN038Rf
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.HwndzVZJogN038Rf'
+  - type: 0
+    text: Виола
+    weight: 1
+    range:
+      - 299
+      - 299
+    drawn: false
+    _id: 9SimUNHoW3GPMAqH
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.9SimUNHoW3GPMAqH'
+  - type: 0
+    text: Жасмина
+    weight: 1
+    range:
+      - 300
+      - 300
+    drawn: false
+    _id: 55t6g93ZKseNsM4g
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.55t6g93ZKseNsM4g'
+  - type: 0
+    text: Клара
+    weight: 1
+    range:
+      - 301
+      - 301
+    drawn: false
+    _id: sgVH6sYy7KQFLn0y
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.sgVH6sYy7KQFLn0y'
+  - type: 0
+    text: Эсфирь
+    weight: 1
+    range:
+      - 302
+      - 302
+    drawn: false
+    _id: p0Bx5Bu8h2y6DWwz
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.p0Bx5Bu8h2y6DWwz'
+  - type: 0
+    text: Амаль
+    weight: 1
+    range:
+      - 303
+      - 303
+    drawn: false
+    _id: vL0dbgUzoAm7YOjo
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.vL0dbgUzoAm7YOjo'
+  - type: 0
+    text: Рива
+    weight: 1
+    range:
+      - 304
+      - 304
+    drawn: false
+    _id: y9FULcbxQp4NGYdK
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.y9FULcbxQp4NGYdK'
+  - type: 0
+    text: Аниса
+    weight: 1
+    range:
+      - 305
+      - 305
+    drawn: false
+    _id: Cbv1bcJAU1hhXxm3
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.Cbv1bcJAU1hhXxm3'
+  - type: 0
+    text: Зинаида
+    weight: 1
+    range:
+      - 306
+      - 306
+    drawn: false
+    _id: VNqdDo0TcD51wXnm
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.VNqdDo0TcD51wXnm'
+  - type: 0
+    text: Сакина
+    weight: 1
+    range:
+      - 307
+      - 307
+    drawn: false
+    _id: 0y2xCebHyvhsIwes
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.0y2xCebHyvhsIwes'
+  - type: 0
+    text: Люция
+    weight: 1
+    range:
+      - 308
+      - 308
+    drawn: false
+    _id: q98AzulB7F5NU0m7
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.q98AzulB7F5NU0m7'
+  - type: 0
+    text: Ильнара
+    weight: 1
+    range:
+      - 309
+      - 309
+    drawn: false
+    _id: 4r8LlCLZCF1VWfP8
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.4r8LlCLZCF1VWfP8'
+  - type: 0
+    text: Ильмира
+    weight: 1
+    range:
+      - 310
+      - 310
+    drawn: false
+    _id: Yi8PolJjYWSyjoSx
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.Yi8PolJjYWSyjoSx'
+  - type: 0
+    text: Фариза
+    weight: 1
+    range:
+      - 311
+      - 311
+    drawn: false
+    _id: HCFXxJX1pW16z38m
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.HCFXxJX1pW16z38m'
+  - type: 0
+    text: Мая
+    weight: 1
+    range:
+      - 312
+      - 312
+    drawn: false
+    _id: MhWRFWBh61CCh63H
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.MhWRFWBh61CCh63H'
+  - type: 0
+    text: Фарида
+    weight: 1
+    range:
+      - 313
+      - 313
+    drawn: false
+    _id: 3AK1UqyuzBGnQVNL
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.3AK1UqyuzBGnQVNL'
+  - type: 0
+    text: Авелина
+    weight: 1
+    range:
+      - 314
+      - 314
+    drawn: false
+    _id: Z1PunWBBa5UfYoYb
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.Z1PunWBBa5UfYoYb'
+  - type: 0
+    text: Тая
+    weight: 1
+    range:
+      - 315
+      - 315
+    drawn: false
+    _id: jLi4De8yHjuxy83o
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.jLi4De8yHjuxy83o'
+  - type: 0
+    text: Изольда
+    weight: 1
+    range:
+      - 316
+      - 316
+    drawn: false
+    _id: PlQgvOtanPBl00uQ
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.PlQgvOtanPBl00uQ'
+  - type: 0
+    text: Зухра
+    weight: 1
+    range:
+      - 317
+      - 317
+    drawn: false
+    _id: XQgcRjVUJlptmfCR
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.XQgcRjVUJlptmfCR'
+  - type: 0
+    text: Аиза
+    weight: 1
+    range:
+      - 318
+      - 318
+    drawn: false
+    _id: 4ZI0hVgfrRXG1FkK
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.4ZI0hVgfrRXG1FkK'
+  - type: 0
+    text: Сона
+    weight: 1
+    range:
+      - 319
+      - 319
+    drawn: false
+    _id: A9pT2QptuXXeszSn
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.A9pT2QptuXXeszSn'
+  - type: 0
+    text: Альфина
+    weight: 1
+    range:
+      - 320
+      - 320
+    drawn: false
+    _id: CopVk1rRy7xjY68t
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.CopVk1rRy7xjY68t'
+  - type: 0
+    text: Элла
+    weight: 1
+    range:
+      - 321
+      - 321
+    drawn: false
+    _id: pzIAbZtmycAdMuZg
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.pzIAbZtmycAdMuZg'
+  - type: 0
+    text: Ая
+    weight: 1
+    range:
+      - 322
+      - 322
+    drawn: false
+    _id: sRogstydMEu5d4cq
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.sRogstydMEu5d4cq'
+  - type: 0
+    text: Паулина
+    weight: 1
+    range:
+      - 323
+      - 323
+    drawn: false
+    _id: 7zcoFvm84kcNcZCr
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.7zcoFvm84kcNcZCr'
+  - type: 0
+    text: Роза
+    weight: 1
+    range:
+      - 324
+      - 324
+    drawn: false
+    _id: GDGjhs8yNBGViXnm
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.GDGjhs8yNBGViXnm'
+  - type: 0
+    text: Салима
+    weight: 1
+    range:
+      - 325
+      - 325
+    drawn: false
+    _id: u487jwU6WItDOTmn
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.u487jwU6WItDOTmn'
+  - type: 0
+    text: Анжелла
+    weight: 1
+    range:
+      - 326
+      - 326
+    drawn: false
+    _id: ExEbmuGYt3Nhi8JD
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.ExEbmuGYt3Nhi8JD'
+  - type: 0
+    text: Гаяне
+    weight: 1
+    range:
+      - 327
+      - 327
+    drawn: false
+    _id: r6mGyTB0iGNRn7iD
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.r6mGyTB0iGNRn7iD'
+  - type: 0
+    text: Акулина
+    weight: 1
+    range:
+      - 328
+      - 328
+    drawn: false
+    _id: oj0b2ZYhsdAaSnUK
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.oj0b2ZYhsdAaSnUK'
+  - type: 0
+    text: Ада
+    weight: 1
+    range:
+      - 329
+      - 329
+    drawn: false
+    _id: VoRwB8tchDqV9cjx
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.VoRwB8tchDqV9cjx'
+  - type: 0
+    text: Эмиля
+    weight: 1
+    range:
+      - 330
+      - 330
+    drawn: false
+    _id: sFSxxtfsu3LdyLT5
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.sFSxxtfsu3LdyLT5'
+  - type: 0
+    text: Флора
+    weight: 1
+    range:
+      - 331
+      - 331
+    drawn: false
+    _id: 5sLYfBmZrAaw7OUj
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.5sLYfBmZrAaw7OUj'
+  - type: 0
+    text: Ия
+    weight: 1
+    range:
+      - 332
+      - 332
+    drawn: false
+    _id: txt3I7B3k9tfI15e
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.txt3I7B3k9tfI15e'
+  - type: 0
+    text: Шафа
+    weight: 1
+    range:
+      - 333
+      - 333
+    drawn: false
+    _id: wKlcuOhcNZw1Ndji
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.wKlcuOhcNZw1Ndji'
+  - type: 0
+    text: Роксана
+    weight: 1
+    range:
+      - 334
+      - 334
+    drawn: false
+    _id: EZu0NgIWdOHb6qWt
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.EZu0NgIWdOHb6qWt'
+  - type: 0
+    text: Эльза
+    weight: 1
+    range:
+      - 335
+      - 335
+    drawn: false
+    _id: XYFcHrXwr41HqjPE
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.XYFcHrXwr41HqjPE'
+  - type: 0
+    text: Хава
+    weight: 1
+    range:
+      - 336
+      - 336
+    drawn: false
+    _id: EhR2GjQ6na1vSjP3
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.EhR2GjQ6na1vSjP3'
+  - type: 0
+    text: Палина
+    weight: 1
+    range:
+      - 337
+      - 337
+    drawn: false
+    _id: 3e3U7Nm6tdWKGRVM
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.3e3U7Nm6tdWKGRVM'
+  - type: 0
+    text: Этери
+    weight: 1
+    range:
+      - 338
+      - 338
+    drawn: false
+    _id: zRkwq4kvB01YIc09
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.zRkwq4kvB01YIc09'
+  - type: 0
+    text: Наргиз
+    weight: 1
+    range:
+      - 339
+      - 339
+    drawn: false
+    _id: 5D7R61Y3855ppRNk
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.5D7R61Y3855ppRNk'
+  - type: 0
+    text: Эдди
+    weight: 1
+    range:
+      - 340
+      - 340
+    drawn: false
+    _id: 0TSXw1q1jhBOGlTa
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.0TSXw1q1jhBOGlTa'
+  - type: 0
+    text: Мариана
+    weight: 1
+    range:
+      - 341
+      - 341
+    drawn: false
+    _id: NHiHWfr9xZcK6Zxi
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.NHiHWfr9xZcK6Zxi'
+  - type: 0
+    text: Марине
+    weight: 1
+    range:
+      - 342
+      - 342
+    drawn: false
+    _id: 8Gua6QxN2db9iHd3
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.8Gua6QxN2db9iHd3'
+  - type: 0
+    text: Таля
+    weight: 1
+    range:
+      - 343
+      - 343
+    drawn: false
+    _id: Sz2uyIsrzsXaxrLY
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.Sz2uyIsrzsXaxrLY'
+  - type: 0
+    text: Катрина
+    weight: 1
+    range:
+      - 344
+      - 344
+    drawn: false
+    _id: gi4ZMtxb3A9oCJgR
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.gi4ZMtxb3A9oCJgR'
+  - type: 0
+    text: Дания
+    weight: 1
+    range:
+      - 345
+      - 345
+    drawn: false
+    _id: h7UnnFm1g0Kq5tTN
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.h7UnnFm1g0Kq5tTN'
+  - type: 0
+    text: Телли
+    weight: 1
+    range:
+      - 346
+      - 346
+    drawn: false
+    _id: FXpYs25rMV71fP1b
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.FXpYs25rMV71fP1b'
+  - type: 0
+    text: Лукерья
+    weight: 1
+    range:
+      - 347
+      - 347
+    drawn: false
+    _id: ETBQcei8jwbejXqH
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.ETBQcei8jwbejXqH'
+  - type: 0
+    text: Мирия
+    weight: 1
+    range:
+      - 348
+      - 348
+    drawn: false
+    _id: YkysyGJp4y0UNd6u
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.YkysyGJp4y0UNd6u'
+  - type: 0
+    text: Мира
+    weight: 1
+    range:
+      - 349
+      - 349
+    drawn: false
+    _id: kfXxw0xgE25v8YgE
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.kfXxw0xgE25v8YgE'
+  - type: 0
+    text: Наиля
+    weight: 1
+    range:
+      - 350
+      - 350
+    drawn: false
+    _id: U7zmUMHpyybGDMKZ
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.U7zmUMHpyybGDMKZ'
+  - type: 0
+    text: Мавлюда
+    weight: 1
+    range:
+      - 351
+      - 351
+    drawn: false
+    _id: lGXPof4pAvKVCyo8
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.lGXPof4pAvKVCyo8'
+  - type: 0
+    text: Рузиля
+    weight: 1
+    range:
+      - 352
+      - 352
+    drawn: false
+    _id: P9K86WuaHmVWz3gN
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.P9K86WuaHmVWz3gN'
+  - type: 0
+    text: Мирра
+    weight: 1
+    range:
+      - 353
+      - 353
+    drawn: false
+    _id: v5MY581MHKYlMUtO
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.v5MY581MHKYlMUtO'
+  - type: 0
+    text: Ирна
+    weight: 1
+    range:
+      - 354
+      - 354
+    drawn: false
+    _id: 1aTPmfRaSLDr36SV
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.1aTPmfRaSLDr36SV'
+  - type: 0
+    text: Милла
+    weight: 1
+    range:
+      - 355
+      - 355
+    drawn: false
+    _id: Tzhobsae80NunGD4
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.Tzhobsae80NunGD4'
+  - type: 0
+    text: Кетеван
+    weight: 1
+    range:
+      - 356
+      - 356
+    drawn: false
+    _id: t5qM2ydgKbHtDRqg
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.t5qM2ydgKbHtDRqg'
+  - type: 0
+    text: Надия
+    weight: 1
+    range:
+      - 357
+      - 357
+    drawn: false
+    _id: 8h9RsbF6sbKIGMNf
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.8h9RsbF6sbKIGMNf'
+  - type: 0
+    text: Натали
+    weight: 1
+    range:
+      - 358
+      - 358
+    drawn: false
+    _id: n3W7rolAUvlc2WaV
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.n3W7rolAUvlc2WaV'
+  - type: 0
+    text: Сания
+    weight: 1
+    range:
+      - 359
+      - 359
+    drawn: false
+    _id: pfPfY2MJGn4ni0FD
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.pfPfY2MJGn4ni0FD'
+  - type: 0
+    text: Руфина
+    weight: 1
+    range:
+      - 360
+      - 360
+    drawn: false
+    _id: v2BIBpccjK9nNyFU
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.v2BIBpccjK9nNyFU'
+  - type: 0
+    text: Сарра
+    weight: 1
+    range:
+      - 361
+      - 361
+    drawn: false
+    _id: H3FHg8dh6z9YTHEY
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.H3FHg8dh6z9YTHEY'
+  - type: 0
+    text: Маруся
+    weight: 1
+    range:
+      - 362
+      - 362
+    drawn: false
+    _id: d1TflUApbNhu2qLR
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.d1TflUApbNhu2qLR'
+  - type: 0
+    text: Рушана
+    weight: 1
+    range:
+      - 363
+      - 363
+    drawn: false
+    _id: WJnkMoRB0O8xdS1X
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.WJnkMoRB0O8xdS1X'
+  - type: 0
+    text: Маша
+    weight: 1
+    range:
+      - 364
+      - 364
+    drawn: false
+    _id: KrMoER5nwjBWykFu
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.KrMoER5nwjBWykFu'
+  - type: 0
+    text: Елизаветта
+    weight: 1
+    range:
+      - 365
+      - 365
+    drawn: false
+    _id: ornJy67cXvPITkaZ
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.ornJy67cXvPITkaZ'
+  - type: 0
+    text: Наина
+    weight: 1
+    range:
+      - 366
+      - 366
+    drawn: false
+    _id: AgPhprllS8F4wZg8
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.AgPhprllS8F4wZg8'
+  - type: 0
+    text: Нэлли
+    weight: 1
+    range:
+      - 367
+      - 367
+    drawn: false
+    _id: hqsiWJwsgIPSy9W5
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.hqsiWJwsgIPSy9W5'
+  - type: 0
+    text: Теона
+    weight: 1
+    range:
+      - 368
+      - 368
+    drawn: false
+    _id: sRSNToN0CDhBrnA4
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.sRSNToN0CDhBrnA4'
+  - type: 0
+    text: Вита
+    weight: 1
+    range:
+      - 369
+      - 369
+    drawn: false
+    _id: vYdwwRUQmpVSG7lk
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.vYdwwRUQmpVSG7lk'
+  - type: 0
+    text: Феона
+    weight: 1
+    range:
+      - 370
+      - 370
+    drawn: false
+    _id: zNdyRcmBYnSYNEbH
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.zNdyRcmBYnSYNEbH'
+  - type: 0
+    text: Лали
+    weight: 1
+    range:
+      - 371
+      - 371
+    drawn: false
+    _id: C5TLua1DhTNgQis2
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.C5TLua1DhTNgQis2'
+  - type: 0
+    text: Асма
+    weight: 1
+    range:
+      - 372
+      - 372
+    drawn: false
+    _id: WxlZeJ8naKqxVcAg
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.WxlZeJ8naKqxVcAg'
+  - type: 0
+    text: Таира
+    weight: 1
+    range:
+      - 373
+      - 373
+    drawn: false
+    _id: IEpFjSIn764zO7fG
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.IEpFjSIn764zO7fG'
+  - type: 0
+    text: Разият
+    weight: 1
+    range:
+      - 374
+      - 374
+    drawn: false
+    _id: 75KpRLmi7iDA8NJS
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.75KpRLmi7iDA8NJS'
+  - type: 0
+    text: Натела
+    weight: 1
+    range:
+      - 375
+      - 375
+    drawn: false
+    _id: lDrh0iDQorQkORlW
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.lDrh0iDQorQkORlW'
+  - type: 0
+    text: Ария
+    weight: 1
+    range:
+      - 376
+      - 376
+    drawn: false
+    _id: dKeitvJ8ZryT2eF2
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.dKeitvJ8ZryT2eF2'
+  - type: 0
+    text: Лара
+    weight: 1
+    range:
+      - 377
+      - 377
+    drawn: false
+    _id: tGSdnl79ayKtnpFU
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.tGSdnl79ayKtnpFU'
+  - type: 0
+    text: Сария
+    weight: 1
+    range:
+      - 378
+      - 378
+    drawn: false
+    _id: kwUZMtCefcC2k5rO
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.kwUZMtCefcC2k5rO'
+  - type: 0
+    text: Рамиля
+    weight: 1
+    range:
+      - 379
+      - 379
+    drawn: false
+    _id: bayTGtMKqFPGzj6g
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.bayTGtMKqFPGzj6g'
+  - type: 0
+    text: Лиля
+    weight: 1
+    range:
+      - 380
+      - 380
+    drawn: false
+    _id: xoAi0sEbUIXrVSOv
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.xoAi0sEbUIXrVSOv'
+  - type: 0
+    text: Виалетта
+    weight: 1
+    range:
+      - 381
+      - 381
+    drawn: false
+    _id: cGx76VO1OQjhxbA1
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.cGx76VO1OQjhxbA1'
+  - type: 0
+    text: Сабира
+    weight: 1
+    range:
+      - 382
+      - 382
+    drawn: false
+    _id: qXsGvxOs5g6LrZAQ
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.qXsGvxOs5g6LrZAQ'
+  - type: 0
+    text: Вида
+    weight: 1
+    range:
+      - 383
+      - 383
+    drawn: false
+    _id: Hr5xx9YQBOeIwxIO
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.Hr5xx9YQBOeIwxIO'
+  - type: 0
+    text: Гульнара
+    weight: 1
+    range:
+      - 384
+      - 384
+    drawn: false
+    _id: LeURxG4nOWGszAgl
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.LeURxG4nOWGszAgl'
+  - type: 0
+    text: Элизабет
+    weight: 1
+    range:
+      - 385
+      - 385
+    drawn: false
+    _id: yZDdq2BjUGAKZt80
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.yZDdq2BjUGAKZt80'
+  - type: 0
+    text: Мэри
+    weight: 1
+    range:
+      - 386
+      - 386
+    drawn: false
+    _id: RBnHanzOmsQUbuOw
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.RBnHanzOmsQUbuOw'
+  - type: 0
+    text: Васелина
+    weight: 1
+    range:
+      - 387
+      - 387
+    drawn: false
+    _id: EcQBhK03Ffi0KsLq
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.EcQBhK03Ffi0KsLq'
+  - type: 0
+    text: Джанетта
+    weight: 1
+    range:
+      - 388
+      - 388
+    drawn: false
+    _id: OwnDo9DUK4AwPVBN
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.OwnDo9DUK4AwPVBN'
+  - type: 0
+    text: Гоар
+    weight: 1
+    range:
+      - 389
+      - 389
+    drawn: false
+    _id: hwPdwKa58GRWfT94
+    documentId: null
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _key: '!tables.results!KuNw5RrpOb6xg01O.hwPdwKa58GRWfT94'
+replacement: true
+displayRoll: false
+img: icons/svg/d20-grey.svg
+folder: null
+ownership:
+  default: 0
+  50QpUwJC9cGeePYy: 3
+flags:
+  core: {}
+_stats:
+  systemId: t6
+  systemVersion: 1.5.8
+  coreVersion: '11.315'
+  createdTime: 1705235076395
+  modifiedTime: 1705235235201
+  lastModifiedBy: 50QpUwJC9cGeePYy
+formula: 1d389
+_id: KuNw5RrpOb6xg01O
+sort: 0
+_key: '!tables!KuNw5RrpOb6xg01O'
+
