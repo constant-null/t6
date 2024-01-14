@@ -1,4 +1,5 @@
 import RollPrompt from "../dialog/roll-dialog.mjs";
+import T6Item from "../documents/t6-item.mjs";
 
 export default class T6BaseSheet extends ActorSheet {
     selectedTraits = [];
@@ -142,7 +143,7 @@ export default class T6BaseSheet extends ActorSheet {
         selectedTraits.push(...vehicleTraits.traits);
 
         await RollPrompt.show(this.actor, selectedTraits, pool, () => {
-            selectedTraits.forEach(t => t.use())
+            selectedTraits.forEach(t => 'use' in t && t.use())
             this.render()
         });
     }
